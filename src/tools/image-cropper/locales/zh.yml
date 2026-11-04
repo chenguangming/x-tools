@@ -1,0 +1,27 @@
+tools:
+  image-cropper:
+    title: 图片裁剪
+    description: 按指定比例或尺寸（也可自由拖动）裁剪图片，更换背景色，并转换为 PNG、JPG 或 WebP 后另存。
+    upload: 拖放图片到此处，或点击选择图片
+    notAnImage: 请选择图片文件。
+    formatUnsupported: 当前浏览器不支持该格式的编码，请换一种格式。
+    cropFailed: 裁剪图片失败。
+    ratio: 裁剪比例
+    ratioFree: 自由
+    outputSize: 输出尺寸（像素）
+    auto: 自动
+    background: 背景
+    transparent: 透明
+    solidColor: 纯色
+    jpgNoAlpha: JPG 不支持透明，空白区域将填充为白色。
+    format: 格式
+    quality: 质量
+    preview: 预览
+    saveAs: '另存为 {format}'
+    rotateLeft: 向左旋转
+    rotateRight: 向右旋转
+    zoomIn: 放大
+    zoomOut: 缩小
+    reset: 重置
+    chooseAnother: 更换图片
+    hint: 拖动图片可移动，滚轮缩放，拖动裁剪框或其边角可调整区域。超出图片的区域会使用背景色填充。

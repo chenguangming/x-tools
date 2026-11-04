@@ -185,6 +185,9 @@ importers:
       vue:
         specifier: ^3.3.4
         version: 3.3.4
+      vue-cropper:
+        specifier: 1.1.4
+        version: 1.1.4
       vue-i18n:
         specifier: ^9.9.1
         version: 9.9.1(vue@3.3.4)
@@ -5671,6 +5674,9 @@ packages:
     resolution: {integrity: sha512-JdgRRUVrN0Y2GosA0M68DEbKlXMqJ7FQgsK8CjQD2vxvNSqAU6PZEpi4cfcTVtfM2GVOMjHo7GKKLbXxOBqDqA==}
     peerDependencies:
       vue: ^3.4.37
+
+  vue-cropper@1.1.4:
+    resolution: {integrity: sha512-5m98vBsCEI9rbS4JxELxXidtAui3qNyTHLHg67Qbn7g8cg+E6LcnC+hh3SM/p94x6mFh6KRxT1ttnta+wCYqWA==}
 
   vue-i18n@9.9.1:
     resolution: {integrity: sha512-xyQ4VspLdNSPTKBFBPWa1tvtj+9HuockZwgFeD2OhxxXuC2CWeNvV4seu2o9+vbQOyQbhAM5Ez56oxUrrnTWdw==}
@@ -12139,6 +12145,8 @@ snapshots:
   vue-flow-layout@0.1.1(vue@3.3.4):
     dependencies:
       vue: 3.3.4
+
+  vue-cropper@1.1.4: {}
 
   vue-i18n@9.9.1(vue@3.3.4):
     dependencies:

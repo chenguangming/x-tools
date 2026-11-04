@@ -1,0 +1,27 @@
+tools:
+  image-cropper:
+    title: Image cropper
+    description: Crop images to a specific ratio or size (or freely), change the background color, and convert to PNG, JPG or WebP before saving.
+    upload: Drag and drop an image here, or click to select one
+    notAnImage: Please select an image file.
+    formatUnsupported: Your browser cannot encode this format. Please choose another one.
+    cropFailed: Failed to crop the image.
+    ratio: 'Aspect ratio'
+    ratioFree: Free
+    outputSize: 'Output size (px)'
+    auto: Auto
+    background: Background
+    transparent: Transparent
+    solidColor: Solid color
+    jpgNoAlpha: JPG has no transparency, empty areas will be filled with white.
+    format: Format
+    quality: Quality
+    preview: Preview
+    saveAs: 'Save as {format}'
+    rotateLeft: Rotate left
+    rotateRight: Rotate right
+    zoomIn: Zoom in
+    zoomOut: Zoom out
+    reset: Reset
+    chooseAnother: Choose another image
+    hint: Drag the image to move it, scroll to zoom, and drag the crop box or its handles to adjust the area. Areas outside the image are filled with the background.

@@ -1,0 +1,27 @@
+tools:
+  image-cropper:
+    title: Bild zuschneiden
+    description: Bilder auf ein bestimmtes Seitenverhältnis oder eine Größe (oder frei) zuschneiden, die Hintergrundfarbe ändern und vor dem Speichern in PNG, JPG oder WebP umwandeln.
+    upload: Bild hierher ziehen oder klicken, um eines auszuwählen
+    notAnImage: Bitte wähle eine Bilddatei aus.
+    formatUnsupported: Dein Browser kann dieses Format nicht kodieren. Bitte wähle ein anderes.
+    cropFailed: Das Bild konnte nicht zugeschnitten werden.
+    ratio: Seitenverhältnis
+    ratioFree: Frei
+    outputSize: Ausgabegröße (px)
+    auto: Auto
+    background: Hintergrund
+    transparent: Transparent
+    solidColor: Volltonfarbe
+    jpgNoAlpha: JPG unterstützt keine Transparenz, leere Bereiche werden weiß gefüllt.
+    format: Format
+    quality: Qualität
+    preview: Vorschau
+    saveAs: 'Als {format} speichern'
+    rotateLeft: Nach links drehen
+    rotateRight: Nach rechts drehen
+    zoomIn: Vergrößern
+    zoomOut: Verkleinern
+    reset: Zurücksetzen
+    chooseAnother: Anderes Bild wählen
+    hint: Bild ziehen zum Verschieben, scrollen zum Zoomen, Zuschneiderahmen oder dessen Ecken ziehen, um den Bereich anzupassen. Bereiche außerhalb des Bildes werden mit dem Hintergrund gefüllt.

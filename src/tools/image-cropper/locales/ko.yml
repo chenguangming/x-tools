@@ -1,0 +1,27 @@
+tools:
+  image-cropper:
+    title: 이미지 자르기
+    description: 원하는 비율이나 크기(또는 자유롭게)로 이미지를 자르고, 배경색을 바꾼 뒤 PNG, JPG, WebP로 변환하여 저장합니다.
+    upload: 이미지를 여기에 끌어다 놓거나 클릭하여 선택하세요
+    notAnImage: 이미지 파일을 선택해 주세요.
+    formatUnsupported: 현재 브라우저는 이 형식의 인코딩을 지원하지 않습니다. 다른 형식을 선택해 주세요.
+    cropFailed: 이미지를 자르지 못했습니다.
+    ratio: 가로세로 비율
+    ratioFree: 자유
+    outputSize: 출력 크기(px)
+    auto: 자동
+    background: 배경
+    transparent: 투명
+    solidColor: 단색
+    jpgNoAlpha: JPG는 투명도를 지원하지 않아 빈 영역이 흰색으로 채워집니다.
+    format: 형식
+    quality: 품질
+    preview: 미리보기
+    saveAs: '{format}(으)로 저장'
+    rotateLeft: 왼쪽으로 회전
+    rotateRight: 오른쪽으로 회전
+    zoomIn: 확대
+    zoomOut: 축소
+    reset: 초기화
+    chooseAnother: 다른 이미지 선택
+    hint: 이미지를 끌어 이동하고, 스크롤로 확대/축소하며, 자르기 상자나 모서리를 끌어 영역을 조정하세요. 이미지 밖 영역은 배경색으로 채워집니다.

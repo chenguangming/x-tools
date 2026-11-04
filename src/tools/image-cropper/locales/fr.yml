@@ -1,0 +1,27 @@
+tools:
+  image-cropper:
+    title: Recadrer une image
+    description: Recadrez des images selon un ratio ou une taille précis (ou librement), changez la couleur d'arrière-plan et convertissez-les en PNG, JPG ou WebP avant de les enregistrer.
+    upload: Glissez-déposez une image ici ou cliquez pour en sélectionner une
+    notAnImage: Veuillez sélectionner un fichier image.
+    formatUnsupported: Votre navigateur ne peut pas encoder ce format. Veuillez en choisir un autre.
+    cropFailed: Échec du recadrage de l'image.
+    ratio: Ratio
+    ratioFree: Libre
+    outputSize: Taille de sortie (px)
+    auto: Auto
+    background: Arrière-plan
+    transparent: Transparent
+    solidColor: Couleur unie
+    jpgNoAlpha: Le JPG ne gère pas la transparence, les zones vides seront remplies de blanc.
+    format: Format
+    quality: Qualité
+    preview: Aperçu
+    saveAs: 'Enregistrer en {format}'
+    rotateLeft: Pivoter à gauche
+    rotateRight: Pivoter à droite
+    zoomIn: Zoom avant
+    zoomOut: Zoom arrière
+    reset: Réinitialiser
+    chooseAnother: Choisir une autre image
+    hint: Faites glisser l'image pour la déplacer, utilisez la molette pour zoomer et faites glisser le cadre ou ses coins pour ajuster la zone. Les zones hors de l'image sont remplies avec l'arrière-plan.

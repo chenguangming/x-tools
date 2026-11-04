@@ -1,0 +1,27 @@
+tools:
+  image-cropper:
+    title: Cắt ảnh
+    description: Cắt ảnh theo tỉ lệ hoặc kích thước cụ thể (hoặc tự do), đổi màu nền và chuyển sang PNG, JPG hoặc WebP trước khi lưu.
+    upload: Kéo thả ảnh vào đây hoặc nhấp để chọn
+    notAnImage: Vui lòng chọn một tệp ảnh.
+    formatUnsupported: Trình duyệt của bạn không thể mã hóa định dạng này. Vui lòng chọn định dạng khác.
+    cropFailed: Không thể cắt ảnh.
+    ratio: Tỉ lệ khung hình
+    ratioFree: Tự do
+    outputSize: Kích thước đầu ra (px)
+    auto: Tự động
+    background: Nền
+    transparent: Trong suốt
+    solidColor: Màu đặc
+    jpgNoAlpha: JPG không hỗ trợ độ trong suốt, vùng trống sẽ được lấp bằng màu trắng.
+    format: Định dạng
+    quality: Chất lượng
+    preview: Xem trước
+    saveAs: 'Lưu dưới dạng {format}'
+    rotateLeft: Xoay trái
+    rotateRight: Xoay phải
+    zoomIn: Phóng to
+    zoomOut: Thu nhỏ
+    reset: Đặt lại
+    chooseAnother: Chọn ảnh khác
+    hint: Kéo ảnh để di chuyển, cuộn để thu phóng, kéo khung cắt hoặc các góc của nó để điều chỉnh vùng cắt. Vùng ngoài ảnh sẽ được lấp bằng màu nền.

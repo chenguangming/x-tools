@@ -1,0 +1,27 @@
+tools:
+  image-cropper:
+    title: Beskjær bilde
+    description: Beskjær bilder til et bestemt forhold eller en bestemt størrelse (eller fritt), endre bakgrunnsfarge og konverter til PNG, JPG eller WebP før lagring.
+    upload: Dra og slipp et bilde her, eller klikk for å velge ett
+    notAnImage: Velg en bildefil.
+    formatUnsupported: Nettleseren din kan ikke kode dette formatet. Velg et annet.
+    cropFailed: Kunne ikke beskjære bildet.
+    ratio: Sideforhold
+    ratioFree: Fri
+    outputSize: Utdatastørrelse (px)
+    auto: Auto
+    background: Bakgrunn
+    transparent: Gjennomsiktig
+    solidColor: Ensfarget
+    jpgNoAlpha: JPG støtter ikke gjennomsiktighet, tomme områder fylles med hvitt.
+    format: Format
+    quality: Kvalitet
+    preview: Forhåndsvisning
+    saveAs: 'Lagre som {format}'
+    rotateLeft: Roter til venstre
+    rotateRight: Roter til høyre
+    zoomIn: Zoom inn
+    zoomOut: Zoom ut
+    reset: Tilbakestill
+    chooseAnother: Velg et annet bilde
+    hint: Dra bildet for å flytte det, bruk rullehjulet for å zoome, og dra beskjæringsrammen eller hjørnene for å justere området. Områder utenfor bildet fylles med bakgrunnen.

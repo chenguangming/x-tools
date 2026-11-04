@@ -1,0 +1,27 @@
+tools:
+  image-cropper:
+    title: Recortar imagen
+    description: Recorta imágenes con una proporción o tamaño concretos (o libremente), cambia el color de fondo y conviértelas a PNG, JPG o WebP antes de guardarlas.
+    upload: Arrastra una imagen aquí o haz clic para seleccionarla
+    notAnImage: Selecciona un archivo de imagen.
+    formatUnsupported: Tu navegador no puede codificar este formato. Elige otro.
+    cropFailed: No se pudo recortar la imagen.
+    ratio: Proporción
+    ratioFree: Libre
+    outputSize: Tamaño de salida (px)
+    auto: Auto
+    background: Fondo
+    transparent: Transparente
+    solidColor: Color sólido
+    jpgNoAlpha: JPG no admite transparencia; las zonas vacías se rellenarán de blanco.
+    format: Formato
+    quality: Calidad
+    preview: Vista previa
+    saveAs: 'Guardar como {format}'
+    rotateLeft: Girar a la izquierda
+    rotateRight: Girar a la derecha
+    zoomIn: Acercar
+    zoomOut: Alejar
+    reset: Restablecer
+    chooseAnother: Elegir otra imagen
+    hint: Arrastra la imagen para moverla, usa la rueda para hacer zoom y arrastra el recuadro o sus esquinas para ajustar el área. Las zonas fuera de la imagen se rellenan con el fondo.

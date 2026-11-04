@@ -1,0 +1,27 @@
+tools:
+  image-cropper:
+    title: Cortar imagem
+    description: Corte imagens para uma proporção ou tamanho específico (ou livremente), altere a cor de fundo e converta para PNG, JPG ou WebP antes de salvar.
+    upload: Arraste uma imagem para aqui ou clique para selecionar
+    notAnImage: Selecione um arquivo de imagem.
+    formatUnsupported: O seu navegador não consegue codificar este formato. Escolha outro.
+    cropFailed: Falha ao cortar a imagem.
+    ratio: Proporção
+    ratioFree: Livre
+    outputSize: Tamanho de saída (px)
+    auto: Auto
+    background: Fundo
+    transparent: Transparente
+    solidColor: Cor sólida
+    jpgNoAlpha: O JPG não suporta transparência; as áreas vazias serão preenchidas com branco.
+    format: Formato
+    quality: Qualidade
+    preview: Pré-visualizar
+    saveAs: 'Salvar como {format}'
+    rotateLeft: Girar à esquerda
+    rotateRight: Girar à direita
+    zoomIn: Aumentar zoom
+    zoomOut: Diminuir zoom
+    reset: Redefinir
+    chooseAnother: Escolher outra imagem
+    hint: Arraste a imagem para movê-la, role para dar zoom e arraste a caixa de corte ou seus cantos para ajustar a área. As áreas fora da imagem são preenchidas com o fundo.
