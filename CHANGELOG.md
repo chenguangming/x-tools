@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.0.0
+
+First release of X-Tools, a fork of [IT-Tools](https://github.com/CorentinTh/it-tools) that expands the toolbox beyond IT.
+
+### Features
+- **new tool**: Image cropper (crop to a ratio or size, change background, export PNG/JPG/WebP)
+- **new tool**: ID photo maker (preset ID/passport/visa sizes, background colors, max file size)
+- **new tool**: XML diff (line-by-line comparison, ignores formatting differences)
+- **ui**: new home page with category tabs, favorites (drag to reorder) and newest tools; the sidebar is removed
+- **ui**: centered card layout, breadcrumbs, history buttons, build date and commit in the footer
+- **i18n**: 12 languages (en, zh, zh-TW, ja, ko, de, es, fr, no, pt, uk, vi) with tool pages translated
+- **i18n**: default to the browser language, an explicit choice always wins
+- **brand**: new X-Tools name and logo (crossed wrenches over a gear), updated icons and banner
+- **stats**: optional self-hosted, cookie-free Umami statistics (tool opens, favorites, language/theme changes, search keywords), disabled unless configured at build time and honoring Do Not Track
+- **sponsor**: Afdian sponsor button and about dialog
+
+### Bug fixes
+- **i18n**: silence missing/fallback key warnings and avoid a stack overflow when merging locales
+- **ui**: fix `n-icon` prop type warnings by rendering icons through the slot
+
+### Documentation
+- **readme**: rewritten in English, 简体中文, 繁體中文, 日本語 and 한국어, with screenshots
+- **about**: add a privacy note about anonymous statistics
+
 ## Version 2024.10.22-7ca5933
 
 ### Features
