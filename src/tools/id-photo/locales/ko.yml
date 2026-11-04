@@ -19,7 +19,12 @@ tools:
     zoomOut: 축소
     reset: 초기화
     chooseAnother: 다른 사진 선택
-    hint: 사진을 끌어 얼굴을 틀 안에 맞추고 스크롤로 확대/축소하세요. 사진 밖 영역은 배경색으로 채워집니다. 기존 배경은 바뀌지 않으므로 단색 배경의 사진을 사용하세요.
+    hint: 사진을 끌어 얼굴을 틀 안에 맞추고 스크롤로 확대/축소하세요. 사진 밖 영역은 배경색으로 채워집니다.
+    replaceBackground: 배경 바꾸기
+    replaceBackgroundHint: '인물을 자동으로 분리해 선택한 배경색 위에 합성합니다. 처음 사용할 때 약 26 MB 모델을 내려받으며, 모든 처리는 브라우저 안에서 이루어집니다.'
+    loadingModel: 누끼 모델을 불러오는 중…
+    downloadingModel: '누끼 모델 다운로드 중… {percent}%'
+    matteFailed: '배경 제거에 실패했습니다. "배경 바꾸기"를 끄거나 다른 사진을 사용해 보세요.'
     presets:
       oneInch: 1인치
       smallOneInch: 작은 1인치

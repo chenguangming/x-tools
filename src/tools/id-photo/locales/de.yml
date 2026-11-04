@@ -19,7 +19,12 @@ tools:
     zoomOut: Verkleinern
     reset: Zurücksetzen
     chooseAnother: Anderes Foto wählen
-    hint: Foto ziehen, um das Gesicht im Rahmen zu platzieren, und scrollen zum Zoomen. Bereiche außerhalb des Fotos werden mit der Hintergrundfarbe gefüllt. Vorhandene Hintergründe werden nicht ersetzt, verwende ein Foto mit einfarbigem Hintergrund.
+    hint: 'Foto ziehen, um das Gesicht im Rahmen zu platzieren, und scrollen zum Zoomen. Bereiche außerhalb des Fotos werden mit der Hintergrundfarbe gefüllt.'
+    replaceBackground: Hintergrund ersetzen
+    replaceBackgroundHint: Die Person wird automatisch freigestellt und auf die gewählte Farbe gesetzt. Das Modell (ca. 26 MB) wird bei der ersten Nutzung geladen und läuft komplett im Browser.
+    loadingModel: Freistellungsmodell wird geladen…
+    downloadingModel: 'Freistellungsmodell wird heruntergeladen… {percent}%'
+    matteFailed: Hintergrundentfernung fehlgeschlagen. Deaktiviere „Hintergrund ersetzen“ oder versuche ein anderes Foto.
     presets:
       oneInch: 1 Zoll
       smallOneInch: Kleines 1 Zoll

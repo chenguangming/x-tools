@@ -1,0 +1,9 @@
+Third-party assets bundled for the ID photo background removal
+
+1. MODNet portrait matting model (modnet/model.onnx)
+   Source: https://huggingface.co/Xenova/modnet (ONNX export of https://github.com/ZHKKKe/MODNet)
+   License: Apache License 2.0
+
+2. ONNX Runtime Web 1.21.0 (ort/*)
+   Source: https://github.com/microsoft/onnxruntime
+   License: MIT

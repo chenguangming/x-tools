@@ -19,7 +19,12 @@ tools:
     zoomOut: Thu nhỏ
     reset: Đặt lại
     chooseAnother: Chọn ảnh khác
-    hint: Kéo ảnh để đặt khuôn mặt vào khung và cuộn để thu phóng. Vùng ngoài ảnh sẽ được lấp bằng màu nền. Nền có sẵn sẽ không bị thay thế, hãy dùng ảnh có nền đơn sắc.
+    hint: Kéo ảnh để đặt khuôn mặt vào khung và cuộn để thu phóng. Vùng ngoài ảnh sẽ được lấp bằng màu nền.
+    replaceBackground: Thay nền
+    replaceBackgroundHint: Tự động tách người ra và đặt lên màu đã chọn. Mô hình (khoảng 26 MB) được tải khi dùng lần đầu và chạy hoàn toàn trong trình duyệt.
+    loadingModel: Đang tải mô hình tách nền…
+    downloadingModel: 'Đang tải mô hình tách nền… {percent}%'
+    matteFailed: 'Tách nền thất bại. Hãy tắt "Thay nền" hoặc thử ảnh khác.'
     presets:
       oneInch: 1 inch
       smallOneInch: 1 inch nhỏ

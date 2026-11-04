@@ -24,7 +24,7 @@
 - **New home page**: tools are grouped into category tabs, and the home tab shows your favorite tools (drag to reorder) and the newest tools. The old sidebar is gone.
 - **New tools**
   - **Image cropper**: crop to a ratio or exact size (or freely), change the background color, and export as PNG, JPG or WebP.
-  - **ID photo maker**: preset ID, passport and visa sizes (1 inch, 2 inch, US 2x2 in...), background color swatches, and an optional maximum file size.
+  - **ID photo maker**: preset ID, passport and visa sizes (1 inch, 2 inch, US 2x2 in...), automatic background removal (AI cut-out running locally in your browser) with background color swatches, and an optional maximum file size.
   - **XML diff**: compare two XML documents line by line, ignoring formatting differences.
 - **12 languages**: English, 简体中文, 繁體中文, 日本語, 한국어, Deutsch, Español, Français, Norsk, Português, Українська, Tiếng Việt. The browser language is used by default, and your own choice always wins.
 - **New brand and logo**: two wrenches crossed into an "X" over a gear.

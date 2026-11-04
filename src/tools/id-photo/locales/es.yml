@@ -19,7 +19,12 @@ tools:
     zoomOut: Alejar
     reset: Restablecer
     chooseAnother: Elegir otra foto
-    hint: Arrastra la foto para situar el rostro dentro del marco y usa la rueda para hacer zoom. Las zonas fuera de la foto se rellenan con el color de fondo. El fondo existente no se sustituye, usa una foto con fondo liso.
+    hint: Arrastra la foto para situar el rostro dentro del marco y usa la rueda para hacer zoom. Las zonas fuera de la foto se rellenan con el color de fondo.
+    replaceBackground: Reemplazar fondo
+    replaceBackgroundHint: Recorta a la persona automáticamente y la coloca sobre el color elegido. El modelo (unos 26 MB) se descarga la primera vez y se ejecuta por completo en tu navegador.
+    loadingModel: Cargando el modelo de recorte…
+    downloadingModel: 'Descargando el modelo de recorte… {percent}%'
+    matteFailed: No se pudo quitar el fondo. Desactiva «Reemplazar fondo» o prueba con otra foto.
     presets:
       oneInch: 1 pulgada
       smallOneInch: 1 pulgada pequeña

@@ -19,7 +19,12 @@ tools:
     zoomOut: Zoom arrière
     reset: Réinitialiser
     chooseAnother: Choisir une autre photo
-    hint: Faites glisser la photo pour placer le visage dans le cadre et utilisez la molette pour zoomer. Les zones hors de la photo sont remplies avec la couleur de fond. Le fond existant n'est pas remplacé, utilisez une photo à fond uni.
+    hint: Faites glisser la photo pour placer le visage dans le cadre et utilisez la molette pour zoomer. Les zones hors de la photo sont remplies avec la couleur de fond.
+    replaceBackground: Remplacer le fond
+    replaceBackgroundHint: 'Détoure automatiquement la personne et la place sur la couleur choisie. Le modèle (environ 26 Mo) est téléchargé à la première utilisation et s''exécute entièrement dans votre navigateur.'
+    loadingModel: Chargement du modèle de détourage…
+    downloadingModel: 'Téléchargement du modèle de détourage… {percent} %'
+    matteFailed: Échec de la suppression du fond. Désactivez « Remplacer le fond » ou essayez une autre photo.
     presets:
       oneInch: 1 pouce
       smallOneInch: Petit 1 pouce

@@ -2,6 +2,7 @@
 import { VueCropper } from 'vue-cropper';
 import 'vue-cropper/dist/index.css';
 import { useMessage } from 'naive-ui';
+import { removeBackground } from './id-photo.matting';
 
 type OutputFormat = 'jpeg' | 'png';
 
@@ -35,6 +36,9 @@ const customHeight = ref<number | null>(413);
 const background = ref('#438edb');
 const format = ref<OutputFormat>('jpeg');
 const maxSizeKb = ref<number | null>(null);
+const replaceBackground = ref(true);
+const progressText = ref('');
+let cutoutCache: { key: string; canvas: HTMLCanvasElement } | null = null;
 
 const result = ref({ url: '', size: 0, width: 0, height: 0 });
 const isBusy = ref(false);
@@ -78,6 +82,7 @@ function onUpload(file: File) {
     return;
   }
 
+  cutoutCache = null;
   revokeResult();
   revokeImage();
   fileName.value = `${file.name.replace(/\.[^.]+$/, '') || 'photo'}-id`;
@@ -85,6 +90,7 @@ function onUpload(file: File) {
 }
 
 function chooseAnother() {
+  cutoutCache = null;
   revokeResult();
   revokeImage();
 }
@@ -118,8 +124,21 @@ async function generate() {
 
   isBusy.value = true;
   try {
-    const cropped = await loadImage(await getCroppedDataUrl());
+    const croppedUrl = await getCroppedDataUrl();
+    const cropped = await loadImage(croppedUrl);
     const { width, height } = outputSize.value;
+
+    let subject: CanvasImageSource = cropped;
+    if (replaceBackground.value) {
+      if (cutoutCache?.key !== croppedUrl) {
+        progressText.value = t('tools.id-photo.loadingModel');
+        const canvas = await removeBackground(cropped, (ratio) => {
+          progressText.value = t('tools.id-photo.downloadingModel', { percent: Math.round(ratio * 100) });
+        });
+        cutoutCache = { key: croppedUrl, canvas };
+      }
+      subject = cutoutCache.canvas;
+    }
 
     const canvas = document.createElement('canvas');
     canvas.width = width;
@@ -128,7 +147,7 @@ async function generate() {
     ctx.imageSmoothingQuality = 'high';
     ctx.fillStyle = background.value;
     ctx.fillRect(0, 0, width, height);
-    ctx.drawImage(cropped, 0, 0, width, height);
+    ctx.drawImage(subject, 0, 0, width, height);
 
     let quality = 0.92;
     let blob = await toBlob(canvas, `image/${format.value}`, format.value === 'jpeg' ? quality : undefined);
@@ -154,11 +173,13 @@ async function generate() {
     result.value = { url: URL.createObjectURL(blob), size: blob.size, width, height };
     return result.value;
   }
-  catch {
-    message.error(t('tools.id-photo.cropFailed'));
+  catch (error) {
+    message.error(replaceBackground.value ? t('tools.id-photo.matteFailed') : t('tools.id-photo.cropFailed'));
+    console.error(error);
     return null;
   }
   finally {
+    progressText.value = '';
     isBusy.value = false;
   }
 }
@@ -272,6 +293,13 @@ onBeforeUnmount(() => {
             </div>
           </n-form-item>
 
+          <n-form-item :label="$t('tools.id-photo.replaceBackground')" mb-3>
+            <div flex flex-col gap-1>
+              <n-switch v-model:value="replaceBackground" />
+              <span text-12px op-60>{{ $t('tools.id-photo.replaceBackgroundHint') }}</span>
+            </div>
+          </n-form-item>
+
           <n-form-item :label="$t('tools.id-photo.format')" mb-3>
             <n-radio-group v-model:value="format" size="small">
               <n-radio-button value="jpeg" label="JPG" />
@@ -295,6 +323,10 @@ onBeforeUnmount(() => {
           <c-button :disabled="isBusy" @click="saveResult">
             {{ $t('tools.id-photo.save') }}
           </c-button>
+        </div>
+
+        <div v-if="progressText" mt-2 text-12px op-70>
+          {{ progressText }}
         </div>
 
         <div v-if="result.url" mt-4 flex flex-col items-center gap-2>

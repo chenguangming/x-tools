@@ -19,7 +19,12 @@ tools:
     zoomOut: Zoom ut
     reset: Tilbakestill
     chooseAnother: Velg et annet bilde
-    hint: Dra bildet for å plassere ansiktet i rammen, og bruk rullehjulet for å zoome. Områder utenfor bildet fylles med bakgrunnsfargen. Eksisterende bakgrunn byttes ikke ut, bruk et bilde med ensfarget bakgrunn.
+    hint: 'Dra bildet for å plassere ansiktet i rammen, og bruk rullehjulet for å zoome. Områder utenfor bildet fylles med bakgrunnsfargen.'
+    replaceBackground: Erstatt bakgrunn
+    replaceBackgroundHint: Frilegger personen automatisk og plasserer den på valgt farge. Modellen (ca. 26 MB) lastes ned første gang og kjører helt i nettleseren.
+    loadingModel: Laster frilegging-modellen…
+    downloadingModel: 'Laster ned frilegging-modellen… {percent} %'
+    matteFailed: Fjerning av bakgrunn mislyktes. Slå av «Erstatt bakgrunn» eller prøv et annet bilde.
     presets:
       oneInch: 1 tomme
       smallOneInch: Liten 1 tomme

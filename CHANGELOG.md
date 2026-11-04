@@ -8,7 +8,7 @@ First release of X-Tools, a fork of [IT-Tools](https://github.com/CorentinTh/it-
 
 ### Features
 - **new tool**: Image cropper (crop to a ratio or size, change background, export PNG/JPG/WebP)
-- **new tool**: ID photo maker (preset ID/passport/visa sizes, background colors, max file size)
+- **new tool**: ID photo maker (preset ID/passport/visa sizes, automatic background removal with MODNet running locally in the browser, background colors, max file size)
 - **new tool**: XML diff (line-by-line comparison, ignores formatting differences)
 - **ui**: new home page with category tabs, favorites (drag to reorder) and newest tools; the sidebar is removed
 - **ui**: centered card layout, breadcrumbs, history buttons, build date and commit in the footer

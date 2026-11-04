@@ -19,7 +19,12 @@ tools:
     zoomOut: Diminuir zoom
     reset: Redefinir
     chooseAnother: Escolher outra foto
-    hint: Arraste a foto para posicionar o rosto dentro da moldura e role para dar zoom. As áreas fora da foto são preenchidas com a cor de fundo. O fundo existente não é substituído, use uma foto com fundo liso.
+    hint: Arraste a foto para posicionar o rosto dentro da moldura e role para dar zoom. As áreas fora da foto são preenchidas com a cor de fundo.
+    replaceBackground: Substituir fundo
+    replaceBackgroundHint: Recorta a pessoa automaticamente e a coloca sobre a cor escolhida. O modelo (cerca de 26 MB) é descarregado na primeira utilização e corre totalmente no navegador.
+    loadingModel: A carregar o modelo de recorte…
+    downloadingModel: 'A transferir o modelo de recorte… {percent}%'
+    matteFailed: Falha ao remover o fundo. Desative «Substituir fundo» ou experimente outra foto.
     presets:
       oneInch: 1 polegada
       smallOneInch: 1 polegada pequena

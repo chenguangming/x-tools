@@ -19,7 +19,12 @@ tools:
     zoomOut: Zoom out
     reset: Reset
     chooseAnother: Choose another photo
-    hint: Drag the photo to position the face inside the frame and scroll to zoom. Areas outside the photo are filled with the background color. Existing backgrounds are not replaced, use a photo with a plain background.
+    hint: Drag the photo to position the face inside the frame and scroll to zoom. Areas outside the photo are filled with the background color.
+    replaceBackground: Replace background
+    replaceBackgroundHint: Automatically cut out the person and put them on the chosen color. The model (about 26 MB) is downloaded on first use and runs entirely in your browser.
+    loadingModel: Loading the cut-out model…
+    downloadingModel: 'Downloading the cut-out model… {percent}%'
+    matteFailed: 'Background removal failed. Turn off "Replace background" or try another photo.'
     presets:
       oneInch: 1 inch
       smallOneInch: Small 1 inch
