@@ -11,7 +11,7 @@ import { useToolStore } from '@/tools/tools.store';
 const route = useRoute();
 
 const head = computed<HeadObject>(() => ({
-  title: `${route.meta.name} - IT Tools`,
+  title: `${route.meta.name} - X-Tools`,
   meta: [
     {
       name: 'description',
