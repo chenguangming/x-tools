@@ -1,17 +1,20 @@
 home:
   categories:
     newestTools: Nyeste verktøy
-    favoriteTools: 'Dine favoritt verktøy'
+    favoriteTools: 'Dine favorittverktøy'
     allTools: 'Alle verktøyene'
-    favoritesDndToolTip: 'Dra og slipp for å omordne favoritter'
+    favoritesDndToolTip: 'Dra og slipp for å omorganisere favoritter'
+    emptyFavorites: 'Ingen favoritter ennå. Åpne et verktøy og klikk på hjertet for å feste det her.'
   subtitle: 'Nyttige verktøy for utviklere'
-  toggleMenu: 'Vekslemenmy'
+  toggleMenu: 'Vis/skjul meny'
+  back: 'Tilbake'
+  forward: 'Frem'
   home: Hjem
-  uiLib: 'UI Bib'
+  uiLib: 'UI-bibliotek'
   support: 'Støtt utviklingen av X-Tools'
-  buyMeACoffee: 'Kjøp en kaffe til meg'
+  buyMeACoffee: 'Sponsor meg'
   follow:
-    title: 'Liker du it-tools?'
+    title: 'Liker du X-Tools?'
     p1: 'Gi oss en stjerne på'
     githubRepository: 'X-Tools GitHub-depotet'
     p2: 'eller følg oss på'
@@ -31,24 +34,24 @@ about:
   content: >
     # Om X-Tools
 
-    Denne vidunderlige nettsiden, laget med ❤ av [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) , sammenstiller nyttige verktøy for utviklere og folk som jobber innen IT. Hvis du finner dette nyttig, Del det gjerne med andre som du tror kan få nytte av dette, og ikke glem å lage et bokmerke!
+    X-Tools er en avledet versjon av Corentin Thomassets [IT-Tools](https://github.com/CorentinTh/it-tools) (stor takk til IT-Tools for det raust delte bidraget). Målet er å legge til flere verktøykategorier, slik at det ikke lenger er begrenset til IT-feltet. Hvis du synes det er nyttig, del det gjerne med vennene dine, og ikke glem å lage et bokmerke!
 
-    X-Tools er åpen kildekode (under GPL-3.0 lisensen) og gratis, og det vil det alltid være, men det koster å drifte og å fornye domenet. Hvis du ønsker å støtte arbeidet mitt, og motivere meg til å legge til flere verktøy, gjerne støtt meg ved å [sponse meg](https://www.buymeacoffee.com/cthmsst).
+    X-Tools er åpen kildekode (under GPL-3.0-lisensen) og gratis, og vil alltid være det, men det koster penger å drifte og å fornye domenet. Hvis du ønsker å støtte arbeidet mitt og motivere meg til å legge til flere verktøy, kan du vurdere å støtte meg ved å [sponse meg](https://afdian.com/a/waying).
 
     ## Teknologier
 
-    X-Tools er laget i Vue.js (Vue 3) med Naive UI komponent bibliotektet og er hosted og kontinuerlig deployet av Vercel. Tredjeparts åpen-kildekode biblioteker er brukt i noen verktøy, du kan finne den komplette listen i [package.json](https://github.com/chenguangming/x-tools/blob/main/package.json) filen i depoet.
+    X-Tools er laget med Vue.js (Vue 3) og komponentbiblioteket Naive UI. Tredjeparts åpen kildekode-biblioteker brukes i noen verktøy. Du finner den komplette listen i filen [package.json](https://github.com/chenguangming/x-tools/blob/main/package.json) i depotet.
 
-    ## Funnet en feil? Et verktøy som mangler?
+    ## Funnet en feil? Mangler det et verktøy?
 
-    Hvis du trenger et verktøy som foreløpig ikke er tilgjengelig her, og du tenker det kan være nyttig for andre, så er du velkommen til å legge til en funksjonsforespørsel i [problem seksjonen](https://github.com/chenguangming/x-tools/issues/new/choose) i github-depotet.
+    Hvis du trenger et verktøy som foreløpig ikke finnes her, og du tror det kan være nyttig, er du velkommen til å sende inn en funksjonsforespørsel i [problemseksjonen](https://github.com/chenguangming/x-tools/issues/new/choose) i [GitHub-depotet](https://github.com/chenguangming/x-tools).
 
-    Og hvis du har funnet en feil, eller noe ikke oppfører seg som forventet, vennligst send inn en feilrapport i [problem seksjonen](https://github.com/chenguangming/x-tools/issues/new/choose) i github-depotet.
+    Og hvis du har funnet en feil, eller noe ikke fungerer som forventet, send gjerne inn en feilrapport i [problemseksjonen](https://github.com/chenguangming/x-tools/issues/new/choose) i GitHub-depotet.
 
 404:
   notFound: '404 ikke funnet'
   sorry: 'Beklager, denne siden ser ikke ut til å eksistere'
-  maybe: 'Kanskje informasjonskapslene oppfører seg rart, prøvd en tvungen oppfriskning?'
+  maybe: 'Kanskje hurtigbufferen gjør rare ting. Prøv å tvinge en oppdatering av siden.'
   backHome: 'Tilbake til start'
 favoriteButton:
   remove: 'Fjern fra favoritter'
@@ -59,7 +62,7 @@ search:
   label: Søk
 tools:
   categories:
-    favorite-tools: 'Dine favoritt verktøy'
+    favorite-tools: 'Dine favorittverktøy'
     crypto: Krypto
     converter: Konvertering
     web: Web
@@ -72,16 +75,16 @@ tools:
     data: Data
 
   password-strength-analyser:
-    title: Analyseverktøy for passordstyrke
-    description: Oppdag styrken av passordet ditt med dette kun-klient-maskin passordstyrke analyse verktøyet og se den estimerte knekketiden.
+    title: Passordstyrke-analyse
+    description: Finn ut hvor sterkt passordet ditt er med dette analyseverktøyet som kun kjører i nettleseren, og få et estimat på hvor lang tid det tar å knekke det.
 
   chronometer:
     title: Kronometer
     description: Overvåk varigheten av noe. I bunn og grunn et kronometer med enkle funksjoner.
 
   token-generator:
-    title: Token generator
-    description: Generer en tilfeldig streng med store og/eller små bokstaver, siffer og/eller symboler.
+    title: Token-generator
+    description: Generer en tilfeldig streng med store og/eller små bokstaver, siffer og/eller symboler etter eget valg.
 
     uppercase: Store bokstaver (ABC...)
     lowercase: Små bokstaver (abc...)
@@ -89,105 +92,105 @@ tools:
     symbols: Symboler (!-;...)
     length: Lengde
     tokenPlaceholder: 'Tokenet...'
-    copied: Tokenet er kopiert til utklippstavlen.
+    copied: Tokenet er kopiert til utklippstavlen
     button:
       copy: Kopier
-      refresh: Oppfrisk
+      refresh: Oppdater
   percentage-calculator:
-    title: Prosent kalkulator
+    title: Prosentkalkulator
     description: Beregn enkelt prosenter fra en verdi til en annen, eller fra en prosent til en verdi.
 
   svg-placeholder-generator:
-    title: SVG plassholder generator
-    description: Generer svg bilder til å bruke som plassholder i applikasjonen din.
+    title: SVG-plassholdergenerator
+    description: Generer SVG-bilder som kan brukes som plassholdere i applikasjonene dine.
 
   json-to-csv:
     title: JSON til CSV
-    description: Konverter JSON til CSV med automatisk oppdagelse av headeren.
+    description: Konverter JSON til CSV med automatisk gjenkjenning av overskrifter.
 
   camera-recorder:
     title: Kameraopptak
     description: Ta et bilde eller spill inn en video med webkamera eller kameraet ditt.
 
   keycode-info:
-    title: Tastekode info
-    description: Finn javascript tastekode, kode, plassering og modifikatorer av hvilken som helst tast.
+    title: Tastekode-info
+    description: Finn JavaScript-tastekode, kode, plassering og modifikatorer for hvilken som helst tast du trykker.
 
   emoji-picker:
-    title: Emoji velger
-    description: Klipp og lim emojis og få unicode og kode verdien av hver emoji.
+    title: Emoji-velger
+    description: Kopier og lim inn emojier enkelt, og få Unicode- og kodepunktverdien til hver emoji.
 
   color-converter:
-    title: Farge konverter
-    description: Konverter farger mellom de forskjellige formatene (hex, rgb, hsl og css navn).
+    title: Fargekonverter
+    description: Konverter farger mellom de forskjellige formatene (hex, rgb, hsl og CSS-navn).
 
   bcrypt:
     title: Bcrypt
-    description: Hash og sammenlign tekst ved hjelp av bcrypt. Bcrypt er en passord-hashings funksjon basert på Blowfish cipher.
+    description: Hash og sammenlign tekst med bcrypt. Bcrypt er en passordhashingfunksjon basert på Blowfish-chifferet.
 
   crontab-generator:
-    title: Crontab generator
-    description: Verifiser og generer crontab og få den mennesklig leselige beskrivelsen av cron timeplanen.
+    title: Crontab-generator
+    description: Valider og generer crontab, og få en lettlest beskrivelse av cron-tidsplanen.
 
   http-status-codes:
-    title: HTTP status koder
-    description: Liste over alle HTTP status koder, navnet dems, og betydningen.
+    title: HTTP-statuskoder
+    description: Liste over alle HTTP-statuskoder, navnene deres og hva de betyr.
 
   sql-prettify:
-    title: SQL forskjønning and format
-    description: Formater og forskjønn SQL spørringene dine (den støtter forskjellige SQL dialekter).
+    title: SQL-forskjønning og formatering
+    description: Formater og forskjønn SQL-spørringene dine på nett (støtter flere SQL-dialekter).
 
   benchmark-builder:
-    title: Bygg en referansemåler
-    description: Sammenlign enkelt kjøretiden av oppgaver med denne enkle referansemåls byggeren.
+    title: Referansetest-bygger
+    description: Sammenlign enkelt kjøretiden til oppgaver med denne enkle referansetest-byggeren på nett.
 
   git-memo:
-    title: Git jukselapp
-    description: Git er en desentralisert versjons håndterings programvare. Med denne jukselappen vil du få kjapp tilgang til de vanligste kommandoene.
+    title: Git-jukselapp
+    description: Git er et desentralisert programvareverktøy for versjonskontroll. Med denne jukselappen får du rask tilgang til de vanligste Git-kommandoene.
 
   slugify-string:
     title: Slugify streng
-    description: Lag en trygg url, filbane eller id.
+    description: Gjør en streng trygg å bruke i URL-er, filnavn og id-er.
 
   encryption:
-    title: Krypter / decrypter tekst
-    description: Krypter klartekst og dekrypter ciphertekst ved bruk av krypteringsalgoritmer som AES, TripleDES, Rabbit eller RC4.
+    title: Krypter / dekrypter tekst
+    description: Krypter klartekst og dekrypter chiffertekst med krypteringsalgoritmer som AES, TripleDES, Rabbit eller RC4.
 
   random-port-generator:
-    title: Tilfeldig port generator
-    description: Generer tilfeldige portnumre utenfor scopet av "kjente" porter (0-1023).
+    title: Tilfeldig portgenerator
+    description: Generer tilfeldige portnumre utenfor området for «kjente» porter (0-1023).
 
   yaml-prettify:
-    title: YAML forskjønning og formatering
-    description: Forskjønn YAML strengene dine til et lettlest format.
+    title: YAML-forskjønning og formatering
+    description: Forskjønn YAML-strengen din til et lettlest format.
 
   eta-calculator:
-    title: ETA kalkulator
-    description: En ETA (Estimert Tid for Ankomst) kalkulator for å anslå den sannsynelige slutt tiden for en oppgave, for eksempel, slutttiden og varigheten av en filnedlastning.
+    title: ETA-kalkulator
+    description: En ETA-kalkulator (estimert ankomsttid) som beregner omtrent når en oppgave er ferdig, for eksempel sluttidspunktet og varigheten av en filnedlasting.
 
   roman-numeral-converter:
-    title: Romertall konverter
-    description: Konverter romertall til tall eller konverter tall til romertall.
+    title: Romertallkonverter
+    description: Konverter romertall til tall og tall til romertall.
 
   hmac-generator:
-    title: Hmac generator
-    description: Beregn en hash-basert meldings authentiserings kode (HMAC) ved bruk av en hemmelig nøkkel og din foretrukne hashings funksjon.
+    title: HMAC-generator
+    description: Beregn en hashbasert meldingsautentiseringskode (HMAC) med en hemmelig nøkkel og din foretrukne hashfunksjon.
 
   bip39-generator:
-    title: BIP39 nøkkelords generator
-    description: Generer et BIP39 nøkkelord fra en eksisterende eller tilfeldig huskesetning, eller få ut en huskesetning fra nøkkelordet.
+    title: BIP39-passfrasegenerator
+    description: Generer en BIP39-passfrase fra en eksisterende eller tilfeldig huskesetning, eller få huskesetningen ut fra passfrasen.
 
   base64-file-converter:
-    title: Base64 fil konverter
-    description: Konverter en base64 streng til fil eller en fil, bilde til en base64 representasjon.
+    title: Base64-filkonverter
+    description: Konverter en streng, en fil eller et bilde til base64-representasjon.
 
   list-converter:
-    title: Liste konverterer
-    description: Dette verktøyet kan prosessere kolonnebasert data og foreta forskjellige endringer (transposering, legge til prefix og suffix, reversere lister, sortere lister, gjøre om til små bokstaver, trunkere verdier) på hver rad.
+    title: Listekonverter
+    description: Dette verktøyet kan behandle kolonnebaserte data og bruke ulike endringer (transponering, legge til prefiks og suffiks, reversere liste, sortere liste, gjøre om til små bokstaver, forkorte verdier) på hver rad.
 
   base64-string-converter:
-    title: Base64 string kode/dekoder
-    description: Enkelt kode eller dekode en tekststreng til base64 representasjonen av strengen.
+    title: Base64-koding/dekoding av strenger
+    description: Kod og dekod strenger enkelt til og fra base64-representasjon.
 
   toml-to-yaml:
     title: TOML til YAML
@@ -195,200 +198,200 @@ tools:
 
   math-evaluator:
     title: Matematikkevaluator
-    description: En Kalkulator for å evaluere matematiske uttrykk. Du kan bruke funksjoner som sqrt, cos, sin, abs, etc.
+    description: En kalkulator for å evaluere matematiske uttrykk. Du kan bruke funksjoner som sqrt, cos, sin, abs osv.
 
   json-to-yaml-converter:
-    title: JSON til YAML konverterer
-    description: Enkelt konverter JSON til YAML med dette verktøyet.
+    title: JSON til YAML-konverterer
+    description: Konverter enkelt JSON til YAML med denne konverteren på nett.
 
   url-parser:
-    title: URL analyse
-    description: Parsere en URL ned til bestanddelene (protokoll, opprinnelse, parametre, port, brukernavn-passord, ...).
+    title: URL-parser
+    description: Del opp en URL i bestanddelene (protokoll, opprinnelse, parametere, port, brukernavn og passord, ...).
 
   iban-validator-and-parser:
-    title: IBAN validering og analysering
-    description: Valider og parser IBAN numre. Sjekk om et IBAN er gyldig og få landet, BBAN, om det er en QR-IBAN og IBAN i et vennlig format.
+    title: IBAN-validering og -parser
+    description: Valider og analyser IBAN-numre. Sjekk om et IBAN er gyldig, og få land, BBAN, om det er et QR-IBAN og IBAN i lesevennlig format.
 
   user-agent-parser:
-    title: User-agent analysering
-    description: Detekter og parser nettleser, motor, OS, CPU, og enhet type/modell fra en user-agent tekst streng.
+    title: User-agent-parser
+    description: Gjenkjenn og analyser nettleser, motor, OS, CPU og enhetstype/-modell fra en user-agent-streng.
 
   numeronym-generator:
-    title: Numeronym generator
-    description: Et numeronym er et ord hvor et nummer er brukt til å lage en forkortelse. For eksempel, "i18n" er et numeronym for "internasjonalisering" hvor 18 står for antall bokstaver mellom første bokstaven i og den siste bokstaven n i ordet.
+    title: Numeronym-generator
+    description: Et numeronym er et ord der et tall brukes til å lage en forkortelse. For eksempel er «i18n» et numeronym for «internasjonalisering», der 18 står for antall bokstaver mellom første i og siste n i ordet.
 
   case-converter:
-    title: Bokstavkonvertering
-    description: Formater bokstavene med store eller små bokstaver, samt andre format.
+    title: Store/små bokstaver-konverter
+    description: Endre store og små bokstaver i en streng, og velg mellom ulike formater.
 
   html-entities:
-    title: HTML streng rensing
-    description: Rens bort eller omsvøp HTML entiteter (erstatt tegn som <,>, &, " and \' med deres HTML versjon).
+    title: Escape HTML-entiteter
+    description: Escape eller unescape HTML-entiteter (erstatt tegn som <, >, &, " og ' med HTML-versjonen deres).
 
   json-prettify:
-    title: JSON forskjønning og formatering
-    description: Forskjønn JSON strenger til et lettlest format.
+    title: JSON-forskjønning og formatering
+    description: Forskjønn JSON-strengen din til et lettlest format.
 
   docker-run-to-docker-compose-converter:
-    title: Docker run til Docker compose konverter
-    description: Konverter "docker run" kommandoer til docker-compose filer!
+    title: Docker run til Docker compose-konverter
+    description: Konverter «docker run»-kommandoer til docker-compose-filer!
 
   mac-address-lookup:
-    title: MAC address oppslagsverk
-    description: Finn forhandler og produsent basert på MAC adressen.
+    title: MAC-adresseoppslag
+    description: Finn leverandør og produsent av en enhet ut fra MAC-adressen.
 
   mime-types:
-    title: MIME typer
-    description: Konverter MIME typer til fil utvidelser og visa-versa.
+    title: MIME-typer
+    description: Konverter MIME-typer til filtyper (filendelser) og omvendt.
 
   toml-to-json:
     title: TOML til JSON
     description: Parser og konverter TOML til JSON.
 
   lorem-ipsum-generator:
-    title: Lorem ipsum generator
-    description: Lorem ipsum er brukt som plassholder tekst, vanligvis brukt til å demonstrere den visuelle formen av et dokument eller font-type uten å måtte ha meningsfult innhold.
+    title: Lorem ipsum-generator
+    description: Lorem ipsum er en plassholdertekst som ofte brukes til å vise den visuelle formen til et dokument eller en skrifttype uten meningsfullt innhold.
 
   qrcode-generator:
-    title: QR Kode generator
-    description: Generer og last ned en QR kode til en URL (eller ren tekst), og tilpass bakgrunns og forgrunns farger.
+    title: QR-kodegenerator
+    description: Generer og last ned en QR-kode for en URL (eller ren tekst), og tilpass bakgrunns- og forgrunnsfargene.
 
   wifi-qrcode-generator:
-    title: WiFi QR Kode generator
-    description: Generer og last ned QR koder for rask tilkobling til wifi nettverket.
+    title: WiFi QR-kodegenerator
+    description: Generer og last ned QR-koder for rask tilkobling til WiFi-nettverk.
 
   xml-formatter:
-    title: XML formaterer
-    description: Forskjønn en XML streng til et lettlest format.
+    title: XML-formaterer
+    description: Forskjønn XML-strengen din til et lettlest format.
 
   temperature-converter:
-    title: Temperatur konverter
-    description: Temperatur konversjoner mellom Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, og Rømer.
+    title: Temperaturkonverter
+    description: Temperaturkonvertering mellom Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur og Rømer.
 
   chmod-calculator:
-    title: Chmod kalkulator
-    description: Beregn chmod tillatelser og kommandoer med denne chmod kalkulatoren.
+    title: Chmod-kalkulator
+    description: Beregn chmod-tillatelser og -kommandoer med denne chmod-kalkulatoren på nett.
 
   rsa-key-pair-generator:
-    title: RSA nøkkelpar generator
-    description: Generer et nytt tilfeldig RSA privat og offentlig pem sertifikat nøkkel par.
+    title: RSA-nøkkelpargenerator
+    description: Generer et nytt tilfeldig RSA-nøkkelpar (privat og offentlig nøkkel) som PEM.
 
   html-wysiwyg-editor:
-    title: HTML WYSIWYG editor
-    description: Online, funksjonsrik WYSIWYG HTML editor som genererer kildekoden for innholdet øyeblikkelig.
+    title: HTML WYSIWYG-editor
+    description: Funksjonsrik WYSIWYG HTML-editor på nett som umiddelbart genererer kildekoden til innholdet.
 
   yaml-to-toml:
     title: YAML til TOML
     description: Parser og konverter YAML til TOML.
 
   mac-address-generator:
-    title: MAC adresse generator
-    description: Sett inn antall og prefix. MAC addressene blir generert i ønsket format
+    title: MAC-adressegenerator
+    description: Angi antall og prefiks. MAC-adressene genereres med valgt skrivemåte (store eller små bokstaver).
 
   json-diff:
-    title: JSON diff
-    description: Sammenlign to JSON objekter og finn forskjellene mellom dem.
+    title: JSON-diff
+    description: Sammenlign to JSON-objekter og finn forskjellene mellom dem.
 
   jwt-parser:
-    title: JWT parser
-    description: Parse og dekode et JSON Web Token (jwt) og vis innholdet.
+    title: JWT-parser
+    description: Analyser og dekod et JSON Web Token (JWT) og vis innholdet.
 
   date-converter:
-    title: Dato-tid konverter
+    title: Dato- og tidskonverter
     description: Konverter dato og tid til forskjellige formater.
 
   phone-parser-and-formatter:
-    title: Telefon format og parserer
-    description: Parser, valider og formater telefon numre. få innformasjonen om telefon nummeret, slik som landskoden, type etc.
+    title: Telefonnummer-parser og -formaterer
+    description: Analyser, valider og formater telefonnumre. Få informasjon om telefonnummeret, som landskode, type osv.
 
   ipv4-subnet-calculator:
-    title: IPv4 subnet kalkulator
-    description: Parser IPv4 CIDR blokker of åf all info du trenger om subnettet.
+    title: IPv4-subnettkalkulator
+    description: Analyser IPv4 CIDR-blokker og få all informasjonen du trenger om subnettet.
 
   og-meta-generator:
-    title: Open graph meta generator
-    description: Generer open-graph og SoMe HTML meta tagger til nettsiden din.
+    title: Open Graph-metagenerator
+    description: Generer Open Graph- og SoMe-HTML-metatagger til nettstedet ditt.
 
   ipv6-ula-generator:
-    title: IPv6 ULA generator
-    description: Generer din egen lokale, ikke-rutbare IP adresse til nettverket ditt i henhold til RFC4193.
+    title: IPv6 ULA-generator
+    description: Generer dine egne lokale, ikke-rutbare IP-adresser til nettverket ditt i henhold til RFC4193.
 
   hash-text:
     title: Hash tekst
-    description: 'Hash en tekst streng med en av algoritmene : MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 eller RIPEMD160'
+    description: 'Hash en tekststreng med funksjonen du trenger: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 eller RIPEMD160'
 
   json-to-toml:
     title: JSON til TOML
     description: Parser og konverter JSON til TOML.
 
   device-information:
-    title: Enhets informasjon
-    description: Få informasjon om din nåværende enhet (skjermstørrelse, piksel-forhold, user agent, etc.)
+    title: Enhetsinformasjon
+    description: Få informasjon om den gjeldende enheten din (skjermstørrelse, pikselforhold, user agent, ...)
 
   pdf-signature-checker:
-    title: PDF signatur sjekker
-    description: Bekreft signaturen til en PDF fil. En signert PDF fil inneholder en eller flere signaturer som kan bli brukt til å bestemme om en fil har blitt endret etter at den var signert.
+    title: PDF-signaturkontroll
+    description: Kontroller signaturene i en PDF-fil. En signert PDF-fil inneholder en eller flere signaturer som kan brukes til å avgjøre om innholdet er endret siden filen ble signert.
 
   json-minify:
-    title: JSON minifiser
+    title: JSON-minifisering
     description: Minifiser og komprimer JSON ved å fjerne unødvendige mellomrom.
 
   ulid-generator:
-    title: ULID generator
-    description: Generer tilfeldig Universell Unik Leksikografisk Sorterbar Identifikator (ULID).
+    title: ULID-generator
+    description: Generer tilfeldige ULID-er (Universally Unique Lexicographically Sortable Identifier).
 
   string-obfuscator:
-    title: Streng obfuskator
-    description: Obfusker en streng (som en hemmelighet, en IBAN, eller et token) og gjør den delbar og identifiserbar uten å vise innholdet.
+    title: Streng-obfuskator
+    description: Obfuskér en streng (som en hemmelighet, en IBAN eller et token) slik at den kan deles og gjenkjennes uten å avsløre innholdet.
 
   base-converter:
-    title: Heltalls konverter
-    description: Konverter et heltall mellom forskjellige baser (desimal, hexadesimal, binær, oktal, base64, etc.)
+    title: Heltallsbasekonverter
+    description: Konverter et tall mellom ulike tallsystemer (desimal, heksadesimal, binær, oktal, base64, ...)
 
   yaml-to-json-converter:
-    title: YAML til JSON konverter
-    description: Konverterl YAML til JSON.
+    title: YAML til JSON-konverterer
+    description: Konverter enkelt YAML til JSON med denne konverteren på nett.
 
   uuid-generator:
-    title: UUIDs generator
-    description: En universell Unik Identifikator (UUID) er et 128-bit nummer, brukt til å identifisere informasjon i datasystemer.
+    title: UUID-generator
+    description: En UUID (Universally Unique Identifier) er et 128-bits tall som brukes til å identifisere informasjon i datasystemer. Antallet mulige UUID-er er 16^32, som er 2^128 eller omtrent 3,4x10^38 (det er mange!).
 
   ipv4-address-converter:
-    title: IPv4 adresse konverter
-    description: Konverter en IPv4 adresse til desimal, binær, hexadesimal, eller en IPv6 representasjon.
+    title: IPv4-adressekonverter
+    description: Konverter en IP-adresse til desimal, binær, heksadesimal eller til og med en IPv6-representasjon.
 
   text-statistics:
-    title: Tekst statistikk
-    description: Få informasjonen om en tekst, antall karakterer, antall ord, størrelsen i bytes, etc.
+    title: Tekststatistikk
+    description: Få informasjon om en tekst, som antall tegn, antall ord, størrelse i byte, ...
 
   text-to-nato-alphabet:
-    title: Tekst til NATO alfabetet
-    description: Transformer teksten til det NATO fonetiske alfabetet for muntlig gjengivelse.
+    title: Tekst til NATO-alfabetet
+    description: Gjør om tekst til det fonetiske NATO-alfabetet for muntlig overføring.
 
   basic-auth-generator:
-    title: Basic auth generator
-    description: Generer en base64 basic auth header fra et brukernavn og passord.
+    title: Basic auth-generator
+    description: Generer en base64 basic auth-header fra et brukernavn og passord.
 
   text-to-unicode:
     title: Tekst til Unicode
-    description: Parser og konverter tekst til unicode og visa-versa
+    description: Konverter tekst til Unicode og omvendt.
 
   ipv4-range-expander:
-    title: IPv4 range utvider
-    description: Gitt en start og en slutt IPv4 adresse, kalkulerer dette verktøyet et gyldig IPv4 subnet sammen med sin CIDR notasjon.
+    title: IPv4-områdeutvider
+    description: Ut fra en start- og en slutt-IPv4-adresse beregner dette verktøyet et gyldig IPv4-subnett med CIDR-notasjon.
 
   text-diff:
-    title: Tekst diff
-    description: Sammenlign to tekster og vis forskjellen mellom dem.
+    title: Tekst-diff
+    description: Sammenlign to tekster og se forskjellene mellom dem.
 
   otp-generator:
-    title: OTP kode generator
-    description: Generer og valider tidsbasert OTP (one time password) for multi-faktor autentisering.
+    title: OTP-kodegenerator
+    description: Generer og valider tidsbaserte OTP-er (engangspassord) for flerfaktorautentisering.
 
   url-encoder:
-    title: Kode/dekode URL-formaterte strenger
-    description: Kode tekst til URL-kodet format (også kjent som "prosent-kodet"), eller dekode fra det.
+    title: Kod/dekod URL-formaterte strenger
+    description: Kod tekst til URL-kodet format (også kjent som «prosentkodet»), eller dekod fra det.
 
   text-to-binary:
-    title: Tekst til ASCII binært
-    description: Konverter tekst til sin ASCII binære representasjon og visa-versa.
+    title: Tekst til ASCII-binær
+    description: Konverter tekst til ASCII-binær representasjon og omvendt.

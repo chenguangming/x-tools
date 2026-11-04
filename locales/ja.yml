@@ -1,0 +1,397 @@
+home:
+  categories:
+    newestTools: '新着ツール'
+    favoriteTools: 'お気に入りのツール'
+    allTools: 'すべてのツール'
+    favoritesDndToolTip: 'ドラッグ&ドロップでお気に入りを並べ替え'
+    emptyFavorites: 'お気に入りはまだありません。ツールを開いてハートをクリックすると、ここに固定されます。'
+  subtitle: '開発者のための便利ツール'
+  toggleMenu: 'メニューの切り替え'
+  back: '戻る'
+  forward: '進む'
+  home: ホーム
+  uiLib: 'UIライブラリ'
+  support: 'X-Toolsの開発を支援'
+  buyMeACoffee: 'スポンサー'
+  follow:
+    title: 'X-Toolsを気に入っていただけましたか？'
+    p1: 'スターを付ける:'
+    githubRepository: 'X-Tools GitHubリポジトリ'
+    p2: 'またはフォローする:'
+    twitterXAccount: 'X-Tools Xアカウント'
+    thankYou: 'ありがとうございます！'
+  nav:
+    github: 'GitHubリポジトリ'
+    githubRepository: 'X-Tools GitHubリポジトリ'
+    twitterX: 'Xアカウント'
+    twitterXAccount: 'X-Tools Xアカウント'
+    about: 'X-Toolsについて'
+    aboutLabel: '概要'
+    darkMode: 'ダークモード'
+    lightMode: 'ライトモード'
+    mode: 'ダーク/ライトモードの切り替え'
+about:
+  content: >
+    # X-Toolsについて
+
+    X-Toolsは、Corentin Thomasset氏の[IT-Tools](https://github.com/CorentinTh/it-tools)から派生したプロジェクトです（IT-Toolsの多大な貢献に深く感謝いたします）。IT分野にとどまらず、より多くのカテゴリのツールを追加することを目指しています。便利だと感じたら、ぜひ友人に共有し、ブックマークもお忘れなく！
+
+    X-Toolsは無料のオープンソース（GPL-3.0ライセンス）であり、今後もそれは変わりません。ただし、ホスティングやドメイン更新には費用がかかります。私の活動を支援し、さらにツールを追加する励みにしていただける方は、[スポンサー](https://afdian.com/a/waying)としてのご支援をご検討ください。
+
+    ## 使用技術
+
+    X-Toolsは、Vue.js（Vue 3）とNaive UIコンポーネントライブラリで作られています。一部のツールでは、サードパーティのオープンソースライブラリを使用しています。完全な一覧は、リポジトリの[package.json](https://github.com/chenguangming/x-tools/blob/main/package.json)ファイルをご覧ください。
+
+    ## バグの報告・ツールのリクエスト
+
+    現在ここにないツールで、役に立ちそうなものがあれば、[GitHubリポジトリ](https://github.com/chenguangming/x-tools)の[Issuesセクション](https://github.com/chenguangming/x-tools/issues/new/choose)で機能リクエストをお寄せください。
+
+    また、バグを見つけた場合や期待どおりに動作しない場合は、GitHubリポジトリの[Issuesセクション](https://github.com/chenguangming/x-tools/issues/new/choose)でバグを報告してください。
+
+404:
+  notFound: '404 ページが見つかりません'
+  sorry: '申し訳ありません。このページは存在しないようです'
+  maybe: 'キャッシュの影響かもしれません。強制リロードをお試しください。'
+  backHome: 'ホームに戻る'
+favoriteButton:
+  remove: 'お気に入りから削除'
+  add: 'お気に入りに追加'
+toolCard:
+  new: 新着
+search:
+  label: 検索
+tools:
+  categories:
+    favorite-tools: 'お気に入りのツール'
+    crypto: 暗号
+    converter: 変換
+    web: Web
+    images and videos: '画像・動画'
+    development: 開発
+    network: ネットワーク
+    math: 数学
+    measurement: 計測
+    text: テキスト
+    data: データ
+
+  password-strength-analyser:
+    title: パスワード強度チェッカー
+    description: クライアントサイドのみで動作するパスワード強度チェッカーで、パスワードの強度と解読にかかる時間の目安を確認できます。
+
+  chronometer:
+    title: ストップウォッチ
+    description: 物事にかかった時間を計測します。シンプルな機能のストップウォッチです。
+
+  token-generator:
+    title: トークン生成
+    description: 大文字、小文字、数字、記号など、好みの文字種からランダムな文字列を生成します。
+
+    uppercase: 大文字 (ABC...)
+    lowercase: 小文字 (abc...)
+    numbers: 数字 (123...)
+    symbols: 記号 (!-;...)
+    length: 長さ
+    tokenPlaceholder: 'トークン...'
+    copied: トークンをクリップボードにコピーしました
+    button:
+      copy: コピー
+      refresh: 再生成
+  percentage-calculator:
+    title: パーセンテージ計算
+    description: ある値から別の値への割合、または割合から値を簡単に計算します。
+
+  svg-placeholder-generator:
+    title: SVGプレースホルダー生成
+    description: アプリケーションでプレースホルダーとして使えるSVG画像を生成します。
+
+  json-to-csv:
+    title: JSONからCSVへ変換
+    description: ヘッダーを自動検出してJSONをCSVに変換します。
+
+  camera-recorder:
+    title: カメラ録画
+    description: ウェブカメラまたはカメラで写真撮影や動画録画ができます。
+
+  keycode-info:
+    title: キーコード情報
+    description: 押したキーのJavaScriptキーコード、code、位置、修飾キーを確認できます。
+
+  emoji-picker:
+    title: 絵文字ピッカー
+    description: 絵文字を簡単にコピー＆ペーストでき、各絵文字のUnicodeとコードポイントの値も確認できます。
+
+  color-converter:
+    title: カラー変換
+    description: 色を各種形式（hex、rgb、hsl、CSSカラー名）間で変換します。
+
+  bcrypt:
+    title: Bcrypt
+    description: bcryptでテキスト文字列のハッシュ化と比較を行います。bcryptはBlowfish暗号をベースにしたパスワードハッシュ関数です。
+
+  crontab-generator:
+    title: Crontab生成
+    description: crontabの検証と生成を行い、cronスケジュールを人が読める形で説明します。
+
+  http-status-codes:
+    title: HTTPステータスコード
+    description: すべてのHTTPステータスコードの一覧と、その名称・意味を確認できます。
+
+  sql-prettify:
+    title: SQL整形
+    description: SQLクエリをオンラインで整形します（さまざまなSQL方言に対応）。
+
+  benchmark-builder:
+    title: ベンチマーク作成
+    description: シンプルなオンラインのベンチマーク作成ツールで、タスクの実行時間を簡単に比較できます。
+
+  git-memo:
+    title: Gitチートシート
+    description: Gitは分散型バージョン管理ソフトウェアです。このチートシートで、よく使うGitコマンドにすばやくアクセスできます。
+
+  slugify-string:
+    title: 文字列のスラッグ化
+    description: 文字列をURL、ファイル名、IDに安全に使える形に変換します。
+
+  encryption:
+    title: テキストの暗号化・復号
+    description: AES、TripleDES、Rabbit、RC4などの暗号アルゴリズムで、平文の暗号化と暗号文の復号を行います。
+
+  random-port-generator:
+    title: ランダムポート生成
+    description: 「ウェルノウン」ポート（0-1023）の範囲外で、ランダムなポート番号を生成します。
+
+  yaml-prettify:
+    title: YAML整形
+    description: YAML文字列を見やすく読みやすい形式に整形します。
+
+  eta-calculator:
+    title: ETA計算
+    description: ETA（到着予定時刻）を計算し、ファイルのダウンロードなど、作業の終了時刻や所要時間の目安を求めます。
+
+  roman-numeral-converter:
+    title: ローマ数字変換
+    description: ローマ数字を数値に、数値をローマ数字に変換します。
+
+  hmac-generator:
+    title: HMAC生成
+    description: 秘密鍵と任意のハッシュ関数を使って、ハッシュベースのメッセージ認証コード（HMAC）を計算します。
+
+  bip39-generator:
+    title: BIP39パスフレーズ生成
+    description: 既存またはランダムなニーモニックからBIP39パスフレーズを生成したり、パスフレーズからニーモニックを取得したりします。
+
+  base64-file-converter:
+    title: Base64ファイル変換
+    description: 文字列、ファイル、画像をBase64表現に変換します。
+
+  list-converter:
+    title: リスト変換
+    description: 列形式のデータを処理し、各行に対して転置、接頭辞・接尾辞の追加、リストの反転、並べ替え、小文字化、値の切り詰めなどを適用できます。
+
+  base64-string-converter:
+    title: Base64文字列エンコード/デコード
+    description: 文字列をBase64表現にエンコード、またはデコードします。
+
+  toml-to-yaml:
+    title: TOMLからYAMLへ変換
+    description: TOMLを解析してYAMLに変換します。
+
+  math-evaluator:
+    title: 数式計算
+    description: 数式を評価する電卓です。sqrt、cos、sin、absなどの関数が使えます。
+
+  json-to-yaml-converter:
+    title: JSONからYAMLへ変換
+    description: オンラインのリアルタイム変換で、JSONを簡単にYAMLへ変換します。
+
+  url-parser:
+    title: URLパーサー
+    description: URLを構成要素（プロトコル、オリジン、パラメータ、ポート、ユーザー名・パスワードなど）に分解します。
+
+  iban-validator-and-parser:
+    title: IBAN検証・解析
+    description: IBAN番号を検証・解析します。IBANが有効かどうかを確認し、国、BBAN、QR-IBANかどうか、読みやすい形式のIBANを取得できます。
+
+  user-agent-parser:
+    title: User-Agentパーサー
+    description: User-Agent文字列から、ブラウザ、エンジン、OS、CPU、デバイスの種類・モデルを検出して解析します。
+
+  numeronym-generator:
+    title: ニューメロニム生成
+    description: ニューメロニムとは、数字を使って略語を作った単語です。たとえば「i18n」は「internationalization」のニューメロニムで、18は最初のiと最後のnの間にある文字数を表します。
+
+  case-converter:
+    title: 文字ケース変換
+    description: 文字列の表記ケースを変換し、さまざまな形式から選択できます。
+
+  html-entities:
+    title: HTMLエンティティのエスケープ
+    description: HTMLエンティティのエスケープ/アンエスケープを行います（<、>、&、"、\'などの文字をHTML表記に置き換えます）。
+
+  json-prettify:
+    title: JSON整形
+    description: JSON文字列を見やすく読みやすい形式に整形します。
+
+  docker-run-to-docker-compose-converter:
+    title: Docker runからDocker composeへ変換
+    description: 「docker run」コマンドをdocker-composeファイルに変換します。
+
+  mac-address-lookup:
+    title: MACアドレス検索
+    description: MACアドレスからデバイスのベンダーやメーカーを調べます。
+
+  mime-types:
+    title: MIMEタイプ
+    description: MIMEタイプをファイル拡張子に、またはその逆に変換します。
+
+  toml-to-json:
+    title: TOMLからJSONへ変換
+    description: TOMLを解析してJSONに変換します。
+
+  lorem-ipsum-generator:
+    title: Lorem ipsum生成
+    description: Lorem ipsumは、意味のある内容に頼らずに、文書や書体の見た目を示すために一般的に使われるダミーテキストです。
+
+  qrcode-generator:
+    title: QRコード生成
+    description: URL（または単なるテキスト）のQRコードを生成してダウンロードでき、背景色と前景色もカスタマイズできます。
+
+  wifi-qrcode-generator:
+    title: WiFi QRコード生成
+    description: WiFiネットワークにすばやく接続するためのQRコードを生成してダウンロードします。
+
+  xml-formatter:
+    title: XML整形
+    description: XML文字列を見やすく読みやすい形式に整形します。
+
+  temperature-converter:
+    title: 温度変換
+    description: ケルビン、摂氏、華氏、ランキン、ドリール、ニュートン、レオミュール、レーマーの温度を相互に変換します。
+
+  chmod-calculator:
+    title: Chmod計算
+    description: オンラインのchmod計算ツールで、chmodのパーミッションとコマンドを算出します。
+
+  rsa-key-pair-generator:
+    title: RSA鍵ペア生成
+    description: ランダムなRSA秘密鍵と公開鍵のPEM形式の鍵ペアを新たに生成します。
+
+  html-wysiwyg-editor:
+    title: HTML WYSIWYGエディタ
+    description: 高機能なオンラインWYSIWYG HTMLエディタです。内容のソースコードを即座に生成します。
+
+  yaml-to-toml:
+    title: YAMLからTOMLへ変換
+    description: YAMLを解析してTOMLに変換します。
+
+  mac-address-generator:
+    title: MACアドレス生成
+    description: 数量とプレフィックスを入力します。MACアドレスは選択した大文字または小文字で生成されます。
+
+  json-diff:
+    title: JSON差分
+    description: 2つのJSONオブジェクトを比較し、その差分を確認します。
+
+  jwt-parser:
+    title: JWTパーサー
+    description: JSON Web Token（JWT）を解析・デコードして、その内容を表示します。
+
+  date-converter:
+    title: 日時変換
+    description: 日付と時刻をさまざまな形式に変換します。
+
+  phone-parser-and-formatter:
+    title: 電話番号解析・整形
+    description: 電話番号の解析、検証、整形を行います。国番号や種類など、電話番号に関する情報を取得できます。
+
+  ipv4-subnet-calculator:
+    title: IPv4サブネット計算
+    description: IPv4のCIDRブロックを解析し、サブネットに関して必要な情報をすべて取得します。
+
+  og-meta-generator:
+    title: OGPメタタグ生成
+    description: ウェブサイト用のOpen GraphおよびSNS向けHTMLメタタグを生成します。
+
+  ipv6-ula-generator:
+    title: IPv6 ULA生成
+    description: RFC4193に従って、ネットワーク用のローカルでルーティング不可のIPアドレスを生成します。
+
+  hash-text:
+    title: テキストのハッシュ化
+    description: 'MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3、RIPEMD160から必要な関数を選んで、テキスト文字列をハッシュ化します。'
+
+  json-to-toml:
+    title: JSONからTOMLへ変換
+    description: JSONを解析してTOMLに変換します。
+
+  device-information:
+    title: デバイス情報
+    description: 現在のデバイスの情報（画面サイズ、ピクセル比、User-Agentなど）を取得します。
+
+  pdf-signature-checker:
+    title: PDF署名チェッカー
+    description: PDFファイルの署名を検証します。署名済みPDFには1つ以上の署名が含まれており、署名後にファイルの内容が改ざんされたかどうかを判断できます。
+
+  json-minify:
+    title: JSON圧縮
+    description: 不要な空白を削除して、JSONを圧縮します。
+
+  ulid-generator:
+    title: ULID生成
+    description: ランダムなULID（Universally Unique Lexicographically Sortable Identifier）を生成します。
+
+  string-obfuscator:
+    title: 文字列の難読化
+    description: シークレット、IBAN、トークンなどの文字列を難読化し、内容を明かさずに共有・識別できるようにします。
+
+  base-converter:
+    title: 整数の基数変換
+    description: 数値を異なる基数（10進数、16進数、2進数、8進数、base64など）間で変換します。
+
+  yaml-to-json-converter:
+    title: YAMLからJSONへ変換
+    description: オンラインのリアルタイム変換で、YAMLを簡単にJSONへ変換します。
+
+  uuid-generator:
+    title: UUID生成
+    description: UUID（Universally Unique Identifier）は、コンピューターシステムで情報を識別するための128ビットの数値です。UUIDの総数は16^32、つまり2^128、約3.4x10^38通りです（非常に多い数です！）。
+
+  ipv4-address-converter:
+    title: IPv4アドレス変換
+    description: IPアドレスを10進数、2進数、16進数、またはIPv6表現に変換します。
+
+  text-statistics:
+    title: テキスト統計
+    description: テキストの文字数、単語数、バイトサイズなどの情報を取得します。
+
+  text-to-nato-alphabet:
+    title: テキストからNATOフォネティックコードへ変換
+    description: 口頭で伝達するために、テキストをNATOフォネティックコード（通話表）に変換します。
+
+  basic-auth-generator:
+    title: Basic認証生成
+    description: ユーザー名とパスワードから、Base64形式のBasic認証ヘッダーを生成します。
+
+  text-to-unicode:
+    title: テキストからUnicodeへ変換
+    description: テキストをUnicodeに、またはその逆に解析・変換します。
+
+  ipv4-range-expander:
+    title: IPv4範囲展開
+    description: 開始と終了のIPv4アドレスから、有効なIPv4サブネットをCIDR表記とともに算出します。
+
+  text-diff:
+    title: テキスト差分
+    description: 2つのテキストを比較し、その差分を確認します。
+
+  otp-generator:
+    title: OTPコード生成
+    description: 多要素認証用の時間ベースOTP（ワンタイムパスワード）を生成・検証します。
+
+  url-encoder:
+    title: URLエンコード/デコード
+    description: テキストをURLエンコード形式（「パーセントエンコーディング」とも呼ばれます）にエンコード、またはデコードします。
+
+  text-to-binary:
+    title: テキストからASCIIバイナリへ変換
+    description: テキストをASCIIバイナリ表現に、またはその逆に変換します。

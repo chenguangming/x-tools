@@ -1,22 +1,18 @@
-'404':
-  notFound: 404 Nicht gefunden
-  sorry: Entschuldigung, diese Seite scheint nicht zu existieren
-  maybe: >-
-    Vielleicht macht der Cache etwas Seltsames. Mit einem erzwungenen Neuladen
-    versuchen?
-  backHome: Zurück zur Startseite
 home:
   categories:
     newestTools: Neueste Tools
     favoriteTools: Deine Lieblingstools
     allTools: Alle Tools
     favoritesDndToolTip: 'Ziehen und Ablegen, um Favoriten neu zu ordnen'
+    emptyFavorites: Noch keine Favoriten. Öffne ein Tool und klicke auf das Herz, um es hier anzuheften.
   subtitle: Praktische Tools für Entwickler
   toggleMenu: Menü umschalten
+  back: Zurück
+  forward: Vorwärts
   home: Startseite
   uiLib: UI-Bibliothek
   support: Unterstütze die Entwicklung von X-Tools
-  buyMeACoffee: Kauf mir einen Kaffee
+  buyMeACoffee: Sponsern
   follow:
     title: Magst du X-Tools?
     p1: Gib uns einen Stern auf
@@ -38,26 +34,20 @@ about:
   content: >
     # Über X-Tools
 
-    Diese wunderbare Website, erstellt mit ❤ von [Corentin
-    Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), sammelt nützliche Tools für
-    Entwickler und Menschen, die in der IT arbeiten. Wenn du sie nützlich
-    findest, teile sie gerne mit Personen, von denen du denkst, dass sie sie
-    ebenfalls nützlich finden könnten, und vergiss nicht, sie in deiner
-    Lesezeichenleiste zu speichern!
+    X-Tools ist eine Weiterentwicklung von [IT-Tools](https://github.com/CorentinTh/it-tools) von Corentin Thomasset (vielen Dank an IT-Tools für den großzügigen Beitrag). Ziel ist es, weitere Kategorien von Tools hinzuzufügen, die nicht mehr auf den IT-Bereich beschränkt sind. Wenn du X-Tools nützlich findest, teile es gerne mit deinen Freunden und vergiss nicht, ein Lesezeichen zu setzen!
 
     X-Tools ist Open Source (unter der GPL-3.0-Lizenz) und kostenlos und wird es
-    immer sein, aber es kostet mich Geld, die Website zu hosten und den
-    Domainnamen zu erneuern. Wenn du meine Arbeit unterstützen möchtest und mich
+    immer sein, aber es kostet Geld, die Website zu hosten und den
+    Domainnamen zu erneuern. Wenn du meine Arbeit unterstützen und mich
     ermutigen möchtest, mehr Tools hinzuzufügen, überlege bitte, mich durch
-    [Sponsoring](https://www.buymeacoffee.com/cthmsst) zu unterstützen.
+    [Sponsoring](https://afdian.com/a/waying) zu unterstützen.
 
     ## Technologien
 
     X-Tools wurde mit Vue.js (Vue 3) und der Naive UI-Komponentenbibliothek
-    erstellt und wird von Vercel gehostet und kontinuierlich bereitgestellt. In
-    einigen Tools werden Drittanbieter-Open-Source-Bibliotheken verwendet. Du
-    findest die vollständige Liste in der
-    [package.json](https://github.com/chenguangming/x-tools/blob/main/package.json)-Datei
+    erstellt. In einigen Tools werden Open-Source-Bibliotheken von Drittanbietern
+    verwendet. Du findest die vollständige Liste in der Datei
+    [package.json](https://github.com/chenguangming/x-tools/blob/main/package.json)
     des Repositorys.
 
     ## Einen Fehler gefunden? Ein Tool fehlt?
@@ -66,12 +56,20 @@ about:
     denkst, dass es nützlich sein könnte, bist du herzlich eingeladen, einen
     Feature-Request im
     [Issues-Bereich](https://github.com/chenguangming/x-tools/issues/new/choose)
-    im GitHub-Repository einzureichen.
+    des [GitHub-Repositorys](https://github.com/chenguangming/x-tools)
+    einzureichen.
 
     Und wenn du einen Fehler gefunden hast oder etwas nicht wie erwartet
     funktioniert, melde bitte einen Fehler im
     [Issues-Bereich](https://github.com/chenguangming/x-tools/issues/new/choose)
     im GitHub-Repository.
+'404':
+  notFound: 404 Nicht gefunden
+  sorry: Entschuldigung, diese Seite scheint nicht zu existieren
+  maybe: >-
+    Vielleicht macht der Cache etwas Seltsames. Mit einem erzwungenen Neuladen
+    versuchen?
+  backHome: Zurück zur Startseite
 favoriteButton:
   remove: Aus Favoriten entfernen
   add: Zu Favoriten hinzufügen
@@ -131,7 +129,7 @@ tools:
     title: JSON zu CSV
     description: Konvertiere JSON mit automatischer Headererkennung in CSV.
   camera-recorder:
-    title: Kamera-Rekorder
+    title: Kamera-Aufnahme
     description: Mache ein Foto oder nimm ein Video von deiner Webcam oder Kamera auf.
   keycode-info:
     title: Keycode-Info
@@ -177,7 +175,7 @@ tools:
       Git ist eine dezentrale Versionsverwaltungssoftware. Mit diesem
       Spickzettel hast du schnellen Zugriff auf die gängigsten Git-Befehle.
   slugify-string:
-    title: Slugify String
+    title: Slugify-String
     description: Mache einen String URL-, Dateinamen- und ID-sicher.
   encryption:
     title: Text verschlüsseln / entschlüsseln
@@ -185,7 +183,7 @@ tools:
       Verschlüssele und entschlüssele Klartext mithilfe von Kryptoalgorithmen
       wie AES, TripleDES, Rabbit oder RC4.
   random-port-generator:
-    title: Zufälliger Port-Generator
+    title: Zufälliger Portgenerator
     description: >-
       Generiere zufällige Portnummern außerhalb des Bereichs der "bekannten"
       Ports (0-1023).
@@ -198,7 +196,7 @@ tools:
       Ein ETA (Estimated Time of Arrival)-Rechner, um die ungefähre Endzeit
       einer Aufgabe zu erfahren, z. B. den Zeitpunkt des Endes eines Downloads.
   roman-numeral-converter:
-    title: Römische Zahlen Konverter
+    title: Römische-Zahlen-Konverter
     description: >-
       Konvertiere römische Zahlen in Dezimalzahlen und Dezimalzahlen in römische
       Zahlen.
@@ -230,7 +228,7 @@ tools:
     title: TOML zu YAML
     description: Parse und konvertiere TOML zu YAML.
   math-evaluator:
-    title: Mathematischer Auswerter
+    title: Mathematischer Ausdrucksauswerter
     description: >-
       Ein Taschenrechner zum Auswerten mathematischer Ausdrücke. Du kannst
       Funktionen wie sqrt, cos, sin, abs usw. verwenden.
@@ -261,15 +259,15 @@ tools:
       "internationalization", wobei 18 für die Anzahl der Buchstaben zwischen
       dem ersten "i" und dem letzten "n" im Wort steht.
   case-converter:
-    title: Fall-Konverter
+    title: Groß-/Kleinschreibung-Konverter
     description: >-
-      Ändere den Fall eines Strings und wähle zwischen verschiedenen Formaten
-      aus.
+      Ändere die Groß-/Kleinschreibung eines Strings und wähle zwischen
+      verschiedenen Formaten aus.
   html-entities:
-    title: HTML-Entity-Escape
+    title: HTML-Entitäten maskieren
     description: >-
-      Escape oder unescape HTML-Entitäten (ersetze <, >, &, " und ' durch ihre
-      HTML-Version).
+      Maskiere HTML-Entitäten oder hebe die Maskierung auf (ersetze Zeichen wie
+      <, >, &, " und ' durch ihre HTML-Version).
   json-prettify:
     title: JSON verschönern und formatieren
     description: Verschönere deinen JSON-String in ein menschenlesbares Format.
@@ -331,7 +329,7 @@ tools:
       Gebe die Menge und das Präfix ein. MAC-Adressen werden in deiner gewählten
       Schreibweise (Groß- oder Kleinbuchstaben) generiert.
   json-diff:
-    title: JSON-Unterschied
+    title: JSON-Vergleich
     description: Vergleiche zwei JSON-Objekte und erhalte die Unterschiede zwischen ihnen.
   jwt-parser:
     title: JWT-Parser
@@ -371,7 +369,7 @@ tools:
     title: Geräteinformationen
     description: >-
       Informationen zu deinem aktuellen Gerät (Bildschirmgröße, Pixelverhältnis,
-      Benutzeragent, ...) erhalten.
+      User-Agent, ...) erhalten.
   pdf-signature-checker:
     title: PDF-Signaturprüfer
     description: >-
@@ -439,7 +437,7 @@ tools:
       Bei Angabe einer Start- und End-IPv4-Adresse berechnet dieses Tool ein
       gültiges IPv4-Netzwerk mit seiner CIDR-Notation.
   text-diff:
-    title: Textunterschied
+    title: Textvergleich
     description: Vergleiche zwei Texte und sieh die Unterschiede zwischen ihnen.
   otp-generator:
     title: OTP-Code-Generator
