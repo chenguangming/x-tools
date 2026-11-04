@@ -49,6 +49,20 @@ export default defineConfig({
         resolve(__dirname, 'src/tools/*/locales/**'),
       ],
     }),
+    {
+      // The generated mergeDeep recurses once per locale file, overflowing the stack with ~1000 files
+      name: 'flatten-i18n-merge',
+      enforce: 'post',
+      transform(code, id) {
+        if (!id.includes('unplugin-vue-i18n/messages')) {
+          return null;
+        }
+        return code.replace(
+          'return mergeDeep(target, ...sources);',
+          'for (const rest of sources) { mergeDeep(target, rest); } return target;',
+        );
+      },
+    },
     AutoImport({
       imports: [
         'vue',
