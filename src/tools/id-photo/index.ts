@@ -9,4 +9,5 @@ export const tool = defineTool({
   keywords: ['id', 'photo', 'passport', 'visa', 'portrait', 'crop', 'size', 'background', 'blue', 'red', 'white', 'inch', 'zhengjianzhao'],
   component: () => import('./id-photo.vue'),
   icon: IdBadge,
+  createdAt: new Date('2026-11-04'),
 });

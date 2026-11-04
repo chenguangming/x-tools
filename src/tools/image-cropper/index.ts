@@ -9,4 +9,5 @@ export const tool = defineTool({
   keywords: ['image', 'crop', 'cropper', 'resize', 'ratio', 'background', 'convert', 'png', 'jpg', 'jpeg', 'webp', 'compress'],
   component: () => import('./image-cropper.vue'),
   icon: Crop,
+  createdAt: new Date('2026-11-04'),
 });
