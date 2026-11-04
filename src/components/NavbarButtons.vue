@@ -4,6 +4,7 @@ import { useStyleStore } from '@/stores/style.store';
 
 const styleStore = useStyleStore();
 const { isDarkTheme } = toRefs(styleStore);
+const isAboutOpen = ref(false);
 </script>
 
 <template>
@@ -21,7 +22,7 @@ const { isDarkTheme } = toRefs(styleStore);
   </c-tooltip>
 
   <c-tooltip :tooltip="$t('home.nav.about')" position="bottom">
-    <c-button circle variant="text" to="/about" :aria-label="$t('home.nav.aboutLabel')">
+    <c-button circle variant="text" :aria-label="$t('home.nav.aboutLabel')" @click="isAboutOpen = true">
       <n-icon size="25" :component="IconInfoCircle" />
     </c-button>
   </c-tooltip>
@@ -31,9 +32,21 @@ const { isDarkTheme } = toRefs(styleStore);
       <n-icon v-else size="25" :component="IconMoon" />
     </c-button>
   </c-tooltip>
+
+  <c-modal v-model:open="isAboutOpen">
+    <div class="about-content">
+      <c-markdown :markdown="$t('about.content')" />
+    </div>
+  </c-modal>
 </template>
 
 <style lang="less" scoped>
+.about-content {
+  width: min(600px, 80vw);
+  max-height: 70vh;
+  overflow: auto;
+}
+
 .n-button {
   &:not(:last-child) {
     margin-right: 5px;
