@@ -1,0 +1,12 @@
+tools:
+  xml-diff:
+    title: XML-forskjeller
+    description: Sammenlign to XML-dokumenter og uthev forskjellene linje for linje.
+    firstLabel: Opprinnelig XML
+    firstPlaceholder: Lim inn første XML her...
+    secondLabel: XML å sammenligne
+    secondPlaceholder: Lim inn andre XML her...
+    invalidXml: Ugyldig XML
+    prettify: Formater før sammenligning (ignorer innrykk)
+    onlyDiff: Vis kun forskjeller
+    same: De to XML-dokumentene er identiske

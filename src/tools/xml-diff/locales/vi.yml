@@ -1,0 +1,12 @@
+tools:
+  xml-diff:
+    title: So sánh XML
+    description: So sánh hai tài liệu XML và làm nổi bật khác biệt theo từng dòng.
+    firstLabel: XML gốc
+    firstPlaceholder: Dán XML thứ nhất vào đây...
+    secondLabel: XML cần so sánh
+    secondPlaceholder: Dán XML thứ hai vào đây...
+    invalidXml: XML không hợp lệ
+    prettify: Định dạng trước khi so sánh (bỏ qua thụt lề)
+    onlyDiff: Chỉ hiển thị khác biệt
+    same: Hai tài liệu XML giống nhau

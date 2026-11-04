@@ -1,0 +1,12 @@
+tools:
+  xml-diff:
+    title: Порівняння XML
+    description: Порівняйте два XML-документи та підсвітіть відмінності по рядках.
+    firstLabel: Оригінальний XML
+    firstPlaceholder: Вставте перший XML тут...
+    secondLabel: XML для порівняння
+    secondPlaceholder: Вставте другий XML тут...
+    invalidXml: Недійсний XML
+    prettify: Форматувати перед порівнянням (ігнорувати відступи)
+    onlyDiff: Показувати лише відмінності
+    same: Обидва XML-документи ідентичні

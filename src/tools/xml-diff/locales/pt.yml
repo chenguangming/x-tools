@@ -1,0 +1,12 @@
+tools:
+  xml-diff:
+    title: Diferenças XML
+    description: Compare dois documentos XML e destaque as diferenças linha a linha.
+    firstLabel: XML original
+    firstPlaceholder: Cole aqui o primeiro XML...
+    secondLabel: XML a comparar
+    secondPlaceholder: Cole aqui o segundo XML...
+    invalidXml: XML inválido
+    prettify: Formatar antes de comparar (ignorar indentação)
+    onlyDiff: Mostrar apenas diferenças
+    same: Os dois documentos XML são idênticos

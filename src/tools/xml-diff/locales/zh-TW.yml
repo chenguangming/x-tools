@@ -1,0 +1,12 @@
+tools:
+  xml-diff:
+    title: XML 差異比對
+    description: 比對兩段 XML 文字，逐行標示差異。
+    firstLabel: 原始 XML
+    firstPlaceholder: 在此貼上第一段 XML...
+    secondLabel: 比對 XML
+    secondPlaceholder: 在此貼上第二段 XML...
+    invalidXml: XML 格式無效
+    prettify: 比對前先格式化（忽略縮排差異）
+    onlyDiff: 僅顯示差異
+    same: 兩段 XML 完全相同

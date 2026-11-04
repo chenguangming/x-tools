@@ -1,0 +1,12 @@
+tools:
+  xml-diff:
+    title: XML 差分比較
+    description: 2 つの XML を比較し、差分を行単位でハイライトします。
+    firstLabel: 元の XML
+    firstPlaceholder: 1 つ目の XML を貼り付け...
+    secondLabel: 比較する XML
+    secondPlaceholder: 2 つ目の XML を貼り付け...
+    invalidXml: 無効な XML
+    prettify: 比較前に整形（インデントの違いを無視）
+    onlyDiff: 差分のみ表示
+    same: 2 つの XML は同一です
