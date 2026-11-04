@@ -48,6 +48,10 @@ about:
 
     And if you found a bug, or something doesn't work as expected, please file a bug report in the [issues section](https://github.com/chenguangming/x-tools/issues/new/choose) in the GitHub repository.
 
+    ## Privacy
+
+    X-Tools uses self-hosted, anonymous usage statistics (page views, tools opened, favorites, language and theme changes, and search keywords). It does not use cookies, does not store your IP address, and does not track you across sites. Your favorites and settings are stored only in your browser. You can opt out by enabling Do Not Track in your browser.
+
 404:
   notFound: '404 Not Found'
   sorry: 'Sorry, this page does not seem to exist'

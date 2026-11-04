@@ -48,6 +48,10 @@ about:
 
     Et si vous avez trouvé un bug, ou si quelque chose ne fonctionne pas comme prévu, merci de créer un rapport de bug dans la [section issues](https://github.com/chenguangming/x-tools/issues/new/choose) du dépôt GitHub.
 
+    ## Confidentialité
+
+    X-Tools utilise des statistiques d'utilisation anonymes auto-hébergées (pages vues, outils ouverts, favoris, changements de langue et de thème, mots-clés de recherche). Aucun cookie n'est utilisé, votre adresse IP n'est pas conservée et vous n'êtes pas suivi d'un site à l'autre. Vos favoris et réglages sont stockés uniquement dans votre navigateur. Vous pouvez vous y opposer en activant « Ne pas suivre » dans votre navigateur.
+
 404:
   notFound: '404 Introuvable'
   sorry: "Désolé, cette page n'existe pas"

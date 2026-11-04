@@ -48,6 +48,10 @@ about:
 
     Og hvis du har funnet en feil, eller noe ikke fungerer som forventet, send gjerne inn en feilrapport i [problemseksjonen](https://github.com/chenguangming/x-tools/issues/new/choose) i GitHub-depotet.
 
+    ## Personvern
+
+    X-Tools bruker selvdrevet, anonym bruksstatistikk (sidevisninger, åpnede verktøy, favoritter, språk- og temaendringer og søkeord). Det brukes ingen informasjonskapsler, IP-adressen din lagres ikke, og du spores ikke på tvers av nettsteder. Favoritter og innstillinger lagres bare i nettleseren din. Du kan velge bort statistikken ved å slå på «Do Not Track» i nettleseren.
+
 404:
   notFound: '404 ikke funnet'
   sorry: 'Beklager, denne siden ser ikke ut til å eksistere'

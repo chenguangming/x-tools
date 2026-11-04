@@ -48,6 +48,10 @@ about:
 
     如果您發現了 Bug，或者某些功能未能如預期運作，請在 GitHub 儲存庫的 [issues](https://github.com/chenguangming/x-tools/issues/new/choose) 中提交錯誤回報。
 
+    ## 隱私說明
+
+    X-Tools 使用自行託管的匿名使用統計（頁面瀏覽、開啟的工具、收藏、語言與主題切換以及搜尋關鍵字）。不使用 Cookie，不儲存您的 IP 位址，也不會跨站追蹤您。您的收藏與設定僅儲存在瀏覽器本機。如需退出統計，請在瀏覽器中開啟「不要追蹤」。
+
 404:
   notFound: '404 找不到頁面'
   sorry: '抱歉，該頁面似乎不存在'

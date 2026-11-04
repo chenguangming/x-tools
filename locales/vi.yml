@@ -48,6 +48,10 @@ about:
 
     Và nếu bạn phát hiện lỗi, hoặc có điều gì đó không hoạt động như mong đợi, vui lòng gửi báo cáo lỗi tại [mục Issues](https://github.com/chenguangming/x-tools/issues/new/choose) của kho GitHub.
 
+    ## Quyền riêng tư
+
+    X-Tools sử dụng thống kê sử dụng ẩn danh do chúng tôi tự lưu trữ (lượt xem trang, công cụ đã mở, mục yêu thích, thay đổi ngôn ngữ và giao diện, và từ khóa tìm kiếm). Không dùng cookie, không lưu địa chỉ IP của bạn và không theo dõi bạn giữa các trang web. Mục yêu thích và cài đặt chỉ được lưu trong trình duyệt của bạn. Bạn có thể từ chối bằng cách bật “Do Not Track” trong trình duyệt.
+
 404:
   notFound: '404 Không Tìm Thấy'
   sorry: 'Xin lỗi, trang này dường như không tồn tại'

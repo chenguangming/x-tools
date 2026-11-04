@@ -63,6 +63,11 @@ about:
     funktioniert, melde bitte einen Fehler im
     [Issues-Bereich](https://github.com/chenguangming/x-tools/issues/new/choose)
     im GitHub-Repository.
+
+    ## Datenschutz
+
+    X-Tools verwendet selbst gehostete, anonyme Nutzungsstatistiken (Seitenaufrufe, geöffnete Tools, Favoriten, Sprach- und Designwechsel sowie Suchbegriffe). Es werden keine Cookies verwendet, Ihre IP-Adresse wird nicht gespeichert und Sie werden nicht seitenübergreifend verfolgt. Favoriten und Einstellungen werden nur in Ihrem Browser gespeichert. Sie können widersprechen, indem Sie „Do Not Track“ in Ihrem Browser aktivieren.
+
 '404':
   notFound: 404 Nicht gefunden
   sorry: Entschuldigung, diese Seite scheint nicht zu existieren

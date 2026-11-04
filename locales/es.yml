@@ -48,6 +48,10 @@ about:
 
     Y si encontró un error, o algo no funciona como se esperaba, presente un informe de error en la [sección de issues](https://github.com/chenguangming/x-tools/issues/new/choose) del repositorio de GitHub.
 
+    ## Privacidad
+
+    X-Tools utiliza estadísticas de uso anónimas y alojadas por nosotros (visitas de página, herramientas abiertas, favoritos, cambios de idioma y tema, y palabras clave de búsqueda). No usa cookies, no almacena su dirección IP y no le rastrea entre sitios. Sus favoritos y ajustes se guardan solo en su navegador. Puede excluirse activando «No rastrear» en su navegador.
+
 404:
   notFound: '404 No encontrado'
   sorry: 'Lo sentimos, esta página no parece existir'
