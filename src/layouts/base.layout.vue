@@ -40,19 +40,19 @@ function goBack() {
 
           <c-tooltip :tooltip="$t('home.back')" position="bottom">
             <c-button circle variant="text" :aria-label="$t('home.back')" @click="goBack">
-              <NIcon size="25" :component="ArrowLeft" />
+              <NIcon size="25"><ArrowLeft /></NIcon>
             </c-button>
           </c-tooltip>
 
           <c-tooltip :tooltip="$t('home.home')" position="bottom">
             <c-button to="/" circle variant="text" :aria-label="$t('home.home')">
-              <NIcon size="25" :component="Home2" />
+              <NIcon size="25"><Home2 /></NIcon>
             </c-button>
           </c-tooltip>
 
           <c-tooltip :tooltip="$t('home.forward')" position="bottom">
             <c-button circle variant="text" :disabled="!canGoForward" :aria-label="$t('home.forward')" @click="router.forward()">
-              <NIcon size="25" :component="ArrowRight" />
+              <NIcon size="25"><ArrowRight /></NIcon>
             </c-button>
           </c-tooltip>
 
@@ -80,7 +80,7 @@ function goBack() {
               :bordered="false"
             >
               {{ $t('home.buyMeACoffee') }}
-              <NIcon v-if="!styleStore.isSmallScreen" :component="Heart" ml-2 />
+              <NIcon v-if="!styleStore.isSmallScreen" ml-2><Heart /></NIcon>
             </c-button>
           </c-tooltip>
         </div>

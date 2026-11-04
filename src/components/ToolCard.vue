@@ -13,7 +13,7 @@ const theme = useThemeVars();
     <c-card class="h-full transition transition-duration-0.5s !border-2px !hover:border-primary">
       <div flex items-center justify-between gap-8px>
         <div min-w-0 flex items-center gap-8px>
-          <n-icon class="shrink-0 text-neutral-400 dark:text-neutral-600" size="28" :component="tool.icon" />
+          <n-icon class="shrink-0 text-neutral-400 dark:text-neutral-600" size="28"><component :is="tool.icon" /></n-icon>
 
           <div class="truncate text-lg text-black dark:text-white">
             {{ tool.name }}

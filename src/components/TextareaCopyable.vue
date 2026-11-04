@@ -55,7 +55,7 @@ const tooltipText = computed(() => isJustCopied.value ? 'Copied!' : copyMessage.
       <div absolute right-10px top-10px>
         <c-tooltip v-if="value" :tooltip="tooltipText" position="left">
           <c-button circle important:h-10 important:w-10 @click="copy()">
-            <n-icon size="22" :component="Copy" />
+            <n-icon size="22"><Copy /></n-icon>
           </c-button>
         </c-tooltip>
       </div>

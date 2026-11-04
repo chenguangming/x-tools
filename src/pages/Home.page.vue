@@ -38,7 +38,7 @@ function onUpdateFavoriteTools() {
             :aria-label="$t('home.follow.githubRepository')"
           >GitHub</a>.
           {{ $t('home.follow.thankYou') }}
-          <n-icon :component="IconHeart" />
+          <n-icon><IconHeart /></n-icon>
         </ColoredCard>
       </div>
 
@@ -47,7 +47,7 @@ function onUpdateFavoriteTools() {
           <h3 class="mb-5px text-neutral-400 font-500">
             {{ $t('home.categories.favoriteTools') }}
             <c-tooltip v-if="favoriteTools.length > 0" :tooltip="$t('home.categories.favoritesDndToolTip')">
-              <n-icon :component="IconDragDrop" size="18" />
+              <n-icon size="18"><IconDragDrop /></n-icon>
             </c-tooltip>
           </h3>
           <Draggable
