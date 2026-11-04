@@ -42,9 +42,9 @@ const isAboutOpen = ref(false);
 
 <style lang="less" scoped>
 .about-content {
-  width: min(600px, 80vw);
   max-height: 70vh;
   overflow: auto;
+  overflow-wrap: anywhere;
 }
 
 .n-button {

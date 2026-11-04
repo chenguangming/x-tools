@@ -90,7 +90,7 @@ function goBack() {
       <NavbarButtons />
     </div>
 
-    <main class="page-content">
+    <main class="page-content" :class="{ isSmallScreen: styleStore.isSmallScreen }">
       <slot />
     </main>
 
@@ -156,7 +156,13 @@ function goBack() {
 
 .page-content {
   flex: 1;
-  padding: 0 26px;
+  width: 66.667%;
+  margin: 0 auto;
+
+  &.isSmallScreen {
+    width: 100%;
+    padding: 0 16px;
+  }
 }
 
 .support-button {
