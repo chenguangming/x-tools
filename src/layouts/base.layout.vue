@@ -30,93 +30,95 @@ function goBack() {
 </script>
 
 <template>
-  <n-layout class="base-layout" :native-scrollbar="false" content-style="min-height: 100vh; display: flex; flex-direction: column;">
-    <header class="top-bar">
-      <div class="top-bar-inner" :class="{ isSmallScreen: styleStore.isSmallScreen }">
-        <RouterLink to="/" class="brand">
-          X - TOOLS
-        </RouterLink>
+  <n-layout class="base-layout" :native-scrollbar="false">
+    <div class="page-card" :class="{ isSmallScreen: styleStore.isSmallScreen }">
+      <header class="top-bar">
+        <div class="top-bar-inner" :class="{ isSmallScreen: styleStore.isSmallScreen }">
+          <RouterLink to="/" class="brand">
+            X - TOOLS
+          </RouterLink>
 
-        <c-tooltip :tooltip="$t('home.back')" position="bottom">
-          <c-button circle variant="text" :aria-label="$t('home.back')" @click="goBack">
-            <NIcon size="25" :component="ArrowLeft" />
-          </c-button>
-        </c-tooltip>
+          <c-tooltip :tooltip="$t('home.back')" position="bottom">
+            <c-button circle variant="text" :aria-label="$t('home.back')" @click="goBack">
+              <NIcon size="25" :component="ArrowLeft" />
+            </c-button>
+          </c-tooltip>
 
-        <c-tooltip :tooltip="$t('home.home')" position="bottom">
-          <c-button to="/" circle variant="text" :aria-label="$t('home.home')">
-            <NIcon size="25" :component="Home2" />
-          </c-button>
-        </c-tooltip>
+          <c-tooltip :tooltip="$t('home.home')" position="bottom">
+            <c-button to="/" circle variant="text" :aria-label="$t('home.home')">
+              <NIcon size="25" :component="Home2" />
+            </c-button>
+          </c-tooltip>
 
-        <c-tooltip :tooltip="$t('home.forward')" position="bottom">
-          <c-button circle variant="text" :disabled="!canGoForward" :aria-label="$t('home.forward')" @click="router.forward()">
-            <NIcon size="25" :component="ArrowRight" />
-          </c-button>
-        </c-tooltip>
+          <c-tooltip :tooltip="$t('home.forward')" position="bottom">
+            <c-button circle variant="text" :disabled="!canGoForward" :aria-label="$t('home.forward')" @click="router.forward()">
+              <NIcon size="25" :component="ArrowRight" />
+            </c-button>
+          </c-tooltip>
 
-        <c-tooltip :tooltip="$t('home.uiLib')" position="bottom">
-          <c-button v-if="config.app.env === 'development'" to="/c-lib" circle variant="text" :aria-label="$t('home.uiLib')">
-            <icon-mdi:brush-variant text-20px />
-          </c-button>
-        </c-tooltip>
+          <c-tooltip :tooltip="$t('home.uiLib')" position="bottom">
+            <c-button v-if="config.app.env === 'development'" to="/c-lib" circle variant="text" :aria-label="$t('home.uiLib')">
+              <icon-mdi:brush-variant text-20px />
+            </c-button>
+          </c-tooltip>
 
-        <command-palette />
+          <command-palette />
 
-        <locale-selector v-if="!styleStore.isSmallScreen" />
+          <locale-selector v-if="!styleStore.isSmallScreen" />
 
-        <div>
-          <NavbarButtons v-if="!styleStore.isSmallScreen" />
+          <div>
+            <NavbarButtons v-if="!styleStore.isSmallScreen" />
+          </div>
+
+          <c-tooltip position="bottom" :tooltip="$t('home.support')">
+            <c-button
+              round
+              href="https://afdian.com/a/waying"
+              rel="noopener"
+              target="_blank"
+              class="support-button"
+              :bordered="false"
+            >
+              {{ $t('home.buyMeACoffee') }}
+              <NIcon v-if="!styleStore.isSmallScreen" :component="Heart" ml-2 />
+            </c-button>
+          </c-tooltip>
         </div>
+      </header>
 
-        <c-tooltip position="bottom" :tooltip="$t('home.support')">
-          <c-button
-            round
-            href="https://afdian.com/a/waying"
-            rel="noopener"
-            target="_blank"
-            class="support-button"
-            :bordered="false"
-          >
-            {{ $t('home.buyMeACoffee') }}
-            <NIcon v-if="!styleStore.isSmallScreen" :component="Heart" ml-2 />
-          </c-button>
-        </c-tooltip>
+      <div v-if="styleStore.isSmallScreen" flex flex-col items-center>
+        <locale-selector w="90%" />
+        <NavbarButtons />
       </div>
-    </header>
 
-    <div v-if="styleStore.isSmallScreen" flex flex-col items-center>
-      <locale-selector w="90%" />
-      <NavbarButtons />
-    </div>
+      <main class="page-content">
+        <slot />
+      </main>
 
-    <main class="page-content" :class="{ isSmallScreen: styleStore.isSmallScreen }">
-      <slot />
-    </main>
+      <div class="footer">
+        <div>
+          X-Tools
 
-    <div class="footer">
-      <div>
-        X-Tools
+          <template v-if="buildDate">
+            {{ buildDate }}
+          </template>
 
-        <template v-if="buildDate">
-          {{ buildDate }}
-        </template>
-
-        <template v-if="commitSha && commitSha.length > 0">
-          -
-          <c-link
-            target="_blank"
-            rel="noopener"
-            type="primary"
-            :href="`https://github.com/chenguangming/x-tools/tree/${commitSha}`"
-          >
-            {{ commitSha }}
-          </c-link>
-        </template>
-      </div>
-      <div>
-        © {{ new Date().getFullYear() }}
-        X-Tools
+          <template v-if="commitSha && commitSha.length > 0">
+            -
+            <c-link
+              target="_blank"
+              rel="noopener"
+              type="primary"
+              :href="`https://github.com/chenguangming/x-tools/tree/${commitSha}`"
+            >
+              {{ commitSha }}
+            </c-link>
+          </template>
+        </div>
+        <div>
+          © {{ new Date().getFullYear() }}
+          X-Tools
+        </div>
       </div>
     </div>
   </n-layout>
@@ -127,8 +129,29 @@ function goBack() {
   height: 100vh;
 }
 
-.top-bar {
+.page-card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 66.667%;
+  min-height: calc(100vh - 48px);
+  margin: 24px auto;
   background-color: v-bind('themeVars.cardColor');
+  border: 1px solid v-bind('themeVars.borderColor');
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+
+  &.isSmallScreen {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+.top-bar {
   border-bottom: 1px solid v-bind('themeVars.borderColor');
   padding: 12px 26px;
 
@@ -137,12 +160,7 @@ function goBack() {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    width: 66.667%;
-    margin: 0 auto;
-
-    &.isSmallScreen {
-      width: 100%;
-    }
+    width: 100%;
   }
 
   .brand {
@@ -156,13 +174,7 @@ function goBack() {
 
 .page-content {
   flex: 1;
-  width: 66.667%;
-  margin: 0 auto;
-
-  &.isSmallScreen {
-    width: 100%;
-    padding: 0 16px;
-  }
+  padding: 0 26px;
 }
 
 .support-button {
