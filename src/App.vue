@@ -4,6 +4,7 @@ import { NGlobalStyle, NMessageProvider, NNotificationProvider, darkTheme } from
 import { darkThemeOverrides, lightThemeOverrides } from './themes';
 import { layouts } from './layouts';
 import { useStyleStore } from './stores/style.store';
+import { LOCALE_STORAGE_KEY } from './plugins/i18n.plugin';
 
 const route = useRoute();
 const layout = computed(() => route?.meta?.layout ?? layouts.base);
@@ -14,10 +15,8 @@ const themeOverrides = computed(() => (styleStore.isDarkTheme ? darkThemeOverrid
 
 const { locale } = useI18n();
 
-syncRef(
-  locale,
-  useStorage('locale', locale),
-);
+// Persist only explicit changes, so the browser language stays the default until the user picks one
+watch(locale, value => localStorage.setItem(LOCALE_STORAGE_KEY, value));
 </script>
 
 <template>
