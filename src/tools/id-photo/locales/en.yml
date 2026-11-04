@@ -1,0 +1,36 @@
+tools:
+  id-photo:
+    title: ID photo maker
+    description: Crop a portrait to standard ID, passport or visa photo sizes, pick a background color (white, blue, red…) and export as JPG or PNG, optionally within a file size limit.
+    upload: Drag and drop a portrait here, or click to select one
+    notAnImage: Please select an image file.
+    cropFailed: Failed to generate the photo.
+    sizeLimitNotReached: 'Could not get below {size} KB without losing too much quality. Use a smaller size or a larger limit.'
+    size: Photo size
+    background: Background color
+    format: Format
+    maxSize: Max file size
+    noLimit: No limit
+    preview: Preview
+    save: Save photo
+    rotateLeft: Rotate left
+    rotateRight: Rotate right
+    zoomIn: Zoom in
+    zoomOut: Zoom out
+    reset: Reset
+    chooseAnother: Choose another photo
+    hint: Drag the photo to position the face inside the frame and scroll to zoom. Areas outside the photo are filled with the background color. Existing backgrounds are not replaced, use a photo with a plain background.
+    presets:
+      oneInch: 1 inch
+      smallOneInch: Small 1 inch
+      bigOneInch: Large 1 inch
+      twoInch: 2 inch
+      smallTwoInch: Small 2 inch (passport/visa)
+      bigTwoInch: Large 2 inch
+      square2in: US passport/visa (2×2 in)
+      custom: Custom size…
+    colors:
+      white: White
+      blue: Blue
+      red: Red
+      gray: Light gray

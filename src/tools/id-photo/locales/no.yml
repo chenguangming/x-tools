@@ -1,0 +1,36 @@
+tools:
+  id-photo:
+    title: Pass- og ID-bilde
+    description: Beskjær portretter til vanlige størrelser for ID-kort, pass og visum, velg bakgrunnsfarge (hvit, blå, rød …) og eksporter som JPG eller PNG, eventuelt med filstørrelsesgrense.
+    upload: Dra og slipp et portrett her, eller klikk for å velge ett
+    notAnImage: Velg en bildefil.
+    cropFailed: Kunne ikke lage bildet.
+    sizeLimitNotReached: 'Kunne ikke komme under {size} KB uten å miste for mye kvalitet. Bruk en mindre størrelse eller en høyere grense.'
+    size: Bildestørrelse
+    background: Bakgrunnsfarge
+    format: Format
+    maxSize: Maks filstørrelse
+    noLimit: Ingen grense
+    preview: Forhåndsvisning
+    save: Lagre bilde
+    rotateLeft: Roter til venstre
+    rotateRight: Roter til høyre
+    zoomIn: Zoom inn
+    zoomOut: Zoom ut
+    reset: Tilbakestill
+    chooseAnother: Velg et annet bilde
+    hint: Dra bildet for å plassere ansiktet i rammen, og bruk rullehjulet for å zoome. Områder utenfor bildet fylles med bakgrunnsfargen. Eksisterende bakgrunn byttes ikke ut, bruk et bilde med ensfarget bakgrunn.
+    presets:
+      oneInch: 1 tomme
+      smallOneInch: Liten 1 tomme
+      bigOneInch: Stor 1 tomme
+      twoInch: 2 tommer
+      smallTwoInch: Liten 2 tommer (pass/visum)
+      bigTwoInch: Stor 2 tommer
+      square2in: Amerikansk pass/visum (2×2 tommer)
+      custom: Egendefinert størrelse…
+    colors:
+      white: Hvit
+      blue: Blå
+      red: Rød
+      gray: Lysegrå

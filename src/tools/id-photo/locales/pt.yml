@@ -1,0 +1,36 @@
+tools:
+  id-photo:
+    title: Criador de foto para documentos
+    description: Corte retratos para os tamanhos comuns de foto de documento, passaporte ou visto, escolha a cor de fundo (branco, azul, vermelho…) e exporte em JPG ou PNG, com limite opcional de tamanho de arquivo.
+    upload: Arraste um retrato para aqui ou clique para selecionar
+    notAnImage: Selecione um arquivo de imagem.
+    cropFailed: Falha ao gerar a foto.
+    sizeLimitNotReached: 'Não foi possível ficar abaixo de {size} KB sem perder muita qualidade. Use um tamanho menor ou um limite maior.'
+    size: Tamanho da foto
+    background: Cor de fundo
+    format: Formato
+    maxSize: Tamanho máximo do arquivo
+    noLimit: Sem limite
+    preview: Pré-visualizar
+    save: Salvar foto
+    rotateLeft: Girar à esquerda
+    rotateRight: Girar à direita
+    zoomIn: Aumentar zoom
+    zoomOut: Diminuir zoom
+    reset: Redefinir
+    chooseAnother: Escolher outra foto
+    hint: Arraste a foto para posicionar o rosto dentro da moldura e role para dar zoom. As áreas fora da foto são preenchidas com a cor de fundo. O fundo existente não é substituído, use uma foto com fundo liso.
+    presets:
+      oneInch: 1 polegada
+      smallOneInch: 1 polegada pequena
+      bigOneInch: 1 polegada grande
+      twoInch: 2 polegadas
+      smallTwoInch: 2 polegadas pequena (passaporte/visto)
+      bigTwoInch: 2 polegadas grande
+      square2in: Passaporte/visto EUA (2×2 pol)
+      custom: Tamanho personalizado…
+    colors:
+      white: Branco
+      blue: Azul
+      red: Vermelho
+      gray: Cinza claro

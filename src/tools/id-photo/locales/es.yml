@@ -1,0 +1,36 @@
+tools:
+  id-photo:
+    title: Creador de fotos de carnet
+    description: Recorta retratos a los tamaños habituales de carnet, pasaporte o visado, elige el color de fondo (blanco, azul, rojo…) y exporta en JPG o PNG, con límite de tamaño de archivo opcional.
+    upload: Arrastra un retrato aquí o haz clic para seleccionarlo
+    notAnImage: Selecciona un archivo de imagen.
+    cropFailed: No se pudo generar la foto.
+    sizeLimitNotReached: 'No fue posible bajar de {size} KB sin perder demasiada calidad. Usa un tamaño menor o un límite mayor.'
+    size: Tamaño de la foto
+    background: Color de fondo
+    format: Formato
+    maxSize: Tamaño máximo de archivo
+    noLimit: Sin límite
+    preview: Vista previa
+    save: Guardar foto
+    rotateLeft: Girar a la izquierda
+    rotateRight: Girar a la derecha
+    zoomIn: Acercar
+    zoomOut: Alejar
+    reset: Restablecer
+    chooseAnother: Elegir otra foto
+    hint: Arrastra la foto para situar el rostro dentro del marco y usa la rueda para hacer zoom. Las zonas fuera de la foto se rellenan con el color de fondo. El fondo existente no se sustituye, usa una foto con fondo liso.
+    presets:
+      oneInch: 1 pulgada
+      smallOneInch: 1 pulgada pequeña
+      bigOneInch: 1 pulgada grande
+      twoInch: 2 pulgadas
+      smallTwoInch: 2 pulgadas pequeña (pasaporte/visado)
+      bigTwoInch: 2 pulgadas grande
+      square2in: Pasaporte/visado EE. UU. (2×2 in)
+      custom: Tamaño personalizado…
+    colors:
+      white: Blanco
+      blue: Azul
+      red: Rojo
+      gray: Gris claro

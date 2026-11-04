@@ -1,0 +1,36 @@
+tools:
+  id-photo:
+    title: Créateur de photo d'identité
+    description: Recadrez un portrait aux formats courants de photo d'identité, passeport ou visa, choisissez la couleur de fond (blanc, bleu, rouge…) et exportez en JPG ou PNG, avec une limite de taille de fichier optionnelle.
+    upload: Glissez-déposez un portrait ici ou cliquez pour en sélectionner un
+    notAnImage: Veuillez sélectionner un fichier image.
+    cropFailed: Échec de la génération de la photo.
+    sizeLimitNotReached: 'Impossible de descendre sous {size} Ko sans trop perdre en qualité. Utilisez une taille plus petite ou une limite plus haute.'
+    size: Taille de la photo
+    background: Couleur de fond
+    format: Format
+    maxSize: Taille maximale du fichier
+    noLimit: Sans limite
+    preview: Aperçu
+    save: Enregistrer la photo
+    rotateLeft: Pivoter à gauche
+    rotateRight: Pivoter à droite
+    zoomIn: Zoom avant
+    zoomOut: Zoom arrière
+    reset: Réinitialiser
+    chooseAnother: Choisir une autre photo
+    hint: Faites glisser la photo pour placer le visage dans le cadre et utilisez la molette pour zoomer. Les zones hors de la photo sont remplies avec la couleur de fond. Le fond existant n'est pas remplacé, utilisez une photo à fond uni.
+    presets:
+      oneInch: 1 pouce
+      smallOneInch: Petit 1 pouce
+      bigOneInch: Grand 1 pouce
+      twoInch: 2 pouces
+      smallTwoInch: Petit 2 pouces (passeport/visa)
+      bigTwoInch: Grand 2 pouces
+      square2in: Passeport/visa US (2×2 po)
+      custom: Taille personnalisée…
+    colors:
+      white: Blanc
+      blue: Bleu
+      red: Rouge
+      gray: Gris clair

@@ -1,0 +1,36 @@
+tools:
+  id-photo:
+    title: Tạo ảnh thẻ
+    description: Cắt ảnh chân dung theo kích thước ảnh thẻ, hộ chiếu, visa phổ biến, chọn màu nền (trắng, xanh, đỏ…) và xuất JPG hoặc PNG, có thể giới hạn dung lượng tệp.
+    upload: Kéo thả ảnh chân dung vào đây hoặc nhấp để chọn
+    notAnImage: Vui lòng chọn một tệp ảnh.
+    cropFailed: Không thể tạo ảnh.
+    sizeLimitNotReached: 'Không thể giảm xuống dưới {size} KB mà không làm giảm chất lượng quá nhiều. Hãy dùng kích thước nhỏ hơn hoặc giới hạn cao hơn.'
+    size: Kích thước ảnh
+    background: Màu nền
+    format: Định dạng
+    maxSize: Dung lượng tối đa
+    noLimit: Không giới hạn
+    preview: Xem trước
+    save: Lưu ảnh
+    rotateLeft: Xoay trái
+    rotateRight: Xoay phải
+    zoomIn: Phóng to
+    zoomOut: Thu nhỏ
+    reset: Đặt lại
+    chooseAnother: Chọn ảnh khác
+    hint: Kéo ảnh để đặt khuôn mặt vào khung và cuộn để thu phóng. Vùng ngoài ảnh sẽ được lấp bằng màu nền. Nền có sẵn sẽ không bị thay thế, hãy dùng ảnh có nền đơn sắc.
+    presets:
+      oneInch: 1 inch
+      smallOneInch: 1 inch nhỏ
+      bigOneInch: 1 inch lớn
+      twoInch: 2 inch
+      smallTwoInch: 2 inch nhỏ (hộ chiếu/visa)
+      bigTwoInch: 2 inch lớn
+      square2in: Hộ chiếu/visa Mỹ (2×2 in)
+      custom: Kích thước tùy chỉnh…
+    colors:
+      white: Trắng
+      blue: Xanh
+      red: Đỏ
+      gray: Xám nhạt

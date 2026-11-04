@@ -1,0 +1,36 @@
+tools:
+  id-photo:
+    title: Passbild-Ersteller
+    description: Porträts auf gängige Ausweis-, Reisepass- und Visumformate zuschneiden, eine Hintergrundfarbe (Weiß, Blau, Rot …) wählen und als JPG oder PNG exportieren, optional mit Dateigrößenlimit.
+    upload: Porträt hierher ziehen oder klicken, um eines auszuwählen
+    notAnImage: Bitte wähle eine Bilddatei aus.
+    cropFailed: Das Foto konnte nicht erstellt werden.
+    sizeLimitNotReached: 'Ohne große Qualitätseinbußen waren keine {size} KB erreichbar. Wähle eine kleinere Größe oder ein höheres Limit.'
+    size: Fotogröße
+    background: Hintergrundfarbe
+    format: Format
+    maxSize: Maximale Dateigröße
+    noLimit: Kein Limit
+    preview: Vorschau
+    save: Foto speichern
+    rotateLeft: Nach links drehen
+    rotateRight: Nach rechts drehen
+    zoomIn: Vergrößern
+    zoomOut: Verkleinern
+    reset: Zurücksetzen
+    chooseAnother: Anderes Foto wählen
+    hint: Foto ziehen, um das Gesicht im Rahmen zu platzieren, und scrollen zum Zoomen. Bereiche außerhalb des Fotos werden mit der Hintergrundfarbe gefüllt. Vorhandene Hintergründe werden nicht ersetzt, verwende ein Foto mit einfarbigem Hintergrund.
+    presets:
+      oneInch: 1 Zoll
+      smallOneInch: Kleines 1 Zoll
+      bigOneInch: Großes 1 Zoll
+      twoInch: 2 Zoll
+      smallTwoInch: Kleines 2 Zoll (Pass/Visum)
+      bigTwoInch: Großes 2 Zoll
+      square2in: US-Pass/Visum (2×2 Zoll)
+      custom: Eigene Größe …
+    colors:
+      white: Weiß
+      blue: Blau
+      red: Rot
+      gray: Hellgrau

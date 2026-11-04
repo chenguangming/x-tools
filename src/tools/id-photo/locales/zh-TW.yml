@@ -1,0 +1,36 @@
+tools:
+  id-photo:
+    title: 證件照製作
+    description: 將人像裁剪為常見證件照、護照、簽證尺寸，直接選擇背景色（白、藍、紅等），匯出 JPG 或 PNG，還可限制檔案大小。
+    upload: 拖放人像照片到此處，或點擊選擇
+    notAnImage: 請選擇圖片檔案。
+    cropFailed: 產生照片失敗。
+    sizeLimitNotReached: '無法在不明顯損失畫質的前提下壓縮到 {size} KB 以下，請改用更小的尺寸或放寬限制。'
+    size: 照片尺寸
+    background: 背景色
+    format: 格式
+    maxSize: 檔案大小上限
+    noLimit: 不限制
+    preview: 預覽
+    save: 儲存照片
+    rotateLeft: 向左旋轉
+    rotateRight: 向右旋轉
+    zoomIn: 放大
+    zoomOut: 縮小
+    reset: 重設
+    chooseAnother: 更換照片
+    hint: 拖曳照片讓人臉位於框內，滾輪縮放。超出照片的區域會填滿背景色；本工具不會替換照片原有背景，請使用純色背景的照片。
+    presets:
+      oneInch: 一吋
+      smallOneInch: 小一吋
+      bigOneInch: 大一吋
+      twoInch: 二吋
+      smallTwoInch: 小二吋（護照/簽證）
+      bigTwoInch: 大二吋
+      square2in: 美國護照/簽證（2×2 英吋）
+      custom: 自訂尺寸…
+    colors:
+      white: 白色
+      blue: 藍色
+      red: 紅色
+      gray: 淺灰

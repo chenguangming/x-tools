@@ -1,0 +1,36 @@
+tools:
+  id-photo:
+    title: 証明写真メーカー
+    description: ポートレートを一般的な証明写真・パスポート・ビザのサイズに切り抜き、背景色（白・青・赤など）を選んで JPG または PNG で出力します。ファイルサイズの上限も指定できます。
+    upload: 人物写真をここにドラッグ＆ドロップするか、クリックして選択
+    notAnImage: 画像ファイルを選択してください。
+    cropFailed: 写真の生成に失敗しました。
+    sizeLimitNotReached: '画質を大きく損なわずに {size} KB 以下にできませんでした。より小さいサイズか大きい上限を指定してください。'
+    size: 写真サイズ
+    background: 背景色
+    format: 形式
+    maxSize: ファイルサイズ上限
+    noLimit: 制限なし
+    preview: プレビュー
+    save: 写真を保存
+    rotateLeft: 左に回転
+    rotateRight: 右に回転
+    zoomIn: 拡大
+    zoomOut: 縮小
+    reset: リセット
+    chooseAnother: 別の写真を選択
+    hint: 写真をドラッグして顔を枠内に合わせ、スクロールでズームします。写真の外側は背景色で塗りつぶされます。元の背景は置き換えないため、無地の背景の写真を使用してください。
+    presets:
+      oneInch: 1インチ
+      smallOneInch: 小1インチ
+      bigOneInch: 大1インチ
+      twoInch: 2インチ
+      smallTwoInch: 小2インチ（パスポート/ビザ）
+      bigTwoInch: 大2インチ
+      square2in: 米国パスポート/ビザ（2×2インチ）
+      custom: カスタムサイズ…
+    colors:
+      white: 白
+      blue: 青
+      red: 赤
+      gray: ライトグレー
