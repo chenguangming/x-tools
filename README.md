@@ -1,12 +1,47 @@
 <picture>
     <source srcset="./.github/logo-dark.png" media="(prefers-color-scheme: light)">
     <source srcset="./.github/logo-white.png" media="(prefers-color-scheme: dark)">
-    <img src="./.github/logo-dark.png" alt="logo">
+    <img src="./.github/logo-dark.png" alt="X-Tools logo">
 </picture>
 
 <p align="center">
-X-Tools: handy online tools for everyone, built on top of <a href="https://github.com/CorentinTh/it-tools">IT-Tools</a>.
+  <b>Handy online tools for everyone, beyond just IT.</b><br>
+  <a href="https://xtools.codestudio.uk">Live demo</a> · <a href="https://afdian.com/a/waying">Sponsor</a>
 </p>
+
+<p align="center">
+  English | <a href="./README.zh-CN.md">简体中文</a> | <a href="./README.zh-TW.md">繁體中文</a> | <a href="./README.ja.md">日本語</a> | <a href="./README.ko.md">한국어</a>
+</p>
+
+## Why X-Tools
+
+[IT-Tools](https://github.com/CorentinTh/it-tools) is a great collection of utilities, but it focuses on developers. X-Tools is a fork with a different goal: **expand the toolbox with more tools for everyday life and work, not only IT**, and make them easier to find.
+
+**Try it now: [xtools.codestudio.uk](https://xtools.codestudio.uk)**
+
+## What's new compared with IT-Tools
+
+- **New home page**: tools are grouped into category tabs, and the home tab shows your favorite tools (drag to reorder) and the newest tools. The old sidebar is gone.
+- **New tools**
+  - **Image cropper**: crop to a ratio or exact size (or freely), change the background color, and export as PNG, JPG or WebP.
+  - **ID photo maker**: preset ID, passport and visa sizes (1 inch, 2 inch, US 2x2 in...), background color swatches, and an optional maximum file size.
+  - **XML diff**: compare two XML documents line by line, ignoring formatting differences.
+- **12 languages**: English, 简体中文, 繁體中文, 日本語, 한국어, Deutsch, Español, Français, Norsk, Português, Українська, Tiếng Việt. The browser language is used by default, and your own choice always wins.
+- **New brand and logo**: two wrenches crossed into an "X" over a gear.
+
+## Screenshots
+
+| Light | Dark |
+| --- | --- |
+| ![Home (light)](./docs/screenshots/home-light.png) | ![Home (dark)](./docs/screenshots/home-dark.png) |
+
+| Image cropper | ID photo maker | XML diff |
+| --- | --- | --- |
+| ![Image cropper](./docs/screenshots/image-cropper.png) | ![ID photo maker](./docs/screenshots/id-photo.png) | ![XML diff](./docs/screenshots/xml-diff.png) |
+
+## Sponsor
+
+X-Tools is free forever and open source (GPL-3.0), but hosting and the domain cost money. If it helps you, please consider supporting the project on **[Afdian (爱发电)](https://afdian.com/a/waying)**. It also encourages more new tools. Thank you!
 
 ## Functionalities and roadmap
 
