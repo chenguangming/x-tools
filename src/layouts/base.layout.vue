@@ -9,7 +9,7 @@ import { useStyleStore } from '@/stores/style.store';
 import { config } from '@/config';
 
 const styleStore = useStyleStore();
-const version = config.app.version;
+const buildDate = config.app.buildDate;
 const commitSha = config.app.lastCommitSha.slice(0, 7);
 
 const router = useRouter();
@@ -95,9 +95,9 @@ function goBack() {
       <div>
         X-Tools
 
-        <c-link target="_blank" rel="noopener" :href="`https://github.com/chenguangming/x-tools/tree/v${version}`">
-          v{{ version }}
-        </c-link>
+        <template v-if="buildDate">
+          {{ buildDate }}
+        </template>
 
         <template v-if="commitSha && commitSha.length > 0">
           -

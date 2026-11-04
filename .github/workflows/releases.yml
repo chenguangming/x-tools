@@ -41,6 +41,8 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
+          build-args: |
+            GIT_COMMIT_SHA=${{ github.sha }}
           tags: |
             wayings/x-tools:latest
             wayings/x-tools:${{ env.RELEASE_VERSION }}

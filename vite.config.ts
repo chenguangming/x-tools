@@ -1,3 +1,5 @@
+import { execSync } from 'node:child_process';
+import process from 'node:process';
 import { resolve } from 'node:path';
 import { URL, fileURLToPath } from 'node:url';
 
@@ -17,6 +19,21 @@ import svgLoader from 'vite-svg-loader';
 import { configDefaults } from 'vitest/config';
 
 const baseUrl = process.env.BASE_URL ?? '/';
+
+function getCommitSha() {
+  if (process.env.GIT_COMMIT_SHA) {
+    return process.env.GIT_COMMIT_SHA.slice(0, 7);
+  }
+
+  try {
+    return execSync('git rev-parse --short=7 HEAD', { stdio: ['ignore', 'pipe', 'ignore'] }).toString().trim();
+  }
+  catch {
+    return '';
+  }
+}
+
+const buildDate = new Date().toISOString().slice(0, 10);
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -106,6 +123,8 @@ export default defineConfig({
   },
   define: {
     'import.meta.env.PACKAGE_VERSION': JSON.stringify(process.env.npm_package_version),
+    'import.meta.env.BUILD_DATE': JSON.stringify(buildDate),
+    'import.meta.env.GIT_COMMIT_SHA': JSON.stringify(getCommitSha()),
   },
   test: {
     exclude: [...configDefaults.exclude, '**/*.e2e.spec.ts'],

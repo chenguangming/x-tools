@@ -8,11 +8,17 @@ export const config = figue({
       default: '0.0.0',
       env: 'PACKAGE_VERSION',
     },
+    buildDate: {
+      doc: 'Application build date (YYYY-MM-DD)',
+      format: 'string',
+      default: '',
+      env: 'BUILD_DATE',
+    },
     lastCommitSha: {
       doc: 'Application last commit SHA version',
       format: 'string',
       default: '',
-      env: 'VITE_VERCEL_GIT_COMMIT_SHA',
+      env: 'GIT_COMMIT_SHA',
     },
     baseUrl: {
       doc: 'Application base url',

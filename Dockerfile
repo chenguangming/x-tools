@@ -7,6 +7,8 @@ WORKDIR /app
 COPY package.json pnpm-lock.yaml ./
 RUN npm install -g pnpm && pnpm i --frozen-lockfile
 COPY . .
+ARG GIT_COMMIT_SHA
+ENV GIT_COMMIT_SHA=$GIT_COMMIT_SHA
 RUN pnpm build
 
 # production stage
