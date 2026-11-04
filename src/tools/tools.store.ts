@@ -5,8 +5,29 @@ import _ from 'lodash';
 import type { Tool, ToolCategory, ToolWithCategory } from './tools.types';
 import { toolsWithCategory } from './index';
 
+const defaultFavoriteTools = [
+  '/base64-string-converter',
+  '/hash-text',
+  '/git-memo',
+  '/date-converter',
+  '/text-to-unicode',
+  '/uuid-generator',
+  '/json-prettify',
+  '/url-encoder',
+];
+
 export const useToolStore = defineStore('tools', () => {
-  const favoriteToolsName = useStorage('favoriteToolsName', []) as Ref<string[]>;
+  const favoriteToolsName = useStorage('favoriteToolsName', [...defaultFavoriteTools]) as Ref<string[]>;
+
+  // Defaults are seeded once; afterwards an empty list is a deliberate user choice
+  const favoritesInitialized = useStorage('favoriteToolsInitialized', false);
+  if (!favoritesInitialized.value) {
+    if (favoriteToolsName.value.length === 0) {
+      favoriteToolsName.value = [...defaultFavoriteTools];
+    }
+    favoritesInitialized.value = true;
+  }
+
   const { t } = useI18n();
 
   const tools = computed<ToolWithCategory[]>(() => toolsWithCategory.map((tool) => {
@@ -17,16 +38,17 @@ export const useToolStore = defineStore('tools', () => {
       path: tool.path,
       name: t(`tools.${toolI18nKey}.title`, tool.name),
       description: t(`tools.${toolI18nKey}.description`, tool.description),
+      categoryKey: tool.category.toLowerCase(),
       category: t(`tools.categories.${tool.category.toLowerCase()}`, tool.category),
     });
   }));
 
   const toolsByCategory = computed<ToolCategory[]>(() => {
     return _.chain(tools.value)
-      .groupBy('category')
-      .map((components, name, path) => ({
-        name,
-        path,
+      .groupBy('categoryKey')
+      .map((components, key) => ({
+        key,
+        name: components[0].category,
         components,
       }))
       .value();

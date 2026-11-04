@@ -2,6 +2,7 @@
 import { IconDragDrop, IconHeart } from '@tabler/icons-vue';
 import { useHead } from '@vueuse/head';
 import { computed } from 'vue';
+import { useRouteQuery } from '@vueuse/router';
 import Draggable from 'vuedraggable';
 import ColoredCard from '../components/ColoredCard.vue';
 import ToolCard from '../components/ToolCard.vue';
@@ -12,6 +13,9 @@ const toolStore = useToolStore();
 
 useHead({ title: 'IT Tools - Handy online tools for developers' });
 const { t } = useI18n();
+
+const activeTab = useRouteQuery('tab', 'home');
+const gridClass = 'grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4';
 
 const favoriteTools = computed(() => toolStore.favoriteTools);
 
@@ -45,17 +49,18 @@ function onUpdateFavoriteTools() {
         </ColoredCard>
       </div>
 
-      <transition name="height">
-        <div v-if="toolStore.favoriteTools.length > 0">
-          <h3 class="mb-5px mt-25px text-neutral-400 font-500">
+      <n-tabs v-model:value="activeTab" type="line" animated class="mt-25px">
+        <n-tab-pane name="home" :tab="$t('home.home')">
+          <h3 class="mb-5px text-neutral-400 font-500">
             {{ $t('home.categories.favoriteTools') }}
-            <c-tooltip :tooltip="$t('home.categories.favoritesDndToolTip')">
+            <c-tooltip v-if="favoriteTools.length > 0" :tooltip="$t('home.categories.favoritesDndToolTip')">
               <n-icon :component="IconDragDrop" size="18" />
             </c-tooltip>
           </h3>
           <Draggable
+            v-if="favoriteTools.length > 0"
             :list="favoriteTools"
-            class="grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4"
+            :class="gridClass"
             ghost-class="ghost-favorites-draggable"
             item-key="name"
             @end="onUpdateFavoriteTools"
@@ -64,44 +69,31 @@ function onUpdateFavoriteTools() {
               <ToolCard :tool="tool" />
             </template>
           </Draggable>
-        </div>
-      </transition>
+          <div v-else class="text-neutral-400">
+            {{ $t('home.categories.emptyFavorites') }}
+          </div>
 
-      <div v-if="toolStore.newTools.length > 0">
-        <h3 class="mb-5px mt-25px text-neutral-400 font-500">
-          {{ t('home.categories.newestTools') }}
-        </h3>
-        <div class="grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
-          <ToolCard v-for="tool in toolStore.newTools" :key="tool.name" :tool="tool" />
-        </div>
-      </div>
+          <template v-if="toolStore.newTools.length > 0">
+            <h3 class="mb-5px mt-25px text-neutral-400 font-500">
+              {{ t('home.categories.newestTools') }}
+            </h3>
+            <div :class="gridClass">
+              <ToolCard v-for="tool in toolStore.newTools" :key="tool.name" :tool="tool" />
+            </div>
+          </template>
+        </n-tab-pane>
 
-      <h3 class="mb-5px mt-25px text-neutral-400 font-500">
-        {{ $t('home.categories.allTools') }}
-      </h3>
-      <div class="grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
-        <ToolCard v-for="tool in toolStore.tools" :key="tool.name" :tool="tool" />
-      </div>
+        <n-tab-pane v-for="category in toolStore.toolsByCategory" :key="category.name" :name="category.key" :tab="category.name">
+          <div :class="gridClass">
+            <ToolCard v-for="tool in category.components" :key="tool.name" :tool="tool" />
+          </div>
+        </n-tab-pane>
+      </n-tabs>
     </div>
   </div>
 </template>
 
 <style scoped lang="less">
-.height-enter-active,
-.height-leave-active {
-  transition: all 0.5s ease-in-out;
-  overflow: hidden;
-  max-height: 500px;
-}
-
-.height-enter-from,
-.height-leave-to {
-  max-height: 42px;
-  overflow: hidden;
-  opacity: 0;
-  margin-bottom: 0;
-}
-
 .ghost-favorites-draggable {
   opacity: 0.4;
   background-color: #ccc;

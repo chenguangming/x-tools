@@ -6,6 +6,7 @@ import type { HeadObject } from '@vueuse/head';
 import BaseLayout from './base.layout.vue';
 import FavoriteButton from '@/components/FavoriteButton.vue';
 import type { Tool } from '@/tools/tools.types';
+import { useToolStore } from '@/tools/tools.store';
 
 const route = useRoute();
 
@@ -24,6 +25,8 @@ const head = computed<HeadObject>(() => ({
 }));
 useHead(head);
 const { t } = useI18n();
+const toolStore = useToolStore();
+const currentTool = computed(() => toolStore.tools.find(({ path }) => path === route.path));
 
 const i18nKey = computed<string>(() => route.path.trim().replace('/', ''));
 const toolTitle = computed<string>(() => t(`tools.${i18nKey.value}.title`, String(route.meta.name)));
@@ -33,6 +36,22 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
 <template>
   <BaseLayout>
     <div class="tool-layout">
+      <n-breadcrumb class="breadcrumb">
+        <n-breadcrumb-item :clickable="false">
+          <router-link to="/">
+            {{ $t('home.home') }}
+          </router-link>
+        </n-breadcrumb-item>
+        <n-breadcrumb-item v-if="currentTool" :clickable="false">
+          <router-link :to="{ path: '/', query: { tab: currentTool.categoryKey } }">
+            {{ currentTool.category }}
+          </router-link>
+        </n-breadcrumb-item>
+        <n-breadcrumb-item :clickable="false">
+          {{ toolTitle }}
+        </n-breadcrumb-item>
+      </n-breadcrumb>
+
       <div class="tool-header">
         <div flex flex-nowrap items-center justify-between>
           <n-h1>
@@ -76,9 +95,10 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
   max-width: 600px;
   margin: 0 auto;
   box-sizing: border-box;
+  padding-top: 20px;
 
   .tool-header {
-    padding: 40px 0;
+    padding: 20px 0 40px;
     width: 100%;
 
     .n-h1 {

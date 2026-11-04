@@ -4,8 +4,11 @@ home:
     favoriteTools: 'Your favorite tools'
     allTools: 'All the tools'
     favoritesDndToolTip: 'Drag and drop to reorder favorites'
+    emptyFavorites: 'No favorites yet. Open a tool and click the heart to pin it here.'
   subtitle: 'Handy tools for developers'
   toggleMenu: 'Toggle menu'
+  back: 'Back'
+  forward: 'Forward'
   home: Home
   uiLib: 'UI Lib'
   support: 'Support IT-Tools development'
