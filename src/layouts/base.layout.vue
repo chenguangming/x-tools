@@ -31,7 +31,7 @@ function goBack() {
 
 <template>
   <n-layout class="base-layout" :native-scrollbar="false">
-    <div class="page-card" :class="{ isSmallScreen: styleStore.isSmallScreen }">
+    <div class="page-card">
       <header class="top-bar">
         <div class="top-bar-inner" :class="{ isSmallScreen: styleStore.isSmallScreen }">
           <RouterLink to="/" class="brand">
@@ -141,7 +141,7 @@ function goBack() {
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 
-  &.isSmallScreen {
+  @media (max-width: 1000px) {
     width: 100%;
     min-height: 100vh;
     margin: 0;
