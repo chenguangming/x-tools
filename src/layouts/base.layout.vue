@@ -141,7 +141,7 @@ function goBack() {
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1500px) {
     width: 100%;
     min-height: 100vh;
     margin: 0;
