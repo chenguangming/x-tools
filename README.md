@@ -21,7 +21,7 @@ Self host solutions for your homelab
 **From docker hub:**
 
 ```sh
-docker run -d --name x-tools --restart unless-stopped -p 8080:80 chenguangming/x-tools:latest
+docker run -d --name x-tools --restart unless-stopped -p 8080:80 wayings/x-tools:latest
 ```
 
 **From github packages:**
