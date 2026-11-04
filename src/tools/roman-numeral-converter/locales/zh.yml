@@ -1,0 +1,9 @@
+tools:
+  roman-numeral-converter:
+    outOfRange: '只能转换 {min} 到 {max} 之间的数字'
+    invalidRoman: '您输入的不是有效的罗马数字'
+    romanCopied: '罗马数字已复制到剪贴板'
+    arabicCopied: '阿拉伯数字已复制到剪贴板'
+    arabicToRoman: '阿拉伯数字转罗马数字'
+    romanToArabic: '罗马数字转阿拉伯数字'
+    copy: '复制'

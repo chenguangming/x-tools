@@ -1,0 +1,5 @@
+tools:
+  random-port-generator:
+    portCopied: 'Порт скопійовано в буфер обміну'
+    copy: 'Копіювати'
+    refresh: 'Оновити'

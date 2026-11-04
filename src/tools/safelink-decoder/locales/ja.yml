@@ -1,0 +1,5 @@
+tools:
+  safelink-decoder:
+    inputPlaceholder: 'Outlook SafeLink の URL を入力…'
+    inputLabel: '入力する Outlook SafeLink URL:'
+    outputLabel: 'デコードされた URL:'

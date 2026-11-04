@@ -1,0 +1,13 @@
+tools:
+  mac-address-generator:
+    copied: 'MAC-adresser kopiert til utklippstavlen'
+    uppercase: 'Store bokstaver'
+    lowercase: 'Små bokstaver'
+    none: 'Ingen'
+    quantity: 'Antall:'
+    prefixLabel: 'MAC-adresseprefiks:'
+    prefixPlaceholder: 'Angi et prefiks, f.eks. 64:16:7F'
+    caseLabel: 'Store/små bokstaver:'
+    separatorLabel: 'Skilletegn:'
+    refresh: 'Oppdater'
+    copy: 'Kopier'

@@ -1,0 +1,16 @@
+tools:
+  hmac-generator:
+    binary: 'Двійковий (base 2)'
+    hexadecimal: 'Шістнадцятковий (base 16)'
+    base64url: 'Base64-url (base 64 з URL-безпечними символами)'
+    plainTextPlaceholder: 'Відкритий текст для обчислення хешу...'
+    plainTextLabel: 'Відкритий текст для обчислення хешу'
+    secretPlaceholder: 'Введіть секретний ключ...'
+    secretLabel: 'Секретний ключ'
+    hashingFunction: 'Хеш-функція'
+    hashingFunctionPlaceholder: 'Виберіть хеш-функцію...'
+    outputEncoding: 'Кодування виводу'
+    encodingPlaceholder: 'Виберіть кодування результату...'
+    resultPlaceholder: 'Результат HMAC...'
+    resultLabel: 'HMAC вашого тексту'
+    copy: 'Копіювати HMAC'

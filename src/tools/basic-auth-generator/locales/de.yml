@@ -1,0 +1,9 @@
+tools:
+  basic-auth-generator:
+    copied: 'Header in die Zwischenablage kopiert'
+    username: 'Benutzername'
+    usernamePlaceholder: 'Ihr Benutzername...'
+    password: 'Passwort'
+    passwordPlaceholder: 'Ihr Passwort...'
+    authorizationHeader: 'Authorization-Header:'
+    copyHeader: 'Header kopieren'

@@ -1,0 +1,14 @@
+tools:
+  eta-calculator:
+    example: 'Et konkret eksempel: Hvis du vasker 5 tallerkener på 3 minutter og har 500 tallerkener å vaske, tar det deg 5 timer å vaske dem alle.'
+    amountToConsume: 'Antall elementer som skal forbrukes'
+    startedAt: 'Forbruket startet'
+    unitsPerTimeSpan: 'Antall enheter forbrukt per tidsrom'
+    in: 'på'
+    milliseconds: 'millisekunder'
+    seconds: 'sekunder'
+    minutes: 'minutter'
+    hours: 'timer'
+    days: 'dager'
+    totalDuration: 'Total varighet'
+    willEnd: 'Det er ferdig '

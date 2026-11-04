@@ -1,0 +1,14 @@
+tools:
+  encryption:
+    encrypt: 'Verschlüsseln'
+    decrypt: 'Entschlüsseln'
+    decryptError: 'Fehler beim Entschlüsseln'
+    unableToDecrypt: 'Dein Text konnte nicht entschlüsselt werden'
+    yourText: 'Dein Text:'
+    secretKey: 'Dein geheimer Schlüssel:'
+    algorithm: 'Verschlüsselungsalgorithmus:'
+    textEncrypted: 'Dein verschlüsselter Text:'
+    encryptedText: 'Dein verschlüsselter Text:'
+    textDecrypted: 'Dein entschlüsselter Text:'
+    cypherPlaceholder: 'Der zu verschlüsselnde String'
+    outputPlaceholder: 'Dein String-Hash'

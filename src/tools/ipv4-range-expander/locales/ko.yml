@@ -1,0 +1,13 @@
+tools:
+  ipv4-range-expander:
+    invalidIpv4: '잘못된 IPv4 주소'
+    startAddress: '시작 주소'
+    endAddress: '끝 주소'
+    addressesInRange: '범위 내 주소 수'
+    startPlaceholder: '시작 IPv4 주소...'
+    endPlaceholder: '끝 IPv4 주소...'
+    oldValue: '이전 값'
+    newValue: '새 값'
+    invalidCombinationTitle: '시작 및 끝 IPv4 주소의 조합이 잘못되었습니다'
+    invalidCombination: '끝 IPv4 주소가 시작 IPv4 주소보다 작아 유효하지 않으며 결과를 계산할 수 없습니다. 대부분의 경우 시작 주소와 끝 주소를 서로 바꾸면 해결됩니다.'
+    switch: '시작 및 끝 IPv4 주소 바꾸기'

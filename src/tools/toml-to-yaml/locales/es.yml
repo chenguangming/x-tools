@@ -1,0 +1,6 @@
+tools:
+  toml-to-yaml:
+    invalidToml: 'El TOML proporcionado no es válido.'
+    inputLabel: 'Tu TOML'
+    inputPlaceholder: 'Pega tu TOML aquí...'
+    outputLabel: 'YAML de tu TOML'

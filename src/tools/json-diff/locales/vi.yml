@@ -1,0 +1,9 @@
+tools:
+  json-diff:
+    invalidJson: 'Định dạng JSON không hợp lệ'
+    firstLabel: 'JSON đầu tiên của bạn'
+    firstPlaceholder: 'Dán JSON đầu tiên của bạn vào đây...'
+    secondLabel: 'JSON cần so sánh'
+    secondPlaceholder: 'Dán JSON cần so sánh vào đây...'
+    onlyShowDifferences: 'Chỉ hiển thị khác biệt'
+    sameJson: 'Các JSON được cung cấp giống nhau'

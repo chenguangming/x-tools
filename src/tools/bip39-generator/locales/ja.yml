@@ -1,0 +1,12 @@
+tools:
+  bip39-generator:
+    entropyLength: 'エントロピーの長さは 16 以上 32 以下で、4 の倍数である必要があります'
+    entropyHex: 'エントロピーは 16 進数文字列である必要があります'
+    invalidMnemonic: '無効なニーモニックです'
+    entropyCopied: 'エントロピーをクリップボードにコピーしました'
+    passphraseCopied: 'パスフレーズをクリップボードにコピーしました'
+    language: '言語:'
+    entropySeed: 'エントロピー(シード):'
+    entropyPlaceholder: '文字列を入力...'
+    passphraseMnemonic: 'パスフレーズ(ニーモニック):'
+    mnemonicPlaceholder: 'ニーモニックを入力...'

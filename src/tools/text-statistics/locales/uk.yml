@@ -1,0 +1,7 @@
+tools:
+  text-statistics:
+    placeholder: 'Ваш текст...'
+    characterCount: 'Кількість символів'
+    wordCount: 'Кількість слів'
+    lineCount: 'Кількість рядків'
+    byteSize: 'Розмір у байтах'

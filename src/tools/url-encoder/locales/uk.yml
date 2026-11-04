@@ -1,0 +1,16 @@
+tools:
+  url-encoder:
+    parseError: 'Неможливо обробити цей рядок'
+    encodedCopied: 'Закодований рядок скопійовано в буфер обміну'
+    decodedCopied: 'Декодований рядок скопійовано в буфер обміну'
+    encode: 'Кодування'
+    decode: 'Декодування'
+    yourString: 'Ваш рядок:'
+    yourStringEncoded: 'Ваш закодований рядок:'
+    yourEncodedString: 'Ваш закодований рядок:'
+    yourStringDecoded: 'Ваш декодований рядок:'
+    encodePlaceholder: 'Рядок для кодування'
+    encodedPlaceholder: 'Ваш закодований рядок'
+    decodePlaceholder: 'Рядок для декодування'
+    decodedPlaceholder: 'Ваш декодований рядок'
+    copy: 'Копіювати'

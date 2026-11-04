@@ -1,0 +1,14 @@
+tools:
+  eta-calculator:
+    example: '구체적인 예: 3분에 접시 5개를 닦고 닦아야 할 접시가 500개라면, 모두 닦는 데 5시간이 걸립니다.'
+    amountToConsume: '소비할 요소 수량'
+    startedAt: '소비 시작 시간'
+    unitsPerTimeSpan: '시간 단위당 소비량'
+    in: '당'
+    milliseconds: '밀리초'
+    seconds: '초'
+    minutes: '분'
+    hours: '시간'
+    days: '일'
+    totalDuration: '총 소요 시간'
+    willEnd: '종료 예정 '

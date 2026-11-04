@@ -1,0 +1,12 @@
+tools:
+  bip39-generator:
+    entropyLength: 'La longitud de la entropía debe ser >= 16, <= 32 y múltiplo de 4'
+    entropyHex: 'La entropía debe ser una cadena hexadecimal'
+    invalidMnemonic: 'Mnemónico no válido'
+    entropyCopied: 'Entropía copiada al portapapeles'
+    passphraseCopied: 'Frase de contraseña copiada al portapapeles'
+    language: 'Idioma:'
+    entropySeed: 'Entropía (semilla):'
+    entropyPlaceholder: 'Tu cadena...'
+    passphraseMnemonic: 'Frase de contraseña (mnemónico):'
+    mnemonicPlaceholder: 'Tu mnemónico...'

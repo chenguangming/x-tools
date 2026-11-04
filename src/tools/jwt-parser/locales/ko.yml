@@ -1,0 +1,7 @@
+tools:
+  jwt-parser:
+    header: '헤더'
+    payload: '페이로드'
+    invalidJwt: '유효하지 않은 JWT입니다'
+    jwtLabel: '디코딩할 JWT'
+    jwtPlaceholder: '여기에 토큰을 입력하세요...'

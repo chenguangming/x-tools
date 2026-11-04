@@ -1,0 +1,8 @@
+tools:
+  chmod-calculator:
+    read: '讀取 (4)'
+    write: '寫入 (2)'
+    execute: '執行 (1)'
+    owner: '擁有者 (u)'
+    group: '群組 (g)'
+    public: '其他人 (o)'

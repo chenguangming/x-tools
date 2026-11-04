@@ -1,0 +1,12 @@
+tools:
+  mime-types:
+    mimeToExtensionTitle: 'MIME タイプから拡張子へ'
+    mimeToExtensionDescription: 'MIME タイプに関連付けられたファイル拡張子を調べます'
+    selectMimeTypePlaceholder: 'MIME タイプを選択してください...（例：application/pdf）'
+    extensionsOfMimeType: 'MIME タイプ {mimeType} のファイル拡張子：'
+    extensionToMimeTitle: 'ファイル拡張子から MIME タイプへ'
+    extensionToMimeDescription: 'ファイル拡張子に関連付けられた MIME タイプを調べます'
+    selectExtensionPlaceholder: 'ファイル拡張子を選択してください...'
+    mimeTypeOfExtension: 'ファイル拡張子 {extension} に関連付けられた MIME タイプ：'
+    mimeTypesHeader: 'MIME タイプ'
+    extensionsHeader: '拡張子'

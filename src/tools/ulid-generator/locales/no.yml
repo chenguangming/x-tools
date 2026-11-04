@@ -1,0 +1,8 @@
+tools:
+  ulid-generator:
+    raw: 'Rå'
+    copied: 'ULID-er kopiert til utklippstavlen'
+    quantity: 'Antall:'
+    format: 'Format: '
+    refresh: 'Oppdater'
+    copy: 'Kopier'

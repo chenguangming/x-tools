@@ -1,0 +1,13 @@
+tools:
+  ipv4-range-expander:
+    invalidIpv4: 'Ugyldig IPv4-adresse'
+    startAddress: 'Startadresse'
+    endAddress: 'Sluttadresse'
+    addressesInRange: 'Adresser i området'
+    startPlaceholder: 'Start-IPv4-adresse...'
+    endPlaceholder: 'Slutt-IPv4-adresse...'
+    oldValue: 'gammel verdi'
+    newValue: 'ny verdi'
+    invalidCombinationTitle: 'Ugyldig kombinasjon av start- og slutt-IPv4-adresse'
+    invalidCombination: 'Slutt-IPv4-adressen er lavere enn start-IPv4-adressen. Dette er ugyldig, og ingen resultat kunne beregnes. I de fleste tilfeller løses problemet ved å bytte start- og sluttadresse.'
+    switch: 'Bytt start- og slutt-IPv4-adresse'

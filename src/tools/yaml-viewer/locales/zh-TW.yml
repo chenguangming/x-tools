@@ -1,0 +1,8 @@
+tools:
+  yaml-prettify:
+    invalidYaml: '提供的 YAML 無效。'
+    sortKeys: '排序鍵：'
+    indentSize: '縮排大小：'
+    inputLabel: '原始 YAML'
+    inputPlaceholder: '在此貼上原始 YAML...'
+    outputLabel: '美化後的 YAML'

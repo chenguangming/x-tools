@@ -1,0 +1,12 @@
+tools:
+  qrcode-generator:
+    text: 'Text:'
+    textPlaceholder: 'Your link or text...'
+    foregroundColor: 'Foreground color:'
+    backgroundColor: 'Background color:'
+    errorResistance: 'Error resistance:'
+    levelLow: 'low'
+    levelMedium: 'medium'
+    levelQuartile: 'quartile'
+    levelHigh: 'high'
+    download: 'Download qr-code'

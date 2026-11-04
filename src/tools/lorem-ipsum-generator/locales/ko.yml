@@ -1,0 +1,11 @@
+tools:
+  lorem-ipsum-generator:
+    copied: 'Lorem ipsum이 클립보드에 복사되었습니다'
+    paragraphs: '단락 수'
+    sentencesPerParagraph: '단락당 문장 수'
+    wordsPerSentence: '문장당 단어 수'
+    startWithLoremIpsum: '"Lorem ipsum"으로 시작?'
+    asHtml: 'HTML로 출력?'
+    placeholder: 'Lorem ipsum이 여기에 표시됩니다...'
+    copy: '복사'
+    refresh: '새로 고침'

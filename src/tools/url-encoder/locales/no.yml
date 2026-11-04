@@ -1,0 +1,16 @@
+tools:
+  url-encoder:
+    parseError: 'Kan ikke tolke denne strengen'
+    encodedCopied: 'Kodet streng kopiert til utklippstavlen'
+    decodedCopied: 'Dekodet streng kopiert til utklippstavlen'
+    encode: 'Kode'
+    decode: 'Dekode'
+    yourString: 'Din streng:'
+    yourStringEncoded: 'Din kodede streng:'
+    yourEncodedString: 'Din kodede streng:'
+    yourStringDecoded: 'Din dekodede streng:'
+    encodePlaceholder: 'Strengen som skal kodes'
+    encodedPlaceholder: 'Din kodede streng'
+    decodePlaceholder: 'Strengen som skal dekodes'
+    decodedPlaceholder: 'Din dekodede streng'
+    copy: 'Kopier'

@@ -1,0 +1,5 @@
+tools:
+  random-port-generator:
+    portCopied: '端口已复制到剪贴板'
+    copy: '复制'
+    refresh: '刷新'

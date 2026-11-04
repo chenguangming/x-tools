@@ -1,0 +1,6 @@
+tools:
+  json-to-csv:
+    invalidJson: 'Provided JSON is not valid.'
+    inputLabel: 'Your raw JSON'
+    inputPlaceholder: 'Paste your raw JSON here...'
+    outputLabel: 'CSV version of your JSON'

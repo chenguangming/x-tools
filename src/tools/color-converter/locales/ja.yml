@@ -1,0 +1,7 @@
+tools:
+  color-converter:
+    unknown: '不明'
+    invalidFormat: '{format} 形式が無効です。'
+    colorPicker: 'カラーピッカー'
+    name: '名前'
+    example: '例: {value}'

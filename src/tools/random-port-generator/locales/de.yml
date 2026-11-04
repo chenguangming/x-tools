@@ -1,0 +1,5 @@
+tools:
+  random-port-generator:
+    portCopied: 'Port in die Zwischenablage kopiert'
+    copy: 'Kopieren'
+    refresh: 'Aktualisieren'

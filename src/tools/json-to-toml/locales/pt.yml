@@ -1,0 +1,6 @@
+tools:
+  json-to-toml:
+    invalidJson: 'O JSON fornecido não é válido.'
+    inputLabel: 'Seu JSON'
+    inputPlaceholder: 'Cole seu JSON aqui...'
+    outputLabel: 'TOML a partir do seu JSON'

@@ -1,0 +1,17 @@
+tools:
+  base-converter:
+    inputNumber: '输入数字'
+    inputPlaceholder: '在此输入数字（例如：42）'
+    inputBase: '输入进制'
+    inputBasePlaceholder: '在此输入进制（例如：10）'
+    binary: '二进制 (2)'
+    octal: '八进制 (8)'
+    decimal: '十进制 (10)'
+    hexadecimal: '十六进制 (16)'
+    binaryPlaceholder: '二进制结果将显示在这里...'
+    octalPlaceholder: '八进制结果将显示在这里...'
+    decimalPlaceholder: '十进制结果将显示在这里...'
+    hexadecimalPlaceholder: '十六进制结果将显示在这里...'
+    base64Placeholder: 'Base64 结果将显示在这里...'
+    custom: '自定义：'
+    customPlaceholder: '{base} 进制结果将显示在这里...'

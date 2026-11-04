@@ -1,0 +1,12 @@
+tools:
+  bip39-generator:
+    entropyLength: 'Довжина ентропії має бути >= 16, <= 32 і кратною 4'
+    entropyHex: 'Ентропія має бути шістнадцятковим рядком'
+    invalidMnemonic: 'Недійсна мнемонічна фраза'
+    entropyCopied: 'Ентропію скопійовано в буфер обміну'
+    passphraseCopied: 'Парольну фразу скопійовано в буфер обміну'
+    language: 'Мова:'
+    entropySeed: 'Ентропія (seed):'
+    entropyPlaceholder: 'Ваш рядок...'
+    passphraseMnemonic: 'Парольна фраза (мнемоніка):'
+    mnemonicPlaceholder: 'Ваша мнемонічна фраза...'

@@ -1,0 +1,8 @@
+tools:
+  mac-address-lookup:
+    copied: 'Đã sao chép thông tin nhà sản xuất vào bộ nhớ tạm'
+    macAddressLabel: 'Địa chỉ MAC:'
+    macAddressPlaceholder: 'Nhập địa chỉ MAC'
+    vendorInfo: 'Thông tin nhà sản xuất:'
+    unknownVendor: 'Không rõ nhà sản xuất của địa chỉ này'
+    copyVendorInfo: 'Sao chép thông tin nhà sản xuất'

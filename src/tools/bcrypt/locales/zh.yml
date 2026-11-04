@@ -1,0 +1,16 @@
+tools:
+  bcrypt:
+    copied: '哈希字符串已复制到剪贴板'
+    hash: '哈希'
+    stringPlaceholder: '要进行 bcrypt 的字符串...'
+    yourString: '您的字符串: '
+    saltCount: '盐值轮数: '
+    saltRounds: '盐值轮数...'
+    copyHash: '复制哈希'
+    compareTitle: '比较字符串与哈希'
+    compareStringPlaceholder: '要比较的字符串...'
+    yourHash: '您的哈希: '
+    compareHashPlaceholder: '要比较的哈希...'
+    doTheyMatch: '是否匹配? '
+    'yes': '是'
+    'no': '否'

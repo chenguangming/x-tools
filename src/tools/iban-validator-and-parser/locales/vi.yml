@@ -1,0 +1,9 @@
+tools:
+  iban-validator-and-parser:
+    isValid: 'IBAN có hợp lệ không?'
+    errors: 'Lỗi IBAN'
+    isQrIban: 'IBAN có phải là QR-IBAN không?'
+    countryCode: 'Mã quốc gia'
+    friendlyFormat: 'Định dạng IBAN dễ đọc'
+    placeholder: 'Nhập IBAN để kiểm tra tính hợp lệ...'
+    examplesTitle: 'Ví dụ về IBAN hợp lệ'

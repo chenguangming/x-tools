@@ -1,0 +1,8 @@
+tools:
+  yaml-prettify:
+    invalidYaml: 'Наданий YAML недійсний.'
+    sortKeys: 'Сортувати ключі:'
+    indentSize: 'Розмір відступу:'
+    inputLabel: 'Ваш необроблений YAML'
+    inputPlaceholder: 'Вставте ваш необроблений YAML тут...'
+    outputLabel: 'Відформатована версія вашого YAML'

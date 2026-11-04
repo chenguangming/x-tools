@@ -1,0 +1,15 @@
+tools:
+  base64-file-converter:
+    invalidBase64: 'Chaîne Base64 invalide'
+    copied: 'Chaîne Base64 copiée dans le presse-papiers'
+    base64ToFile: 'Base64 vers fichier'
+    fileName: 'Nom du fichier'
+    fileNamePlaceholder: 'Nom du fichier à télécharger'
+    extension: 'Extension'
+    base64Placeholder: 'Collez ici la chaîne Base64 de votre fichier...'
+    previewImage: 'Aperçu de l''image'
+    downloadFile: 'Télécharger le fichier'
+    fileToBase64: 'Fichier vers Base64'
+    uploadTitle: 'Glissez-déposez un fichier ici, ou cliquez pour en sélectionner un'
+    fileBase64Placeholder: 'Le fichier en Base64 apparaîtra ici'
+    copy: 'Copier'

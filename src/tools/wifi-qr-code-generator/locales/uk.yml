@@ -1,0 +1,18 @@
+tools:
+  wifi-qrcode-generator:
+    encryptionMethod: 'Метод шифрування'
+    noPassword: 'Без пароля'
+    ssid: 'SSID:'
+    ssidPlaceholder: 'SSID вашої WiFi...'
+    hiddenSsid: 'Прихований SSID'
+    password: 'Пароль:'
+    passwordPlaceholder: 'Пароль вашої WiFi...'
+    eapMethod: 'Метод EAP'
+    identity: 'Ідентифікатор:'
+    identityPlaceholder: 'Ваш ідентифікатор EAP...'
+    anonymous: 'Анонімно?'
+    eapPhase2Method: 'Метод EAP фази 2'
+    foregroundColor: 'Колір переднього плану:'
+    backgroundColor: 'Колір фону:'
+    qrAlt: 'QR-код WiFi'
+    download: 'Завантажити QR-код'

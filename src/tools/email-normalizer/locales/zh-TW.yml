@@ -1,0 +1,10 @@
+tools:
+  email-normalizer:
+    unableToParse: '無法解析電子郵件：{email}'
+    copied: '已將正規化後的電子郵件複製到剪貼簿'
+    rawEmails: '待正規化的原始電子郵件：'
+    rawPlaceholder: '在此貼上電子郵件（每行一個）...'
+    normalizedEmails: '正規化後的電子郵件：'
+    normalizedPlaceholder: '正規化後的電子郵件將顯示在這裡...'
+    clear: '清除電子郵件'
+    copy: '複製正規化後的電子郵件'

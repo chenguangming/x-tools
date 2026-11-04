@@ -1,0 +1,8 @@
+tools:
+  ulid-generator:
+    raw: '原始'
+    copied: 'ULID 已复制到剪贴板'
+    quantity: '数量：'
+    format: '格式：'
+    refresh: '刷新'
+    copy: '复制'

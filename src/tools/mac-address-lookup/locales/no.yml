@@ -1,0 +1,8 @@
+tools:
+  mac-address-lookup:
+    copied: 'Produsentinformasjon kopiert til utklippstavlen'
+    macAddressLabel: 'MAC-adresse:'
+    macAddressPlaceholder: 'Skriv inn en MAC-adresse'
+    vendorInfo: 'Produsentinformasjon:'
+    unknownVendor: 'Ukjent produsent for denne adressen'
+    copyVendorInfo: 'Kopier produsentinformasjon'

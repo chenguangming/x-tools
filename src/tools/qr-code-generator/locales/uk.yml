@@ -1,0 +1,12 @@
+tools:
+  qrcode-generator:
+    text: 'Текст:'
+    textPlaceholder: 'Ваше посилання або текст...'
+    foregroundColor: 'Колір переднього плану:'
+    backgroundColor: 'Колір тла:'
+    errorResistance: 'Стійкість до помилок:'
+    levelLow: 'низька'
+    levelMedium: 'середня'
+    levelQuartile: 'квартиль'
+    levelHigh: 'висока'
+    download: 'Завантажити QR-код'

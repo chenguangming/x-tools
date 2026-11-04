@@ -1,0 +1,14 @@
+tools:
+  sql-prettify:
+    dialect: 'Діалект'
+    keywordCase: 'Регістр ключових слів'
+    indentStyle: 'Стиль відступів'
+    upper: 'ВЕЛИКІ ЛІТЕРИ'
+    lower: 'малі літери'
+    preserve: 'Зберегти'
+    standard: 'Стандартний'
+    tabularLeft: 'Табличний, зліва'
+    tabularRight: 'Табличний, справа'
+    inputLabel: 'Ваш SQL-запит'
+    inputPlaceholder: 'Введіть SQL-запит тут…'
+    outputLabel: 'Відформатована версія запиту'

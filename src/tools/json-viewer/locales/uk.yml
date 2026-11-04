@@ -1,0 +1,8 @@
+tools:
+  json-prettify:
+    invalidJson: 'Наданий JSON недійсний.'
+    sortKeys: 'Сортувати ключі:'
+    indentSize: 'Розмір відступу:'
+    inputLabel: 'Ваш необроблений JSON'
+    inputPlaceholder: 'Вставте сюди необроблений JSON...'
+    outputLabel: 'Відформатована версія вашого JSON'

@@ -1,0 +1,15 @@
+tools:
+  text-to-binary:
+    invalidBinary: 'Binary should be a valid ASCII binary string with multiples of 8 bits'
+    textToBinaryTitle: 'Text to ASCII binary'
+    textPlaceholder: 'e.g. ''Hello world'''
+    textInputLabel: 'Enter text to convert to binary'
+    binaryOutputLabel: 'Binary from your text'
+    binaryOutputPlaceholder: 'The binary representation of your text will be here'
+    copyBinary: 'Copy binary to clipboard'
+    binaryToTextTitle: 'ASCII binary to text'
+    binaryPlaceholder: 'e.g. ''01001000 01100101 01101100 01101100 01101111'''
+    binaryInputLabel: 'Enter binary to convert to text'
+    textOutputLabel: 'Text from your binary'
+    textOutputPlaceholder: 'The text representation of your binary will be here'
+    copyText: 'Copy text to clipboard'

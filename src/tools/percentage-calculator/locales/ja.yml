@@ -1,0 +1,10 @@
+tools:
+  percentage-calculator:
+    whatIs: 'いくつ'
+    percentOf: '% の'
+    xIsWhatPercentOfY: 'X は Y の何パーセントか'
+    isWhatPercentOf: 'は何パーセントか（対象:）'
+    increaseDecrease: '増減率はいくつか'
+    result: '結果'
+    from: '開始'
+    to: '終了'

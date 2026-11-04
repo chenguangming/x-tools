@@ -1,0 +1,11 @@
+tools:
+  ascii-text-drawer:
+    yourText: 'テキスト:'
+    yourTextPlaceholder: '描画するテキスト'
+    font: 'フォント:'
+    fontPlaceholder: '使用するフォントを選択'
+    width: '幅:'
+    widthPlaceholder: 'テキストの幅'
+    loadingFont: 'フォントを読み込み中...'
+    error: '現在の設定でエラーが発生しました。'
+    asciiArtText: 'ASCII アートテキスト:'

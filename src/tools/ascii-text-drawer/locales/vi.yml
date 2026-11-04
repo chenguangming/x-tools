@@ -1,0 +1,11 @@
+tools:
+  ascii-text-drawer:
+    yourText: 'Văn bản của bạn:'
+    yourTextPlaceholder: 'Văn bản cần vẽ'
+    font: 'Phông chữ:'
+    fontPlaceholder: 'Chọn phông chữ để sử dụng'
+    width: 'Chiều rộng:'
+    widthPlaceholder: 'Chiều rộng của văn bản'
+    loadingFont: 'Đang tải phông chữ...'
+    error: 'Cài đặt hiện tại gây ra lỗi.'
+    asciiArtText: 'Văn bản ASCII Art:'

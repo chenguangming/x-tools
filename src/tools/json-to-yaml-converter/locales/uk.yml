@@ -1,0 +1,6 @@
+tools:
+  json-to-yaml-converter:
+    invalidJson: 'Наданий JSON недійсний.'
+    inputLabel: 'Ваш JSON'
+    inputPlaceholder: 'Вставте сюди JSON...'
+    outputLabel: 'YAML з вашого JSON'

@@ -1,0 +1,7 @@
+tools:
+  text-to-nato-alphabet:
+    copied: '已複製北約音標字母字串。'
+    inputLabel: '要轉換為北約音標字母的文字'
+    inputPlaceholder: '在此輸入文字...'
+    outputLabel: '北約音標字母形式的文字'
+    copy: '複製北約字串'

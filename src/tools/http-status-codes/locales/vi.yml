@@ -1,0 +1,10 @@
+tools:
+  http-status-codes:
+    searchPlaceholder: 'Tìm trạng thái HTTP...'
+    searchResults: 'Kết quả tìm kiếm'
+    category1xx: '1xx phản hồi thông tin'
+    category2xx: '2xx thành công'
+    category3xx: '3xx chuyển hướng'
+    category4xx: '4xx lỗi máy khách'
+    category5xx: '5xx lỗi máy chủ'
+    forType: 'Dành cho {type}.'

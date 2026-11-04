@@ -1,0 +1,8 @@
+tools:
+  json-prettify:
+    invalidJson: 'Le JSON fourni n''est pas valide.'
+    sortKeys: 'Trier les clés :'
+    indentSize: 'Taille de l''indentation :'
+    inputLabel: 'Votre JSON brut'
+    inputPlaceholder: 'Collez votre JSON brut ici...'
+    outputLabel: 'Version formatée de votre JSON'

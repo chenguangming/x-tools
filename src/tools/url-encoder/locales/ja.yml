@@ -1,0 +1,16 @@
+tools:
+  url-encoder:
+    parseError: 'この文字列を解析できません'
+    encodedCopied: 'エンコードした文字列をクリップボードにコピーしました'
+    decodedCopied: 'デコードした文字列をクリップボードにコピーしました'
+    encode: 'エンコード'
+    decode: 'デコード'
+    yourString: '文字列：'
+    yourStringEncoded: 'エンコード結果：'
+    yourEncodedString: 'エンコード済みの文字列：'
+    yourStringDecoded: 'デコード結果：'
+    encodePlaceholder: 'エンコードする文字列'
+    encodedPlaceholder: 'エンコード結果'
+    decodePlaceholder: 'デコードする文字列'
+    decodedPlaceholder: 'デコード結果'
+    copy: 'コピー'

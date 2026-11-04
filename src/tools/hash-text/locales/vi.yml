@@ -1,0 +1,8 @@
+tools:
+  hash-text:
+    placeholder: 'Chuỗi cần băm...'
+    textLabel: 'Văn bản cần băm:'
+    digestEncoding: 'Mã hóa digest'
+    binary: 'Nhị phân (cơ số 2)'
+    hexadecimal: 'Thập lục phân (cơ số 16)'
+    base64url: 'Base64url (cơ số 64 với ký tự an toàn cho URL)'

@@ -1,0 +1,8 @@
+tools:
+  xml-formatter:
+    invalidXml: 'El XML proporcionado no es válido.'
+    collapseContent: 'Contraer contenido:'
+    indentSize: 'Tamaño de sangría:'
+    inputLabel: 'Su XML'
+    inputPlaceholder: 'Pegue su XML aquí...'
+    outputLabel: 'XML formateado a partir de su XML'

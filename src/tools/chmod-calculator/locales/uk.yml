@@ -1,0 +1,8 @@
+tools:
+  chmod-calculator:
+    read: 'Читання (4)'
+    write: 'Запис (2)'
+    execute: 'Виконання (1)'
+    owner: 'Власник (u)'
+    group: 'Група (g)'
+    public: 'Інші (o)'

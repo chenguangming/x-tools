@@ -1,0 +1,14 @@
+tools:
+  eta-calculator:
+    example: 'Um exemplo concreto: se você lava 5 pratos em 3 minutos e tem 500 pratos para lavar, levará 5 horas para lavar todos.'
+    amountToConsume: 'Quantidade de elementos a consumir'
+    startedAt: 'O consumo começou em'
+    unitsPerTimeSpan: 'Quantidade de unidades consumidas por período'
+    in: 'em'
+    milliseconds: 'milissegundos'
+    seconds: 'segundos'
+    minutes: 'minutos'
+    hours: 'horas'
+    days: 'dias'
+    totalDuration: 'Duração total'
+    willEnd: 'Terminará '

@@ -1,0 +1,4 @@
+tools:
+  math-evaluator:
+    placeholder: 'Biểu thức toán học của bạn (ví dụ: 2*sqrt(6) )...'
+    result: 'Kết quả '

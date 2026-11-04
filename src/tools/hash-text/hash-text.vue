@@ -37,21 +37,21 @@ const hashText = (algo: AlgoNames, value: string) => formatWithEncoding(algos[al
 <template>
   <div>
     <c-card>
-      <c-input-text v-model:value="clearText" multiline raw-text placeholder="Your string to hash..." rows="3" autosize autofocus label="Your text to hash:" />
+      <c-input-text v-model:value="clearText" :placeholder="$t('tools.hash-text.placeholder')" rows="3" raw-text autosize autofocus multiline :label="$t('tools.hash-text.textLabel')" />
 
       <n-divider />
 
       <c-select
         v-model:value="encoding"
         mb-4
-        label="Digest encoding"
+        :label="$t('tools.hash-text.digestEncoding')"
         :options="[
           {
-            label: 'Binary (base 2)',
+            label: $t('tools.hash-text.binary'),
             value: 'Bin',
           },
           {
-            label: 'Hexadecimal (base 16)',
+            label: $t('tools.hash-text.hexadecimal'),
             value: 'Hex',
           },
           {
@@ -59,7 +59,7 @@ const hashText = (algo: AlgoNames, value: string) => formatWithEncoding(algos[al
             value: 'Base64',
           },
           {
-            label: 'Base64url (base 64 with url safe chars)',
+            label: $t('tools.hash-text.base64url'),
             value: 'Base64url',
           },
         ]"

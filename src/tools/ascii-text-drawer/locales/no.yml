@@ -1,0 +1,11 @@
+tools:
+  ascii-text-drawer:
+    yourText: 'Din tekst:'
+    yourTextPlaceholder: 'Teksten du vil tegne'
+    font: 'Skrifttype:'
+    fontPlaceholder: 'Velg skrifttype som skal brukes'
+    width: 'Bredde:'
+    widthPlaceholder: 'Bredde på teksten'
+    loadingFont: 'Laster skrifttype...'
+    error: 'De gjeldende innstillingene førte til en feil.'
+    asciiArtText: 'ASCII-kunsttekst:'

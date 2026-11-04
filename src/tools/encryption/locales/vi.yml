@@ -1,0 +1,14 @@
+tools:
+  encryption:
+    encrypt: 'Mã hóa'
+    decrypt: 'Giải mã'
+    decryptError: 'Lỗi khi giải mã'
+    unableToDecrypt: 'Không thể giải mã văn bản của bạn'
+    yourText: 'Văn bản của bạn:'
+    secretKey: 'Khóa bí mật của bạn:'
+    algorithm: 'Thuật toán mã hóa:'
+    textEncrypted: 'Văn bản đã mã hóa:'
+    encryptedText: 'Văn bản đã mã hóa của bạn:'
+    textDecrypted: 'Văn bản đã giải mã:'
+    cypherPlaceholder: 'Chuỗi cần mã hóa'
+    outputPlaceholder: 'Mã băm của chuỗi'

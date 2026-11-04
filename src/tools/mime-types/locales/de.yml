@@ -1,0 +1,12 @@
+tools:
+  mime-types:
+    mimeToExtensionTitle: 'MIME-Typ zu Dateiendung'
+    mimeToExtensionDescription: 'Erfahren Sie, welche Dateiendungen einem MIME-Typ zugeordnet sind'
+    selectMimeTypePlaceholder: 'Wählen Sie hier Ihren MIME-Typ... (z. B. application/pdf)'
+    extensionsOfMimeType: 'Dateiendungen von Dateien mit dem MIME-Typ {mimeType}:'
+    extensionToMimeTitle: 'Dateiendung zu MIME-Typ'
+    extensionToMimeDescription: 'Erfahren Sie, welcher MIME-Typ einer Dateiendung zugeordnet ist'
+    selectExtensionPlaceholder: 'Wählen Sie hier Ihre Dateiendung...'
+    mimeTypeOfExtension: 'MIME-Typ, der der Dateiendung {extension} zugeordnet ist:'
+    mimeTypesHeader: 'MIME-Typen'
+    extensionsHeader: 'Dateiendungen'

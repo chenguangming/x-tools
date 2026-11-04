@@ -1,0 +1,14 @@
+tools:
+  sql-prettify:
+    dialect: 'Dialecto'
+    keywordCase: 'Mayúsculas de palabras clave'
+    indentStyle: 'Estilo de sangría'
+    upper: 'MAYÚSCULAS'
+    lower: 'minúsculas'
+    preserve: 'Conservar'
+    standard: 'Estándar'
+    tabularLeft: 'Tabular a la izquierda'
+    tabularRight: 'Tabular a la derecha'
+    inputLabel: 'Tu consulta SQL'
+    inputPlaceholder: 'Introduce tu consulta SQL aquí…'
+    outputLabel: 'Versión formateada de tu consulta'

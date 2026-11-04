@@ -1,0 +1,16 @@
+tools:
+  device-information:
+    screen: '画面'
+    device: 'デバイス'
+    screenSize: '画面サイズ'
+    orientation: '向き'
+    orientationAngle: '向きの角度'
+    colorDepth: '色深度'
+    bits: 'ビット'
+    pixelRatio: 'ピクセル比'
+    windowSize: 'ウィンドウサイズ'
+    browserVendor: 'ブラウザーベンダー'
+    languages: '言語'
+    platform: 'プラットフォーム'
+    userAgent: 'ユーザーエージェント'
+    unknown: '不明'

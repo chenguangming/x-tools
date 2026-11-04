@@ -1,0 +1,9 @@
+tools:
+  iban-validator-and-parser:
+    isValid: 'IBAN は有効ですか？'
+    errors: 'IBAN エラー'
+    isQrIban: 'IBAN は QR-IBAN ですか？'
+    countryCode: '国コード'
+    friendlyFormat: 'IBAN の読みやすい形式'
+    placeholder: '検証する IBAN を入力...'
+    examplesTitle: '有効な IBAN の例'

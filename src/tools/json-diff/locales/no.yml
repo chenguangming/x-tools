@@ -1,0 +1,9 @@
+tools:
+  json-diff:
+    invalidJson: 'Ugyldig JSON-format'
+    firstLabel: 'Din første JSON'
+    firstPlaceholder: 'Lim inn din første JSON her...'
+    secondLabel: 'Din JSON å sammenligne'
+    secondPlaceholder: 'Lim inn din JSON å sammenligne her...'
+    onlyShowDifferences: 'Vis kun forskjeller'
+    sameJson: 'De oppgitte JSON-ene er like'

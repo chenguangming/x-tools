@@ -1,0 +1,18 @@
+tools:
+  wifi-qrcode-generator:
+    encryptionMethod: 'Krypteringsmetode'
+    noPassword: 'Uten passord'
+    ssid: 'SSID:'
+    ssidPlaceholder: 'Din WiFi-SSID...'
+    hiddenSsid: 'Skjult SSID'
+    password: 'Passord:'
+    passwordPlaceholder: 'Ditt WiFi-passord...'
+    eapMethod: 'EAP-metode'
+    identity: 'Identitet:'
+    identityPlaceholder: 'Din EAP-identitet...'
+    anonymous: 'Anonym?'
+    eapPhase2Method: 'EAP fase 2-metode'
+    foregroundColor: 'Forgrunnsfarge:'
+    backgroundColor: 'Bakgrunnsfarge:'
+    qrAlt: 'WiFi-QR-kode'
+    download: 'Last ned QR-kode'

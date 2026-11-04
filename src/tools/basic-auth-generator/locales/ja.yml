@@ -1,0 +1,9 @@
+tools:
+  basic-auth-generator:
+    copied: 'ヘッダーをクリップボードにコピーしました'
+    username: 'ユーザー名'
+    usernamePlaceholder: 'ユーザー名を入力...'
+    password: 'パスワード'
+    passwordPlaceholder: 'パスワードを入力...'
+    authorizationHeader: 'Authorization ヘッダー:'
+    copyHeader: 'ヘッダーをコピー'

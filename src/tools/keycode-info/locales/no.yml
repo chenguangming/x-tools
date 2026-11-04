@@ -1,0 +1,12 @@
+tools:
+  keycode-info:
+    keyLabel: 'Tast:'
+    keyPlaceholder: 'Tastenavn...'
+    keycodeLabel: 'Keycode:'
+    keycodePlaceholder: 'Keycode...'
+    codeLabel: 'Code:'
+    codePlaceholder: 'Code...'
+    locationLabel: 'Location:'
+    modifiersLabel: 'Modifikatorer:'
+    modifiersPlaceholder: 'Ingen'
+    pressKeyHint: 'Trykk på tasten på tastaturet du vil ha informasjon om'

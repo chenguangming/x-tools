@@ -1,0 +1,7 @@
+tools:
+  text-statistics:
+    placeholder: 'Votre texte...'
+    characterCount: 'Nombre de caractères'
+    wordCount: 'Nombre de mots'
+    lineCount: 'Nombre de lignes'
+    byteSize: 'Taille en octets'

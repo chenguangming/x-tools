@@ -1,0 +1,4 @@
+tools:
+  numeronym-generator:
+    wordPlaceholder: '단어를 입력하세요. 예: ''internationalization'''
+    numeronymPlaceholder: '여기에 넘버로님이 표시됩니다. 예: ''i18n'''

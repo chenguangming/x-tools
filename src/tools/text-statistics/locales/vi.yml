@@ -1,0 +1,7 @@
+tools:
+  text-statistics:
+    placeholder: 'Văn bản của bạn...'
+    characterCount: 'Số ký tự'
+    wordCount: 'Số từ'
+    lineCount: 'Số dòng'
+    byteSize: 'Kích thước byte'

@@ -1,0 +1,6 @@
+tools:
+  markdown-to-html:
+    placeholder: 'Markdown 내용을 입력하세요...'
+    inputLabel: '변환할 Markdown:'
+    outputLabel: '출력 HTML:'
+    printAsPdf: 'PDF로 인쇄'

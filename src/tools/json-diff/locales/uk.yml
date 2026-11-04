@@ -1,0 +1,9 @@
+tools:
+  json-diff:
+    invalidJson: 'Недійсний формат JSON'
+    firstLabel: 'Ваш перший JSON'
+    firstPlaceholder: 'Вставте сюди перший JSON...'
+    secondLabel: 'Ваш JSON для порівняння'
+    secondPlaceholder: 'Вставте сюди JSON для порівняння...'
+    onlyShowDifferences: 'Показувати лише відмінності'
+    sameJson: 'Надані JSON однакові'

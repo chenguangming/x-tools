@@ -1,0 +1,7 @@
+tools:
+  text-statistics:
+    placeholder: '你的文字...'
+    characterCount: '字元數'
+    wordCount: '單字數'
+    lineCount: '行數'
+    byteSize: '位元組大小'

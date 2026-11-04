@@ -1,0 +1,7 @@
+tools:
+  rsa-key-pair-generator:
+    bitsInvalid: 'Кількість бітів має бути 256 <= біти <= 16384 і кратною 8'
+    bits: 'Біти:'
+    refresh: 'Згенерувати нову пару ключів'
+    publicKey: 'Відкритий ключ'
+    privateKey: 'Приватний ключ'

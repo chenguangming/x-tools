@@ -1,0 +1,10 @@
+tools:
+  http-status-codes:
+    searchPlaceholder: 'HTTP ステータスを検索...'
+    searchResults: '検索結果'
+    category1xx: '1xx 情報レスポンス'
+    category2xx: '2xx 成功'
+    category3xx: '3xx リダイレクション'
+    category4xx: '4xx クライアントエラー'
+    category5xx: '5xx サーバーエラー'
+    forType: '{type} 用。'

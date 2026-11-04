@@ -1,0 +1,8 @@
+tools:
+  slugify-string:
+    slugCopied: 'スラッグをクリップボードにコピーしました'
+    inputPlaceholder: 'ここに文字列を入力（例: My file path）'
+    inputLabel: 'スラッグ化する文字列'
+    slugPlaceholder: 'ここにスラッグが生成されます（例: my-file-path）'
+    slugLabel: 'スラッグ'
+    copySlug: 'スラッグをコピー'

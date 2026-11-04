@@ -1,0 +1,17 @@
+tools:
+  base-converter:
+    inputNumber: '入力する数値'
+    inputPlaceholder: 'ここに数値を入力（例: 42）'
+    inputBase: '入力の基数'
+    inputBasePlaceholder: 'ここに入力の基数を入力（例: 10）'
+    binary: '2 進数 (2)'
+    octal: '8 進数 (8)'
+    decimal: '10 進数 (10)'
+    hexadecimal: '16 進数 (16)'
+    binaryPlaceholder: '2 進数の結果がここに表示されます...'
+    octalPlaceholder: '8 進数の結果がここに表示されます...'
+    decimalPlaceholder: '10 進数の結果がここに表示されます...'
+    hexadecimalPlaceholder: '16 進数の結果がここに表示されます...'
+    base64Placeholder: 'Base64 の結果がここに表示されます...'
+    custom: 'カスタム:'
+    customPlaceholder: '{base} 進数の結果がここに表示されます...'

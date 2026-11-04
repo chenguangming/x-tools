@@ -1,0 +1,8 @@
+tools:
+  docker-run-to-docker-compose-converter:
+    yourCommand: 'Lệnh docker run của bạn:'
+    commandPlaceholder: 'Lệnh docker run cần chuyển đổi...'
+    download: 'Tải xuống docker-compose.yml'
+    notTranslatable: 'Các tùy chọn này không thể chuyển sang docker-compose'
+    notImplemented: 'Các tùy chọn này chưa được triển khai nên chưa được chuyển sang docker-compose'
+    errors: 'Đã xảy ra các lỗi sau'

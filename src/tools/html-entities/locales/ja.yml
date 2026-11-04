@@ -1,0 +1,13 @@
+tools:
+  html-entities:
+    escapeTitle: 'HTML エンティティをエスケープ'
+    unescapeTitle: 'HTML エンティティをアンエスケープ'
+    yourString: '文字列:'
+    yourStringEscaped: 'エスケープ後の文字列:'
+    yourEscapedString: 'エスケープ済みの文字列:'
+    yourStringUnescaped: 'アンエスケープ後の文字列:'
+    stringToEscape: 'エスケープする文字列'
+    escapedPlaceholder: 'エスケープ後の文字列'
+    stringToUnescape: 'アンエスケープする文字列'
+    unescapedPlaceholder: 'アンエスケープ後の文字列'
+    copy: 'コピー'

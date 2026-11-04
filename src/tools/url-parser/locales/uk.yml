@@ -1,0 +1,12 @@
+tools:
+  url-parser:
+    invalidUrl: 'Недійсна URL-адреса'
+    urlLabel: 'URL для розбору:'
+    urlPlaceholder: 'URL для розбору...'
+    protocol: 'Протокол'
+    username: 'Ім''я користувача'
+    password: 'Пароль'
+    hostname: 'Ім''я хоста'
+    port: 'Порт'
+    path: 'Шлях'
+    params: 'Параметри'

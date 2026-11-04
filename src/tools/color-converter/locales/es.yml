@@ -1,0 +1,7 @@
+tools:
+  color-converter:
+    unknown: 'Desconocido'
+    invalidFormat: 'Formato {format} no válido.'
+    colorPicker: 'selector de color'
+    name: 'nombre'
+    example: 'p. ej. {value}'

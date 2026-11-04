@@ -1,0 +1,8 @@
+tools:
+  xml-formatter:
+    invalidXml: '제공된 XML이 유효하지 않습니다.'
+    collapseContent: '내용 접기:'
+    indentSize: '들여쓰기 크기:'
+    inputLabel: 'XML 입력'
+    inputPlaceholder: '여기에 XML을 붙여넣으세요...'
+    outputLabel: '포맷된 XML'

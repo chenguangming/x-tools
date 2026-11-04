@@ -1,0 +1,13 @@
+tools:
+  ipv4-range-expander:
+    invalidIpv4: '無効な IPv4 アドレス'
+    startAddress: '開始アドレス'
+    endAddress: '終了アドレス'
+    addressesInRange: '範囲内のアドレス数'
+    startPlaceholder: '開始 IPv4 アドレス...'
+    endPlaceholder: '終了 IPv4 アドレス...'
+    oldValue: '変換前'
+    newValue: '変換後'
+    invalidCombinationTitle: '開始・終了 IPv4 アドレスの組み合わせが無効です'
+    invalidCombination: '終了 IPv4 アドレスが開始 IPv4 アドレスより小さいため無効で、結果を計算できません。多くの場合、開始アドレスと終了アドレスを入れ替えることで解決します。'
+    switch: '開始と終了の IPv4 アドレスを入れ替える'

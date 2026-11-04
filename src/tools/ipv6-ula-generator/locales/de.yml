@@ -1,0 +1,9 @@
+tools:
+  ipv6-ula-generator:
+    ula: 'IPv6-ULA:'
+    firstBlock: 'Erster routbarer Block:'
+    lastBlock: 'Letzter routbarer Block:'
+    infoTitle: 'Info'
+    info: 'Dieses Tool verwendet die erste von der IETF vorgeschlagene Methode: aktueller Zeitstempel plus MAC-Adresse, mit SHA-1 gehasht, und die unteren 40 Bit, um deine zufällige ULA zu erzeugen.'
+    placeholder: 'MAC-Adresse eingeben'
+    macLabel: 'MAC-Adresse:'

@@ -1,0 +1,12 @@
+tools:
+  mime-types:
+    mimeToExtensionTitle: 'Từ MIME type sang phần mở rộng'
+    mimeToExtensionDescription: 'Biết các phần mở rộng tệp được liên kết với một MIME type'
+    selectMimeTypePlaceholder: 'Chọn MIME type của bạn tại đây... (ví dụ: application/pdf)'
+    extensionsOfMimeType: 'Các phần mở rộng của tệp có MIME type {mimeType}:'
+    extensionToMimeTitle: 'Từ phần mở rộng tệp sang MIME type'
+    extensionToMimeDescription: 'Biết MIME type nào được liên kết với một phần mở rộng tệp'
+    selectExtensionPlaceholder: 'Chọn phần mở rộng tệp của bạn tại đây...'
+    mimeTypeOfExtension: 'MIME type được liên kết với phần mở rộng tệp {extension}:'
+    mimeTypesHeader: 'MIME type'
+    extensionsHeader: 'Phần mở rộng'

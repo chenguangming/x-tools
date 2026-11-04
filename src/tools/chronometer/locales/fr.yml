@@ -1,0 +1,5 @@
+tools:
+  chronometer:
+    start: 'Démarrer'
+    stop: 'Arrêter'
+    reset: 'Réinitialiser'

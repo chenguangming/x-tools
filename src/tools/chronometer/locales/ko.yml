@@ -1,0 +1,5 @@
+tools:
+  chronometer:
+    start: '시작'
+    stop: '정지'
+    reset: '초기화'

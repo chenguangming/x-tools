@@ -1,0 +1,6 @@
+tools:
+  json-minify:
+    invalidJson: '指定された JSON が無効です。'
+    inputLabel: '元の JSON'
+    inputPlaceholder: 'ここに元の JSON を貼り付け...'
+    outputLabel: 'JSON の圧縮版'

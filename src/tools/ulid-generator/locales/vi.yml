@@ -1,0 +1,8 @@
+tools:
+  ulid-generator:
+    raw: 'Thô'
+    copied: 'Đã sao chép ULID vào clipboard'
+    quantity: 'Số lượng:'
+    format: 'Định dạng: '
+    refresh: 'Làm mới'
+    copy: 'Sao chép'

@@ -1,0 +1,6 @@
+tools:
+  xml-to-json:
+    invalidXml: '提供的 XML 無效。'
+    inputLabel: '您的 XML 內容'
+    inputPlaceholder: '在此貼上 XML 內容...'
+    outputLabel: '轉換後的 JSON'

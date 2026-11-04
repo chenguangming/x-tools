@@ -1,0 +1,8 @@
+tools:
+  hash-text:
+    placeholder: 'ハッシュ化する文字列...'
+    textLabel: 'ハッシュ化するテキスト:'
+    digestEncoding: 'ダイジェストのエンコード'
+    binary: '2 進数（base 2）'
+    hexadecimal: '16 進数（base 16）'
+    base64url: 'Base64url（URL セーフな文字を使う base 64）'

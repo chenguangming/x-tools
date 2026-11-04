@@ -1,0 +1,8 @@
+tools:
+  json-prettify:
+    invalidJson: 'Das angegebene JSON ist ungültig.'
+    sortKeys: 'Schlüssel sortieren:'
+    indentSize: 'Einrückungsgröße:'
+    inputLabel: 'Dein rohes JSON'
+    inputPlaceholder: 'Füge hier dein rohes JSON ein...'
+    outputLabel: 'Formatierte Version deines JSON'

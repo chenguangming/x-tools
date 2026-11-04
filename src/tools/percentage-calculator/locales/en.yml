@@ -1,0 +1,10 @@
+tools:
+  percentage-calculator:
+    whatIs: 'What is'
+    percentOf: '% of'
+    xIsWhatPercentOfY: 'X is what percent of Y'
+    isWhatPercentOf: 'is what percent of'
+    increaseDecrease: 'What is the percentage increase/decrease'
+    result: 'Result'
+    from: 'From'
+    to: 'To'

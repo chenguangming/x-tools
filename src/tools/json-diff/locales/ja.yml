@@ -1,0 +1,9 @@
+tools:
+  json-diff:
+    invalidJson: 'JSON の形式が無効です'
+    firstLabel: '1 つ目の JSON'
+    firstPlaceholder: 'ここに 1 つ目の JSON を貼り付け...'
+    secondLabel: '比較する JSON'
+    secondPlaceholder: 'ここに比較する JSON を貼り付け...'
+    onlyShowDifferences: '差分のみ表示'
+    sameJson: '指定された JSON は同じです'

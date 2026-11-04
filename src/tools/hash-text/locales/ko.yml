@@ -1,0 +1,8 @@
+tools:
+  hash-text:
+    placeholder: '해시할 문자열...'
+    textLabel: '해시할 텍스트:'
+    digestEncoding: '다이제스트 인코딩'
+    binary: '2진수 (base 2)'
+    hexadecimal: '16진수 (base 16)'
+    base64url: 'Base64url (URL 안전 문자를 사용하는 base 64)'

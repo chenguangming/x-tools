@@ -1,0 +1,7 @@
+tools:
+  text-to-nato-alphabet:
+    copied: 'NATO-Alphabet-Zeichenfolge kopiert.'
+    inputLabel: 'Dein Text zur Umwandlung ins NATO-Alphabet'
+    inputPlaceholder: 'Text hier eingeben...'
+    outputLabel: 'Dein Text im NATO-Alphabet'
+    copy: 'NATO-Zeichenfolge kopieren'

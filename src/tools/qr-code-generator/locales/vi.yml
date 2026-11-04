@@ -1,0 +1,12 @@
+tools:
+  qrcode-generator:
+    text: 'Văn bản:'
+    textPlaceholder: 'Liên kết hoặc văn bản của bạn...'
+    foregroundColor: 'Màu nền trước:'
+    backgroundColor: 'Màu nền:'
+    errorResistance: 'Khả năng chịu lỗi:'
+    levelLow: 'thấp'
+    levelMedium: 'trung bình'
+    levelQuartile: 'tứ phân vị'
+    levelHigh: 'cao'
+    download: 'Tải xuống mã QR'

@@ -1,0 +1,9 @@
+tools:
+  roman-numeral-converter:
+    outOfRange: 'Solo podemos convertir números entre {min} y {max}'
+    invalidRoman: 'La entrada no es un número romano válido'
+    romanCopied: 'Número romano copiado al portapapeles'
+    arabicCopied: 'Número arábigo copiado al portapapeles'
+    arabicToRoman: 'Arábigo a romano'
+    romanToArabic: 'Romano a arábigo'
+    copy: 'Copiar'

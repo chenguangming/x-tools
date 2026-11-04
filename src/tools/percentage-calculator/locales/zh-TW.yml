@@ -1,0 +1,10 @@
+tools:
+  percentage-calculator:
+    whatIs: '是多少'
+    percentOf: '% 的'
+    xIsWhatPercentOfY: 'X 是 Y 的百分之幾'
+    isWhatPercentOf: '是以下數值的百分之幾：'
+    increaseDecrease: '百分比增減是多少'
+    result: '結果'
+    from: '從'
+    to: '到'

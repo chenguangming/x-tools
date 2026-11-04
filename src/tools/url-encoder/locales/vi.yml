@@ -1,0 +1,16 @@
+tools:
+  url-encoder:
+    parseError: 'Không thể phân tích chuỗi này'
+    encodedCopied: 'Đã sao chép chuỗi đã mã hóa vào bộ nhớ tạm'
+    decodedCopied: 'Đã sao chép chuỗi đã giải mã vào bộ nhớ tạm'
+    encode: 'Mã hóa'
+    decode: 'Giải mã'
+    yourString: 'Chuỗi của bạn:'
+    yourStringEncoded: 'Chuỗi đã mã hóa:'
+    yourEncodedString: 'Chuỗi đã mã hóa của bạn:'
+    yourStringDecoded: 'Chuỗi đã giải mã:'
+    encodePlaceholder: 'Chuỗi cần mã hóa'
+    encodedPlaceholder: 'Chuỗi đã mã hóa'
+    decodePlaceholder: 'Chuỗi cần giải mã'
+    decodedPlaceholder: 'Chuỗi đã giải mã'
+    copy: 'Sao chép'

@@ -1,0 +1,10 @@
+tools:
+  email-normalizer:
+    unableToParse: 'Kunne ikke tolke e-post: {email}'
+    copied: 'Normaliserte e-poster kopiert til utklippstavlen'
+    rawEmails: 'Rå e-poster som skal normaliseres:'
+    rawPlaceholder: 'Legg inn e-postene dine her (én per linje)...'
+    normalizedEmails: 'Normaliserte e-poster:'
+    normalizedPlaceholder: 'Normaliserte e-poster vises her...'
+    clear: 'Tøm e-poster'
+    copy: 'Kopier normaliserte e-poster'

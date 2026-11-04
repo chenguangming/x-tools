@@ -1,0 +1,14 @@
+tools:
+  text-to-unicode:
+    textToUnicodeTitle: 'Văn bản sang Unicode'
+    textPlaceholder: 'ví dụ: ''Hello Avengers'''
+    textInputLabel: 'Nhập văn bản để chuyển sang Unicode'
+    unicodeOutputLabel: 'Unicode từ văn bản của bạn'
+    unicodeOutputPlaceholder: 'Biểu diễn Unicode của văn bản sẽ hiển thị ở đây'
+    copyUnicode: 'Sao chép Unicode vào clipboard'
+    unicodeToTextTitle: 'Unicode sang văn bản'
+    unicodePlaceholder: 'Nhập Unicode'
+    unicodeInputLabel: 'Nhập Unicode để chuyển sang văn bản'
+    textOutputLabel: 'Văn bản từ Unicode của bạn'
+    textOutputPlaceholder: 'Biểu diễn văn bản của Unicode sẽ hiển thị ở đây'
+    copyText: 'Sao chép văn bản vào clipboard'

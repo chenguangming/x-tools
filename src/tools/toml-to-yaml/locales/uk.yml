@@ -1,0 +1,6 @@
+tools:
+  toml-to-yaml:
+    invalidToml: 'Наданий TOML недійсний.'
+    inputLabel: 'Ваш TOML'
+    inputPlaceholder: 'Вставте TOML сюди...'
+    outputLabel: 'YAML з вашого TOML'

@@ -1,0 +1,8 @@
+tools:
+  docker-run-to-docker-compose-converter:
+    yourCommand: 'Tu comando docker run:'
+    commandPlaceholder: 'Tu comando docker run para convertir...'
+    download: 'Descargar docker-compose.yml'
+    notTranslatable: 'Estas opciones no se pueden traducir a docker-compose'
+    notImplemented: 'Estas opciones aún no están implementadas y por lo tanto no se han traducido a docker-compose'
+    errors: 'Se produjeron los siguientes errores'

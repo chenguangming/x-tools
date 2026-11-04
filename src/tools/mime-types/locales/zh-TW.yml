@@ -1,0 +1,12 @@
+tools:
+  mime-types:
+    mimeToExtensionTitle: 'MIME 類型轉副檔名'
+    mimeToExtensionDescription: '了解某個 MIME 類型關聯的檔案副檔名'
+    selectMimeTypePlaceholder: '在此選擇 MIME 類型...（例如：application/pdf）'
+    extensionsOfMimeType: 'MIME 類型為 {mimeType} 的檔案副檔名：'
+    extensionToMimeTitle: '檔案副檔名轉 MIME 類型'
+    extensionToMimeDescription: '了解某個檔案副檔名關聯的 MIME 類型'
+    selectExtensionPlaceholder: '在此選擇檔案副檔名...'
+    mimeTypeOfExtension: '與檔案副檔名 {extension} 關聯的 MIME 類型：'
+    mimeTypesHeader: 'MIME 類型'
+    extensionsHeader: '副檔名'

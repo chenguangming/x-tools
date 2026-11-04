@@ -1,0 +1,4 @@
+tools:
+  numeronym-generator:
+    wordPlaceholder: 'Gib ein Wort ein, z. B. ''internationalization'''
+    numeronymPlaceholder: 'Dein Numeronym erscheint hier, z. B. ''i18n'''

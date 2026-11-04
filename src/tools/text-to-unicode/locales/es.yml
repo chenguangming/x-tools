@@ -1,0 +1,14 @@
+tools:
+  text-to-unicode:
+    textToUnicodeTitle: 'Texto a Unicode'
+    textPlaceholder: 'p. ej. ''Hello Avengers'''
+    textInputLabel: 'Introduce el texto para convertir a Unicode'
+    unicodeOutputLabel: 'Unicode de tu texto'
+    unicodeOutputPlaceholder: 'La representación Unicode de tu texto aparecerá aquí'
+    copyUnicode: 'Copiar Unicode al portapapeles'
+    unicodeToTextTitle: 'Unicode a texto'
+    unicodePlaceholder: 'Introduce Unicode'
+    unicodeInputLabel: 'Introduce Unicode para convertir a texto'
+    textOutputLabel: 'Texto de tu Unicode'
+    textOutputPlaceholder: 'La representación en texto de tu Unicode aparecerá aquí'
+    copyText: 'Copiar texto al portapapeles'

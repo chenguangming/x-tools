@@ -1,0 +1,8 @@
+tools:
+  slugify-string:
+    slugCopied: 'Slug скопійовано в буфер обміну'
+    inputPlaceholder: 'Введіть рядок тут (напр.: My file path)'
+    inputLabel: 'Ваш рядок для перетворення на slug'
+    slugPlaceholder: 'Ваш slug буде згенеровано тут (напр.: my-file-path)'
+    slugLabel: 'Ваш slug'
+    copySlug: 'Копіювати slug'

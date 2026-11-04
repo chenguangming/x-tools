@@ -1,0 +1,10 @@
+tools:
+  percentage-calculator:
+    whatIs: 'Скільки це'
+    percentOf: '% від'
+    xIsWhatPercentOfY: 'X — це який відсоток від Y'
+    isWhatPercentOf: '— це який відсоток від'
+    increaseDecrease: 'Який відсоток збільшення/зменшення'
+    result: 'Результат'
+    from: 'Від'
+    to: 'До'

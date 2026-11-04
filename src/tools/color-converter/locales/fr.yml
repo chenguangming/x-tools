@@ -1,0 +1,7 @@
+tools:
+  color-converter:
+    unknown: 'Inconnu'
+    invalidFormat: 'Format {format} invalide.'
+    colorPicker: 'sélecteur de couleur'
+    name: 'nom'
+    example: 'ex. {value}'

@@ -1,0 +1,10 @@
+tools:
+  date-converter:
+    jsLocaleDateString: 'Локальний рядок дати JS'
+    unixTimestamp: 'Unix-мітка часу'
+    timestamp: 'Мітка часу'
+    utcFormat: 'Формат UTC'
+    excelDateTime: 'Дата/час Excel'
+    invalidDate: 'Ця дата недійсна для цього формату'
+    inputPlaceholder: 'Введіть тут рядок дати...'
+    invalidDatePlaceholder: 'Недійсна дата...'

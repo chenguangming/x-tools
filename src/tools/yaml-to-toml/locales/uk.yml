@@ -1,0 +1,6 @@
+tools:
+  yaml-to-toml:
+    invalidJson: 'Наданий JSON недійсний.'
+    inputLabel: 'Ваш YAML'
+    inputPlaceholder: 'Вставте ваш YAML тут...'
+    outputLabel: 'TOML з вашого YAML'

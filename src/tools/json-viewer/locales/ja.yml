@@ -1,0 +1,8 @@
+tools:
+  json-prettify:
+    invalidJson: '指定された JSON が無効です。'
+    sortKeys: 'キーをソート：'
+    indentSize: 'インデント幅：'
+    inputLabel: '元の JSON'
+    inputPlaceholder: 'ここに元の JSON を貼り付け...'
+    outputLabel: 'JSON の整形版'

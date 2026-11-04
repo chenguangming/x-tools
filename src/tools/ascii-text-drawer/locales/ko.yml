@@ -1,0 +1,11 @@
+tools:
+  ascii-text-drawer:
+    yourText: '텍스트:'
+    yourTextPlaceholder: '그릴 텍스트'
+    font: '글꼴:'
+    fontPlaceholder: '사용할 글꼴 선택'
+    width: '너비:'
+    widthPlaceholder: '텍스트 너비'
+    loadingFont: '글꼴 불러오는 중...'
+    error: '현재 설정으로 인해 오류가 발생했습니다.'
+    asciiArtText: 'ASCII 아트 텍스트:'

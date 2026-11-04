@@ -1,0 +1,8 @@
+tools:
+  emoji-picker:
+    emojiCopied: 'Emoji {emoji} copied to the clipboard'
+    codePointsCopied: 'Code points ''{codePoints}'' copied to the clipboard'
+    unicodeCopied: 'Unicode ''{unicode}'' copied to the clipboard'
+    searchPlaceholder: 'Search emojis (e.g. ''smile'')...'
+    noResults: 'No results'
+    searchResult: 'Search result'

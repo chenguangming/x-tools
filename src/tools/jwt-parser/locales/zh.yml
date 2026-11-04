@@ -1,0 +1,7 @@
+tools:
+  jwt-parser:
+    header: '头部（Header）'
+    payload: '载荷（Payload）'
+    invalidJwt: '无效的 JWT'
+    jwtLabel: '要解码的 JWT'
+    jwtPlaceholder: '在此粘贴您的令牌...'

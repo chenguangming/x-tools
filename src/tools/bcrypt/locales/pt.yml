@@ -1,0 +1,16 @@
+tools:
+  bcrypt:
+    copied: 'String com hash copiada para a área de transferência'
+    hash: 'Hash'
+    stringPlaceholder: 'Sua string para bcrypt...'
+    yourString: 'Sua string: '
+    saltCount: 'Rodadas de salt: '
+    saltRounds: 'Rodadas de salt...'
+    copyHash: 'Copiar hash'
+    compareTitle: 'Comparar string com hash'
+    compareStringPlaceholder: 'Sua string para comparar...'
+    yourHash: 'Seu hash: '
+    compareHashPlaceholder: 'Seu hash para comparar...'
+    doTheyMatch: 'Eles correspondem? '
+    'yes': 'Sim'
+    'no': 'Não'

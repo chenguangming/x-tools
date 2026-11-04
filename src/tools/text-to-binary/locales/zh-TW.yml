@@ -1,0 +1,15 @@
+tools:
+  text-to-binary:
+    invalidBinary: '二進位必須是有效的 ASCII 二進位字串，且位元數為 8 的倍數'
+    textToBinaryTitle: '文字轉 ASCII 二進位'
+    textPlaceholder: '例如 ''Hello world'''
+    textInputLabel: '輸入要轉換為二進位的文字'
+    binaryOutputLabel: '文字對應的二進位'
+    binaryOutputPlaceholder: '文字的二進位表示將顯示在這裡'
+    copyBinary: '複製二進位到剪貼簿'
+    binaryToTextTitle: 'ASCII 二進位轉文字'
+    binaryPlaceholder: '例如 ''01001000 01100101 01101100 01101100 01101111'''
+    binaryInputLabel: '輸入要轉換為文字的二進位'
+    textOutputLabel: '二進位對應的文字'
+    textOutputPlaceholder: '二進位的文字表示將顯示在這裡'
+    copyText: '複製文字到剪貼簿'

@@ -1,0 +1,9 @@
+tools:
+  ipv4-address-converter:
+    decimal: 'Dezimal: '
+    hexadecimal: 'Hexadezimal: '
+    binary: 'Binär: '
+    invalid: 'Ungültige IPv4-Adresse'
+    label: 'Die IPv4-Adresse:'
+    placeholder: 'Die IPv4-Adresse...'
+    setCorrect: 'Geben Sie eine gültige IPv4-Adresse ein'

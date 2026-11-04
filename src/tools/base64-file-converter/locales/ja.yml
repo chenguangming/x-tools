@@ -1,0 +1,15 @@
+tools:
+  base64-file-converter:
+    invalidBase64: '無効な Base64 文字列です'
+    copied: 'Base64 文字列をクリップボードにコピーしました'
+    base64ToFile: 'Base64 からファイルへ'
+    fileName: 'ファイル名'
+    fileNamePlaceholder: 'ダウンロードするファイル名'
+    extension: '拡張子'
+    base64Placeholder: 'ここに Base64 ファイル文字列を貼り付けてください...'
+    previewImage: '画像をプレビュー'
+    downloadFile: 'ファイルをダウンロード'
+    fileToBase64: 'ファイルから Base64 へ'
+    uploadTitle: 'ここにファイルをドラッグ&ドロップするか、クリックしてファイルを選択'
+    fileBase64Placeholder: 'ファイルの Base64 がここに表示されます'
+    copy: 'コピー'

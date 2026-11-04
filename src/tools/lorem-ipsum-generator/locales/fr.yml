@@ -1,0 +1,11 @@
+tools:
+  lorem-ipsum-generator:
+    copied: 'Lorem ipsum copié dans le presse-papiers'
+    paragraphs: 'Paragraphes'
+    sentencesPerParagraph: 'Phrases par paragraphe'
+    wordsPerSentence: 'Mots par phrase'
+    startWithLoremIpsum: 'Commencer par « Lorem ipsum » ?'
+    asHtml: 'Au format HTML ?'
+    placeholder: 'Votre lorem ipsum...'
+    copy: 'Copier'
+    refresh: 'Actualiser'

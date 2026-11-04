@@ -1,0 +1,6 @@
+tools:
+  json-to-csv:
+    invalidJson: '제공된 JSON이 유효하지 않습니다.'
+    inputLabel: '원본 JSON'
+    inputPlaceholder: '여기에 원본 JSON을 붙여넣으세요...'
+    outputLabel: 'JSON의 CSV 버전'

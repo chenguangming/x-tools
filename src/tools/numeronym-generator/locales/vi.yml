@@ -1,0 +1,4 @@
+tools:
+  numeronym-generator:
+    wordPlaceholder: 'Nhập một từ, ví dụ ''internationalization'''
+    numeronymPlaceholder: 'Numeronym của bạn sẽ hiển thị ở đây, ví dụ ''i18n'''

@@ -1,0 +1,12 @@
+tools:
+  mime-types:
+    mimeToExtensionTitle: 'Tipo MIME a extensión'
+    mimeToExtensionDescription: 'Descubre qué extensiones de archivo están asociadas a un tipo MIME'
+    selectMimeTypePlaceholder: 'Selecciona aquí tu tipo MIME... (p. ej.: application/pdf)'
+    extensionsOfMimeType: 'Extensiones de los archivos con el tipo MIME {mimeType}:'
+    extensionToMimeTitle: 'Extensión de archivo a tipo MIME'
+    extensionToMimeDescription: 'Descubre qué tipo MIME está asociado a una extensión de archivo'
+    selectExtensionPlaceholder: 'Selecciona aquí tu extensión de archivo...'
+    mimeTypeOfExtension: 'Tipo MIME asociado a la extensión de archivo {extension}:'
+    mimeTypesHeader: 'Tipos MIME'
+    extensionsHeader: 'Extensiones'

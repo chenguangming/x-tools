@@ -1,0 +1,7 @@
+tools:
+  text-to-nato-alphabet:
+    copied: 'Đã sao chép chuỗi bảng chữ cái NATO.'
+    inputLabel: 'Văn bản của bạn để chuyển sang bảng chữ cái ngữ âm NATO'
+    inputPlaceholder: 'Nhập văn bản của bạn vào đây...'
+    outputLabel: 'Văn bản của bạn trong bảng chữ cái ngữ âm NATO'
+    copy: 'Sao chép chuỗi NATO'

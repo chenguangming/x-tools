@@ -1,0 +1,17 @@
+tools:
+  base-converter:
+    inputNumber: 'Input number'
+    inputPlaceholder: 'Put your number here (ex: 42)'
+    inputBase: 'Input base'
+    inputBasePlaceholder: 'Put your input base here (ex: 10)'
+    binary: 'Binary (2)'
+    octal: 'Octal (8)'
+    decimal: 'Decimal (10)'
+    hexadecimal: 'Hexadecimal (16)'
+    binaryPlaceholder: 'Binary version will be here...'
+    octalPlaceholder: 'Octal version will be here...'
+    decimalPlaceholder: 'Decimal version will be here...'
+    hexadecimalPlaceholder: 'Hexadecimal version will be here...'
+    base64Placeholder: 'Base64 version will be here...'
+    custom: 'Custom:'
+    customPlaceholder: 'Base {base} will be here...'

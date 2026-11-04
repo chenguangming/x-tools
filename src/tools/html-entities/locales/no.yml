@@ -1,0 +1,13 @@
+tools:
+  html-entities:
+    escapeTitle: 'Escape HTML-entiteter'
+    unescapeTitle: 'Unescape HTML-entiteter'
+    yourString: 'Strengen din:'
+    yourStringEscaped: 'Strengen din escapet:'
+    yourEscapedString: 'Din escapede streng:'
+    yourStringUnescaped: 'Strengen din unescapet:'
+    stringToEscape: 'Strengen som skal escapes'
+    escapedPlaceholder: 'Strengen din escapet'
+    stringToUnescape: 'Strengen som skal unescapes'
+    unescapedPlaceholder: 'Strengen din unescapet'
+    copy: 'Kopier'

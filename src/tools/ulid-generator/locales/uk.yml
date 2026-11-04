@@ -1,0 +1,8 @@
+tools:
+  ulid-generator:
+    raw: 'Звичайний'
+    copied: 'ULID скопійовано в буфер обміну'
+    quantity: 'Кількість:'
+    format: 'Формат: '
+    refresh: 'Оновити'
+    copy: 'Копіювати'

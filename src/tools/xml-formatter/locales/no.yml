@@ -1,0 +1,8 @@
+tools:
+  xml-formatter:
+    invalidXml: 'Den oppgitte XML-en er ugyldig.'
+    collapseContent: 'Skjul innhold:'
+    indentSize: 'Innrykksstørrelse:'
+    inputLabel: 'Din XML'
+    inputPlaceholder: 'Lim inn XML her...'
+    outputLabel: 'Formatert XML fra din XML'

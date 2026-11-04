@@ -1,0 +1,10 @@
+tools:
+  password-strength-analyser:
+    passwordLength: 'Longueur du mot de passe :'
+    entropy: 'Entropie :'
+    charsetSize: 'Taille du jeu de caractères :'
+    score: 'Score :'
+    passwordPlaceholder: 'Saisissez un mot de passe...'
+    crackDuration: 'Durée pour casser ce mot de passe par force brute'
+    noteLabel: 'Remarque :'
+    noteText: 'La robustesse calculée repose sur le temps nécessaire pour casser le mot de passe par force brute ; elle ne tient pas compte d''une éventuelle attaque par dictionnaire.'

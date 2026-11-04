@@ -1,0 +1,12 @@
+tools:
+  uuid-generator:
+    invalidUuid: 'UUID no válido'
+    copied: 'UUID copiados al portapapeles'
+    version: 'Versión de UUID'
+    quantity: 'Cantidad'
+    quantityPlaceholder: 'Cantidad de UUID'
+    namespace: 'Espacio de nombres'
+    name: 'Nombre'
+    uuidsPlaceholder: 'Sus UUID'
+    copy: 'Copiar'
+    refresh: 'Actualizar'

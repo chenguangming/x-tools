@@ -1,0 +1,7 @@
+tools:
+  rsa-key-pair-generator:
+    bitsInvalid: '位数应满足 256 <= 位数 <= 16384，且为 8 的倍数'
+    bits: '位数：'
+    refresh: '刷新密钥对'
+    publicKey: '公钥'
+    privateKey: '私钥'

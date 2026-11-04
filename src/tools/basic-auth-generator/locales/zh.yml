@@ -1,0 +1,9 @@
+tools:
+  basic-auth-generator:
+    copied: '请求头已复制到剪贴板'
+    username: '用户名'
+    usernamePlaceholder: '您的用户名...'
+    password: '密码'
+    passwordPlaceholder: '您的密码...'
+    authorizationHeader: 'Authorization 请求头:'
+    copyHeader: '复制请求头'

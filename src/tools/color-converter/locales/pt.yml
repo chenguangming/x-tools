@@ -1,0 +1,7 @@
+tools:
+  color-converter:
+    unknown: 'Desconhecido'
+    invalidFormat: 'Formato {format} inválido.'
+    colorPicker: 'seletor de cores'
+    name: 'nome'
+    example: 'ex.: {value}'

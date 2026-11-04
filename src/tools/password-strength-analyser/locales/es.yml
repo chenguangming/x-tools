@@ -1,0 +1,10 @@
+tools:
+  password-strength-analyser:
+    passwordLength: 'Longitud de la contraseña:'
+    entropy: 'Entropía:'
+    charsetSize: 'Tamaño del juego de caracteres:'
+    score: 'Puntuación:'
+    passwordPlaceholder: 'Introduce una contraseña...'
+    crackDuration: 'Tiempo para descifrar esta contraseña por fuerza bruta'
+    noteLabel: 'Nota:'
+    noteText: 'La fortaleza calculada se basa en el tiempo que se tardaría en descifrar la contraseña mediante fuerza bruta; no tiene en cuenta la posibilidad de un ataque de diccionario.'

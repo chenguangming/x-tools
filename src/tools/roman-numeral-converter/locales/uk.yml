@@ -1,0 +1,9 @@
+tools:
+  roman-numeral-converter:
+    outOfRange: 'Можна конвертувати лише числа від {min} до {max}'
+    invalidRoman: 'Введене значення не є коректним римським числом'
+    romanCopied: 'Римське число скопійовано в буфер обміну'
+    arabicCopied: 'Арабське число скопійовано в буфер обміну'
+    arabicToRoman: 'Арабські числа в римські'
+    romanToArabic: 'Римські числа в арабські'
+    copy: 'Копіювати'

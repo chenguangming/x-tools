@@ -1,0 +1,6 @@
+tools:
+  json-to-toml:
+    invalidJson: 'Den oppgitte JSON-en er ugyldig.'
+    inputLabel: 'Din JSON'
+    inputPlaceholder: 'Lim inn din JSON her...'
+    outputLabel: 'TOML fra din JSON'

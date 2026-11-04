@@ -1,0 +1,12 @@
+tools:
+  uuid-generator:
+    invalidUuid: 'Недійсний UUID'
+    copied: 'UUID скопійовано в буфер обміну'
+    version: 'Версія UUID'
+    quantity: 'Кількість'
+    quantityPlaceholder: 'Кількість UUID'
+    namespace: 'Простір імен'
+    name: 'Назва'
+    uuidsPlaceholder: 'Ваші UUID'
+    copy: 'Копіювати'
+    refresh: 'Оновити'

@@ -1,0 +1,6 @@
+tools:
+  json-minify:
+    invalidJson: 'Наданий JSON недійсний.'
+    inputLabel: 'Ваш необроблений JSON'
+    inputPlaceholder: 'Вставте сюди необроблений JSON...'
+    outputLabel: 'Мініфікована версія вашого JSON'

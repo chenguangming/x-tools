@@ -1,0 +1,9 @@
+tools:
+  ipv6-ula-generator:
+    ula: 'IPv6 ULA:'
+    firstBlock: 'Første rutbare blokk:'
+    lastBlock: 'Siste rutbare blokk:'
+    infoTitle: 'Info'
+    info: 'Dette verktøyet bruker den første metoden foreslått av IETF: gjeldende tidsstempel pluss MAC-adressen, SHA-1-hashet, og de laveste 40 bitene for å generere din tilfeldige ULA.'
+    placeholder: 'Skriv inn en MAC-adresse'
+    macLabel: 'MAC-adresse:'

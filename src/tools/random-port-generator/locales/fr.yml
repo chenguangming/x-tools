@@ -1,0 +1,5 @@
+tools:
+  random-port-generator:
+    portCopied: 'Port copié dans le presse-papiers'
+    copy: 'Copier'
+    refresh: 'Actualiser'

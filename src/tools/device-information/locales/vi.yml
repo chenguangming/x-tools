@@ -1,0 +1,16 @@
+tools:
+  device-information:
+    screen: 'Màn hình'
+    device: 'Thiết bị'
+    screenSize: 'Kích thước màn hình'
+    orientation: 'Hướng màn hình'
+    orientationAngle: 'Góc xoay'
+    colorDepth: 'Độ sâu màu'
+    bits: 'bit'
+    pixelRatio: 'Tỷ lệ điểm ảnh'
+    windowSize: 'Kích thước cửa sổ'
+    browserVendor: 'Nhà cung cấp trình duyệt'
+    languages: 'Ngôn ngữ'
+    platform: 'Nền tảng'
+    userAgent: 'User agent'
+    unknown: 'không xác định'

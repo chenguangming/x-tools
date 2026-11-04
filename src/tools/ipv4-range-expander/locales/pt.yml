@@ -1,0 +1,13 @@
+tools:
+  ipv4-range-expander:
+    invalidIpv4: 'Endereço IPv4 inválido'
+    startAddress: 'Endereço inicial'
+    endAddress: 'Endereço final'
+    addressesInRange: 'Endereços no intervalo'
+    startPlaceholder: 'Endereço IPv4 inicial...'
+    endPlaceholder: 'Endereço IPv4 final...'
+    oldValue: 'valor antigo'
+    newValue: 'valor novo'
+    invalidCombinationTitle: 'Combinação inválida de endereços IPv4 inicial e final'
+    invalidCombination: 'O endereço IPv4 final é menor que o endereço IPv4 inicial. Isso não é válido e nenhum resultado pôde ser calculado. Na maioria dos casos, a solução é trocar os endereços inicial e final.'
+    switch: 'Trocar endereços IPv4 inicial e final'

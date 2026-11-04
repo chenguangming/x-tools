@@ -1,0 +1,6 @@
+tools:
+  toml-to-yaml:
+    invalidToml: 'TOML được cung cấp không hợp lệ.'
+    inputLabel: 'TOML của bạn'
+    inputPlaceholder: 'Dán TOML của bạn vào đây...'
+    outputLabel: 'YAML từ TOML của bạn'

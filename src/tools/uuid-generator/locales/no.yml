@@ -1,0 +1,12 @@
+tools:
+  uuid-generator:
+    invalidUuid: 'Ugyldig UUID'
+    copied: 'UUID-er kopiert til utklippstavlen'
+    version: 'UUID-versjon'
+    quantity: 'Antall'
+    quantityPlaceholder: 'Antall UUID-er'
+    namespace: 'Navnerom'
+    name: 'Navn'
+    uuidsPlaceholder: 'Dine UUID-er'
+    copy: 'Kopier'
+    refresh: 'Oppdater'

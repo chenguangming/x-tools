@@ -1,0 +1,6 @@
+tools:
+  yaml-to-toml:
+    invalidJson: 'Den oppgitte JSON-en er ugyldig.'
+    inputLabel: 'Din YAML'
+    inputPlaceholder: 'Lim inn YAML her...'
+    outputLabel: 'TOML fra din YAML'

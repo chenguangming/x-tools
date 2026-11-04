@@ -1,0 +1,8 @@
+tools:
+  xml-formatter:
+    invalidXml: '指定された XML は無効です。'
+    collapseContent: '内容を折りたたむ：'
+    indentSize: 'インデントサイズ：'
+    inputLabel: 'XML'
+    inputPlaceholder: 'ここに XML を貼り付け...'
+    outputLabel: '整形された XML'

@@ -1,0 +1,16 @@
+tools:
+  bcrypt:
+    copied: 'Đã sao chép chuỗi đã băm vào khay nhớ tạm'
+    hash: 'Hash'
+    stringPlaceholder: 'Chuỗi của bạn để bcrypt...'
+    yourString: 'Chuỗi của bạn: '
+    saltCount: 'Số vòng salt: '
+    saltRounds: 'Số vòng salt...'
+    copyHash: 'Sao chép hash'
+    compareTitle: 'So sánh chuỗi với hash'
+    compareStringPlaceholder: 'Chuỗi của bạn để so sánh...'
+    yourHash: 'Hash của bạn: '
+    compareHashPlaceholder: 'Hash của bạn để so sánh...'
+    doTheyMatch: 'Chúng có khớp không? '
+    'yes': 'Có'
+    'no': 'Không'

@@ -1,0 +1,10 @@
+tools:
+  http-status-codes:
+    searchPlaceholder: 'Søk etter HTTP-status...'
+    searchResults: 'Søkeresultater'
+    category1xx: '1xx informasjonssvar'
+    category2xx: '2xx suksess'
+    category3xx: '3xx omdirigering'
+    category4xx: '4xx klientfeil'
+    category5xx: '5xx serverfeil'
+    forType: 'For {type}.'

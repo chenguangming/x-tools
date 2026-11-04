@@ -1,0 +1,18 @@
+tools:
+  html-wysiwyg-editor:
+    bold: '粗体'
+    italic: '斜体'
+    strike: '删除线'
+    inlineCode: '行内代码'
+    heading1: '标题 1'
+    heading2: '标题 2'
+    heading3: '标题 3'
+    heading4: '标题 4'
+    bulletList: '无序列表'
+    orderedList: '有序列表'
+    codeBlock: '代码块'
+    blockquote: '引用块'
+    hardBreak: '强制换行'
+    clearFormat: '清除格式'
+    undo: '撤销'
+    redo: '重做'

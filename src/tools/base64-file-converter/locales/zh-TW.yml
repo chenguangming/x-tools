@@ -1,0 +1,15 @@
+tools:
+  base64-file-converter:
+    invalidBase64: '無效的 Base64 字串'
+    copied: 'Base64 字串已複製到剪貼簿'
+    base64ToFile: 'Base64 轉檔案'
+    fileName: '檔案名稱'
+    fileNamePlaceholder: '下載檔名'
+    extension: '副檔名'
+    base64Placeholder: '在此貼上您的 Base64 檔案字串...'
+    previewImage: '預覽圖片'
+    downloadFile: '下載檔案'
+    fileToBase64: '檔案轉 Base64'
+    uploadTitle: '將檔案拖放到此處,或點擊選擇檔案'
+    fileBase64Placeholder: '檔案的 Base64 將顯示在此處'
+    copy: '複製'

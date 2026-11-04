@@ -1,0 +1,7 @@
+tools:
+  string-obfuscator:
+    placeholder: 'Skriv inn strengen som skal tilsløres'
+    label: 'Streng som skal tilsløres:'
+    keepFirst: 'Behold første:'
+    keepLast: 'Behold siste:'
+    keepSpaces: 'Behold mellomrom:'

@@ -1,0 +1,10 @@
+tools:
+  password-strength-analyser:
+    passwordLength: 'Passwortlänge:'
+    entropy: 'Entropie:'
+    charsetSize: 'Größe des Zeichensatzes:'
+    score: 'Bewertung:'
+    passwordPlaceholder: 'Passwort eingeben...'
+    crackDuration: 'Dauer, dieses Passwort per Brute-Force zu knacken'
+    noteLabel: 'Hinweis:'
+    noteText: 'Die berechnete Stärke basiert auf der Zeit, die zum Knacken des Passworts per Brute-Force nötig wäre; die Möglichkeit eines Wörterbuchangriffs wird nicht berücksichtigt.'

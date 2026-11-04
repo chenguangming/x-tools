@@ -1,0 +1,13 @@
+tools:
+  mac-address-generator:
+    copied: 'MAC アドレスをクリップボードにコピーしました'
+    uppercase: '大文字'
+    lowercase: '小文字'
+    none: 'なし'
+    quantity: '数量：'
+    prefixLabel: 'MAC アドレスのプレフィックス：'
+    prefixPlaceholder: 'プレフィックスを設定（例：64:16:7F）'
+    caseLabel: '大文字/小文字：'
+    separatorLabel: '区切り文字：'
+    refresh: '更新'
+    copy: 'コピー'

@@ -1,0 +1,10 @@
+tools:
+  http-status-codes:
+    searchPlaceholder: 'Пошук HTTP-статусу...'
+    searchResults: 'Результати пошуку'
+    category1xx: '1xx інформаційна відповідь'
+    category2xx: '2xx успіх'
+    category3xx: '3xx перенаправлення'
+    category4xx: '4xx помилка клієнта'
+    category5xx: '5xx помилка сервера'
+    forType: 'Для {type}.'

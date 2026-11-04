@@ -1,0 +1,12 @@
+tools:
+  keycode-info:
+    keyLabel: '按键：'
+    keyPlaceholder: '按键名称...'
+    keycodeLabel: 'Keycode：'
+    keycodePlaceholder: 'Keycode...'
+    codeLabel: 'Code：'
+    codePlaceholder: 'Code...'
+    locationLabel: 'Location：'
+    modifiersLabel: '修饰键：'
+    modifiersPlaceholder: '无'
+    pressKeyHint: '请按下键盘上的任意按键，以获取该按键的信息'

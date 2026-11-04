@@ -1,0 +1,16 @@
+tools:
+  bcrypt:
+    copied: 'Хешований рядок скопійовано в буфер обміну'
+    hash: 'Хеш'
+    stringPlaceholder: 'Ваш рядок для bcrypt...'
+    yourString: 'Ваш рядок: '
+    saltCount: 'Раунди солі: '
+    saltRounds: 'Раунди солі...'
+    copyHash: 'Копіювати хеш'
+    compareTitle: 'Порівняння рядка з хешем'
+    compareStringPlaceholder: 'Ваш рядок для порівняння...'
+    yourHash: 'Ваш хеш: '
+    compareHashPlaceholder: 'Ваш хеш для порівняння...'
+    doTheyMatch: 'Вони збігаються? '
+    'yes': 'Так'
+    'no': 'Ні'

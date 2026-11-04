@@ -1,0 +1,7 @@
+tools:
+  string-obfuscator:
+    placeholder: '輸入要混淆的字串'
+    label: '要混淆的字串：'
+    keepFirst: '保留開頭：'
+    keepLast: '保留結尾：'
+    keepSpaces: '保留 空格：'

@@ -1,0 +1,14 @@
+tools:
+  text-to-unicode:
+    textToUnicodeTitle: '文本转 Unicode'
+    textPlaceholder: '例如 ''Hello Avengers'''
+    textInputLabel: '输入要转换为 Unicode 的文本'
+    unicodeOutputLabel: '文本对应的 Unicode'
+    unicodeOutputPlaceholder: '文本的 Unicode 表示将显示在这里'
+    copyUnicode: '复制 Unicode 到剪贴板'
+    unicodeToTextTitle: 'Unicode 转文本'
+    unicodePlaceholder: '输入 Unicode'
+    unicodeInputLabel: '输入要转换为文本的 Unicode'
+    textOutputLabel: 'Unicode 对应的文本'
+    textOutputPlaceholder: 'Unicode 的文本表示将显示在这里'
+    copyText: '复制文本到剪贴板'

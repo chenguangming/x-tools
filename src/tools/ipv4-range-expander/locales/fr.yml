@@ -1,0 +1,13 @@
+tools:
+  ipv4-range-expander:
+    invalidIpv4: 'Adresse IPv4 invalide'
+    startAddress: 'Adresse de début'
+    endAddress: 'Adresse de fin'
+    addressesInRange: 'Adresses dans la plage'
+    startPlaceholder: 'Adresse IPv4 de début...'
+    endPlaceholder: 'Adresse IPv4 de fin...'
+    oldValue: 'ancienne valeur'
+    newValue: 'nouvelle valeur'
+    invalidCombinationTitle: 'Combinaison invalide d''adresses IPv4 de début et de fin'
+    invalidCombination: 'L''adresse IPv4 de fin est inférieure à l''adresse IPv4 de début. Ce n''est pas valide et aucun résultat n''a pu être calculé. Dans la plupart des cas, la solution consiste à inverser les adresses de début et de fin.'
+    switch: 'Inverser les adresses IPv4 de début et de fin'

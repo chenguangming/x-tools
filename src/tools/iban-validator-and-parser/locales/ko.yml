@@ -1,0 +1,9 @@
+tools:
+  iban-validator-and-parser:
+    isValid: 'IBAN이 유효한가요?'
+    errors: 'IBAN 오류'
+    isQrIban: 'IBAN이 QR-IBAN인가요?'
+    countryCode: '국가 코드'
+    friendlyFormat: 'IBAN 보기 쉬운 형식'
+    placeholder: '유효성을 확인할 IBAN을 입력하세요...'
+    examplesTitle: '유효한 IBAN 예시'

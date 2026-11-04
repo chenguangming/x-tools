@@ -1,0 +1,14 @@
+tools:
+  encryption:
+    encrypt: '加密'
+    decrypt: '解密'
+    decryptError: '解密時發生錯誤'
+    unableToDecrypt: '無法解密你的文字'
+    yourText: '你的文字：'
+    secretKey: '你的金鑰：'
+    algorithm: '加密演算法：'
+    textEncrypted: '加密後的文字：'
+    encryptedText: '你的加密文字：'
+    textDecrypted: '解密後的文字：'
+    cypherPlaceholder: '要加密的字串'
+    outputPlaceholder: '你的字串雜湊'

@@ -1,0 +1,12 @@
+tools:
+  uuid-generator:
+    invalidUuid: '잘못된 UUID'
+    copied: 'UUID가 클립보드에 복사되었습니다'
+    version: 'UUID 버전'
+    quantity: '수량'
+    quantityPlaceholder: 'UUID 수량'
+    namespace: '네임스페이스'
+    name: '이름'
+    uuidsPlaceholder: '생성된 UUID'
+    copy: '복사'
+    refresh: '새로 고침'

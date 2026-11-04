@@ -1,0 +1,13 @@
+tools:
+  html-entities:
+    escapeTitle: 'HTML 엔티티 이스케이프'
+    unescapeTitle: 'HTML 엔티티 언이스케이프'
+    yourString: '문자열:'
+    yourStringEscaped: '이스케이프된 문자열:'
+    yourEscapedString: '이스케이프된 문자열:'
+    yourStringUnescaped: '언이스케이프된 문자열:'
+    stringToEscape: '이스케이프할 문자열'
+    escapedPlaceholder: '이스케이프된 문자열'
+    stringToUnescape: '언이스케이프할 문자열'
+    unescapedPlaceholder: '언이스케이프된 문자열'
+    copy: '복사'

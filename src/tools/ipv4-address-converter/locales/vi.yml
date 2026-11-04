@@ -1,0 +1,9 @@
+tools:
+  ipv4-address-converter:
+    decimal: 'Thập phân: '
+    hexadecimal: 'Thập lục phân: '
+    binary: 'Nhị phân: '
+    invalid: 'Địa chỉ IPv4 không hợp lệ'
+    label: 'Địa chỉ IPv4:'
+    placeholder: 'Địa chỉ IPv4...'
+    setCorrect: 'Hãy nhập địa chỉ IPv4 hợp lệ'

@@ -1,0 +1,10 @@
+tools:
+  email-normalizer:
+    unableToParse: 'No se pudo analizar el correo: {email}'
+    copied: 'Correos normalizados copiados al portapapeles'
+    rawEmails: 'Correos originales a normalizar:'
+    rawPlaceholder: 'Pega aquí tus correos (uno por línea)...'
+    normalizedEmails: 'Correos normalizados:'
+    normalizedPlaceholder: 'Los correos normalizados aparecerán aquí...'
+    clear: 'Borrar correos'
+    copy: 'Copiar correos normalizados'

@@ -1,0 +1,7 @@
+tools:
+  rsa-key-pair-generator:
+    bitsInvalid: 'Biter må være 256 <= biter <= 16384 og et multiplum av 8'
+    bits: 'Biter:'
+    refresh: 'Generer nytt nøkkelpar'
+    publicKey: 'Offentlig nøkkel'
+    privateKey: 'Privat nøkkel'

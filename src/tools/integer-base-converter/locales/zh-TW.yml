@@ -1,0 +1,17 @@
+tools:
+  base-converter:
+    inputNumber: '輸入數字'
+    inputPlaceholder: '在此輸入數字（例如：42）'
+    inputBase: '輸入進位'
+    inputBasePlaceholder: '在此輸入進位（例如：10）'
+    binary: '二進位 (2)'
+    octal: '八進位 (8)'
+    decimal: '十進位 (10)'
+    hexadecimal: '十六進位 (16)'
+    binaryPlaceholder: '二進位結果將顯示在這裡...'
+    octalPlaceholder: '八進位結果將顯示在這裡...'
+    decimalPlaceholder: '十進位結果將顯示在這裡...'
+    hexadecimalPlaceholder: '十六進位結果將顯示在這裡...'
+    base64Placeholder: 'Base64 結果將顯示在這裡...'
+    custom: '自訂：'
+    customPlaceholder: '{base} 進位結果將顯示在這裡...'

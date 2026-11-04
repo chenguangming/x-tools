@@ -1,0 +1,11 @@
+tools:
+  lorem-ipsum-generator:
+    copied: 'Lorem ipsum kopiert til utklippstavlen'
+    paragraphs: 'Avsnitt'
+    sentencesPerParagraph: 'Setninger per avsnitt'
+    wordsPerSentence: 'Ord per setning'
+    startWithLoremIpsum: 'Start med «Lorem ipsum»?'
+    asHtml: 'Som HTML?'
+    placeholder: 'Din lorem ipsum...'
+    copy: 'Kopier'
+    refresh: 'Oppdater'

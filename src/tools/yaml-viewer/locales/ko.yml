@@ -1,0 +1,8 @@
+tools:
+  yaml-prettify:
+    invalidYaml: '제공된 YAML이 유효하지 않습니다.'
+    sortKeys: '키 정렬:'
+    indentSize: '들여쓰기 크기:'
+    inputLabel: '원본 YAML'
+    inputPlaceholder: '여기에 원본 YAML을 붙여넣으세요...'
+    outputLabel: '정리된 YAML'

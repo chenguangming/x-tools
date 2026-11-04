@@ -13,22 +13,22 @@ const { copy } = useCopy({ source: obfuscatedString });
 
 <template>
   <div>
-    <c-input-text v-model:value="str" raw-text placeholder="Enter string to obfuscate" label="String to obfuscate:" clearable multiline />
+    <c-input-text v-model:value="str" :placeholder="$t('tools.string-obfuscator.placeholder')" :label="$t('tools.string-obfuscator.label')" raw-text multiline clearable />
 
     <div mt-4 flex gap-10px>
       <div>
-        <div>Keep first:</div>
+        <div>{{ $t('tools.string-obfuscator.keepFirst') }}</div>
         <n-input-number v-model:value="keepFirst" min="0" />
       </div>
 
       <div>
-        <div>Keep last:</div>
+        <div>{{ $t('tools.string-obfuscator.keepLast') }}</div>
         <n-input-number v-model:value="keepLast" min="0" />
       </div>
 
       <div>
         <div mb-5px>
-          Keep&nbsp;spaces:
+          {{ $t('tools.string-obfuscator.keepSpaces') }}
         </div>
         <n-switch v-model:value="keepSpace" />
       </div>

@@ -1,0 +1,10 @@
+tools:
+  email-normalizer:
+    unableToParse: 'Impossible d''analyser l''e-mail : {email}'
+    copied: 'E-mails normalisés copiés dans le presse-papiers'
+    rawEmails: 'E-mails bruts à normaliser :'
+    rawPlaceholder: 'Collez vos e-mails ici (un par ligne)...'
+    normalizedEmails: 'E-mails normalisés :'
+    normalizedPlaceholder: 'Les e-mails normalisés apparaîtront ici...'
+    clear: 'Effacer les e-mails'
+    copy: 'Copier les e-mails normalisés'

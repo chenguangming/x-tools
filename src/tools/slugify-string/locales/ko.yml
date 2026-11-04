@@ -1,0 +1,8 @@
+tools:
+  slugify-string:
+    slugCopied: '슬러그가 클립보드에 복사되었습니다'
+    inputPlaceholder: '여기에 문자열을 입력하세요 (예: My file path)'
+    inputLabel: '슬러그로 변환할 문자열'
+    slugPlaceholder: '여기에 슬러그가 생성됩니다 (예: my-file-path)'
+    slugLabel: '슬러그'
+    copySlug: '슬러그 복사'

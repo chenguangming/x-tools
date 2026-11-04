@@ -1,0 +1,13 @@
+tools:
+  html-entities:
+    escapeTitle: 'Escapar entidades HTML'
+    unescapeTitle: 'Desescapar entidades HTML'
+    yourString: 'Tu cadena:'
+    yourStringEscaped: 'Tu cadena escapada:'
+    yourEscapedString: 'Tu cadena escapada:'
+    yourStringUnescaped: 'Tu cadena desescapada:'
+    stringToEscape: 'La cadena a escapar'
+    escapedPlaceholder: 'Tu cadena escapada'
+    stringToUnescape: 'La cadena a desescapar'
+    unescapedPlaceholder: 'Tu cadena desescapada'
+    copy: 'Copiar'

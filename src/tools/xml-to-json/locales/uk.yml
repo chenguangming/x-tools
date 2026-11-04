@@ -1,0 +1,6 @@
+tools:
+  xml-to-json:
+    invalidXml: 'Наданий XML недійсний.'
+    inputLabel: 'Ваш вміст XML'
+    inputPlaceholder: 'Вставте ваш вміст XML тут...'
+    outputLabel: 'Перетворений JSON'

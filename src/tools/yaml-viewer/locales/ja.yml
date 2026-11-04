@@ -1,0 +1,8 @@
+tools:
+  yaml-prettify:
+    invalidYaml: '指定された YAML は無効です。'
+    sortKeys: 'キーを並べ替え：'
+    indentSize: 'インデントサイズ：'
+    inputLabel: '元の YAML'
+    inputPlaceholder: 'ここに元の YAML を貼り付け...'
+    outputLabel: '整形された YAML'

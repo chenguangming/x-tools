@@ -1,0 +1,8 @@
+tools:
+  chmod-calculator:
+    read: 'Lectura (4)'
+    write: 'Escritura (2)'
+    execute: 'Ejecución (1)'
+    owner: 'Propietario (u)'
+    group: 'Grupo (g)'
+    public: 'Otros (o)'

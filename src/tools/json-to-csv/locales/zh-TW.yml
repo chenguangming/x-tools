@@ -1,0 +1,6 @@
+tools:
+  json-to-csv:
+    invalidJson: '提供的 JSON 無效。'
+    inputLabel: '原始 JSON'
+    inputPlaceholder: '在此貼上原始 JSON...'
+    outputLabel: 'JSON 的 CSV 版本'

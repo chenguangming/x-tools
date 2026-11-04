@@ -1,0 +1,15 @@
+tools:
+  text-to-binary:
+    invalidBinary: 'Chuỗi nhị phân phải là chuỗi nhị phân ASCII hợp lệ với số bit là bội số của 8'
+    textToBinaryTitle: 'Văn bản sang nhị phân ASCII'
+    textPlaceholder: 'ví dụ: ''Hello world'''
+    textInputLabel: 'Nhập văn bản để chuyển sang nhị phân'
+    binaryOutputLabel: 'Nhị phân từ văn bản của bạn'
+    binaryOutputPlaceholder: 'Biểu diễn nhị phân của văn bản sẽ hiển thị ở đây'
+    copyBinary: 'Sao chép nhị phân vào clipboard'
+    binaryToTextTitle: 'Nhị phân ASCII sang văn bản'
+    binaryPlaceholder: 'ví dụ: ''01001000 01100101 01101100 01101100 01101111'''
+    binaryInputLabel: 'Nhập nhị phân để chuyển sang văn bản'
+    textOutputLabel: 'Văn bản từ nhị phân của bạn'
+    textOutputPlaceholder: 'Biểu diễn văn bản của nhị phân sẽ hiển thị ở đây'
+    copyText: 'Sao chép văn bản vào clipboard'

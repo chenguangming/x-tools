@@ -1,0 +1,7 @@
+tools:
+  text-statistics:
+    placeholder: 'テキストを入力...'
+    characterCount: '文字数'
+    wordCount: '単語数'
+    lineCount: '行数'
+    byteSize: 'バイトサイズ'

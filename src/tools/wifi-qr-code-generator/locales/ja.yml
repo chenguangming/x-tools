@@ -1,0 +1,18 @@
+tools:
+  wifi-qrcode-generator:
+    encryptionMethod: '暗号化方式'
+    noPassword: 'パスワードなし'
+    ssid: 'SSID：'
+    ssidPlaceholder: 'WiFi の SSID...'
+    hiddenSsid: 'SSID を非表示'
+    password: 'パスワード：'
+    passwordPlaceholder: 'WiFi のパスワード...'
+    eapMethod: 'EAP 方式'
+    identity: 'ID：'
+    identityPlaceholder: 'EAP の ID...'
+    anonymous: '匿名にする？'
+    eapPhase2Method: 'EAP フェーズ 2 方式'
+    foregroundColor: '前景色：'
+    backgroundColor: '背景色：'
+    qrAlt: 'WiFi QR コード'
+    download: 'QR コードをダウンロード'

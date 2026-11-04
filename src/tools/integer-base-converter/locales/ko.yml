@@ -1,0 +1,17 @@
+tools:
+  base-converter:
+    inputNumber: '입력 숫자'
+    inputPlaceholder: '여기에 숫자를 입력하세요 (예: 42)'
+    inputBase: '입력 진법'
+    inputBasePlaceholder: '여기에 입력 진법을 입력하세요 (예: 10)'
+    binary: '2진수 (2)'
+    octal: '8진수 (8)'
+    decimal: '10진수 (10)'
+    hexadecimal: '16진수 (16)'
+    binaryPlaceholder: '2진수 결과가 여기에 표시됩니다...'
+    octalPlaceholder: '8진수 결과가 여기에 표시됩니다...'
+    decimalPlaceholder: '10진수 결과가 여기에 표시됩니다...'
+    hexadecimalPlaceholder: '16진수 결과가 여기에 표시됩니다...'
+    base64Placeholder: 'Base64 결과가 여기에 표시됩니다...'
+    custom: '사용자 지정:'
+    customPlaceholder: '{base}진법 결과가 여기에 표시됩니다...'

@@ -1,0 +1,8 @@
+tools:
+  slugify-string:
+    slugCopied: 'Slug copié dans le presse-papiers'
+    inputPlaceholder: 'Saisissez votre chaîne ici (ex : My file path)'
+    inputLabel: 'Votre chaîne à slugifier'
+    slugPlaceholder: 'Votre slug sera généré ici (ex : my-file-path)'
+    slugLabel: 'Votre slug'
+    copySlug: 'Copier le slug'

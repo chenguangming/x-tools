@@ -1,0 +1,8 @@
+tools:
+  chmod-calculator:
+    read: '読み取り (4)'
+    write: '書き込み (2)'
+    execute: '実行 (1)'
+    owner: '所有者 (u)'
+    group: 'グループ (g)'
+    public: 'その他 (o)'

@@ -1,0 +1,7 @@
+tools:
+  string-obfuscator:
+    placeholder: '난독화할 문자열을 입력하세요'
+    label: '난독화할 문자열:'
+    keepFirst: '앞부분 유지:'
+    keepLast: '뒷부분 유지:'
+    keepSpaces: '공백 유지:'

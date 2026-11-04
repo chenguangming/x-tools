@@ -4,6 +4,8 @@ import JSON5 from 'json5';
 import { withDefaultOnError } from '@/utils/defaults';
 import type { UseValidationRule } from '@/composable/validation';
 
+const { t } = useI18n();
+
 const defaultValue = '{"a":{"_attributes":{"x":"1.234","y":"It\'s"}}}';
 function transformer(value: string) {
   return withDefaultOnError(() => {
@@ -14,17 +16,17 @@ function transformer(value: string) {
 const rules: UseValidationRule<string>[] = [
   {
     validator: (v: string) => v === '' || JSON5.parse(v),
-    message: 'Provided JSON is not valid.',
+    message: t('tools.json-to-xml.invalidJson'),
   },
 ];
 </script>
 
 <template>
   <format-transformer
-    input-label="Your JSON content"
+    :input-label="$t('tools.json-to-xml.inputLabel')"
     :input-default="defaultValue"
-    input-placeholder="Paste your JSON content here..."
-    output-label="Converted XML"
+    :input-placeholder="$t('tools.json-to-xml.inputPlaceholder')"
+    :output-label="$t('tools.json-to-xml.outputLabel')"
     output-language="xml"
     :transformer="transformer"
     :input-validation-rules="rules"

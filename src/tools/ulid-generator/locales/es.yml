@@ -1,0 +1,8 @@
+tools:
+  ulid-generator:
+    raw: 'Sin formato'
+    copied: 'ULIDs copiados al portapapeles'
+    quantity: 'Cantidad:'
+    format: 'Formato: '
+    refresh: 'Actualizar'
+    copy: 'Copiar'

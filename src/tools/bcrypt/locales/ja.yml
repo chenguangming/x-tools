@@ -1,0 +1,16 @@
+tools:
+  bcrypt:
+    copied: 'ハッシュ化した文字列をクリップボードにコピーしました'
+    hash: 'ハッシュ'
+    stringPlaceholder: 'bcrypt する文字列...'
+    yourString: '文字列: '
+    saltCount: 'ソルトのラウンド数: '
+    saltRounds: 'ソルトのラウンド数...'
+    copyHash: 'ハッシュをコピー'
+    compareTitle: '文字列とハッシュを比較'
+    compareStringPlaceholder: '比較する文字列...'
+    yourHash: 'ハッシュ: '
+    compareHashPlaceholder: '比較するハッシュ...'
+    doTheyMatch: '一致しますか? '
+    'yes': 'はい'
+    'no': 'いいえ'

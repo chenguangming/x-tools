@@ -1,21 +1,31 @@
 import type { OGSchemaType } from '../OGSchemaType.type';
 
 export const musicPlaylist: OGSchemaType = {
-  name: 'Playlist details',
+  name: 'tools.og-meta-generator.sectionPlaylistDetails',
   elements: [
-    { type: 'input', label: 'Song', key: 'music:song', placeholder: 'The song on this album...' },
     {
       type: 'input',
-      label: 'Disc',
+      label: 'tools.og-meta-generator.labelSong',
+      key: 'music:song',
+      placeholder: 'tools.og-meta-generator.phAlbumSong',
+    },
+    {
+      type: 'input',
+      label: 'tools.og-meta-generator.labelDisc',
       key: 'music:song:disc',
-      placeholder: 'The same as music:album:disc but in reverse...',
+      placeholder: 'tools.og-meta-generator.phDiscReverse',
     },
     {
       type: 'input',
-      label: 'Track',
+      label: 'tools.og-meta-generator.labelTrack',
       key: 'music:song:track',
-      placeholder: 'The same as music:album:track but in reverse...',
+      placeholder: 'tools.og-meta-generator.phTrackReverse',
     },
-    { type: 'input', label: 'Creator', key: 'music:creator', placeholder: 'The creator of this playlist...' },
+    {
+      type: 'input',
+      label: 'tools.og-meta-generator.labelCreator',
+      key: 'music:creator',
+      placeholder: 'tools.og-meta-generator.phPlaylistCreator',
+    },
   ],
 };

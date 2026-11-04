@@ -1,0 +1,12 @@
+tools:
+  mime-types:
+    mimeToExtensionTitle: 'MIME 类型转扩展名'
+    mimeToExtensionDescription: '了解某个 MIME 类型关联的文件扩展名'
+    selectMimeTypePlaceholder: '在此选择 MIME 类型...（例如：application/pdf）'
+    extensionsOfMimeType: 'MIME 类型为 {mimeType} 的文件扩展名：'
+    extensionToMimeTitle: '文件扩展名转 MIME 类型'
+    extensionToMimeDescription: '了解某个文件扩展名关联的 MIME 类型'
+    selectExtensionPlaceholder: '在此选择文件扩展名...'
+    mimeTypeOfExtension: '与文件扩展名 {extension} 关联的 MIME 类型：'
+    mimeTypesHeader: 'MIME 类型'
+    extensionsHeader: '扩展名'

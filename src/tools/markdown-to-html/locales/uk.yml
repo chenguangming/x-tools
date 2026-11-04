@@ -1,0 +1,6 @@
+tools:
+  markdown-to-html:
+    placeholder: 'Ваш вміст Markdown...'
+    inputLabel: 'Ваш Markdown для перетворення:'
+    outputLabel: 'Вихідний HTML:'
+    printAsPdf: 'Друк у PDF'

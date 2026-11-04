@@ -1,0 +1,9 @@
+tools:
+  iban-validator-and-parser:
+    isValid: 'Er IBAN gyldig?'
+    errors: 'IBAN-feil'
+    isQrIban: 'Er IBAN en QR-IBAN?'
+    countryCode: 'Landskode'
+    friendlyFormat: 'IBAN i lesevennlig format'
+    placeholder: 'Skriv inn en IBAN for å sjekke gyldigheten...'
+    examplesTitle: 'Eksempler på gyldige IBAN'

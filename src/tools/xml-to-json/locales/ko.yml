@@ -1,0 +1,6 @@
+tools:
+  xml-to-json:
+    invalidXml: '제공된 XML이 유효하지 않습니다.'
+    inputLabel: 'XML 내용'
+    inputPlaceholder: '여기에 XML 내용을 붙여넣으세요...'
+    outputLabel: '변환된 JSON'

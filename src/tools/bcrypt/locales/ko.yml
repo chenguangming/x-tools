@@ -1,0 +1,16 @@
+tools:
+  bcrypt:
+    copied: '해시된 문자열이 클립보드에 복사되었습니다'
+    hash: '해시'
+    stringPlaceholder: 'bcrypt할 문자열...'
+    yourString: '문자열: '
+    saltCount: '솔트 라운드 수: '
+    saltRounds: '솔트 라운드...'
+    copyHash: '해시 복사'
+    compareTitle: '문자열과 해시 비교'
+    compareStringPlaceholder: '비교할 문자열...'
+    yourHash: '해시: '
+    compareHashPlaceholder: '비교할 해시...'
+    doTheyMatch: '일치합니까? '
+    'yes': '예'
+    'no': '아니오'

@@ -1,0 +1,14 @@
+tools:
+  eta-calculator:
+    example: 'Ví dụ cụ thể: nếu bạn rửa 5 cái đĩa trong 3 phút và có 500 cái đĩa cần rửa, bạn sẽ mất 5 giờ để rửa hết.'
+    amountToConsume: 'Số lượng phần tử cần tiêu thụ'
+    startedAt: 'Việc tiêu thụ bắt đầu lúc'
+    unitsPerTimeSpan: 'Số lượng đơn vị tiêu thụ theo khoảng thời gian'
+    in: 'trong'
+    milliseconds: 'mili giây'
+    seconds: 'giây'
+    minutes: 'phút'
+    hours: 'giờ'
+    days: 'ngày'
+    totalDuration: 'Tổng thời lượng'
+    willEnd: 'Sẽ kết thúc '

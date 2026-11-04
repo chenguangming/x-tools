@@ -1,0 +1,4 @@
+tools:
+  math-evaluator:
+    placeholder: '数式を入力（例：2*sqrt(6) ）...'
+    result: '結果 '

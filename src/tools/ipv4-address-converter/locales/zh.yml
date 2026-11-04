@@ -1,0 +1,9 @@
+tools:
+  ipv4-address-converter:
+    decimal: '十进制: '
+    hexadecimal: '十六进制: '
+    binary: '二进制: '
+    invalid: '无效的 IPv4 地址'
+    label: 'IPv4 地址：'
+    placeholder: 'IPv4 地址...'
+    setCorrect: '请设置正确的 IPv4 地址'

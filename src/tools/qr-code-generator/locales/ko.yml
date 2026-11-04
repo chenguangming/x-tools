@@ -1,0 +1,12 @@
+tools:
+  qrcode-generator:
+    text: '텍스트:'
+    textPlaceholder: '링크 또는 텍스트를 입력하세요...'
+    foregroundColor: '전경색:'
+    backgroundColor: '배경색:'
+    errorResistance: '오류 복원력:'
+    levelLow: '낮음'
+    levelMedium: '중간'
+    levelQuartile: '쿼타일'
+    levelHigh: '높음'
+    download: 'QR 코드 다운로드'

@@ -1,0 +1,8 @@
+tools:
+  json-prettify:
+    invalidJson: 'Den oppgitte JSON-en er ugyldig.'
+    sortKeys: 'Sorter nøkler:'
+    indentSize: 'Innrykksstørrelse:'
+    inputLabel: 'Din rå JSON'
+    inputPlaceholder: 'Lim inn din rå JSON her...'
+    outputLabel: 'Formatert versjon av din JSON'

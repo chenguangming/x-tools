@@ -1,0 +1,13 @@
+tools:
+  mac-address-generator:
+    copied: 'Direcciones MAC copiadas al portapapeles'
+    uppercase: 'Mayúsculas'
+    lowercase: 'Minúsculas'
+    none: 'Ninguno'
+    quantity: 'Cantidad:'
+    prefixLabel: 'Prefijo de la dirección MAC:'
+    prefixPlaceholder: 'Establece un prefijo, p. ej. 64:16:7F'
+    caseLabel: 'Capitalización:'
+    separatorLabel: 'Separador:'
+    refresh: 'Actualizar'
+    copy: 'Copiar'

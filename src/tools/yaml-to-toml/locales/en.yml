@@ -1,0 +1,6 @@
+tools:
+  yaml-to-toml:
+    invalidJson: 'Provided JSON is not valid.'
+    inputLabel: 'Your YAML'
+    inputPlaceholder: 'Paste your YAML here...'
+    outputLabel: 'TOML from your YAML'

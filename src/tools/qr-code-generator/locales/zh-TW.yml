@@ -1,0 +1,12 @@
+tools:
+  qrcode-generator:
+    text: '文字：'
+    textPlaceholder: '你的連結或文字...'
+    foregroundColor: '前景色：'
+    backgroundColor: '背景色：'
+    errorResistance: '容錯等級：'
+    levelLow: '低'
+    levelMedium: '中'
+    levelQuartile: '四分位'
+    levelHigh: '高'
+    download: '下載 QR 碼'

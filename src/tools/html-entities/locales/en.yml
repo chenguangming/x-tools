@@ -1,0 +1,13 @@
+tools:
+  html-entities:
+    escapeTitle: 'Escape html entities'
+    unescapeTitle: 'Unescape html entities'
+    yourString: 'Your string :'
+    yourStringEscaped: 'Your string escaped :'
+    yourEscapedString: 'Your escaped string :'
+    yourStringUnescaped: 'Your string unescaped :'
+    stringToEscape: 'The string to escape'
+    escapedPlaceholder: 'Your string escaped'
+    stringToUnescape: 'The string to unescape'
+    unescapedPlaceholder: 'Your string unescaped'
+    copy: 'Copy'

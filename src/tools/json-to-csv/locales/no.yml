@@ -1,0 +1,6 @@
+tools:
+  json-to-csv:
+    invalidJson: 'Den oppgitte JSON-en er ugyldig.'
+    inputLabel: 'Din rå JSON'
+    inputPlaceholder: 'Lim inn din rå JSON her...'
+    outputLabel: 'CSV-versjon av din JSON'

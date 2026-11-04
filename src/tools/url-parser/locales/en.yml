@@ -1,0 +1,12 @@
+tools:
+  url-parser:
+    invalidUrl: 'Invalid url'
+    urlLabel: 'Your url to parse:'
+    urlPlaceholder: 'Your url to parse...'
+    protocol: 'Protocol'
+    username: 'Username'
+    password: 'Password'
+    hostname: 'Hostname'
+    port: 'Port'
+    path: 'Path'
+    params: 'Params'

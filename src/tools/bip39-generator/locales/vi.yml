@@ -1,0 +1,12 @@
+tools:
+  bip39-generator:
+    entropyLength: 'Độ dài entropy phải >= 16, <= 32 và là bội số của 4'
+    entropyHex: 'Entropy phải là chuỗi thập lục phân'
+    invalidMnemonic: 'Cụm từ ghi nhớ không hợp lệ'
+    entropyCopied: 'Đã sao chép entropy vào khay nhớ tạm'
+    passphraseCopied: 'Đã sao chép cụm mật khẩu vào khay nhớ tạm'
+    language: 'Ngôn ngữ:'
+    entropySeed: 'Entropy (seed):'
+    entropyPlaceholder: 'Chuỗi của bạn...'
+    passphraseMnemonic: 'Cụm mật khẩu (mnemonic):'
+    mnemonicPlaceholder: 'Cụm từ mnemonic của bạn...'

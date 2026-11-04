@@ -1,0 +1,5 @@
+tools:
+  safelink-decoder:
+    inputPlaceholder: 'Outlook SafeLink URL을 입력하세요…'
+    inputLabel: '입력한 Outlook SafeLink URL:'
+    outputLabel: '디코딩된 URL:'

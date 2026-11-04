@@ -1,0 +1,10 @@
+tools:
+  email-normalizer:
+    unableToParse: 'Không thể phân tích email: {email}'
+    copied: 'Đã sao chép các email đã chuẩn hóa vào clipboard'
+    rawEmails: 'Email gốc cần chuẩn hóa:'
+    rawPlaceholder: 'Nhập email của bạn vào đây (mỗi dòng một email)...'
+    normalizedEmails: 'Email đã chuẩn hóa:'
+    normalizedPlaceholder: 'Email đã chuẩn hóa sẽ xuất hiện ở đây...'
+    clear: 'Xóa email'
+    copy: 'Sao chép email đã chuẩn hóa'

@@ -1,0 +1,6 @@
+tools:
+  json-minify:
+    invalidJson: 'Den oppgitte JSON-en er ugyldig.'
+    inputLabel: 'Din rå JSON'
+    inputPlaceholder: 'Lim inn din rå JSON her...'
+    outputLabel: 'Minifisert versjon av din JSON'

@@ -1,0 +1,12 @@
+tools:
+  mime-types:
+    mimeToExtensionTitle: 'MIME-тип у розширення'
+    mimeToExtensionDescription: 'Дізнайтеся, які розширення файлів пов''язані з MIME-типом'
+    selectMimeTypePlaceholder: 'Виберіть MIME-тип тут... (напр.: application/pdf)'
+    extensionsOfMimeType: 'Розширення файлів із MIME-типом {mimeType}:'
+    extensionToMimeTitle: 'Розширення файлу у MIME-тип'
+    extensionToMimeDescription: 'Дізнайтеся, який MIME-тип пов''язаний із розширенням файлу'
+    selectExtensionPlaceholder: 'Виберіть розширення файлу тут...'
+    mimeTypeOfExtension: 'MIME-тип, пов''язаний із розширенням файлу {extension}:'
+    mimeTypesHeader: 'MIME-типи'
+    extensionsHeader: 'Розширення'

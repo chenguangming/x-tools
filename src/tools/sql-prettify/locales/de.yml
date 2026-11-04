@@ -1,0 +1,14 @@
+tools:
+  sql-prettify:
+    dialect: 'Dialekt'
+    keywordCase: 'Schreibweise der Schlüsselwörter'
+    indentStyle: 'Einrückungsstil'
+    upper: 'GROSSBUCHSTABEN'
+    lower: 'Kleinbuchstaben'
+    preserve: 'Beibehalten'
+    standard: 'Standard'
+    tabularLeft: 'Tabellarisch links'
+    tabularRight: 'Tabellarisch rechts'
+    inputLabel: 'Ihre SQL-Abfrage'
+    inputPlaceholder: 'SQL-Abfrage hier eingeben…'
+    outputLabel: 'Formatierte Version Ihrer Abfrage'

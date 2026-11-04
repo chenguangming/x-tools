@@ -1,0 +1,18 @@
+tools:
+  html-wysiwyg-editor:
+    bold: 'Fett'
+    italic: 'Kursiv'
+    strike: 'Durchgestrichen'
+    inlineCode: 'Inline-Code'
+    heading1: 'Überschrift 1'
+    heading2: 'Überschrift 2'
+    heading3: 'Überschrift 3'
+    heading4: 'Überschrift 4'
+    bulletList: 'Aufzählungsliste'
+    orderedList: 'Nummerierte Liste'
+    codeBlock: 'Codeblock'
+    blockquote: 'Zitatblock'
+    hardBreak: 'Harter Zeilenumbruch'
+    clearFormat: 'Formatierung entfernen'
+    undo: 'Rückgängig'
+    redo: 'Wiederholen'

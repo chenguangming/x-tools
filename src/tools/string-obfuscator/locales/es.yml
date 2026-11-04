@@ -1,0 +1,7 @@
+tools:
+  string-obfuscator:
+    placeholder: 'Introduce la cadena a ofuscar'
+    label: 'Cadena a ofuscar:'
+    keepFirst: 'Mantener primeros:'
+    keepLast: 'Mantener últimos:'
+    keepSpaces: 'Mantener espacios:'

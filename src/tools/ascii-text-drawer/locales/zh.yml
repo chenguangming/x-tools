@@ -1,0 +1,11 @@
+tools:
+  ascii-text-drawer:
+    yourText: '您的文本:'
+    yourTextPlaceholder: '要绘制的文本'
+    font: '字体:'
+    fontPlaceholder: '选择要使用的字体'
+    width: '宽度:'
+    widthPlaceholder: '文本宽度'
+    loadingFont: '正在加载字体...'
+    error: '当前设置导致错误。'
+    asciiArtText: 'ASCII 艺术文本:'

@@ -1,0 +1,12 @@
+tools:
+  url-parser:
+    invalidUrl: '無效的 URL'
+    urlLabel: '要解析的 URL：'
+    urlPlaceholder: '要解析的 URL...'
+    protocol: '通訊協定'
+    username: '使用者名稱'
+    password: '密碼'
+    hostname: '主機名稱'
+    port: '連接埠'
+    path: '路徑'
+    params: '參數'

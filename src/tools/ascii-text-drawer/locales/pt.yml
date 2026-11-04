@@ -1,0 +1,11 @@
+tools:
+  ascii-text-drawer:
+    yourText: 'Seu texto:'
+    yourTextPlaceholder: 'Seu texto para desenhar'
+    font: 'Fonte:'
+    fontPlaceholder: 'Selecione a fonte a ser usada'
+    width: 'Largura:'
+    widthPlaceholder: 'Largura do texto'
+    loadingFont: 'Carregando fonte...'
+    error: 'As configurações atuais resultaram em erro.'
+    asciiArtText: 'Texto ASCII Art:'

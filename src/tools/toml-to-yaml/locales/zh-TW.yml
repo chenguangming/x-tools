@@ -1,0 +1,6 @@
+tools:
+  toml-to-yaml:
+    invalidToml: '提供的 TOML 無效。'
+    inputLabel: '你的 TOML'
+    inputPlaceholder: '在此貼上 TOML...'
+    outputLabel: 'TOML 轉換的 YAML'

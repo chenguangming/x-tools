@@ -1,0 +1,8 @@
+tools:
+  slugify-string:
+    slugCopied: 'Slug copiado al portapapeles'
+    inputPlaceholder: 'Introduce tu cadena aquí (ej.: My file path)'
+    inputLabel: 'Tu cadena para convertir en slug'
+    slugPlaceholder: 'Tu slug se generará aquí (ej.: my-file-path)'
+    slugLabel: 'Tu slug'
+    copySlug: 'Copiar slug'

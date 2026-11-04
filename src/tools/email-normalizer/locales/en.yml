@@ -1,0 +1,10 @@
+tools:
+  email-normalizer:
+    unableToParse: 'Unable to parse email: {email}'
+    copied: 'Normalized emails copied to the clipboard'
+    rawEmails: 'Raw emails to normalize:'
+    rawPlaceholder: 'Put your emails here (one per line)...'
+    normalizedEmails: 'Normalized emails:'
+    normalizedPlaceholder: 'Normalized emails will appear here...'
+    clear: 'Clear emails'
+    copy: 'Copy normalized emails'

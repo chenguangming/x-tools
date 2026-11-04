@@ -1,0 +1,9 @@
+tools:
+  basic-auth-generator:
+    copied: 'Đã sao chép header vào khay nhớ tạm'
+    username: 'Tên người dùng'
+    usernamePlaceholder: 'Tên người dùng của bạn...'
+    password: 'Mật khẩu'
+    passwordPlaceholder: 'Mật khẩu của bạn...'
+    authorizationHeader: 'Header Authorization:'
+    copyHeader: 'Sao chép header'

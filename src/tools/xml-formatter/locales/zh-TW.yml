@@ -1,0 +1,8 @@
+tools:
+  xml-formatter:
+    invalidXml: '提供的 XML 無效。'
+    collapseContent: '摺疊內容：'
+    indentSize: '縮排大小：'
+    inputLabel: '您的 XML'
+    inputPlaceholder: '在此貼上 XML...'
+    outputLabel: '格式化後的 XML'

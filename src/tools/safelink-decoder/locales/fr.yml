@@ -1,0 +1,5 @@
+tools:
+  safelink-decoder:
+    inputPlaceholder: 'Votre URL Outlook SafeLink…'
+    inputLabel: 'Votre URL Outlook SafeLink :'
+    outputLabel: 'URL décodée :'

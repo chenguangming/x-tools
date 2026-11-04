@@ -1,0 +1,7 @@
+tools:
+  string-obfuscator:
+    placeholder: 'Nhập chuỗi cần làm mờ'
+    label: 'Chuỗi cần làm mờ:'
+    keepFirst: 'Giữ đầu:'
+    keepLast: 'Giữ cuối:'
+    keepSpaces: 'Giữ khoảng trắng:'

@@ -1,0 +1,9 @@
+tools:
+  json-diff:
+    invalidJson: 'JSON 형식이 잘못되었습니다'
+    firstLabel: '첫 번째 JSON'
+    firstPlaceholder: '여기에 첫 번째 JSON을 붙여넣으세요...'
+    secondLabel: '비교할 JSON'
+    secondPlaceholder: '여기에 비교할 JSON을 붙여넣으세요...'
+    onlyShowDifferences: '차이점만 표시'
+    sameJson: '제공된 JSON이 동일합니다'

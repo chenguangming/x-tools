@@ -1,0 +1,12 @@
+tools:
+  qrcode-generator:
+    text: 'テキスト:'
+    textPlaceholder: 'リンクまたはテキストを入力...'
+    foregroundColor: '前景色:'
+    backgroundColor: '背景色:'
+    errorResistance: '誤り訂正レベル:'
+    levelLow: '低'
+    levelMedium: '中'
+    levelQuartile: '四分位'
+    levelHigh: '高'
+    download: 'QR コードをダウンロード'

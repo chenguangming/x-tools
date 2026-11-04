@@ -1,0 +1,12 @@
+tools:
+  url-parser:
+    invalidUrl: 'URL không hợp lệ'
+    urlLabel: 'URL cần phân tích:'
+    urlPlaceholder: 'URL cần phân tích...'
+    protocol: 'Giao thức'
+    username: 'Tên người dùng'
+    password: 'Mật khẩu'
+    hostname: 'Tên máy chủ'
+    port: 'Cổng'
+    path: 'Đường dẫn'
+    params: 'Tham số'

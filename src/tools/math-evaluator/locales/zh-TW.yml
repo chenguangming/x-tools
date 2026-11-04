@@ -1,0 +1,4 @@
+tools:
+  math-evaluator:
+    placeholder: '您的數學運算式（例如：2*sqrt(6) ）...'
+    result: '結果 '

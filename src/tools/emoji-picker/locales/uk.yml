@@ -1,0 +1,8 @@
+tools:
+  emoji-picker:
+    emojiCopied: 'Емодзі {emoji} скопійовано в буфер обміну'
+    codePointsCopied: 'Кодові точки ''{codePoints}'' скопійовано в буфер обміну'
+    unicodeCopied: 'Unicode ''{unicode}'' скопійовано в буфер обміну'
+    searchPlaceholder: 'Пошук емодзі (напр. ''smile'')...'
+    noResults: 'Нічого не знайдено'
+    searchResult: 'Результат пошуку'

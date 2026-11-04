@@ -1,0 +1,9 @@
+tools:
+  roman-numeral-converter:
+    outOfRange: '{min} から {max} の間の数値のみ変換できます'
+    invalidRoman: '入力された値は有効なローマ数字ではありません'
+    romanCopied: 'ローマ数字をクリップボードにコピーしました'
+    arabicCopied: 'アラビア数字をクリップボードにコピーしました'
+    arabicToRoman: 'アラビア数字からローマ数字へ'
+    romanToArabic: 'ローマ数字からアラビア数字へ'
+    copy: 'コピー'

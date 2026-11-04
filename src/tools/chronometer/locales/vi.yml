@@ -1,0 +1,5 @@
+tools:
+  chronometer:
+    start: 'Bắt đầu'
+    stop: 'Dừng'
+    reset: 'Đặt lại'

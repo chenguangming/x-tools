@@ -1,0 +1,15 @@
+tools:
+  base64-file-converter:
+    invalidBase64: 'Chuỗi Base64 không hợp lệ'
+    copied: 'Đã sao chép chuỗi Base64 vào khay nhớ tạm'
+    base64ToFile: 'Base64 sang tệp'
+    fileName: 'Tên tệp'
+    fileNamePlaceholder: 'Tên tệp tải xuống'
+    extension: 'Phần mở rộng'
+    base64Placeholder: 'Dán chuỗi Base64 của tệp vào đây...'
+    previewImage: 'Xem trước hình ảnh'
+    downloadFile: 'Tải tệp xuống'
+    fileToBase64: 'Tệp sang Base64'
+    uploadTitle: 'Kéo và thả tệp vào đây, hoặc nhấp để chọn tệp'
+    fileBase64Placeholder: 'Tệp ở dạng Base64 sẽ hiển thị ở đây'
+    copy: 'Sao chép'

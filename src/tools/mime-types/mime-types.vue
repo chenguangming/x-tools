@@ -21,23 +21,27 @@ const mimeTypeFound = computed(() => (selectedExtension.value ? extensionToMimeT
 <template>
   <c-card>
     <n-h2 style="margin-bottom: 0">
-      Mime type to extension
+      {{ $t('tools.mime-types.mimeToExtensionTitle') }}
     </n-h2>
     <div style="opacity: 0.8">
-      Know which file extensions are associated to a mime-type
+      {{ $t('tools.mime-types.mimeToExtensionDescription') }}
     </div>
     <c-select
       v-model:value="selectedMimeType"
       searchable
       my-4
       :options="mimeToExtensionsOptions"
-      placeholder="Select your mimetype here... (ex: application/pdf)"
+      :placeholder="$t('tools.mime-types.selectMimeTypePlaceholder')"
     />
 
     <div v-if="extensionsFound.length > 0">
-      Extensions of files with the <n-tag round :bordered="false">
-        {{ selectedMimeType }}
-      </n-tag> mime-type:
+      <i18n-t keypath="tools.mime-types.extensionsOfMimeType" scope="global">
+        <template #mimeType>
+          <n-tag round :bordered="false">
+            {{ selectedMimeType }}
+          </n-tag>
+        </template>
+      </i18n-t>
       <div style="margin-top: 10px">
         <n-tag
           v-for="extension of extensionsFound"
@@ -55,24 +59,27 @@ const mimeTypeFound = computed(() => (selectedExtension.value ? extensionToMimeT
 
   <c-card>
     <n-h2 style="margin-bottom: 0">
-      File extension to mime type
+      {{ $t('tools.mime-types.extensionToMimeTitle') }}
     </n-h2>
     <div style="opacity: 0.8">
-      Know which mime type is associated to a file extension
+      {{ $t('tools.mime-types.extensionToMimeDescription') }}
     </div>
     <c-select
       v-model:value="selectedExtension"
       searchable
       my-4
       :options="extensionToMimeTypeOptions"
-      placeholder="Select your mimetype here... (ex: application/pdf)"
+      :placeholder="$t('tools.mime-types.selectExtensionPlaceholder')"
     />
 
     <div v-if="selectedExtension">
-      Mime type associated to the extension <n-tag round :bordered="false">
-        {{ selectedExtension }}
-      </n-tag> file
-      extension:
+      <i18n-t keypath="tools.mime-types.mimeTypeOfExtension" scope="global">
+        <template #extension>
+          <n-tag round :bordered="false">
+            {{ selectedExtension }}
+          </n-tag>
+        </template>
+      </i18n-t>
       <div style="margin-top: 10px">
         <n-tag round :bordered="false" type="primary" style="margin-right: 10px">
           {{ mimeTypeFound }}
@@ -85,8 +92,8 @@ const mimeTypeFound = computed(() => (selectedExtension.value ? extensionToMimeT
     <n-table>
       <thead>
         <tr>
-          <th>Mime types</th>
-          <th>Extensions</th>
+          <th>{{ $t('tools.mime-types.mimeTypesHeader') }}</th>
+          <th>{{ $t('tools.mime-types.extensionsHeader') }}</th>
         </tr>
       </thead>
       <tbody>

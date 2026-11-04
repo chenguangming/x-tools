@@ -1,0 +1,16 @@
+tools:
+  device-information:
+    screen: 'Skjerm'
+    device: 'Enhet'
+    screenSize: 'Skjermstørrelse'
+    orientation: 'Orientering'
+    orientationAngle: 'Orienteringsvinkel'
+    colorDepth: 'Fargedybde'
+    bits: 'bit'
+    pixelRatio: 'Pikselforhold'
+    windowSize: 'Vindusstørrelse'
+    browserVendor: 'Nettleserleverandør'
+    languages: 'Språk'
+    platform: 'Plattform'
+    userAgent: 'User agent'
+    unknown: 'ukjent'

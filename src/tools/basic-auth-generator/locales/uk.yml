@@ -1,0 +1,9 @@
+tools:
+  basic-auth-generator:
+    copied: 'Заголовок скопійовано в буфер обміну'
+    username: 'Ім''я користувача'
+    usernamePlaceholder: 'Ваше ім''я користувача...'
+    password: 'Пароль'
+    passwordPlaceholder: 'Ваш пароль...'
+    authorizationHeader: 'Заголовок Authorization:'
+    copyHeader: 'Копіювати заголовок'

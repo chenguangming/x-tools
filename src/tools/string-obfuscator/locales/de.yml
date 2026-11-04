@@ -1,0 +1,7 @@
+tools:
+  string-obfuscator:
+    placeholder: 'Zu verschleiernde Zeichenkette eingeben'
+    label: 'Zu verschleiernde Zeichenkette:'
+    keepFirst: 'Erste behalten:'
+    keepLast: 'Letzte behalten:'
+    keepSpaces: 'Leerzeichen behalten:'

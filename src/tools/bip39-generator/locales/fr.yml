@@ -1,0 +1,12 @@
+tools:
+  bip39-generator:
+    entropyLength: 'La longueur de l''entropie doit être >= 16, <= 32 et être un multiple de 4'
+    entropyHex: 'L''entropie doit être une chaîne hexadécimale'
+    invalidMnemonic: 'Mnémonique invalide'
+    entropyCopied: 'Entropie copiée dans le presse-papiers'
+    passphraseCopied: 'Phrase secrète copiée dans le presse-papiers'
+    language: 'Langue :'
+    entropySeed: 'Entropie (graine) :'
+    entropyPlaceholder: 'Votre chaîne...'
+    passphraseMnemonic: 'Phrase secrète (mnémonique) :'
+    mnemonicPlaceholder: 'Votre mnémonique...'

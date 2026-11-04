@@ -1,0 +1,10 @@
+tools:
+  password-strength-analyser:
+    passwordLength: 'パスワードの長さ:'
+    entropy: 'エントロピー:'
+    charsetSize: '文字セットのサイズ:'
+    score: 'スコア:'
+    passwordPlaceholder: 'パスワードを入力...'
+    crackDuration: 'ブルートフォースでこのパスワードを解読するのにかかる時間'
+    noteLabel: '注:'
+    noteText: '算出された強度は、ブルートフォース方式でパスワードを解読するのにかかる時間に基づいており、辞書攻撃の可能性は考慮されていません。'

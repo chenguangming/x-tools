@@ -1,0 +1,9 @@
+tools:
+  json-diff:
+    invalidJson: 'Formato JSON inválido'
+    firstLabel: 'Seu primeiro JSON'
+    firstPlaceholder: 'Cole seu primeiro JSON aqui...'
+    secondLabel: 'Seu JSON para comparar'
+    secondPlaceholder: 'Cole seu JSON para comparar aqui...'
+    onlyShowDifferences: 'Mostrar apenas diferenças'
+    sameJson: 'Os JSONs fornecidos são iguais'

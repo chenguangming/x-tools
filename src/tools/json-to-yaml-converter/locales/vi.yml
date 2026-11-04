@@ -1,0 +1,6 @@
+tools:
+  json-to-yaml-converter:
+    invalidJson: 'JSON được cung cấp không hợp lệ.'
+    inputLabel: 'JSON của bạn'
+    inputPlaceholder: 'Dán JSON của bạn vào đây...'
+    outputLabel: 'YAML từ JSON của bạn'

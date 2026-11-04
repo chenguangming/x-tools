@@ -1,0 +1,18 @@
+tools:
+  html-wysiwyg-editor:
+    bold: '굵게'
+    italic: '기울임'
+    strike: '취소선'
+    inlineCode: '인라인 코드'
+    heading1: '제목 1'
+    heading2: '제목 2'
+    heading3: '제목 3'
+    heading4: '제목 4'
+    bulletList: '글머리 기호 목록'
+    orderedList: '번호 매기기 목록'
+    codeBlock: '코드 블록'
+    blockquote: '인용문'
+    hardBreak: '강제 줄바꿈'
+    clearFormat: '서식 지우기'
+    undo: '실행 취소'
+    redo: '다시 실행'

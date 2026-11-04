@@ -1,0 +1,7 @@
+tools:
+  jwt-parser:
+    header: 'ヘッダー'
+    payload: 'ペイロード'
+    invalidJwt: '無効な JWT です'
+    jwtLabel: 'デコードする JWT'
+    jwtPlaceholder: 'ここにトークンを貼り付けてください...'

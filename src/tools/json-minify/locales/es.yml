@@ -1,0 +1,6 @@
+tools:
+  json-minify:
+    invalidJson: 'El JSON proporcionado no es válido.'
+    inputLabel: 'Tu JSON sin procesar'
+    inputPlaceholder: 'Pega aquí tu JSON sin procesar...'
+    outputLabel: 'Versión minificada de tu JSON'

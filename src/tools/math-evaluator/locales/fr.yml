@@ -1,0 +1,4 @@
+tools:
+  math-evaluator:
+    placeholder: 'Votre expression mathématique (p. ex. : 2*sqrt(6) )...'
+    result: 'Résultat '

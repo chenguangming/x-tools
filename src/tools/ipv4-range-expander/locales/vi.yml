@@ -1,0 +1,13 @@
+tools:
+  ipv4-range-expander:
+    invalidIpv4: 'Địa chỉ IPv4 không hợp lệ'
+    startAddress: 'Địa chỉ bắt đầu'
+    endAddress: 'Địa chỉ kết thúc'
+    addressesInRange: 'Số địa chỉ trong dải'
+    startPlaceholder: 'Địa chỉ IPv4 bắt đầu...'
+    endPlaceholder: 'Địa chỉ IPv4 kết thúc...'
+    oldValue: 'giá trị cũ'
+    newValue: 'giá trị mới'
+    invalidCombinationTitle: 'Tổ hợp địa chỉ IPv4 bắt đầu và kết thúc không hợp lệ'
+    invalidCombination: 'Địa chỉ IPv4 kết thúc nhỏ hơn địa chỉ IPv4 bắt đầu. Điều này không hợp lệ và không thể tính ra kết quả. Trong hầu hết trường hợp, cách giải quyết là hoán đổi địa chỉ bắt đầu và kết thúc.'
+    switch: 'Hoán đổi địa chỉ IPv4 bắt đầu và kết thúc'

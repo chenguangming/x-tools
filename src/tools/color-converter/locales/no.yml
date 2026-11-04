@@ -1,0 +1,7 @@
+tools:
+  color-converter:
+    unknown: 'Ukjent'
+    invalidFormat: 'Ugyldig {format}-format.'
+    colorPicker: 'fargevelger'
+    name: 'navn'
+    example: 'f.eks. {value}'

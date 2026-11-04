@@ -1,0 +1,8 @@
+tools:
+  emoji-picker:
+    emojiCopied: '表情符號 {emoji} 已複製到剪貼簿'
+    codePointsCopied: '碼位「{codePoints}」已複製到剪貼簿'
+    unicodeCopied: 'Unicode「{unicode}」已複製到剪貼簿'
+    searchPlaceholder: '搜尋表情符號（例如「smile」）...'
+    noResults: '沒有結果'
+    searchResult: '搜尋結果'

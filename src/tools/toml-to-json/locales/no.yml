@@ -1,0 +1,6 @@
+tools:
+  toml-to-json:
+    invalidToml: 'Det oppgitte TOML-et er ugyldig.'
+    inputLabel: 'Din TOML'
+    inputPlaceholder: 'Lim inn TOML her...'
+    outputLabel: 'JSON fra TOML-en din'

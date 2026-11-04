@@ -1,0 +1,16 @@
+tools:
+  hmac-generator:
+    binary: '2 進数（base 2）'
+    hexadecimal: '16 進数（base 16）'
+    base64url: 'Base64-url（URL セーフな文字を使う base 64）'
+    plainTextPlaceholder: 'ハッシュを計算する平文...'
+    plainTextLabel: 'ハッシュを計算する平文'
+    secretPlaceholder: '秘密鍵を入力...'
+    secretLabel: '秘密鍵'
+    hashingFunction: 'ハッシュ関数'
+    hashingFunctionPlaceholder: 'ハッシュ関数を選択...'
+    outputEncoding: '出力エンコード'
+    encodingPlaceholder: '結果のエンコードを選択...'
+    resultPlaceholder: 'HMAC の結果...'
+    resultLabel: 'テキストの HMAC'
+    copy: 'HMAC をコピー'

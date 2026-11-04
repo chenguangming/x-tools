@@ -1,0 +1,4 @@
+tools:
+  numeronym-generator:
+    wordPlaceholder: '输入一个单词，例如 ''internationalization'''
+    numeronymPlaceholder: '你的数字缩写将显示在这里，例如 ''i18n'''

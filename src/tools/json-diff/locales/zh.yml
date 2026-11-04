@@ -1,0 +1,9 @@
+tools:
+  json-diff:
+    invalidJson: 'JSON 格式无效'
+    firstLabel: '第一个 JSON'
+    firstPlaceholder: '在此粘贴第一个 JSON...'
+    secondLabel: '要比较的 JSON'
+    secondPlaceholder: '在此粘贴要比较的 JSON...'
+    onlyShowDifferences: '仅显示差异'
+    sameJson: '提供的两个 JSON 相同'

@@ -1,0 +1,14 @@
+tools:
+  encryption:
+    encrypt: 'Шифрування'
+    decrypt: 'Розшифрування'
+    decryptError: 'Помилка під час розшифрування'
+    unableToDecrypt: 'Не вдалося розшифрувати ваш текст'
+    yourText: 'Ваш текст:'
+    secretKey: 'Ваш секретний ключ:'
+    algorithm: 'Алгоритм шифрування:'
+    textEncrypted: 'Ваш зашифрований текст:'
+    encryptedText: 'Ваш зашифрований текст:'
+    textDecrypted: 'Ваш розшифрований текст:'
+    cypherPlaceholder: 'Рядок для шифрування'
+    outputPlaceholder: 'Хеш вашого рядка'

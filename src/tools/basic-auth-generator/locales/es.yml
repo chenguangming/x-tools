@@ -1,0 +1,9 @@
+tools:
+  basic-auth-generator:
+    copied: 'Encabezado copiado al portapapeles'
+    username: 'Nombre de usuario'
+    usernamePlaceholder: 'Tu nombre de usuario...'
+    password: 'Contraseña'
+    passwordPlaceholder: 'Tu contraseña...'
+    authorizationHeader: 'Encabezado Authorization:'
+    copyHeader: 'Copiar encabezado'

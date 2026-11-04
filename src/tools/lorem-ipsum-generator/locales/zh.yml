@@ -1,0 +1,11 @@
+tools:
+  lorem-ipsum-generator:
+    copied: 'Lorem ipsum 已复制到剪贴板'
+    paragraphs: '段落数'
+    sentencesPerParagraph: '每段句子数'
+    wordsPerSentence: '每句单词数'
+    startWithLoremIpsum: '以 “Lorem ipsum” 开头？'
+    asHtml: '输出为 HTML？'
+    placeholder: '您的 Lorem ipsum...'
+    copy: '复制'
+    refresh: '刷新'

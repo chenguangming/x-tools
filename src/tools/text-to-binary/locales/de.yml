@@ -1,0 +1,15 @@
+tools:
+  text-to-binary:
+    invalidBinary: 'Binärwert muss eine gültige ASCII-Binärzeichenfolge mit einem Vielfachen von 8 Bit sein'
+    textToBinaryTitle: 'Text zu ASCII-Binär'
+    textPlaceholder: 'z. B. ''Hello world'''
+    textInputLabel: 'Text zur Umwandlung in Binär eingeben'
+    binaryOutputLabel: 'Binär aus deinem Text'
+    binaryOutputPlaceholder: 'Die Binärdarstellung deines Textes erscheint hier'
+    copyBinary: 'Binär in die Zwischenablage kopieren'
+    binaryToTextTitle: 'ASCII-Binär zu Text'
+    binaryPlaceholder: 'z. B. ''01001000 01100101 01101100 01101100 01101111'''
+    binaryInputLabel: 'Binärwert zur Umwandlung in Text eingeben'
+    textOutputLabel: 'Text aus deinem Binärwert'
+    textOutputPlaceholder: 'Die Textdarstellung deines Binärwerts erscheint hier'
+    copyText: 'Text in die Zwischenablage kopieren'

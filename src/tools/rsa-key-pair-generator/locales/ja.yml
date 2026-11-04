@@ -1,0 +1,7 @@
+tools:
+  rsa-key-pair-generator:
+    bitsInvalid: 'ビット数は 256 <= ビット数 <= 16384 かつ 8 の倍数である必要があります'
+    bits: 'ビット数:'
+    refresh: 'キーペアを再生成'
+    publicKey: '公開鍵'
+    privateKey: '秘密鍵'

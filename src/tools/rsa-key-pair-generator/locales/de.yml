@@ -1,0 +1,7 @@
+tools:
+  rsa-key-pair-generator:
+    bitsInvalid: 'Bits müssen 256 <= Bits <= 16384 sein und ein Vielfaches von 8'
+    bits: 'Bits:'
+    refresh: 'Schlüsselpaar neu generieren'
+    publicKey: 'Öffentlicher Schlüssel'
+    privateKey: 'Privater Schlüssel'

@@ -1,0 +1,16 @@
+tools:
+  hmac-generator:
+    binary: '二進位（2 進位）'
+    hexadecimal: '十六進位（16 進位）'
+    base64url: 'Base64-url（使用 URL 安全字元的 64 進位）'
+    plainTextPlaceholder: '用於計算雜湊的明文...'
+    plainTextLabel: '用於計算雜湊的明文'
+    secretPlaceholder: '輸入金鑰...'
+    secretLabel: '金鑰'
+    hashingFunction: '雜湊函數'
+    hashingFunctionPlaceholder: '選擇雜湊函數...'
+    outputEncoding: '輸出編碼'
+    encodingPlaceholder: '選擇結果編碼...'
+    resultPlaceholder: 'HMAC 的計算結果...'
+    resultLabel: '文字的 HMAC'
+    copy: '複製 HMAC'

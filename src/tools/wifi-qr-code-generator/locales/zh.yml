@@ -1,0 +1,18 @@
+tools:
+  wifi-qrcode-generator:
+    encryptionMethod: '加密方式'
+    noPassword: '无密码'
+    ssid: 'SSID：'
+    ssidPlaceholder: '您的 WiFi SSID...'
+    hiddenSsid: '隐藏 SSID'
+    password: '密码：'
+    passwordPlaceholder: '您的 WiFi 密码...'
+    eapMethod: 'EAP 方法'
+    identity: '身份：'
+    identityPlaceholder: '您的 EAP 身份...'
+    anonymous: '匿名？'
+    eapPhase2Method: 'EAP 第二阶段方法'
+    foregroundColor: '前景色：'
+    backgroundColor: '背景色：'
+    qrAlt: 'WiFi 二维码'
+    download: '下载二维码'

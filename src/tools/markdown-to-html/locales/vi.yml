@@ -1,0 +1,6 @@
+tools:
+  markdown-to-html:
+    placeholder: 'Nội dung Markdown của bạn...'
+    inputLabel: 'Markdown cần chuyển đổi:'
+    outputLabel: 'HTML đầu ra:'
+    printAsPdf: 'In dưới dạng PDF'

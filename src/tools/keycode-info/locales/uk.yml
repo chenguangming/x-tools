@@ -1,0 +1,12 @@
+tools:
+  keycode-info:
+    keyLabel: 'Клавіша:'
+    keyPlaceholder: 'Назва клавіші...'
+    keycodeLabel: 'Keycode:'
+    keycodePlaceholder: 'Keycode...'
+    codeLabel: 'Code:'
+    codePlaceholder: 'Code...'
+    locationLabel: 'Location:'
+    modifiersLabel: 'Модифікатори:'
+    modifiersPlaceholder: 'Немає'
+    pressKeyHint: 'Натисніть клавішу на клавіатурі, інформацію про яку ви хочете отримати'

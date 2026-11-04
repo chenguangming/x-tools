@@ -1,0 +1,9 @@
+tools:
+  roman-numeral-converter:
+    outOfRange: 'Vi kan bare konvertere tall mellom {min} og {max}'
+    invalidRoman: 'Inndataene er ikke et gyldig romertall'
+    romanCopied: 'Romertall kopiert til utklippstavlen'
+    arabicCopied: 'Arabisk tall kopiert til utklippstavlen'
+    arabicToRoman: 'Arabisk til romertall'
+    romanToArabic: 'Romertall til arabisk'
+    copy: 'Kopier'

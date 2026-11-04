@@ -1,0 +1,8 @@
+tools:
+  yaml-prettify:
+    invalidYaml: 'Provided YAML is not valid.'
+    sortKeys: 'Sort keys :'
+    indentSize: 'Indent size :'
+    inputLabel: 'Your raw YAML'
+    inputPlaceholder: 'Paste your raw YAML here...'
+    outputLabel: 'Prettified version of your YAML'

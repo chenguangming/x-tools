@@ -1,0 +1,9 @@
+tools:
+  ipv4-address-converter:
+    decimal: '10 進数: '
+    hexadecimal: '16 進数: '
+    binary: '2 進数: '
+    invalid: '無効な IPv4 アドレス'
+    label: 'IPv4 アドレス:'
+    placeholder: 'IPv4 アドレス...'
+    setCorrect: '正しい IPv4 アドレスを設定してください'

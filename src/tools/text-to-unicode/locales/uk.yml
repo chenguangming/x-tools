@@ -1,0 +1,14 @@
+tools:
+  text-to-unicode:
+    textToUnicodeTitle: 'Текст у Unicode'
+    textPlaceholder: 'напр. ''Hello Avengers'''
+    textInputLabel: 'Введіть текст для перетворення в Unicode'
+    unicodeOutputLabel: 'Unicode вашого тексту'
+    unicodeOutputPlaceholder: 'Тут буде представлення вашого тексту в Unicode'
+    copyUnicode: 'Копіювати Unicode у буфер обміну'
+    unicodeToTextTitle: 'Unicode у текст'
+    unicodePlaceholder: 'Введіть Unicode'
+    unicodeInputLabel: 'Введіть Unicode для перетворення в текст'
+    textOutputLabel: 'Текст з вашого Unicode'
+    textOutputPlaceholder: 'Тут буде текстове представлення вашого Unicode'
+    copyText: 'Копіювати текст у буфер обміну'

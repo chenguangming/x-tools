@@ -1,0 +1,9 @@
+tools:
+  ipv6-ula-generator:
+    ula: 'IPv6 ULA:'
+    firstBlock: '첫 번째 라우팅 가능 블록:'
+    lastBlock: '마지막 라우팅 가능 블록:'
+    infoTitle: '정보'
+    info: '이 도구는 IETF에서 제안한 첫 번째 방법에 따라 현재 타임스탬프와 MAC 주소를 합쳐 SHA-1로 해시한 뒤, 하위 40비트를 사용해 임의의 ULA를 생성합니다.'
+    placeholder: 'MAC 주소를 입력하세요'
+    macLabel: 'MAC 주소:'

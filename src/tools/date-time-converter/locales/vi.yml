@@ -1,0 +1,10 @@
+tools:
+  date-converter:
+    jsLocaleDateString: 'Chuỗi ngày theo locale của JS'
+    unixTimestamp: 'Unix timestamp'
+    timestamp: 'Timestamp'
+    utcFormat: 'Định dạng UTC'
+    excelDateTime: 'Ngày/giờ Excel'
+    invalidDate: 'Ngày này không hợp lệ với định dạng đã chọn'
+    inputPlaceholder: 'Nhập chuỗi ngày của bạn vào đây...'
+    invalidDatePlaceholder: 'Ngày không hợp lệ...'

@@ -1,0 +1,14 @@
+tools:
+  sql-prettify:
+    dialect: 'Phương ngữ'
+    keywordCase: 'Kiểu chữ từ khóa'
+    indentStyle: 'Kiểu thụt lề'
+    upper: 'CHỮ HOA'
+    lower: 'chữ thường'
+    preserve: 'Giữ nguyên'
+    standard: 'Tiêu chuẩn'
+    tabularLeft: 'Dạng bảng căn trái'
+    tabularRight: 'Dạng bảng căn phải'
+    inputLabel: 'Truy vấn SQL của bạn'
+    inputPlaceholder: 'Nhập truy vấn SQL của bạn vào đây…'
+    outputLabel: 'Phiên bản đã định dạng của truy vấn'

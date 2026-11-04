@@ -1,0 +1,6 @@
+tools:
+  yaml-to-json-converter:
+    invalidYaml: '提供的 YAML 無效。'
+    inputLabel: '您的 YAML'
+    inputPlaceholder: '在此貼上 YAML...'
+    outputLabel: '由 YAML 產生的 JSON'

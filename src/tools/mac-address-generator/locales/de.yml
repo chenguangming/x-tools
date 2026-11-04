@@ -1,0 +1,13 @@
+tools:
+  mac-address-generator:
+    copied: 'MAC-Adressen in die Zwischenablage kopiert'
+    uppercase: 'Großbuchstaben'
+    lowercase: 'Kleinbuchstaben'
+    none: 'Keines'
+    quantity: 'Anzahl:'
+    prefixLabel: 'MAC-Adress-Präfix:'
+    prefixPlaceholder: 'Präfix festlegen, z. B. 64:16:7F'
+    caseLabel: 'Schreibweise:'
+    separatorLabel: 'Trennzeichen:'
+    refresh: 'Aktualisieren'
+    copy: 'Kopieren'

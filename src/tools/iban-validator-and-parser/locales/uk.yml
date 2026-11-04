@@ -1,0 +1,9 @@
+tools:
+  iban-validator-and-parser:
+    isValid: 'Чи дійсний IBAN?'
+    errors: 'Помилки IBAN'
+    isQrIban: 'Чи є IBAN QR-IBAN?'
+    countryCode: 'Код країни'
+    friendlyFormat: 'Зручний формат IBAN'
+    placeholder: 'Введіть IBAN для перевірки...'
+    examplesTitle: 'Приклади дійсних IBAN'

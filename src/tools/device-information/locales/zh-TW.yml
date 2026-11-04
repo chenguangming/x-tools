@@ -1,0 +1,16 @@
+tools:
+  device-information:
+    screen: '螢幕'
+    device: '裝置'
+    screenSize: '螢幕尺寸'
+    orientation: '方向'
+    orientationAngle: '方向角度'
+    colorDepth: '色彩深度'
+    bits: '位元'
+    pixelRatio: '像素比'
+    windowSize: '視窗大小'
+    browserVendor: '瀏覽器廠商'
+    languages: '語言'
+    platform: '平台'
+    userAgent: '使用者代理'
+    unknown: '未知'

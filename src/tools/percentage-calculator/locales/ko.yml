@@ -1,0 +1,10 @@
+tools:
+  percentage-calculator:
+    whatIs: '얼마인가요'
+    percentOf: '% 의'
+    xIsWhatPercentOfY: 'X는 Y의 몇 퍼센트인가요'
+    isWhatPercentOf: '는 몇 퍼센트인가요（대상:）'
+    increaseDecrease: '증감 비율은 얼마인가요'
+    result: '결과'
+    from: '시작'
+    to: '끝'

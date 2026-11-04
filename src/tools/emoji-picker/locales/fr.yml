@@ -1,0 +1,8 @@
+tools:
+  emoji-picker:
+    emojiCopied: 'Emoji {emoji} copié dans le presse-papiers'
+    codePointsCopied: 'Points de code ''{codePoints}'' copiés dans le presse-papiers'
+    unicodeCopied: 'Unicode ''{unicode}'' copié dans le presse-papiers'
+    searchPlaceholder: 'Rechercher des emojis (ex. ''smile'')...'
+    noResults: 'Aucun résultat'
+    searchResult: 'Résultat de la recherche'

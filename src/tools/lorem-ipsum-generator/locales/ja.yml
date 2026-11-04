@@ -1,0 +1,11 @@
+tools:
+  lorem-ipsum-generator:
+    copied: 'Lorem ipsum をクリップボードにコピーしました'
+    paragraphs: '段落数'
+    sentencesPerParagraph: '1段落あたりの文数'
+    wordsPerSentence: '1文あたりの単語数'
+    startWithLoremIpsum: '「Lorem ipsum」で始める'
+    asHtml: 'HTML として出力'
+    placeholder: 'Lorem ipsum がここに表示されます...'
+    copy: 'コピー'
+    refresh: '更新'

@@ -1,0 +1,12 @@
+tools:
+  keycode-info:
+    keyLabel: 'キー：'
+    keyPlaceholder: 'キー名...'
+    keycodeLabel: 'Keycode：'
+    keycodePlaceholder: 'Keycode...'
+    codeLabel: 'Code：'
+    codePlaceholder: 'Code...'
+    locationLabel: 'Location：'
+    modifiersLabel: '修飾キー：'
+    modifiersPlaceholder: 'なし'
+    pressKeyHint: '情報を知りたいキーをキーボードで押してください'

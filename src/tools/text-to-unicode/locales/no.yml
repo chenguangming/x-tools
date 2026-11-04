@@ -1,0 +1,14 @@
+tools:
+  text-to-unicode:
+    textToUnicodeTitle: 'Tekst til Unicode'
+    textPlaceholder: 'f.eks. ''Hello Avengers'''
+    textInputLabel: 'Skriv inn tekst som skal konverteres til Unicode'
+    unicodeOutputLabel: 'Unicode fra teksten din'
+    unicodeOutputPlaceholder: 'Unicode-representasjonen av teksten din vises her'
+    copyUnicode: 'Kopier Unicode til utklippstavlen'
+    unicodeToTextTitle: 'Unicode til tekst'
+    unicodePlaceholder: 'Skriv inn Unicode'
+    unicodeInputLabel: 'Skriv inn Unicode som skal konverteres til tekst'
+    textOutputLabel: 'Tekst fra Unicode-en din'
+    textOutputPlaceholder: 'Tekstrepresentasjonen av Unicode-en din vises her'
+    copyText: 'Kopier tekst til utklippstavlen'

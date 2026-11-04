@@ -1,0 +1,7 @@
+tools:
+  string-obfuscator:
+    placeholder: '難読化する文字列を入力'
+    label: '難読化する文字列:'
+    keepFirst: '先頭を残す数:'
+    keepLast: '末尾を残す数:'
+    keepSpaces: 'スペースを 保持:'

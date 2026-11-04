@@ -1,0 +1,16 @@
+tools:
+  bcrypt:
+    copied: 'Hashed string copied to the clipboard'
+    hash: 'Hash'
+    stringPlaceholder: 'Your string to bcrypt...'
+    yourString: 'Your string: '
+    saltCount: 'Salt count: '
+    saltRounds: 'Salt rounds...'
+    copyHash: 'Copy hash'
+    compareTitle: 'Compare string with hash'
+    compareStringPlaceholder: 'Your string to compare...'
+    yourHash: 'Your hash: '
+    compareHashPlaceholder: 'Your hash to compare...'
+    doTheyMatch: 'Do they match ? '
+    'yes': 'Yes'
+    'no': 'No'

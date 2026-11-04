@@ -1,0 +1,12 @@
+tools:
+  uuid-generator:
+    invalidUuid: '無效的 UUID'
+    copied: '已將 UUID 複製到剪貼簿'
+    version: 'UUID 版本'
+    quantity: '數量'
+    quantityPlaceholder: 'UUID 數量'
+    namespace: '命名空間'
+    name: '名稱'
+    uuidsPlaceholder: '您的 UUID'
+    copy: '複製'
+    refresh: '重新整理'

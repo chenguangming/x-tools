@@ -1,0 +1,6 @@
+tools:
+  toml-to-json:
+    invalidToml: 'Наданий TOML недійсний.'
+    inputLabel: 'Ваш TOML'
+    inputPlaceholder: 'Вставте TOML сюди...'
+    outputLabel: 'JSON з вашого TOML'

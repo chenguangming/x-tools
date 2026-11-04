@@ -1,0 +1,10 @@
+tools:
+  date-converter:
+    jsLocaleDateString: 'JS 本地日期字串'
+    unixTimestamp: 'Unix 時間戳記'
+    timestamp: '時間戳記'
+    utcFormat: 'UTC 格式'
+    excelDateTime: 'Excel 日期/時間'
+    invalidDate: '此日期對該格式無效'
+    inputPlaceholder: '在此輸入日期字串...'
+    invalidDatePlaceholder: '無效的日期...'

@@ -1,0 +1,8 @@
+tools:
+  json-prettify:
+    invalidJson: 'Provided JSON is not valid.'
+    sortKeys: 'Sort keys :'
+    indentSize: 'Indent size :'
+    inputLabel: 'Your raw JSON'
+    inputPlaceholder: 'Paste your raw JSON here...'
+    outputLabel: 'Prettified version of your JSON'

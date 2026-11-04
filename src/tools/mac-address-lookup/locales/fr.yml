@@ -1,0 +1,8 @@
+tools:
+  mac-address-lookup:
+    copied: 'Informations sur le fabricant copiées dans le presse-papiers'
+    macAddressLabel: 'Adresse MAC :'
+    macAddressPlaceholder: 'Saisissez une adresse MAC'
+    vendorInfo: 'Informations sur le fabricant :'
+    unknownVendor: 'Fabricant inconnu pour cette adresse'
+    copyVendorInfo: 'Copier les informations du fabricant'

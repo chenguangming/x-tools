@@ -1,0 +1,12 @@
+tools:
+  url-parser:
+    invalidUrl: '無効な URL'
+    urlLabel: '解析する URL：'
+    urlPlaceholder: '解析する URL...'
+    protocol: 'プロトコル'
+    username: 'ユーザー名'
+    password: 'パスワード'
+    hostname: 'ホスト名'
+    port: 'ポート'
+    path: 'パス'
+    params: 'パラメーター'

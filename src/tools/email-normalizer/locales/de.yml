@@ -1,0 +1,10 @@
+tools:
+  email-normalizer:
+    unableToParse: 'E-Mail konnte nicht geparst werden: {email}'
+    copied: 'Normalisierte E-Mails in die Zwischenablage kopiert'
+    rawEmails: 'Zu normalisierende E-Mails:'
+    rawPlaceholder: 'Füge deine E-Mails hier ein (eine pro Zeile)...'
+    normalizedEmails: 'Normalisierte E-Mails:'
+    normalizedPlaceholder: 'Normalisierte E-Mails erscheinen hier...'
+    clear: 'E-Mails löschen'
+    copy: 'Normalisierte E-Mails kopieren'

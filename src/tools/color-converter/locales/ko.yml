@@ -1,0 +1,7 @@
+tools:
+  color-converter:
+    unknown: '알 수 없음'
+    invalidFormat: '잘못된 {format} 형식입니다.'
+    colorPicker: '색상 선택기'
+    name: '이름'
+    example: '예: {value}'

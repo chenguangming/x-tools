@@ -1,0 +1,11 @@
+tools:
+  ascii-text-drawer:
+    yourText: 'Ваш текст:'
+    yourTextPlaceholder: 'Текст для малювання'
+    font: 'Шрифт:'
+    fontPlaceholder: 'Виберіть шрифт'
+    width: 'Ширина:'
+    widthPlaceholder: 'Ширина тексту'
+    loadingFont: 'Завантаження шрифту...'
+    error: 'Поточні налаштування призвели до помилки.'
+    asciiArtText: 'ASCII-арт текст:'

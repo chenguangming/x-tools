@@ -1,0 +1,8 @@
+tools:
+  chmod-calculator:
+    read: 'Đọc (4)'
+    write: 'Ghi (2)'
+    execute: 'Thực thi (1)'
+    owner: 'Chủ sở hữu (u)'
+    group: 'Nhóm (g)'
+    public: 'Người khác (o)'

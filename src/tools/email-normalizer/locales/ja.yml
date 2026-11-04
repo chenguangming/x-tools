@@ -1,0 +1,10 @@
+tools:
+  email-normalizer:
+    unableToParse: 'メールアドレスを解析できません: {email}'
+    copied: '正規化したメールアドレスをクリップボードにコピーしました'
+    rawEmails: '正規化するメールアドレス:'
+    rawPlaceholder: 'メールアドレスをここに入力（1 行に 1 つ）...'
+    normalizedEmails: '正規化されたメールアドレス:'
+    normalizedPlaceholder: '正規化されたメールアドレスがここに表示されます...'
+    clear: 'メールアドレスをクリア'
+    copy: '正規化したメールアドレスをコピー'

@@ -1,0 +1,16 @@
+tools:
+  bcrypt:
+    copied: 'Chaîne hachée copiée dans le presse-papiers'
+    hash: 'Hash'
+    stringPlaceholder: 'Votre chaîne à hacher avec bcrypt...'
+    yourString: 'Votre chaîne : '
+    saltCount: 'Tours de salt : '
+    saltRounds: 'Tours de salt...'
+    copyHash: 'Copier le hash'
+    compareTitle: 'Comparer une chaîne avec un hash'
+    compareStringPlaceholder: 'Votre chaîne à comparer...'
+    yourHash: 'Votre hash : '
+    compareHashPlaceholder: 'Votre hash à comparer...'
+    doTheyMatch: 'Correspondent-ils ? '
+    'yes': 'Oui'
+    'no': 'Non'

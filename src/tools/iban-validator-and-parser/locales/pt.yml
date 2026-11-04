@@ -1,0 +1,9 @@
+tools:
+  iban-validator-and-parser:
+    isValid: 'O IBAN é válido?'
+    errors: 'Erros do IBAN'
+    isQrIban: 'O IBAN é um QR-IBAN?'
+    countryCode: 'Código do país'
+    friendlyFormat: 'Formato amigável do IBAN'
+    placeholder: 'Digite um IBAN para verificar a validade...'
+    examplesTitle: 'Exemplos de IBAN válidos'

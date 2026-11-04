@@ -1,0 +1,8 @@
+tools:
+  mac-address-lookup:
+    copied: '제조사 정보가 클립보드에 복사되었습니다'
+    macAddressLabel: 'MAC 주소:'
+    macAddressPlaceholder: 'MAC 주소를 입력하세요'
+    vendorInfo: '제조사 정보:'
+    unknownVendor: '이 주소의 제조사를 알 수 없습니다'
+    copyVendorInfo: '제조사 정보 복사'

@@ -1,0 +1,16 @@
+tools:
+  bcrypt:
+    copied: 'Gehashte Zeichenfolge in die Zwischenablage kopiert'
+    hash: 'Hash'
+    stringPlaceholder: 'Ihre Zeichenfolge für bcrypt...'
+    yourString: 'Ihre Zeichenfolge: '
+    saltCount: 'Salt-Runden: '
+    saltRounds: 'Salt-Runden...'
+    copyHash: 'Hash kopieren'
+    compareTitle: 'Zeichenfolge mit Hash vergleichen'
+    compareStringPlaceholder: 'Ihre Zeichenfolge zum Vergleichen...'
+    yourHash: 'Ihr Hash: '
+    compareHashPlaceholder: 'Ihr Hash zum Vergleichen...'
+    doTheyMatch: 'Stimmen sie überein? '
+    'yes': 'Ja'
+    'no': 'Nein'

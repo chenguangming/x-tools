@@ -1,0 +1,12 @@
+tools:
+  bip39-generator:
+    entropyLength: '엔트로피 길이는 16 이상 32 이하이며 4의 배수여야 합니다'
+    entropyHex: '엔트로피는 16진수 문자열이어야 합니다'
+    invalidMnemonic: '잘못된 니모닉입니다'
+    entropyCopied: '엔트로피가 클립보드에 복사되었습니다'
+    passphraseCopied: '패스프레이즈가 클립보드에 복사되었습니다'
+    language: '언어:'
+    entropySeed: '엔트로피(시드):'
+    entropyPlaceholder: '문자열을 입력하세요...'
+    passphraseMnemonic: '패스프레이즈(니모닉):'
+    mnemonicPlaceholder: '니모닉을 입력하세요...'

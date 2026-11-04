@@ -1,0 +1,7 @@
+tools:
+  text-statistics:
+    placeholder: 'Din tekst...'
+    characterCount: 'Antall tegn'
+    wordCount: 'Antall ord'
+    lineCount: 'Antall linjer'
+    byteSize: 'Størrelse i byte'

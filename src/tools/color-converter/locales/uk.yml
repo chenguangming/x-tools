@@ -1,0 +1,7 @@
+tools:
+  color-converter:
+    unknown: 'Невідомо'
+    invalidFormat: 'Недійсний формат {format}.'
+    colorPicker: 'вибір кольору'
+    name: 'назва'
+    example: 'напр. {value}'

@@ -1,0 +1,15 @@
+tools:
+  text-to-binary:
+    invalidBinary: 'バイナリは 8 ビットの倍数の有効な ASCII バイナリ文字列である必要があります'
+    textToBinaryTitle: 'テキストから ASCII バイナリ'
+    textPlaceholder: '例: ''Hello world'''
+    textInputLabel: 'バイナリに変換するテキストを入力'
+    binaryOutputLabel: 'テキストのバイナリ'
+    binaryOutputPlaceholder: 'テキストのバイナリ表現がここに表示されます'
+    copyBinary: 'バイナリをクリップボードにコピー'
+    binaryToTextTitle: 'ASCII バイナリからテキスト'
+    binaryPlaceholder: '例: ''01001000 01100101 01101100 01101100 01101111'''
+    binaryInputLabel: 'テキストに変換するバイナリを入力'
+    textOutputLabel: 'バイナリのテキスト'
+    textOutputPlaceholder: 'バイナリのテキスト表現がここに表示されます'
+    copyText: 'テキストをクリップボードにコピー'

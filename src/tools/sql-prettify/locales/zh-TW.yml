@@ -1,0 +1,14 @@
+tools:
+  sql-prettify:
+    dialect: '方言'
+    keywordCase: '關鍵字大小寫'
+    indentStyle: '縮排樣式'
+    upper: '大寫'
+    lower: '小寫'
+    preserve: '保持原樣'
+    standard: '標準'
+    tabularLeft: '表格靠左'
+    tabularRight: '表格靠右'
+    inputLabel: '您的 SQL 查詢'
+    inputPlaceholder: '在此輸入 SQL 查詢…'
+    outputLabel: '格式化後的查詢'

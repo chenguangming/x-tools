@@ -1,0 +1,8 @@
+tools:
+  yaml-prettify:
+    invalidYaml: 'O YAML fornecido não é válido.'
+    sortKeys: 'Ordenar chaves:'
+    indentSize: 'Tamanho do recuo:'
+    inputLabel: 'Seu YAML bruto'
+    inputPlaceholder: 'Cole seu YAML bruto aqui...'
+    outputLabel: 'Versão formatada do seu YAML'

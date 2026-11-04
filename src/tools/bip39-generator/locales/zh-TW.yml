@@ -1,0 +1,12 @@
+tools:
+  bip39-generator:
+    entropyLength: '熵長度應 >= 16、<= 32,且為 4 的倍數'
+    entropyHex: '熵應為十六進位字串'
+    invalidMnemonic: '無效的助記詞'
+    entropyCopied: '熵已複製到剪貼簿'
+    passphraseCopied: '密語已複製到剪貼簿'
+    language: '語言:'
+    entropySeed: '熵(種子):'
+    entropyPlaceholder: '您的字串...'
+    passphraseMnemonic: '密語(助記詞):'
+    mnemonicPlaceholder: '您的助記詞...'

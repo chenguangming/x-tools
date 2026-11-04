@@ -1,0 +1,9 @@
+tools:
+  ipv4-address-converter:
+    decimal: 'Десяткова: '
+    hexadecimal: 'Шістнадцяткова: '
+    binary: 'Двійкова: '
+    invalid: 'Недійсна адреса IPv4'
+    label: 'Адреса IPv4:'
+    placeholder: 'Адреса IPv4...'
+    setCorrect: 'Вкажіть правильну адресу IPv4'

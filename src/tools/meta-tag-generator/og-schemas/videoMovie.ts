@@ -1,29 +1,43 @@
 import type { OGSchemaType } from '../OGSchemaType.type';
 
 export const videoMovie: OGSchemaType = {
-  name: 'Movie details',
+  name: 'tools.og-meta-generator.sectionMovieDetails',
   elements: [
     {
       type: 'input-multiple',
-      label: 'Actor',
+      label: 'tools.og-meta-generator.labelActor',
       key: 'video:actor',
-      placeholder: 'Name of the actress/actor...',
+      placeholder: 'tools.og-meta-generator.phActor',
     },
-    // { type: 'input', label: 'Actor role', key: 'video:actor:role', placeholder: 'The role they played...' },
     {
       type: 'input-multiple',
-      label: 'Director',
+      label: 'tools.og-meta-generator.labelDirector',
       key: 'video:director',
-      placeholder: 'Name of the director...',
+      placeholder: 'tools.og-meta-generator.phDirector',
     },
-    { type: 'input-multiple', label: 'Writer', key: 'video:writer', placeholder: 'Writers of the movie...' },
-    { type: 'input', label: 'Duration', key: 'video:duration', placeholder: 'The movie\'s length in seconds...' },
+    {
+      type: 'input-multiple',
+      label: 'tools.og-meta-generator.labelWriter',
+      key: 'video:writer',
+      placeholder: 'tools.og-meta-generator.phWriter',
+    },
     {
       type: 'input',
-      label: 'Release date',
-      key: 'video:release_date',
-      placeholder: 'The date the movie was released...',
+      label: 'tools.og-meta-generator.labelDuration',
+      key: 'video:duration',
+      placeholder: 'tools.og-meta-generator.phMovieDuration',
     },
-    { type: 'input', label: 'Tag', key: 'video:tag', placeholder: 'Tag words associated with this movie...' },
+    {
+      type: 'input',
+      label: 'tools.og-meta-generator.labelReleaseDate',
+      key: 'video:release_date',
+      placeholder: 'tools.og-meta-generator.phMovieReleaseDate',
+    },
+    {
+      type: 'input',
+      label: 'tools.og-meta-generator.labelTag',
+      key: 'video:tag',
+      placeholder: 'tools.og-meta-generator.phMovieTag',
+    },
   ],
 };

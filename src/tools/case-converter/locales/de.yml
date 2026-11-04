@@ -1,0 +1,18 @@
+tools:
+  case-converter:
+    yourString: 'Ihre Zeichenfolge:'
+    yourStringPlaceholder: 'Ihre Zeichenfolge...'
+    lowercase: 'Kleinbuchstaben:'
+    uppercase: 'Großbuchstaben:'
+    camelcase: 'Camelcase:'
+    capitalcase: 'Capitalcase:'
+    constantcase: 'Constantcase:'
+    dotcase: 'Dotcase:'
+    headercase: 'Headercase:'
+    nocase: 'Nocase:'
+    paramcase: 'Paramcase:'
+    pascalcase: 'Pascalcase:'
+    pathcase: 'Pathcase:'
+    sentencecase: 'Sentencecase:'
+    snakecase: 'Snakecase:'
+    mockingcase: 'Mockingcase:'

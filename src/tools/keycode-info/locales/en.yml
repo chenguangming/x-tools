@@ -1,0 +1,12 @@
+tools:
+  keycode-info:
+    keyLabel: 'Key :'
+    keyPlaceholder: 'Key name...'
+    keycodeLabel: 'Keycode :'
+    keycodePlaceholder: 'Keycode...'
+    codeLabel: 'Code :'
+    codePlaceholder: 'Code...'
+    locationLabel: 'Location :'
+    modifiersLabel: 'Modifiers :'
+    modifiersPlaceholder: 'None'
+    pressKeyHint: 'Press the key on your keyboard you want to get info about this key'

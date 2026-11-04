@@ -1,0 +1,13 @@
+tools:
+  html-entities:
+    escapeTitle: 'Екранування HTML-сутностей'
+    unescapeTitle: 'Скасування екранування HTML-сутностей'
+    yourString: 'Ваш рядок:'
+    yourStringEscaped: 'Ваш екранований рядок:'
+    yourEscapedString: 'Ваш екранований рядок:'
+    yourStringUnescaped: 'Ваш рядок без екранування:'
+    stringToEscape: 'Рядок для екранування'
+    escapedPlaceholder: 'Ваш екранований рядок'
+    stringToUnescape: 'Рядок для скасування екранування'
+    unescapedPlaceholder: 'Ваш рядок без екранування'
+    copy: 'Копіювати'

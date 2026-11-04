@@ -1,0 +1,8 @@
+tools:
+  json-prettify:
+    invalidJson: 'El JSON proporcionado no es válido.'
+    sortKeys: 'Ordenar claves:'
+    indentSize: 'Tamaño de sangría:'
+    inputLabel: 'Tu JSON sin procesar'
+    inputPlaceholder: 'Pega aquí tu JSON sin procesar...'
+    outputLabel: 'Versión formateada de tu JSON'

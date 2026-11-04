@@ -1,0 +1,5 @@
+tools:
+  safelink-decoder:
+    inputPlaceholder: 'Ваша URL-адреса Outlook SafeLink…'
+    inputLabel: 'Ваша URL-адреса Outlook SafeLink:'
+    outputLabel: 'Декодована URL-адреса:'

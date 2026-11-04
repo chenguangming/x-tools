@@ -1,0 +1,18 @@
+tools:
+  html-wysiwyg-editor:
+    bold: '粗體'
+    italic: '斜體'
+    strike: '刪除線'
+    inlineCode: '行內程式碼'
+    heading1: '標題 1'
+    heading2: '標題 2'
+    heading3: '標題 3'
+    heading4: '標題 4'
+    bulletList: '無序清單'
+    orderedList: '有序清單'
+    codeBlock: '程式碼區塊'
+    blockquote: '引用區塊'
+    hardBreak: '強制換行'
+    clearFormat: '清除格式'
+    undo: '復原'
+    redo: '重做'

@@ -1,0 +1,7 @@
+tools:
+  jwt-parser:
+    header: 'Заголовок'
+    payload: 'Корисне навантаження'
+    invalidJwt: 'Недійсний JWT'
+    jwtLabel: 'JWT для декодування'
+    jwtPlaceholder: 'Вставте сюди свій токен...'

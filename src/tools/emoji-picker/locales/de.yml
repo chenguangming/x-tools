@@ -1,0 +1,8 @@
+tools:
+  emoji-picker:
+    emojiCopied: 'Emoji {emoji} in die Zwischenablage kopiert'
+    codePointsCopied: 'Codepunkte ''{codePoints}'' in die Zwischenablage kopiert'
+    unicodeCopied: 'Unicode ''{unicode}'' in die Zwischenablage kopiert'
+    searchPlaceholder: 'Emojis suchen (z. B. ''smile'')...'
+    noResults: 'Keine Ergebnisse'
+    searchResult: 'Suchergebnis'

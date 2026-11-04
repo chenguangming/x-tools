@@ -1,0 +1,10 @@
+tools:
+  date-converter:
+    jsLocaleDateString: 'JS 로케일 날짜 문자열'
+    unixTimestamp: 'Unix 타임스탬프'
+    timestamp: '타임스탬프'
+    utcFormat: 'UTC 형식'
+    excelDateTime: 'Excel 날짜/시간'
+    invalidDate: '이 날짜는 해당 형식에 유효하지 않습니다'
+    inputPlaceholder: '여기에 날짜 문자열을 입력하세요...'
+    invalidDatePlaceholder: '잘못된 날짜...'

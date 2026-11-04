@@ -1,0 +1,5 @@
+tools:
+  random-port-generator:
+    portCopied: '포트가 클립보드에 복사되었습니다'
+    copy: '복사'
+    refresh: '새로 고침'

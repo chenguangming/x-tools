@@ -1,0 +1,4 @@
+tools:
+  math-evaluator:
+    placeholder: 'Ditt matematiske uttrykk (f.eks. 2*sqrt(6) )...'
+    result: 'Resultat '

@@ -1,0 +1,10 @@
+tools:
+  password-strength-analyser:
+    passwordLength: 'Độ dài mật khẩu:'
+    entropy: 'Entropy:'
+    charsetSize: 'Kích thước bộ ký tự:'
+    score: 'Điểm:'
+    passwordPlaceholder: 'Nhập mật khẩu...'
+    crackDuration: 'Thời gian để bẻ khóa mật khẩu này bằng brute force'
+    noteLabel: 'Lưu ý:'
+    noteText: 'Độ mạnh được tính dựa trên thời gian cần để bẻ khóa mật khẩu bằng brute force, không tính đến khả năng tấn công từ điển.'

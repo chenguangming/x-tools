@@ -1,0 +1,16 @@
+tools:
+  bcrypt:
+    copied: 'Hashet streng kopiert til utklippstavlen'
+    hash: 'Hash'
+    stringPlaceholder: 'Strengen din for bcrypt...'
+    yourString: 'Din streng: '
+    saltCount: 'Salt-runder: '
+    saltRounds: 'Salt-runder...'
+    copyHash: 'Kopier hash'
+    compareTitle: 'Sammenlign streng med hash'
+    compareStringPlaceholder: 'Strengen din som skal sammenlignes...'
+    yourHash: 'Din hash: '
+    compareHashPlaceholder: 'Hashen din som skal sammenlignes...'
+    doTheyMatch: 'Stemmer de overens? '
+    'yes': 'Ja'
+    'no': 'Nei'

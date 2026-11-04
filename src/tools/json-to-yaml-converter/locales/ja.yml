@@ -1,0 +1,6 @@
+tools:
+  json-to-yaml-converter:
+    invalidJson: '指定された JSON が無効です。'
+    inputLabel: 'JSON'
+    inputPlaceholder: 'ここに JSON を貼り付け...'
+    outputLabel: 'JSON から変換した YAML'

@@ -1,0 +1,12 @@
+tools:
+  keycode-info:
+    keyLabel: '키:'
+    keyPlaceholder: '키 이름...'
+    keycodeLabel: 'Keycode:'
+    keycodePlaceholder: 'Keycode...'
+    codeLabel: 'Code:'
+    codePlaceholder: 'Code...'
+    locationLabel: 'Location:'
+    modifiersLabel: '수정자 키:'
+    modifiersPlaceholder: '없음'
+    pressKeyHint: '정보를 확인하려는 키를 키보드에서 누르세요'

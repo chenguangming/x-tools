@@ -1,0 +1,13 @@
+tools:
+  mac-address-generator:
+    copied: 'MAC 位址已複製到剪貼簿'
+    uppercase: '大寫'
+    lowercase: '小寫'
+    none: '無'
+    quantity: '數量：'
+    prefixLabel: 'MAC 位址前綴：'
+    prefixPlaceholder: '設定前綴，例如 64:16:7F'
+    caseLabel: '大小寫：'
+    separatorLabel: '分隔符號：'
+    refresh: '重新整理'
+    copy: '複製'

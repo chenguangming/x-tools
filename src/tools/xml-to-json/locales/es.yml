@@ -1,0 +1,6 @@
+tools:
+  xml-to-json:
+    invalidXml: 'El XML proporcionado no es válido.'
+    inputLabel: 'Su contenido XML'
+    inputPlaceholder: 'Pegue su contenido XML aquí...'
+    outputLabel: 'JSON convertido'

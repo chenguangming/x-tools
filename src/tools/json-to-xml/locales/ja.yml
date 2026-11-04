@@ -1,0 +1,6 @@
+tools:
+  json-to-xml:
+    invalidJson: '指定された JSON が無効です。'
+    inputLabel: 'JSON の内容'
+    inputPlaceholder: 'ここに JSON の内容を貼り付け...'
+    outputLabel: '変換後の XML'

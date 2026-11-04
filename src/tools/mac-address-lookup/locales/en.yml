@@ -1,0 +1,8 @@
+tools:
+  mac-address-lookup:
+    copied: 'Vendor info copied to the clipboard'
+    macAddressLabel: 'MAC address:'
+    macAddressPlaceholder: 'Type a MAC address'
+    vendorInfo: 'Vendor info:'
+    unknownVendor: 'Unknown vendor for this address'
+    copyVendorInfo: 'Copy vendor info'

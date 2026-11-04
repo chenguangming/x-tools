@@ -1,0 +1,14 @@
+tools:
+  encryption:
+    encrypt: 'Krypter'
+    decrypt: 'Dekrypter'
+    decryptError: 'Feil under dekryptering'
+    unableToDecrypt: 'Kunne ikke dekryptere teksten din'
+    yourText: 'Teksten din:'
+    secretKey: 'Din hemmelige nøkkel:'
+    algorithm: 'Krypteringsalgoritme:'
+    textEncrypted: 'Teksten din kryptert:'
+    encryptedText: 'Din krypterte tekst:'
+    textDecrypted: 'Teksten din dekryptert:'
+    cypherPlaceholder: 'Strengen som skal krypteres'
+    outputPlaceholder: 'Hashen til strengen din'

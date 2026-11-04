@@ -1,0 +1,8 @@
+tools:
+  slugify-string:
+    slugCopied: 'Slug 已复制到剪贴板'
+    inputPlaceholder: '在此输入字符串（例如：My file path）'
+    inputLabel: '要转换为 slug 的字符串'
+    slugPlaceholder: 'Slug 将在此生成（例如：my-file-path）'
+    slugLabel: '您的 slug'
+    copySlug: '复制 slug'

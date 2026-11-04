@@ -1,0 +1,7 @@
+tools:
+  color-converter:
+    unknown: '未知'
+    invalidFormat: '无效的 {format} 格式。'
+    colorPicker: '取色器'
+    name: '名称'
+    example: '例如 {value}'

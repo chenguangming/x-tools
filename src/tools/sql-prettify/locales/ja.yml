@@ -1,0 +1,14 @@
+tools:
+  sql-prettify:
+    dialect: 'ダイアレクト'
+    keywordCase: 'キーワードの大文字小文字'
+    indentStyle: 'インデントスタイル'
+    upper: '大文字'
+    lower: '小文字'
+    preserve: '変更しない'
+    standard: '標準'
+    tabularLeft: 'テーブル形式（左揃え）'
+    tabularRight: 'テーブル形式（右揃え）'
+    inputLabel: 'SQL クエリ'
+    inputPlaceholder: 'ここに SQL クエリを入力…'
+    outputLabel: '整形されたクエリ'

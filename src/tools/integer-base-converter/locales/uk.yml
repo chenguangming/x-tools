@@ -1,0 +1,17 @@
+tools:
+  base-converter:
+    inputNumber: 'Вхідне число'
+    inputPlaceholder: 'Введіть число тут (напр.: 42)'
+    inputBase: 'Основа вхідного числа'
+    inputBasePlaceholder: 'Введіть основу вхідного числа (напр.: 10)'
+    binary: 'Двійкова (2)'
+    octal: 'Вісімкова (8)'
+    decimal: 'Десяткова (10)'
+    hexadecimal: 'Шістнадцяткова (16)'
+    binaryPlaceholder: 'Двійкове представлення буде тут...'
+    octalPlaceholder: 'Вісімкове представлення буде тут...'
+    decimalPlaceholder: 'Десяткове представлення буде тут...'
+    hexadecimalPlaceholder: 'Шістнадцяткове представлення буде тут...'
+    base64Placeholder: 'Представлення Base64 буде тут...'
+    custom: 'Власна:'
+    customPlaceholder: 'Основа {base} буде тут...'

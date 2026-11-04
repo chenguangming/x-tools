@@ -1,0 +1,7 @@
+tools:
+  rsa-key-pair-generator:
+    bitsInvalid: 'Số bit phải thỏa 256 <= bit <= 16384 và là bội số của 8'
+    bits: 'Số bit:'
+    refresh: 'Tạo lại cặp khóa'
+    publicKey: 'Khóa công khai'
+    privateKey: 'Khóa riêng tư'

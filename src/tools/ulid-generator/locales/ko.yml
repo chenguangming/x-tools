@@ -1,0 +1,8 @@
+tools:
+  ulid-generator:
+    raw: 'Raw'
+    copied: 'ULID를 클립보드에 복사했습니다'
+    quantity: '수량:'
+    format: '형식: '
+    refresh: '새로고침'
+    copy: '복사'

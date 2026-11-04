@@ -1,0 +1,9 @@
+tools:
+  ipv6-ula-generator:
+    ula: 'IPv6 ULA:'
+    firstBlock: 'Khối có thể định tuyến đầu tiên:'
+    lastBlock: 'Khối có thể định tuyến cuối cùng:'
+    infoTitle: 'Thông tin'
+    info: 'Công cụ này sử dụng phương pháp đầu tiên do IETF đề xuất: dấu thời gian hiện tại cộng với địa chỉ MAC, băm SHA-1, và lấy 40 bit thấp để tạo ULA ngẫu nhiên của bạn.'
+    placeholder: 'Nhập địa chỉ MAC'
+    macLabel: 'Địa chỉ MAC:'

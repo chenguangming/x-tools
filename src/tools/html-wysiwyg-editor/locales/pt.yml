@@ -1,0 +1,18 @@
+tools:
+  html-wysiwyg-editor:
+    bold: 'Negrito'
+    italic: 'Itálico'
+    strike: 'Tachado'
+    inlineCode: 'Código embutido'
+    heading1: 'Título 1'
+    heading2: 'Título 2'
+    heading3: 'Título 3'
+    heading4: 'Título 4'
+    bulletList: 'Lista com marcadores'
+    orderedList: 'Lista numerada'
+    codeBlock: 'Bloco de código'
+    blockquote: 'Citação em bloco'
+    hardBreak: 'Quebra de linha forçada'
+    clearFormat: 'Limpar formatação'
+    undo: 'Desfazer'
+    redo: 'Refazer'

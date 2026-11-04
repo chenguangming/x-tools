@@ -1,0 +1,13 @@
+tools:
+  mac-address-generator:
+    copied: 'Adresses MAC copiées dans le presse-papiers'
+    uppercase: 'Majuscules'
+    lowercase: 'Minuscules'
+    none: 'Aucun'
+    quantity: 'Quantité :'
+    prefixLabel: 'Préfixe de l''adresse MAC :'
+    prefixPlaceholder: 'Définissez un préfixe, p. ex. 64:16:7F'
+    caseLabel: 'Casse :'
+    separatorLabel: 'Séparateur :'
+    refresh: 'Actualiser'
+    copy: 'Copier'

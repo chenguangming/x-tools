@@ -1,0 +1,10 @@
+tools:
+  http-status-codes:
+    searchPlaceholder: 'Rechercher un statut HTTP...'
+    searchResults: 'Résultats de recherche'
+    category1xx: '1xx réponse informative'
+    category2xx: '2xx succès'
+    category3xx: '3xx redirection'
+    category4xx: '4xx erreur client'
+    category5xx: '5xx erreur serveur'
+    forType: 'Pour {type}.'

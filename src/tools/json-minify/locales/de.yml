@@ -1,0 +1,6 @@
+tools:
+  json-minify:
+    invalidJson: 'Das angegebene JSON ist ungültig.'
+    inputLabel: 'Dein rohes JSON'
+    inputPlaceholder: 'Füge hier dein rohes JSON ein...'
+    outputLabel: 'Minimierte Version deines JSON'

@@ -1,0 +1,8 @@
+tools:
+  json-prettify:
+    invalidJson: 'JSON được cung cấp không hợp lệ.'
+    sortKeys: 'Sắp xếp khóa:'
+    indentSize: 'Kích thước thụt lề:'
+    inputLabel: 'JSON thô của bạn'
+    inputPlaceholder: 'Dán JSON thô của bạn vào đây...'
+    outputLabel: 'Phiên bản đã định dạng của JSON'

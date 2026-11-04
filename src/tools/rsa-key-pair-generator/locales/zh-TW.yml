@@ -1,0 +1,7 @@
+tools:
+  rsa-key-pair-generator:
+    bitsInvalid: '位元數應滿足 256 <= 位元數 <= 16384，且為 8 的倍數'
+    bits: '位元數：'
+    refresh: '重新整理金鑰對'
+    publicKey: '公開金鑰'
+    privateKey: '私密金鑰'

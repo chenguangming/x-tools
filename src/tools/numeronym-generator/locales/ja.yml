@@ -1,0 +1,4 @@
+tools:
+  numeronym-generator:
+    wordPlaceholder: '単語を入力してください（例: ''internationalization''）'
+    numeronymPlaceholder: 'ここに数字略語が表示されます（例: ''i18n''）'

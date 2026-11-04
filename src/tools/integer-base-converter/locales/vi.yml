@@ -1,0 +1,17 @@
+tools:
+  base-converter:
+    inputNumber: 'Số đầu vào'
+    inputPlaceholder: 'Nhập số của bạn tại đây (vd: 42)'
+    inputBase: 'Cơ số đầu vào'
+    inputBasePlaceholder: 'Nhập cơ số đầu vào tại đây (vd: 10)'
+    binary: 'Nhị phân (2)'
+    octal: 'Bát phân (8)'
+    decimal: 'Thập phân (10)'
+    hexadecimal: 'Thập lục phân (16)'
+    binaryPlaceholder: 'Phiên bản nhị phân sẽ hiển thị ở đây...'
+    octalPlaceholder: 'Phiên bản bát phân sẽ hiển thị ở đây...'
+    decimalPlaceholder: 'Phiên bản thập phân sẽ hiển thị ở đây...'
+    hexadecimalPlaceholder: 'Phiên bản thập lục phân sẽ hiển thị ở đây...'
+    base64Placeholder: 'Phiên bản Base64 sẽ hiển thị ở đây...'
+    custom: 'Tùy chỉnh:'
+    customPlaceholder: 'Cơ số {base} sẽ hiển thị ở đây...'

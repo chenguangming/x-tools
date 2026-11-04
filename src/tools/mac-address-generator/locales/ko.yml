@@ -1,0 +1,13 @@
+tools:
+  mac-address-generator:
+    copied: 'MAC 주소가 클립보드에 복사되었습니다'
+    uppercase: '대문자'
+    lowercase: '소문자'
+    none: '없음'
+    quantity: '수량:'
+    prefixLabel: 'MAC 주소 접두사:'
+    prefixPlaceholder: '접두사를 입력하세요 (예: 64:16:7F)'
+    caseLabel: '대소문자:'
+    separatorLabel: '구분자:'
+    refresh: '새로 고침'
+    copy: '복사'

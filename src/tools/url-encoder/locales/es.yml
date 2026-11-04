@@ -1,0 +1,16 @@
+tools:
+  url-encoder:
+    parseError: 'Imposible analizar esta cadena'
+    encodedCopied: 'Cadena codificada copiada al portapapeles'
+    decodedCopied: 'Cadena decodificada copiada al portapapeles'
+    encode: 'Codificar'
+    decode: 'Decodificar'
+    yourString: 'Su cadena:'
+    yourStringEncoded: 'Su cadena codificada:'
+    yourEncodedString: 'Su cadena codificada:'
+    yourStringDecoded: 'Su cadena decodificada:'
+    encodePlaceholder: 'La cadena a codificar'
+    encodedPlaceholder: 'Su cadena codificada'
+    decodePlaceholder: 'La cadena a decodificar'
+    decodedPlaceholder: 'Su cadena decodificada'
+    copy: 'Copiar'

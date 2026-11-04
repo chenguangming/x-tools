@@ -1,0 +1,15 @@
+tools:
+  text-to-binary:
+    invalidBinary: '바이너리는 8비트의 배수인 유효한 ASCII 바이너리 문자열이어야 합니다'
+    textToBinaryTitle: '텍스트를 ASCII 바이너리로'
+    textPlaceholder: '예: ''Hello world'''
+    textInputLabel: '바이너리로 변환할 텍스트 입력'
+    binaryOutputLabel: '텍스트의 바이너리'
+    binaryOutputPlaceholder: '텍스트의 바이너리 표현이 여기에 표시됩니다'
+    copyBinary: '바이너리를 클립보드에 복사'
+    binaryToTextTitle: 'ASCII 바이너리를 텍스트로'
+    binaryPlaceholder: '예: ''01001000 01100101 01101100 01101100 01101111'''
+    binaryInputLabel: '텍스트로 변환할 바이너리 입력'
+    textOutputLabel: '바이너리의 텍스트'
+    textOutputPlaceholder: '바이너리의 텍스트 표현이 여기에 표시됩니다'
+    copyText: '텍스트를 클립보드에 복사'

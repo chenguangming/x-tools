@@ -1,0 +1,16 @@
+tools:
+  url-encoder:
+    parseError: 'Impossible to parse this string'
+    encodedCopied: 'Encoded string copied to the clipboard'
+    decodedCopied: 'Decoded string copied to the clipboard'
+    encode: 'Encode'
+    decode: 'Decode'
+    yourString: 'Your string :'
+    yourStringEncoded: 'Your string encoded :'
+    yourEncodedString: 'Your encoded string :'
+    yourStringDecoded: 'Your string decoded :'
+    encodePlaceholder: 'The string to encode'
+    encodedPlaceholder: 'Your string encoded'
+    decodePlaceholder: 'The string to decode'
+    decodedPlaceholder: 'Your string decoded'
+    copy: 'Copy'

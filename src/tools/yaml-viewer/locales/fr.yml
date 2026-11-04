@@ -1,0 +1,8 @@
+tools:
+  yaml-prettify:
+    invalidYaml: 'Le YAML fourni n''est pas valide.'
+    sortKeys: 'Trier les clés :'
+    indentSize: 'Taille de l''indentation :'
+    inputLabel: 'Votre YAML brut'
+    inputPlaceholder: 'Collez votre YAML brut ici...'
+    outputLabel: 'Version embellie de votre YAML'

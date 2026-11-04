@@ -1,0 +1,8 @@
+tools:
+  hash-text:
+    placeholder: '要雜湊的字串...'
+    textLabel: '要雜湊的文字：'
+    digestEncoding: '摘要編碼'
+    binary: '二進位（2 進位）'
+    hexadecimal: '十六進位（16 進位）'
+    base64url: 'Base64url（使用 URL 安全字元的 64 進位）'

@@ -1,0 +1,11 @@
+tools:
+  lorem-ipsum-generator:
+    copied: 'Lorem ipsum copiado al portapapeles'
+    paragraphs: 'Párrafos'
+    sentencesPerParagraph: 'Frases por párrafo'
+    wordsPerSentence: 'Palabras por frase'
+    startWithLoremIpsum: '¿Empezar con «Lorem ipsum»?'
+    asHtml: '¿Como HTML?'
+    placeholder: 'Tu lorem ipsum...'
+    copy: 'Copiar'
+    refresh: 'Actualizar'

@@ -1,0 +1,13 @@
+tools:
+  ipv4-range-expander:
+    invalidIpv4: '无效的 IPv4 地址'
+    startAddress: '起始地址'
+    endAddress: '结束地址'
+    addressesInRange: '范围内的地址数'
+    startPlaceholder: '起始 IPv4 地址...'
+    endPlaceholder: '结束 IPv4 地址...'
+    oldValue: '旧值'
+    newValue: '新值'
+    invalidCombinationTitle: '起始与结束 IPv4 地址的组合无效'
+    invalidCombination: '结束 IPv4 地址小于起始 IPv4 地址。这是无效的，无法计算出结果。大多数情况下，解决此问题的方法是交换起始和结束地址。'
+    switch: '交换起始和结束 IPv4 地址'

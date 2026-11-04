@@ -1,0 +1,8 @@
+tools:
+  chmod-calculator:
+    read: '읽기 (4)'
+    write: '쓰기 (2)'
+    execute: '실행 (1)'
+    owner: '소유자 (u)'
+    group: '그룹 (g)'
+    public: '기타 (o)'

@@ -1,0 +1,14 @@
+tools:
+  encryption:
+    encrypt: '加密'
+    decrypt: '解密'
+    decryptError: '解密时出错'
+    unableToDecrypt: '无法解密你的文本'
+    yourText: '你的文本：'
+    secretKey: '你的密钥：'
+    algorithm: '加密算法：'
+    textEncrypted: '加密后的文本：'
+    encryptedText: '你的加密文本：'
+    textDecrypted: '解密后的文本：'
+    cypherPlaceholder: '要加密的字符串'
+    outputPlaceholder: '你的字符串哈希'

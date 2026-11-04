@@ -1,55 +1,60 @@
 import type { OGSchemaType } from '../OGSchemaType.type';
 
 const typeOptions = [
-  { label: 'Website', value: 'website' },
-  { label: 'Article', value: 'article' },
-  { label: 'Book', value: 'book' },
-  { label: 'Profile', value: 'profile' },
+  { label: 'tools.og-meta-generator.optWebsite', value: 'website' },
+  { label: 'tools.og-meta-generator.optArticle', value: 'article' },
+  { label: 'tools.og-meta-generator.optBook', value: 'book' },
+  { label: 'tools.og-meta-generator.optProfile', value: 'profile' },
   {
     type: 'group',
-    label: 'Music',
+    label: 'tools.og-meta-generator.optGroupMusic',
     key: 'Music',
     children: [
-      { label: 'Song', value: 'music.song' },
-      { label: 'Music album', value: 'music.album' },
-      { label: 'Playlist', value: 'music.playlist' },
-      { label: 'Radio station', value: 'music.radio_station' },
+      { label: 'tools.og-meta-generator.optSong', value: 'music.song' },
+      { label: 'tools.og-meta-generator.optMusicAlbum', value: 'music.album' },
+      { label: 'tools.og-meta-generator.optPlaylist', value: 'music.playlist' },
+      { label: 'tools.og-meta-generator.optRadioStation', value: 'music.radio_station' },
     ],
   },
   {
     type: 'group',
-    label: 'Video',
+    label: 'tools.og-meta-generator.optGroupVideo',
     key: 'Video',
     children: [
-      { label: 'Movie', value: 'video.movie' },
-      { label: 'Episode', value: 'video.episode' },
-      { label: 'TV show', value: 'video.tv_show' },
-      { label: 'Other video', value: 'video.other' },
+      { label: 'tools.og-meta-generator.optMovie', value: 'video.movie' },
+      { label: 'tools.og-meta-generator.optEpisode', value: 'video.episode' },
+      { label: 'tools.og-meta-generator.optTvShow', value: 'video.tv_show' },
+      { label: 'tools.og-meta-generator.optOtherVideo', value: 'video.other' },
     ],
   },
 ];
 
 export const website: OGSchemaType = {
-  name: 'General information',
+  name: 'tools.og-meta-generator.sectionGeneralInformation',
   elements: [
     {
       type: 'select',
-      label: 'Page type',
-      placeholder: 'Select the type of your website...',
+      label: 'tools.og-meta-generator.labelPageType',
+      placeholder: 'tools.og-meta-generator.phPageType',
       key: 'type',
       options: typeOptions,
     },
-    { type: 'input', label: 'Title', placeholder: 'Enter the title of your website...', key: 'title' },
     {
       type: 'input',
-      label: 'Description',
-      placeholder: 'Enter the description of your website...',
+      label: 'tools.og-meta-generator.labelTitle',
+      placeholder: 'tools.og-meta-generator.phTitle',
+      key: 'title',
+    },
+    {
+      type: 'input',
+      label: 'tools.og-meta-generator.labelDescription',
+      placeholder: 'tools.og-meta-generator.phDescription',
       key: 'description',
     },
     {
       type: 'input',
-      label: 'Page URL',
-      placeholder: 'Enter the url of your website...',
+      label: 'tools.og-meta-generator.labelPageUrl',
+      placeholder: 'tools.og-meta-generator.phPageUrl',
       key: 'url',
     },
   ],

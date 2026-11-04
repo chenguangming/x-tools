@@ -1,0 +1,16 @@
+tools:
+  device-information:
+    screen: 'Pantalla'
+    device: 'Dispositivo'
+    screenSize: 'Tamaño de pantalla'
+    orientation: 'Orientación'
+    orientationAngle: 'Ángulo de orientación'
+    colorDepth: 'Profundidad de color'
+    bits: 'bits'
+    pixelRatio: 'Relación de píxeles'
+    windowSize: 'Tamaño de ventana'
+    browserVendor: 'Proveedor del navegador'
+    languages: 'Idiomas'
+    platform: 'Plataforma'
+    userAgent: 'User agent'
+    unknown: 'desconocido'

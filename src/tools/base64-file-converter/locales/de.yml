@@ -1,0 +1,15 @@
+tools:
+  base64-file-converter:
+    invalidBase64: 'Ungültige Base64-Zeichenfolge'
+    copied: 'Base64-Zeichenfolge in die Zwischenablage kopiert'
+    base64ToFile: 'Base64 zu Datei'
+    fileName: 'Dateiname'
+    fileNamePlaceholder: 'Dateiname für den Download'
+    extension: 'Erweiterung'
+    base64Placeholder: 'Fügen Sie hier Ihre Base64-Dateizeichenfolge ein...'
+    previewImage: 'Bildvorschau'
+    downloadFile: 'Datei herunterladen'
+    fileToBase64: 'Datei zu Base64'
+    uploadTitle: 'Datei hierher ziehen oder klicken, um eine Datei auszuwählen'
+    fileBase64Placeholder: 'Die Base64-Darstellung der Datei erscheint hier'
+    copy: 'Kopieren'

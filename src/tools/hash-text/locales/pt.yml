@@ -1,0 +1,8 @@
+tools:
+  hash-text:
+    placeholder: 'Sua string para gerar o hash...'
+    textLabel: 'Seu texto para gerar o hash:'
+    digestEncoding: 'Codificação do digest'
+    binary: 'Binário (base 2)'
+    hexadecimal: 'Hexadecimal (base 16)'
+    base64url: 'Base64url (base 64 com caracteres seguros para URL)'

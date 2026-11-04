@@ -1,0 +1,12 @@
+tools:
+  uuid-generator:
+    invalidUuid: 'UUID không hợp lệ'
+    copied: 'Đã sao chép UUID vào bộ nhớ tạm'
+    version: 'Phiên bản UUID'
+    quantity: 'Số lượng'
+    quantityPlaceholder: 'Số lượng UUID'
+    namespace: 'Không gian tên'
+    name: 'Tên'
+    uuidsPlaceholder: 'UUID của bạn'
+    copy: 'Sao chép'
+    refresh: 'Làm mới'

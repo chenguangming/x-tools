@@ -1,0 +1,8 @@
+tools:
+  ulid-generator:
+    raw: 'Brut'
+    copied: 'ULID copiés dans le presse-papiers'
+    quantity: 'Quantité :'
+    format: 'Format : '
+    refresh: 'Actualiser'
+    copy: 'Copier'

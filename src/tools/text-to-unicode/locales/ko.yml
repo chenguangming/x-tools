@@ -1,0 +1,14 @@
+tools:
+  text-to-unicode:
+    textToUnicodeTitle: '텍스트를 Unicode로'
+    textPlaceholder: '예: ''Hello Avengers'''
+    textInputLabel: 'Unicode로 변환할 텍스트 입력'
+    unicodeOutputLabel: '텍스트의 Unicode'
+    unicodeOutputPlaceholder: '텍스트의 Unicode 표현이 여기에 표시됩니다'
+    copyUnicode: 'Unicode를 클립보드에 복사'
+    unicodeToTextTitle: 'Unicode를 텍스트로'
+    unicodePlaceholder: 'Unicode 입력'
+    unicodeInputLabel: '텍스트로 변환할 Unicode 입력'
+    textOutputLabel: 'Unicode의 텍스트'
+    textOutputPlaceholder: 'Unicode의 텍스트 표현이 여기에 표시됩니다'
+    copyText: '텍스트를 클립보드에 복사'

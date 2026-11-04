@@ -1,0 +1,8 @@
+tools:
+  slugify-string:
+    slugCopied: 'Slug in die Zwischenablage kopiert'
+    inputPlaceholder: 'Zeichenkette hier eingeben (z. B. My file path)'
+    inputLabel: 'Ihre Zeichenkette zum Slugifizieren'
+    slugPlaceholder: 'Ihr Slug wird hier erzeugt (z. B. my-file-path)'
+    slugLabel: 'Ihr Slug'
+    copySlug: 'Slug kopieren'

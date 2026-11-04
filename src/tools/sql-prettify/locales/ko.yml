@@ -1,0 +1,14 @@
+tools:
+  sql-prettify:
+    dialect: '방언'
+    keywordCase: '키워드 대소문자'
+    indentStyle: '들여쓰기 스타일'
+    upper: '대문자'
+    lower: '소문자'
+    preserve: '유지'
+    standard: '표준'
+    tabularLeft: '표 형식 왼쪽 정렬'
+    tabularRight: '표 형식 오른쪽 정렬'
+    inputLabel: 'SQL 쿼리'
+    inputPlaceholder: '여기에 SQL 쿼리를 입력하세요…'
+    outputLabel: '정리된 쿼리'

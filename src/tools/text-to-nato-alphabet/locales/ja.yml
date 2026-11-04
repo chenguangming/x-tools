@@ -1,0 +1,7 @@
+tools:
+  text-to-nato-alphabet:
+    copied: 'NATO フォネティックコードの文字列をコピーしました。'
+    inputLabel: 'NATO フォネティックコードに変換するテキスト'
+    inputPlaceholder: 'ここにテキストを入力...'
+    outputLabel: 'NATO フォネティックコードでのテキスト'
+    copy: 'NATO 文字列をコピー'

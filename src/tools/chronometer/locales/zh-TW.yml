@@ -1,0 +1,5 @@
+tools:
+  chronometer:
+    start: '開始'
+    stop: '停止'
+    reset: '重設'

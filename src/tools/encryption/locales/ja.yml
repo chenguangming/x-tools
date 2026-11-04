@@ -1,0 +1,14 @@
+tools:
+  encryption:
+    encrypt: '暗号化'
+    decrypt: '復号'
+    decryptError: '復号中にエラーが発生しました'
+    unableToDecrypt: 'テキストを復号できません'
+    yourText: 'テキスト:'
+    secretKey: '秘密鍵:'
+    algorithm: '暗号化アルゴリズム:'
+    textEncrypted: '暗号化されたテキスト:'
+    encryptedText: '暗号化されたテキスト:'
+    textDecrypted: '復号されたテキスト:'
+    cypherPlaceholder: '暗号化する文字列'
+    outputPlaceholder: '文字列のハッシュ'

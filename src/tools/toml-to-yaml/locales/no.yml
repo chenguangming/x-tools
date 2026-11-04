@@ -1,0 +1,6 @@
+tools:
+  toml-to-yaml:
+    invalidToml: 'Det oppgitte TOML-et er ugyldig.'
+    inputLabel: 'Din TOML'
+    inputPlaceholder: 'Lim inn TOML her...'
+    outputLabel: 'YAML fra TOML-en din'

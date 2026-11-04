@@ -1,30 +1,30 @@
 import type { OGSchemaType } from '../OGSchemaType.type';
 
 export const image: OGSchemaType = {
-  name: 'Image',
+  name: 'tools.og-meta-generator.sectionImage',
   elements: [
     {
       type: 'input',
-      label: 'Image url',
-      placeholder: 'The url of your website social image...',
+      label: 'tools.og-meta-generator.labelImageUrl',
+      placeholder: 'tools.og-meta-generator.phImageUrl',
       key: 'image',
     },
     {
       type: 'input',
-      label: 'Image alt',
-      placeholder: 'The alternative text of your website social image...',
+      label: 'tools.og-meta-generator.labelImageAlt',
+      placeholder: 'tools.og-meta-generator.phImageAlt',
       key: 'image:alt',
     },
     {
       type: 'input',
-      label: 'Width',
-      placeholder: 'Width in px of your website social image...',
+      label: 'tools.og-meta-generator.labelWidth',
+      placeholder: 'tools.og-meta-generator.phWidth',
       key: 'image:width',
     },
     {
       type: 'input',
-      label: 'Height',
-      placeholder: 'Height in px of your website social image...',
+      label: 'tools.og-meta-generator.labelHeight',
+      placeholder: 'tools.og-meta-generator.phHeight',
       key: 'image:height',
     },
   ],

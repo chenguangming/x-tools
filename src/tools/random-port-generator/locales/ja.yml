@@ -1,0 +1,5 @@
+tools:
+  random-port-generator:
+    portCopied: 'ポートをクリップボードにコピーしました'
+    copy: 'コピー'
+    refresh: '更新'

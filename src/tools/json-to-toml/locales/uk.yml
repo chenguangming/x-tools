@@ -1,0 +1,6 @@
+tools:
+  json-to-toml:
+    invalidJson: 'Наданий JSON недійсний.'
+    inputLabel: 'Ваш JSON'
+    inputPlaceholder: 'Вставте сюди JSON...'
+    outputLabel: 'TOML з вашого JSON'

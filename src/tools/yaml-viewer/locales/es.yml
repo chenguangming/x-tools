@@ -1,0 +1,8 @@
+tools:
+  yaml-prettify:
+    invalidYaml: 'El YAML proporcionado no es válido.'
+    sortKeys: 'Ordenar claves:'
+    indentSize: 'Tamaño de sangría:'
+    inputLabel: 'Su YAML sin procesar'
+    inputPlaceholder: 'Pegue su YAML sin procesar aquí...'
+    outputLabel: 'Versión embellecida de su YAML'

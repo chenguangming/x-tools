@@ -1,0 +1,7 @@
+tools:
+  color-converter:
+    unknown: '未知'
+    invalidFormat: '無效的 {format} 格式。'
+    colorPicker: '網頁選色器'
+    name: '名稱'
+    example: '例如 {value}'

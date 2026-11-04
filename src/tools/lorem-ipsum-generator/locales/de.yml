@@ -1,0 +1,11 @@
+tools:
+  lorem-ipsum-generator:
+    copied: 'Lorem ipsum in die Zwischenablage kopiert'
+    paragraphs: 'Absätze'
+    sentencesPerParagraph: 'Sätze pro Absatz'
+    wordsPerSentence: 'Wörter pro Satz'
+    startWithLoremIpsum: 'Mit „Lorem ipsum“ beginnen?'
+    asHtml: 'Als HTML ausgeben?'
+    placeholder: 'Ihr Lorem ipsum...'
+    copy: 'Kopieren'
+    refresh: 'Aktualisieren'

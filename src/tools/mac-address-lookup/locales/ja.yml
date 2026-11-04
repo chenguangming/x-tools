@@ -1,0 +1,8 @@
+tools:
+  mac-address-lookup:
+    copied: 'ベンダー情報をクリップボードにコピーしました'
+    macAddressLabel: 'MAC アドレス：'
+    macAddressPlaceholder: 'MAC アドレスを入力'
+    vendorInfo: 'ベンダー情報：'
+    unknownVendor: 'このアドレスのベンダーは不明です'
+    copyVendorInfo: 'ベンダー情報をコピー'

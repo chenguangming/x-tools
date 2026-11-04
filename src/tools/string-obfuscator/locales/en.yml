@@ -1,0 +1,7 @@
+tools:
+  string-obfuscator:
+    placeholder: 'Enter string to obfuscate'
+    label: 'String to obfuscate:'
+    keepFirst: 'Keep first:'
+    keepLast: 'Keep last:'
+    keepSpaces: 'Keep spaces:'

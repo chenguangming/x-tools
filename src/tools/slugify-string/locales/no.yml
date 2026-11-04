@@ -1,0 +1,8 @@
+tools:
+  slugify-string:
+    slugCopied: 'Slug kopiert til utklippstavlen'
+    inputPlaceholder: 'Skriv inn strengen her (f.eks. My file path)'
+    inputLabel: 'Strengen din som skal gjøres til slug'
+    slugPlaceholder: 'Sluggen din blir generert her (f.eks. my-file-path)'
+    slugLabel: 'Din slug'
+    copySlug: 'Kopier slug'

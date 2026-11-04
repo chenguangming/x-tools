@@ -1,0 +1,8 @@
+tools:
+  json-prettify:
+    invalidJson: '提供的 JSON 无效。'
+    sortKeys: '键排序：'
+    indentSize: '缩进大小：'
+    inputLabel: '原始 JSON'
+    inputPlaceholder: '在此粘贴原始 JSON...'
+    outputLabel: 'JSON 的格式化版本'

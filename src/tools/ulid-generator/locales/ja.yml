@@ -1,0 +1,8 @@
+tools:
+  ulid-generator:
+    raw: 'Raw'
+    copied: 'ULID をクリップボードにコピーしました'
+    quantity: '数量:'
+    format: 'フォーマット: '
+    refresh: '更新'
+    copy: 'コピー'

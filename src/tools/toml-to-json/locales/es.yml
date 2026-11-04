@@ -1,0 +1,6 @@
+tools:
+  toml-to-json:
+    invalidToml: 'El TOML proporcionado no es válido.'
+    inputLabel: 'Tu TOML'
+    inputPlaceholder: 'Pega tu TOML aquí...'
+    outputLabel: 'JSON de tu TOML'

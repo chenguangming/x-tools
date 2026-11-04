@@ -1,0 +1,8 @@
+tools:
+  ulid-generator:
+    raw: 'Raw'
+    copied: 'ULIDs copied to the clipboard'
+    quantity: 'Quantity:'
+    format: 'Format: '
+    refresh: 'Refresh'
+    copy: 'Copy'

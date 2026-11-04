@@ -1,0 +1,7 @@
+tools:
+  text-statistics:
+    placeholder: '텍스트를 입력하세요...'
+    characterCount: '글자 수'
+    wordCount: '단어 수'
+    lineCount: '줄 수'
+    byteSize: '바이트 크기'

@@ -1,0 +1,16 @@
+tools:
+  url-encoder:
+    parseError: '無法解析此字串'
+    encodedCopied: '已將編碼後的字串複製到剪貼簿'
+    decodedCopied: '已將解碼後的字串複製到剪貼簿'
+    encode: '編碼'
+    decode: '解碼'
+    yourString: '您的字串：'
+    yourStringEncoded: '編碼後的字串：'
+    yourEncodedString: '您的已編碼字串：'
+    yourStringDecoded: '解碼後的字串：'
+    encodePlaceholder: '要編碼的字串'
+    encodedPlaceholder: '編碼後的字串'
+    decodePlaceholder: '要解碼的字串'
+    decodedPlaceholder: '解碼後的字串'
+    copy: '複製'

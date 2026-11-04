@@ -1,0 +1,5 @@
+tools:
+  chronometer:
+    start: 'Старт'
+    stop: 'Стоп'
+    reset: 'Скинути'

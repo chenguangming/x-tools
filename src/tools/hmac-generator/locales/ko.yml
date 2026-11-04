@@ -1,0 +1,16 @@
+tools:
+  hmac-generator:
+    binary: '2진수 (base 2)'
+    hexadecimal: '16진수 (base 16)'
+    base64url: 'Base64-url (URL 안전 문자를 사용하는 base 64)'
+    plainTextPlaceholder: '해시를 계산할 평문...'
+    plainTextLabel: '해시를 계산할 평문'
+    secretPlaceholder: '비밀 키를 입력하세요...'
+    secretLabel: '비밀 키'
+    hashingFunction: '해시 함수'
+    hashingFunctionPlaceholder: '해시 함수를 선택하세요...'
+    outputEncoding: '출력 인코딩'
+    encodingPlaceholder: '결과 인코딩을 선택하세요...'
+    resultPlaceholder: 'HMAC 결과...'
+    resultLabel: '텍스트의 HMAC'
+    copy: 'HMAC 복사'

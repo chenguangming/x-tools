@@ -1,0 +1,8 @@
+tools:
+  hash-text:
+    placeholder: 'Ihre zu hashende Zeichenfolge...'
+    textLabel: 'Ihr zu hashender Text:'
+    digestEncoding: 'Digest-Kodierung'
+    binary: 'Binär (Basis 2)'
+    hexadecimal: 'Hexadezimal (Basis 16)'
+    base64url: 'Base64url (Basis 64 mit URL-sicheren Zeichen)'

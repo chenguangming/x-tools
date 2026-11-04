@@ -1,0 +1,6 @@
+tools:
+  markdown-to-html:
+    placeholder: 'Ihr Markdown-Inhalt...'
+    inputLabel: 'Zu konvertierendes Markdown:'
+    outputLabel: 'HTML-Ausgabe:'
+    printAsPdf: 'Als PDF drucken'

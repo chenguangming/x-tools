@@ -1,0 +1,7 @@
+tools:
+  jwt-parser:
+    header: 'Encabezado'
+    payload: 'Carga útil'
+    invalidJwt: 'JWT no válido'
+    jwtLabel: 'JWT a decodificar'
+    jwtPlaceholder: 'Pega tu token aquí...'

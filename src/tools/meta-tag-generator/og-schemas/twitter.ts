@@ -1,30 +1,30 @@
 import type { OGSchemaType } from '../OGSchemaType.type';
 
 export const twitter: OGSchemaType = {
-  name: 'Twitter',
+  name: 'tools.og-meta-generator.sectionTwitter',
   elements: [
     {
       type: 'select',
       options: [
-        { label: 'Summary', value: 'summary' },
-        { label: 'Summary with large image', value: 'summary_large_image' },
-        { label: 'Application', value: 'app' },
-        { label: 'Player', value: 'player' },
+        { label: 'tools.og-meta-generator.optSummary', value: 'summary' },
+        { label: 'tools.og-meta-generator.optSummaryLargeImage', value: 'summary_large_image' },
+        { label: 'tools.og-meta-generator.optApplication', value: 'app' },
+        { label: 'tools.og-meta-generator.optPlayer', value: 'player' },
       ],
-      label: 'Card type',
-      placeholder: 'The Twitter card type...',
+      label: 'tools.og-meta-generator.labelCardType',
+      placeholder: 'tools.og-meta-generator.phCardType',
       key: 'twitter:card',
     },
     {
       type: 'input',
-      label: 'Site account',
-      placeholder: 'The name of the Twitter account of the site (ex: @yoursite)...',
+      label: 'tools.og-meta-generator.labelSiteAccount',
+      placeholder: 'tools.og-meta-generator.phSiteAccount',
       key: 'twitter:site',
     },
     {
       type: 'input',
-      label: 'Creator acc.',
-      placeholder: 'The name of the Twitter account of the creator (ex: @yourname)...',
+      label: 'tools.og-meta-generator.labelCreatorAccount',
+      placeholder: 'tools.og-meta-generator.phCreatorAccount',
       key: 'twitter:creator',
     },
   ],

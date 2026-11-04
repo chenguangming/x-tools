@@ -1,0 +1,13 @@
+tools:
+  html-entities:
+    escapeTitle: '跳脫 HTML 實體'
+    unescapeTitle: '還原跳脫 HTML 實體'
+    yourString: '你的字串：'
+    yourStringEscaped: '跳脫後的字串：'
+    yourEscapedString: '已跳脫的字串：'
+    yourStringUnescaped: '還原跳脫後的字串：'
+    stringToEscape: '要跳脫的字串'
+    escapedPlaceholder: '跳脫後的字串'
+    stringToUnescape: '要還原跳脫的字串'
+    unescapedPlaceholder: '還原跳脫後的字串'
+    copy: '複製'

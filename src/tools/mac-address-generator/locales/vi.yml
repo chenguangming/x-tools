@@ -1,0 +1,13 @@
+tools:
+  mac-address-generator:
+    copied: 'Đã sao chép địa chỉ MAC vào bộ nhớ tạm'
+    uppercase: 'Chữ hoa'
+    lowercase: 'Chữ thường'
+    none: 'Không'
+    quantity: 'Số lượng:'
+    prefixLabel: 'Tiền tố địa chỉ MAC:'
+    prefixPlaceholder: 'Đặt tiền tố, ví dụ: 64:16:7F'
+    caseLabel: 'Kiểu chữ:'
+    separatorLabel: 'Dấu phân cách:'
+    refresh: 'Làm mới'
+    copy: 'Sao chép'

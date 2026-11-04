@@ -1,0 +1,16 @@
+tools:
+  hmac-generator:
+    binary: 'Binær (base 2)'
+    hexadecimal: 'Heksadesimal (base 16)'
+    base64url: 'Base64-url (base 64 med URL-sikre tegn)'
+    plainTextPlaceholder: 'Ren tekst for å beregne hashen...'
+    plainTextLabel: 'Ren tekst for å beregne hashen'
+    secretPlaceholder: 'Skriv inn den hemmelige nøkkelen...'
+    secretLabel: 'Hemmelig nøkkel'
+    hashingFunction: 'Hashfunksjon'
+    hashingFunctionPlaceholder: 'Velg en hashfunksjon...'
+    outputEncoding: 'Utdatakoding'
+    encodingPlaceholder: 'Velg koding for resultatet...'
+    resultPlaceholder: 'Resultatet av HMAC...'
+    resultLabel: 'HMAC av teksten din'
+    copy: 'Kopier HMAC'

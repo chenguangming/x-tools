@@ -1,0 +1,9 @@
+tools:
+  ipv4-address-converter:
+    decimal: 'Decimal: '
+    hexadecimal: 'Hexadecimal: '
+    binary: 'Binary: '
+    invalid: 'Invalid ipv4 address'
+    label: 'The ipv4 address:'
+    placeholder: 'The ipv4 address...'
+    setCorrect: 'Set a correct ipv4 address'

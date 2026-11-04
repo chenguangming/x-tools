@@ -1,0 +1,8 @@
+tools:
+  slugify-string:
+    slugCopied: 'Đã sao chép slug vào bộ nhớ tạm'
+    inputPlaceholder: 'Nhập chuỗi của bạn vào đây (vd: My file path)'
+    inputLabel: 'Chuỗi cần chuyển thành slug'
+    slugPlaceholder: 'Slug của bạn sẽ được tạo ở đây (vd: my-file-path)'
+    slugLabel: 'Slug của bạn'
+    copySlug: 'Sao chép slug'

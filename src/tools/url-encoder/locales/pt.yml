@@ -1,0 +1,16 @@
+tools:
+  url-encoder:
+    parseError: 'Não foi possível analisar esta string'
+    encodedCopied: 'String codificada copiada para a área de transferência'
+    decodedCopied: 'String decodificada copiada para a área de transferência'
+    encode: 'Codificar'
+    decode: 'Decodificar'
+    yourString: 'Sua string:'
+    yourStringEncoded: 'Sua string codificada:'
+    yourEncodedString: 'Sua string codificada:'
+    yourStringDecoded: 'Sua string decodificada:'
+    encodePlaceholder: 'A string a codificar'
+    encodedPlaceholder: 'Sua string codificada'
+    decodePlaceholder: 'A string a decodificar'
+    decodedPlaceholder: 'Sua string decodificada'
+    copy: 'Copiar'

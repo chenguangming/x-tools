@@ -1,0 +1,15 @@
+tools:
+  text-to-binary:
+    invalidBinary: '二进制必须是有效的 ASCII 二进制字符串，且位数为 8 的倍数'
+    textToBinaryTitle: '文本转 ASCII 二进制'
+    textPlaceholder: '例如 ''Hello world'''
+    textInputLabel: '输入要转换为二进制的文本'
+    binaryOutputLabel: '文本对应的二进制'
+    binaryOutputPlaceholder: '文本的二进制表示将显示在这里'
+    copyBinary: '复制二进制到剪贴板'
+    binaryToTextTitle: 'ASCII 二进制转文本'
+    binaryPlaceholder: '例如 ''01001000 01100101 01101100 01101100 01101111'''
+    binaryInputLabel: '输入要转换为文本的二进制'
+    textOutputLabel: '二进制对应的文本'
+    textOutputPlaceholder: '二进制的文本表示将显示在这里'
+    copyText: '复制文本到剪贴板'

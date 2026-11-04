@@ -1,0 +1,7 @@
+tools:
+  color-converter:
+    unknown: 'Không xác định'
+    invalidFormat: 'Định dạng {format} không hợp lệ.'
+    colorPicker: 'bộ chọn màu'
+    name: 'tên'
+    example: 'vd: {value}'

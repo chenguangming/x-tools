@@ -1,0 +1,14 @@
+tools:
+  encryption:
+    encrypt: 'Encrypt'
+    decrypt: 'Decrypt'
+    decryptError: 'Error while decrypting'
+    unableToDecrypt: 'Unable to decrypt your text'
+    yourText: 'Your text:'
+    secretKey: 'Your secret key:'
+    algorithm: 'Encryption algorithm:'
+    textEncrypted: 'Your text encrypted:'
+    encryptedText: 'Your encrypted text:'
+    textDecrypted: 'Your decrypted text:'
+    cypherPlaceholder: 'The string to cypher'
+    outputPlaceholder: 'Your string hash'

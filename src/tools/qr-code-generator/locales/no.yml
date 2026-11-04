@@ -1,0 +1,12 @@
+tools:
+  qrcode-generator:
+    text: 'Tekst:'
+    textPlaceholder: 'Lenken eller teksten din...'
+    foregroundColor: 'Forgrunnsfarge:'
+    backgroundColor: 'Bakgrunnsfarge:'
+    errorResistance: 'Feiltoleranse:'
+    levelLow: 'lav'
+    levelMedium: 'middels'
+    levelQuartile: 'kvartil'
+    levelHigh: 'høy'
+    download: 'Last ned QR-kode'

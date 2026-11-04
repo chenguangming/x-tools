@@ -1,0 +1,10 @@
+tools:
+  http-status-codes:
+    searchPlaceholder: '搜索 HTTP 状态码...'
+    searchResults: '搜索结果'
+    category1xx: '1xx 信息响应'
+    category2xx: '2xx 成功'
+    category3xx: '3xx 重定向'
+    category4xx: '4xx 客户端错误'
+    category5xx: '5xx 服务器错误'
+    forType: '适用于 {type}。'

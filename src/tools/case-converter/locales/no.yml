@@ -1,0 +1,18 @@
+tools:
+  case-converter:
+    yourString: 'Din streng:'
+    yourStringPlaceholder: 'Din streng...'
+    lowercase: 'Små bokstaver:'
+    uppercase: 'Store bokstaver:'
+    camelcase: 'Camelcase:'
+    capitalcase: 'Capitalcase:'
+    constantcase: 'Constantcase:'
+    dotcase: 'Dotcase:'
+    headercase: 'Headercase:'
+    nocase: 'Nocase:'
+    paramcase: 'Paramcase:'
+    pascalcase: 'Pascalcase:'
+    pathcase: 'Pathcase:'
+    sentencecase: 'Sentencecase:'
+    snakecase: 'Snakecase:'
+    mockingcase: 'Mockingcase:'

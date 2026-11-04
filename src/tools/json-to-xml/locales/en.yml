@@ -1,0 +1,6 @@
+tools:
+  json-to-xml:
+    invalidJson: 'Provided JSON is not valid.'
+    inputLabel: 'Your JSON content'
+    inputPlaceholder: 'Paste your JSON content here...'
+    outputLabel: 'Converted XML'

@@ -1,0 +1,15 @@
+tools:
+  base64-file-converter:
+    invalidBase64: 'Недійсний рядок Base64'
+    copied: 'Рядок Base64 скопійовано в буфер обміну'
+    base64ToFile: 'Base64 у файл'
+    fileName: 'Назва файлу'
+    fileNamePlaceholder: 'Назва файлу для завантаження'
+    extension: 'Розширення'
+    base64Placeholder: 'Вставте сюди рядок Base64 вашого файлу...'
+    previewImage: 'Попередній перегляд зображення'
+    downloadFile: 'Завантажити файл'
+    fileToBase64: 'Файл у Base64'
+    uploadTitle: 'Перетягніть файл сюди або натисніть, щоб вибрати файл'
+    fileBase64Placeholder: 'Файл у форматі Base64 буде тут'
+    copy: 'Копіювати'

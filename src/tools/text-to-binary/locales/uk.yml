@@ -1,0 +1,15 @@
+tools:
+  text-to-binary:
+    invalidBinary: 'Двійковий рядок має бути коректним ASCII-рядком із кількістю бітів, кратною 8'
+    textToBinaryTitle: 'Текст у двійковий ASCII'
+    textPlaceholder: 'напр. ''Hello world'''
+    textInputLabel: 'Введіть текст для перетворення в двійковий код'
+    binaryOutputLabel: 'Двійковий код вашого тексту'
+    binaryOutputPlaceholder: 'Тут буде двійкове представлення вашого тексту'
+    copyBinary: 'Копіювати двійковий код у буфер обміну'
+    binaryToTextTitle: 'Двійковий ASCII у текст'
+    binaryPlaceholder: 'напр. ''01001000 01100101 01101100 01101100 01101111'''
+    binaryInputLabel: 'Введіть двійковий код для перетворення в текст'
+    textOutputLabel: 'Текст з вашого двійкового коду'
+    textOutputPlaceholder: 'Тут буде текстове представлення вашого двійкового коду'
+    copyText: 'Копіювати текст у буфер обміну'

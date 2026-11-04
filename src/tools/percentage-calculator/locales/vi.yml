@@ -1,0 +1,10 @@
+tools:
+  percentage-calculator:
+    whatIs: 'Bao nhiêu là'
+    percentOf: '% của'
+    xIsWhatPercentOfY: 'X là bao nhiêu phần trăm của Y'
+    isWhatPercentOf: 'là bao nhiêu phần trăm của'
+    increaseDecrease: 'Phần trăm tăng/giảm là bao nhiêu'
+    result: 'Kết quả'
+    from: 'Từ'
+    to: 'Đến'

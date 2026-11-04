@@ -1,0 +1,5 @@
+tools:
+  safelink-decoder:
+    inputPlaceholder: '请输入 Outlook SafeLink 链接…'
+    inputLabel: '输入的 Outlook SafeLink 链接：'
+    outputLabel: '解码后的 URL：'

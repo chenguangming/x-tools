@@ -1,0 +1,6 @@
+tools:
+  json-to-csv:
+    invalidJson: 'Наданий JSON недійсний.'
+    inputLabel: 'Ваш необроблений JSON'
+    inputPlaceholder: 'Вставте сюди необроблений JSON...'
+    outputLabel: 'CSV-версія вашого JSON'

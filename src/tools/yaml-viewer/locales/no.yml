@@ -1,0 +1,8 @@
+tools:
+  yaml-prettify:
+    invalidYaml: 'Den oppgitte YAML-en er ugyldig.'
+    sortKeys: 'Sorter nøkler:'
+    indentSize: 'Innrykksstørrelse:'
+    inputLabel: 'Din rå YAML'
+    inputPlaceholder: 'Lim inn rå YAML her...'
+    outputLabel: 'Pent formatert versjon av din YAML'

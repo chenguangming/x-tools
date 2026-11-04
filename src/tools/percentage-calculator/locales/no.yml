@@ -1,0 +1,10 @@
+tools:
+  percentage-calculator:
+    whatIs: 'Hva er'
+    percentOf: '% av'
+    xIsWhatPercentOfY: 'X er hvor mange prosent av Y'
+    isWhatPercentOf: 'er hvor mange prosent av'
+    increaseDecrease: 'Hva er prosentvis økning/nedgang'
+    result: 'Resultat'
+    from: 'Fra'
+    to: 'Til'

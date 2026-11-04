@@ -1,0 +1,18 @@
+tools:
+  wifi-qrcode-generator:
+    encryptionMethod: '암호화 방식'
+    noPassword: '비밀번호 없음'
+    ssid: 'SSID:'
+    ssidPlaceholder: 'WiFi SSID...'
+    hiddenSsid: '숨겨진 SSID'
+    password: '비밀번호:'
+    passwordPlaceholder: 'WiFi 비밀번호...'
+    eapMethod: 'EAP 방식'
+    identity: 'ID:'
+    identityPlaceholder: 'EAP ID...'
+    anonymous: '익명?'
+    eapPhase2Method: 'EAP 2단계 방식'
+    foregroundColor: '전경색:'
+    backgroundColor: '배경색:'
+    qrAlt: 'WiFi QR 코드'
+    download: 'QR 코드 다운로드'

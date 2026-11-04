@@ -1,0 +1,9 @@
+tools:
+  basic-auth-generator:
+    copied: 'En-tête copié dans le presse-papiers'
+    username: 'Nom d''utilisateur'
+    usernamePlaceholder: 'Votre nom d''utilisateur...'
+    password: 'Mot de passe'
+    passwordPlaceholder: 'Votre mot de passe...'
+    authorizationHeader: 'En-tête Authorization :'
+    copyHeader: 'Copier l''en-tête'

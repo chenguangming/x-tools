@@ -1,0 +1,5 @@
+tools:
+  random-port-generator:
+    portCopied: 'Đã sao chép cổng vào bộ nhớ tạm'
+    copy: 'Sao chép'
+    refresh: 'Làm mới'

@@ -1,16 +1,31 @@
 import type { OGSchemaType } from '../OGSchemaType.type';
 
 export const book: OGSchemaType = {
-  name: 'Book',
+  name: 'tools.og-meta-generator.sectionBook',
   elements: [
-    { type: 'input', label: 'Author', key: 'book:author', placeholder: 'Who wrote this book...' },
-    { type: 'input', label: 'ISBN', key: 'book:isbn', placeholder: 'The International Standard Book Number...' },
     {
       type: 'input',
-      label: 'Release date',
-      key: 'book:release_date',
-      placeholder: 'The date the book was released...',
+      label: 'tools.og-meta-generator.labelAuthor',
+      key: 'book:author',
+      placeholder: 'tools.og-meta-generator.phBookAuthor',
     },
-    { type: 'input', label: 'Tag', key: 'book:tag', placeholder: 'Tag words associated with this book...' },
+    {
+      type: 'input',
+      label: 'tools.og-meta-generator.labelIsbn',
+      key: 'book:isbn',
+      placeholder: 'tools.og-meta-generator.phIsbn',
+    },
+    {
+      type: 'input',
+      label: 'tools.og-meta-generator.labelReleaseDate',
+      key: 'book:release_date',
+      placeholder: 'tools.og-meta-generator.phBookReleaseDate',
+    },
+    {
+      type: 'input',
+      label: 'tools.og-meta-generator.labelTag',
+      key: 'book:tag',
+      placeholder: 'tools.og-meta-generator.phBookTag',
+    },
   ],
 };

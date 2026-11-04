@@ -1,0 +1,10 @@
+tools:
+  password-strength-analyser:
+    passwordLength: 'Passordlengde:'
+    entropy: 'Entropi:'
+    charsetSize: 'Størrelse på tegnsett:'
+    score: 'Poengsum:'
+    passwordPlaceholder: 'Skriv inn et passord...'
+    crackDuration: 'Tid for å knekke dette passordet med brute force'
+    noteLabel: 'Merk:'
+    noteText: 'Den beregnede styrken er basert på tiden det ville tatt å knekke passordet med brute force, og tar ikke hensyn til muligheten for et ordboksangrep.'

@@ -1,0 +1,13 @@
+tools:
+  html-entities:
+    escapeTitle: '转义 HTML 实体'
+    unescapeTitle: '反转义 HTML 实体'
+    yourString: '你的字符串：'
+    yourStringEscaped: '转义后的字符串：'
+    yourEscapedString: '已转义的字符串：'
+    yourStringUnescaped: '反转义后的字符串：'
+    stringToEscape: '要转义的字符串'
+    escapedPlaceholder: '转义后的字符串'
+    stringToUnescape: '要反转义的字符串'
+    unescapedPlaceholder: '反转义后的字符串'
+    copy: '复制'

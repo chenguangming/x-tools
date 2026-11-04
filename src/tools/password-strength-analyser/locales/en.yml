@@ -1,0 +1,10 @@
+tools:
+  password-strength-analyser:
+    passwordLength: 'Password length:'
+    entropy: 'Entropy:'
+    charsetSize: 'Character set size:'
+    score: 'Score:'
+    passwordPlaceholder: 'Enter a password...'
+    crackDuration: 'Duration to crack this password with brute force'
+    noteLabel: 'Note:'
+    noteText: 'The computed strength is based on the time it would take to crack the password using a brute force approach, it does not take into account the possibility of a dictionary attack.'

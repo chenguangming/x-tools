@@ -1,0 +1,12 @@
+tools:
+  uuid-generator:
+    invalidUuid: 'Ungültige UUID'
+    copied: 'UUIDs in die Zwischenablage kopiert'
+    version: 'UUID-Version'
+    quantity: 'Anzahl'
+    quantityPlaceholder: 'Anzahl der UUIDs'
+    namespace: 'Namespace'
+    name: 'Name'
+    uuidsPlaceholder: 'Ihre UUIDs'
+    copy: 'Kopieren'
+    refresh: 'Aktualisieren'

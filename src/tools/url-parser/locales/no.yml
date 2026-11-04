@@ -1,0 +1,12 @@
+tools:
+  url-parser:
+    invalidUrl: 'Ugyldig URL'
+    urlLabel: 'Din URL som skal tolkes:'
+    urlPlaceholder: 'Din URL som skal tolkes...'
+    protocol: 'Protokoll'
+    username: 'Brukernavn'
+    password: 'Passord'
+    hostname: 'Vertsnavn'
+    port: 'Port'
+    path: 'Sti'
+    params: 'Parametere'

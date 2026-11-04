@@ -1,0 +1,5 @@
+tools:
+  random-port-generator:
+    portCopied: 'Puerto copiado al portapapeles'
+    copy: 'Copiar'
+    refresh: 'Actualizar'

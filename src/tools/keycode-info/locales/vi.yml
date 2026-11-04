@@ -1,0 +1,12 @@
+tools:
+  keycode-info:
+    keyLabel: 'Phím:'
+    keyPlaceholder: 'Tên phím...'
+    keycodeLabel: 'Keycode:'
+    keycodePlaceholder: 'Keycode...'
+    codeLabel: 'Code:'
+    codePlaceholder: 'Code...'
+    locationLabel: 'Location:'
+    modifiersLabel: 'Phím bổ trợ:'
+    modifiersPlaceholder: 'Không có'
+    pressKeyHint: 'Nhấn phím trên bàn phím mà bạn muốn xem thông tin'

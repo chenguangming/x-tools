@@ -1,0 +1,12 @@
+tools:
+  bip39-generator:
+    entropyLength: 'Entropilengden må være >= 16, <= 32 og et multiplum av 4'
+    entropyHex: 'Entropi må være en heksadesimal streng'
+    invalidMnemonic: 'Ugyldig mnemonic'
+    entropyCopied: 'Entropi kopiert til utklippstavlen'
+    passphraseCopied: 'Passfrase kopiert til utklippstavlen'
+    language: 'Språk:'
+    entropySeed: 'Entropi (seed):'
+    entropyPlaceholder: 'Strengen din...'
+    passphraseMnemonic: 'Passfrase (mnemonic):'
+    mnemonicPlaceholder: 'Din mnemonic...'

@@ -1,0 +1,8 @@
+tools:
+  mac-address-lookup:
+    copied: 'Інформацію про виробника скопійовано в буфер обміну'
+    macAddressLabel: 'MAC-адреса:'
+    macAddressPlaceholder: 'Введіть MAC-адресу'
+    vendorInfo: 'Інформація про виробника:'
+    unknownVendor: 'Невідомий виробник для цієї адреси'
+    copyVendorInfo: 'Копіювати інформацію про виробника'

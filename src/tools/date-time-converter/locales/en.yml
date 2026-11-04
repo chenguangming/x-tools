@@ -1,0 +1,10 @@
+tools:
+  date-converter:
+    jsLocaleDateString: 'JS locale date string'
+    unixTimestamp: 'Unix timestamp'
+    timestamp: 'Timestamp'
+    utcFormat: 'UTC format'
+    excelDateTime: 'Excel date/time'
+    invalidDate: 'This date is invalid for this format'
+    inputPlaceholder: 'Put your date string here...'
+    invalidDatePlaceholder: 'Invalid date...'

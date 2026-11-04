@@ -1,0 +1,14 @@
+tools:
+  eta-calculator:
+    example: '具体例：3 分間に 5 枚のお皿を洗えるとして、洗うお皿が 500 枚ある場合、すべて洗い終えるには 5 時間かかります。'
+    amountToConsume: '消費する要素の数'
+    startedAt: '消費の開始日時'
+    unitsPerTimeSpan: '一定時間あたりに消費される量'
+    in: 'あたり'
+    milliseconds: 'ミリ秒'
+    seconds: '秒'
+    minutes: '分'
+    hours: '時間'
+    days: '日'
+    totalDuration: '合計所要時間'
+    willEnd: '終了予定 '

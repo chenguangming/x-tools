@@ -1,0 +1,5 @@
+tools:
+  random-port-generator:
+    portCopied: 'Port kopiert til utklippstavlen'
+    copy: 'Kopier'
+    refresh: 'Oppdater'

@@ -1,0 +1,5 @@
+tools:
+  random-port-generator:
+    portCopied: 'Port copied to the clipboard'
+    copy: 'Copy'
+    refresh: 'Refresh'

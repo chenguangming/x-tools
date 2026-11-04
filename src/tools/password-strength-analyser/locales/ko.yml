@@ -1,0 +1,10 @@
+tools:
+  password-strength-analyser:
+    passwordLength: '비밀번호 길이:'
+    entropy: '엔트로피:'
+    charsetSize: '문자 집합 크기:'
+    score: '점수:'
+    passwordPlaceholder: '비밀번호를 입력하세요...'
+    crackDuration: '무차별 대입으로 이 비밀번호를 해독하는 데 걸리는 시간'
+    noteLabel: '참고:'
+    noteText: '계산된 강도는 무차별 대입 방식으로 비밀번호를 해독하는 데 걸리는 시간을 기준으로 하며, 사전 공격 가능성은 고려하지 않습니다.'

@@ -1,0 +1,18 @@
+tools:
+  html-wysiwyg-editor:
+    bold: 'Жирний'
+    italic: 'Курсив'
+    strike: 'Закреслений'
+    inlineCode: 'Рядковий код'
+    heading1: 'Заголовок 1'
+    heading2: 'Заголовок 2'
+    heading3: 'Заголовок 3'
+    heading4: 'Заголовок 4'
+    bulletList: 'Маркований список'
+    orderedList: 'Нумерований список'
+    codeBlock: 'Блок коду'
+    blockquote: 'Цитата'
+    hardBreak: 'Жорсткий розрив рядка'
+    clearFormat: 'Очистити форматування'
+    undo: 'Скасувати'
+    redo: 'Повторити'

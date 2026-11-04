@@ -1,0 +1,4 @@
+tools:
+  numeronym-generator:
+    wordPlaceholder: 'Введіть слово, наприклад ''internationalization'''
+    numeronymPlaceholder: 'Ваш нумероним буде тут, наприклад ''i18n'''

@@ -1,0 +1,6 @@
+tools:
+  json-to-xml:
+    invalidJson: 'JSON được cung cấp không hợp lệ.'
+    inputLabel: 'Nội dung JSON của bạn'
+    inputPlaceholder: 'Dán nội dung JSON của bạn vào đây...'
+    outputLabel: 'XML đã chuyển đổi'

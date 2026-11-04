@@ -1,0 +1,10 @@
+tools:
+  http-status-codes:
+    searchPlaceholder: 'HTTP 상태 검색...'
+    searchResults: '검색 결과'
+    category1xx: '1xx 정보 응답'
+    category2xx: '2xx 성공'
+    category3xx: '3xx 리디렉션'
+    category4xx: '4xx 클라이언트 오류'
+    category5xx: '5xx 서버 오류'
+    forType: '{type}용.'

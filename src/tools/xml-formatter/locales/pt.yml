@@ -1,0 +1,8 @@
+tools:
+  xml-formatter:
+    invalidXml: 'O XML fornecido não é válido.'
+    collapseContent: 'Recolher conteúdo:'
+    indentSize: 'Tamanho do recuo:'
+    inputLabel: 'Seu XML'
+    inputPlaceholder: 'Cole seu XML aqui...'
+    outputLabel: 'XML formatado a partir do seu XML'

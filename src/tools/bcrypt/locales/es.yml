@@ -1,0 +1,16 @@
+tools:
+  bcrypt:
+    copied: 'Cadena hasheada copiada al portapapeles'
+    hash: 'Hash'
+    stringPlaceholder: 'Tu cadena para bcrypt...'
+    yourString: 'Tu cadena: '
+    saltCount: 'Rondas de salt: '
+    saltRounds: 'Rondas de salt...'
+    copyHash: 'Copiar hash'
+    compareTitle: 'Comparar cadena con hash'
+    compareStringPlaceholder: 'Tu cadena a comparar...'
+    yourHash: 'Tu hash: '
+    compareHashPlaceholder: 'Tu hash a comparar...'
+    doTheyMatch: '¿Coinciden? '
+    'yes': 'Sí'
+    'no': 'No'

@@ -1,0 +1,16 @@
+tools:
+  url-encoder:
+    parseError: 'Diese Zeichenfolge kann nicht verarbeitet werden'
+    encodedCopied: 'Codierte Zeichenfolge in die Zwischenablage kopiert'
+    decodedCopied: 'Decodierte Zeichenfolge in die Zwischenablage kopiert'
+    encode: 'Kodieren'
+    decode: 'Dekodieren'
+    yourString: 'Ihre Zeichenfolge:'
+    yourStringEncoded: 'Ihre codierte Zeichenfolge:'
+    yourEncodedString: 'Ihre codierte Zeichenfolge:'
+    yourStringDecoded: 'Ihre decodierte Zeichenfolge:'
+    encodePlaceholder: 'Die zu codierende Zeichenfolge'
+    encodedPlaceholder: 'Ihre codierte Zeichenfolge'
+    decodePlaceholder: 'Die zu decodierende Zeichenfolge'
+    decodedPlaceholder: 'Ihre decodierte Zeichenfolge'
+    copy: 'Kopieren'

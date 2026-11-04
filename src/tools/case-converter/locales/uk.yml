@@ -1,0 +1,18 @@
+tools:
+  case-converter:
+    yourString: 'Ваш рядок:'
+    yourStringPlaceholder: 'Ваш рядок...'
+    lowercase: 'Нижній регістр:'
+    uppercase: 'Верхній регістр:'
+    camelcase: 'Camelcase:'
+    capitalcase: 'Capitalcase:'
+    constantcase: 'Constantcase:'
+    dotcase: 'Dotcase:'
+    headercase: 'Headercase:'
+    nocase: 'Nocase:'
+    paramcase: 'Paramcase:'
+    pascalcase: 'Pascalcase:'
+    pathcase: 'Pathcase:'
+    sentencecase: 'Sentencecase:'
+    snakecase: 'Snakecase:'
+    mockingcase: 'Mockingcase:'

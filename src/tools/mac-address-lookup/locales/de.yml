@@ -1,0 +1,8 @@
+tools:
+  mac-address-lookup:
+    copied: 'Herstellerinformationen in die Zwischenablage kopiert'
+    macAddressLabel: 'MAC-Adresse:'
+    macAddressPlaceholder: 'MAC-Adresse eingeben'
+    vendorInfo: 'Herstellerinformationen:'
+    unknownVendor: 'Unbekannter Hersteller für diese Adresse'
+    copyVendorInfo: 'Herstellerinformationen kopieren'

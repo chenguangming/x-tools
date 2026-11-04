@@ -1,0 +1,16 @@
+tools:
+  url-encoder:
+    parseError: '이 문자열을 구문 분석할 수 없습니다'
+    encodedCopied: '인코딩된 문자열이 클립보드에 복사되었습니다'
+    decodedCopied: '디코딩된 문자열이 클립보드에 복사되었습니다'
+    encode: '인코딩'
+    decode: '디코딩'
+    yourString: '문자열:'
+    yourStringEncoded: '인코딩된 문자열:'
+    yourEncodedString: '인코딩된 문자열:'
+    yourStringDecoded: '디코딩된 문자열:'
+    encodePlaceholder: '인코딩할 문자열'
+    encodedPlaceholder: '인코딩된 문자열'
+    decodePlaceholder: '디코딩할 문자열'
+    decodedPlaceholder: '디코딩된 문자열'
+    copy: '복사'

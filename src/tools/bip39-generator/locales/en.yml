@@ -1,0 +1,12 @@
+tools:
+  bip39-generator:
+    entropyLength: 'Entropy length should be >= 16, <= 32 and be a multiple of 4'
+    entropyHex: 'Entropy should be an hexadecimal string'
+    invalidMnemonic: 'Invalid mnemonic'
+    entropyCopied: 'Entropy copied to the clipboard'
+    passphraseCopied: 'Passphrase copied to the clipboard'
+    language: 'Language:'
+    entropySeed: 'Entropy (seed):'
+    entropyPlaceholder: 'Your string...'
+    passphraseMnemonic: 'Passphrase (mnemonic):'
+    mnemonicPlaceholder: 'Your mnemonic...'

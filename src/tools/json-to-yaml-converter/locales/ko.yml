@@ -1,0 +1,6 @@
+tools:
+  json-to-yaml-converter:
+    invalidJson: '제공된 JSON이 유효하지 않습니다.'
+    inputLabel: 'JSON'
+    inputPlaceholder: '여기에 JSON을 붙여넣으세요...'
+    outputLabel: 'JSON에서 변환된 YAML'

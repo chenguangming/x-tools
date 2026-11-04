@@ -1,0 +1,8 @@
+tools:
+  chmod-calculator:
+    read: 'Lese (4)'
+    write: 'Skriv (2)'
+    execute: 'Kjør (1)'
+    owner: 'Eier (u)'
+    group: 'Gruppe (g)'
+    public: 'Andre (o)'

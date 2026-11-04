@@ -1,0 +1,13 @@
+tools:
+  html-entities:
+    escapeTitle: 'HTML-Entitäten maskieren'
+    unescapeTitle: 'HTML-Entitäten demaskieren'
+    yourString: 'Ihre Zeichenfolge:'
+    yourStringEscaped: 'Ihre maskierte Zeichenfolge:'
+    yourEscapedString: 'Ihre maskierte Zeichenfolge:'
+    yourStringUnescaped: 'Ihre demaskierte Zeichenfolge:'
+    stringToEscape: 'Die zu maskierende Zeichenfolge'
+    escapedPlaceholder: 'Ihre maskierte Zeichenfolge'
+    stringToUnescape: 'Die zu demaskierende Zeichenfolge'
+    unescapedPlaceholder: 'Ihre demaskierte Zeichenfolge'
+    copy: 'Kopieren'

@@ -1,0 +1,6 @@
+tools:
+  yaml-to-json-converter:
+    invalidYaml: '指定された YAML は無効です。'
+    inputLabel: 'YAML'
+    inputPlaceholder: 'ここに YAML を貼り付け...'
+    outputLabel: 'YAML から生成された JSON'

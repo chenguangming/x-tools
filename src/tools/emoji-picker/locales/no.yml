@@ -1,0 +1,8 @@
+tools:
+  emoji-picker:
+    emojiCopied: 'Emoji {emoji} kopiert til utklippstavlen'
+    codePointsCopied: 'Kodepunkter ''{codePoints}'' kopiert til utklippstavlen'
+    unicodeCopied: 'Unicode ''{unicode}'' kopiert til utklippstavlen'
+    searchPlaceholder: 'Søk etter emojier (f.eks. ''smile'')...'
+    noResults: 'Ingen resultater'
+    searchResult: 'Søkeresultat'

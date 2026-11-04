@@ -1,0 +1,12 @@
+tools:
+  mime-types:
+    mimeToExtensionTitle: 'MIME-type til filendelse'
+    mimeToExtensionDescription: 'Finn ut hvilke filendelser som er knyttet til en MIME-type'
+    selectMimeTypePlaceholder: 'Velg MIME-typen din her... (f.eks. application/pdf)'
+    extensionsOfMimeType: 'Filendelser for filer med MIME-typen {mimeType}:'
+    extensionToMimeTitle: 'Filendelse til MIME-type'
+    extensionToMimeDescription: 'Finn ut hvilken MIME-type som er knyttet til en filendelse'
+    selectExtensionPlaceholder: 'Velg filendelsen din her...'
+    mimeTypeOfExtension: 'MIME-type knyttet til filendelsen {extension}:'
+    mimeTypesHeader: 'MIME-typer'
+    extensionsHeader: 'Filendelser'

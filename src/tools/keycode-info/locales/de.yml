@@ -1,0 +1,12 @@
+tools:
+  keycode-info:
+    keyLabel: 'Taste:'
+    keyPlaceholder: 'Tastenname...'
+    keycodeLabel: 'Keycode:'
+    keycodePlaceholder: 'Keycode...'
+    codeLabel: 'Code:'
+    codePlaceholder: 'Code...'
+    locationLabel: 'Location:'
+    modifiersLabel: 'Modifikatoren:'
+    modifiersPlaceholder: 'Keine'
+    pressKeyHint: 'Drücken Sie die Taste auf Ihrer Tastatur, zu der Sie Informationen erhalten möchten'

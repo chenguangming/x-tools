@@ -1,0 +1,8 @@
+tools:
+  mac-address-lookup:
+    copied: '厂商信息已复制到剪贴板'
+    macAddressLabel: 'MAC 地址：'
+    macAddressPlaceholder: '输入 MAC 地址'
+    vendorInfo: '厂商信息：'
+    unknownVendor: '该地址的厂商未知'
+    copyVendorInfo: '复制厂商信息'

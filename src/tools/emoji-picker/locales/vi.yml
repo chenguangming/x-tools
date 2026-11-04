@@ -1,0 +1,8 @@
+tools:
+  emoji-picker:
+    emojiCopied: 'Đã sao chép emoji {emoji} vào clipboard'
+    codePointsCopied: 'Đã sao chép code point ''{codePoints}'' vào clipboard'
+    unicodeCopied: 'Đã sao chép Unicode ''{unicode}'' vào clipboard'
+    searchPlaceholder: 'Tìm emoji (vd: ''smile'')...'
+    noResults: 'Không có kết quả'
+    searchResult: 'Kết quả tìm kiếm'

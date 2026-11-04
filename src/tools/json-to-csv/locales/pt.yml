@@ -1,0 +1,6 @@
+tools:
+  json-to-csv:
+    invalidJson: 'O JSON fornecido não é válido.'
+    inputLabel: 'Seu JSON bruto'
+    inputPlaceholder: 'Cole seu JSON bruto aqui...'
+    outputLabel: 'Versão CSV do seu JSON'

@@ -1,0 +1,8 @@
+tools:
+  docker-run-to-docker-compose-converter:
+    yourCommand: 'Ваша команда docker run:'
+    commandPlaceholder: 'Ваша команда docker run для конвертації...'
+    download: 'Завантажити docker-compose.yml'
+    notTranslatable: 'Ці параметри неможливо перетворити на docker-compose'
+    notImplemented: 'Ці параметри ще не реалізовані, тому не були перетворені на docker-compose'
+    errors: 'Сталися такі помилки'

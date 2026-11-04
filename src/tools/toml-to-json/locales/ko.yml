@@ -1,0 +1,6 @@
+tools:
+  toml-to-json:
+    invalidToml: '제공된 TOML이 유효하지 않습니다.'
+    inputLabel: 'TOML 입력'
+    inputPlaceholder: '여기에 TOML을 붙여넣으세요...'
+    outputLabel: 'TOML에서 변환된 JSON'

@@ -1,0 +1,7 @@
+tools:
+  text-to-nato-alphabet:
+    copied: 'Cadena del alfabeto OTAN copiada.'
+    inputLabel: 'Tu texto para convertir al alfabeto fonético de la OTAN'
+    inputPlaceholder: 'Escribe tu texto aquí...'
+    outputLabel: 'Tu texto en alfabeto fonético de la OTAN'
+    copy: 'Copiar cadena OTAN'

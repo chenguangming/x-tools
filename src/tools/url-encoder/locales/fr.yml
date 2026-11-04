@@ -1,0 +1,16 @@
+tools:
+  url-encoder:
+    parseError: 'Impossible d''analyser cette chaîne'
+    encodedCopied: 'Chaîne encodée copiée dans le presse-papiers'
+    decodedCopied: 'Chaîne décodée copiée dans le presse-papiers'
+    encode: 'Encoder'
+    decode: 'Décoder'
+    yourString: 'Votre chaîne :'
+    yourStringEncoded: 'Votre chaîne encodée :'
+    yourEncodedString: 'Votre chaîne encodée :'
+    yourStringDecoded: 'Votre chaîne décodée :'
+    encodePlaceholder: 'La chaîne à encoder'
+    encodedPlaceholder: 'Votre chaîne encodée'
+    decodePlaceholder: 'La chaîne à décoder'
+    decodedPlaceholder: 'Votre chaîne décodée'
+    copy: 'Copier'

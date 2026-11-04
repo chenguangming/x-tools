@@ -1,0 +1,7 @@
+tools:
+  text-to-nato-alphabet:
+    copied: 'NATO alphabet string copied.'
+    inputLabel: 'Your text to convert to NATO phonetic alphabet'
+    inputPlaceholder: 'Put your text here...'
+    outputLabel: 'Your text in NATO phonetic alphabet'
+    copy: 'Copy NATO string'

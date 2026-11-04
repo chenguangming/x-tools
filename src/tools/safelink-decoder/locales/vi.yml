@@ -1,0 +1,5 @@
+tools:
+  safelink-decoder:
+    inputPlaceholder: 'URL SafeLink của Outlook…'
+    inputLabel: 'URL SafeLink của Outlook:'
+    outputLabel: 'URL đã giải mã:'

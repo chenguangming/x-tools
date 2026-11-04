@@ -1,0 +1,14 @@
+tools:
+  eta-calculator:
+    example: '舉個具體的例子：如果你 3 分鐘能洗 5 個盤子，而你有 500 個盤子要洗，那麼洗完所有盤子需要 5 小時。'
+    amountToConsume: '要消耗的元素數量'
+    startedAt: '開始消耗的時間'
+    unitsPerTimeSpan: '每個時間段消耗的數量'
+    in: '每'
+    milliseconds: '毫秒'
+    seconds: '秒'
+    minutes: '分鐘'
+    hours: '小時'
+    days: '天'
+    totalDuration: '總時長'
+    willEnd: '預計結束時間 '

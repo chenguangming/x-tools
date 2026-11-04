@@ -1,0 +1,6 @@
+tools:
+  json-to-yaml-converter:
+    invalidJson: 'Den oppgitte JSON-en er ugyldig.'
+    inputLabel: 'Din JSON'
+    inputPlaceholder: 'Lim inn din JSON her...'
+    outputLabel: 'YAML fra din JSON'

@@ -1,0 +1,8 @@
+tools:
+  xml-formatter:
+    invalidXml: 'Наданий XML недійсний.'
+    collapseContent: 'Згорнути вміст:'
+    indentSize: 'Розмір відступу:'
+    inputLabel: 'Ваш XML'
+    inputPlaceholder: 'Вставте ваш XML тут...'
+    outputLabel: 'Відформатований XML з вашого XML'

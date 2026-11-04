@@ -1,0 +1,18 @@
+tools:
+  html-wysiwyg-editor:
+    bold: 'Gras'
+    italic: 'Italique'
+    strike: 'Barré'
+    inlineCode: 'Code en ligne'
+    heading1: 'Titre 1'
+    heading2: 'Titre 2'
+    heading3: 'Titre 3'
+    heading4: 'Titre 4'
+    bulletList: 'Liste à puces'
+    orderedList: 'Liste numérotée'
+    codeBlock: 'Bloc de code'
+    blockquote: 'Citation'
+    hardBreak: 'Saut de ligne forcé'
+    clearFormat: 'Effacer la mise en forme'
+    undo: 'Annuler'
+    redo: 'Rétablir'

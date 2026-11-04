@@ -1,0 +1,8 @@
+tools:
+  xml-formatter:
+    invalidXml: 'Das angegebene XML ist ungültig.'
+    collapseContent: 'Inhalt reduzieren:'
+    indentSize: 'Einzugsgröße:'
+    inputLabel: 'Ihr XML'
+    inputPlaceholder: 'XML hier einfügen...'
+    outputLabel: 'Formatiertes XML aus Ihrem XML'

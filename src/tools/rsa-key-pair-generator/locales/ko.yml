@@ -1,0 +1,7 @@
+tools:
+  rsa-key-pair-generator:
+    bitsInvalid: '비트 수는 256 <= 비트 <= 16384 이며 8의 배수여야 합니다'
+    bits: '비트 수:'
+    refresh: '키 쌍 새로 고침'
+    publicKey: '공개 키'
+    privateKey: '개인 키'

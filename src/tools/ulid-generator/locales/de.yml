@@ -1,0 +1,8 @@
+tools:
+  ulid-generator:
+    raw: 'Roh'
+    copied: 'ULIDs in die Zwischenablage kopiert'
+    quantity: 'Anzahl:'
+    format: 'Format: '
+    refresh: 'Aktualisieren'
+    copy: 'Kopieren'

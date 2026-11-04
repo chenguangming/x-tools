@@ -1,0 +1,15 @@
+tools:
+  base64-file-converter:
+    invalidBase64: '无效的 Base64 字符串'
+    copied: 'Base64 字符串已复制到剪贴板'
+    base64ToFile: 'Base64 转文件'
+    fileName: '文件名'
+    fileNamePlaceholder: '下载文件名'
+    extension: '扩展名'
+    base64Placeholder: '在此粘贴您的 Base64 文件字符串...'
+    previewImage: '预览图片'
+    downloadFile: '下载文件'
+    fileToBase64: '文件转 Base64'
+    uploadTitle: '将文件拖放到此处,或点击选择文件'
+    fileBase64Placeholder: '文件的 Base64 将显示在此处'
+    copy: '复制'

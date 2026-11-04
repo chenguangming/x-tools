@@ -1,0 +1,8 @@
+tools:
+  xml-formatter:
+    invalidXml: 'XML được cung cấp không hợp lệ.'
+    collapseContent: 'Thu gọn nội dung:'
+    indentSize: 'Kích thước thụt lề:'
+    inputLabel: 'XML của bạn'
+    inputPlaceholder: 'Dán XML của bạn vào đây...'
+    outputLabel: 'XML đã định dạng từ XML của bạn'

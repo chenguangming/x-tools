@@ -1,0 +1,12 @@
+tools:
+  url-parser:
+    invalidUrl: 'URL inválida'
+    urlLabel: 'Sua URL para analisar:'
+    urlPlaceholder: 'Sua URL para analisar...'
+    protocol: 'Protocolo'
+    username: 'Usuário'
+    password: 'Senha'
+    hostname: 'Nome do host'
+    port: 'Porta'
+    path: 'Caminho'
+    params: 'Parâmetros'

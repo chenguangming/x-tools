@@ -1,0 +1,12 @@
+tools:
+  mime-types:
+    mimeToExtensionTitle: 'MIME 타입에서 확장자로'
+    mimeToExtensionDescription: 'MIME 타입에 연결된 파일 확장자를 확인하세요'
+    selectMimeTypePlaceholder: 'MIME 타입을 선택하세요... (예: application/pdf)'
+    extensionsOfMimeType: 'MIME 타입이 {mimeType}인 파일의 확장자:'
+    extensionToMimeTitle: '파일 확장자에서 MIME 타입으로'
+    extensionToMimeDescription: '파일 확장자에 연결된 MIME 타입을 확인하세요'
+    selectExtensionPlaceholder: '파일 확장자를 선택하세요...'
+    mimeTypeOfExtension: '파일 확장자 {extension}에 연결된 MIME 타입:'
+    mimeTypesHeader: 'MIME 타입'
+    extensionsHeader: '확장자'

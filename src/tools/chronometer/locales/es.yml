@@ -1,0 +1,5 @@
+tools:
+  chronometer:
+    start: 'Iniciar'
+    stop: 'Detener'
+    reset: 'Restablecer'

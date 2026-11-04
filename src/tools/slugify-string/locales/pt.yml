@@ -1,0 +1,8 @@
+tools:
+  slugify-string:
+    slugCopied: 'Slug copiado para a área de transferência'
+    inputPlaceholder: 'Insira sua string aqui (ex.: My file path)'
+    inputLabel: 'Sua string para transformar em slug'
+    slugPlaceholder: 'Seu slug será gerado aqui (ex.: my-file-path)'
+    slugLabel: 'Seu slug'
+    copySlug: 'Copiar slug'

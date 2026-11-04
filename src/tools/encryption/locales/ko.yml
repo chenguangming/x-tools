@@ -1,0 +1,14 @@
+tools:
+  encryption:
+    encrypt: '암호화'
+    decrypt: '복호화'
+    decryptError: '복호화 중 오류가 발생했습니다'
+    unableToDecrypt: '텍스트를 복호화할 수 없습니다'
+    yourText: '텍스트:'
+    secretKey: '비밀 키:'
+    algorithm: '암호화 알고리즘:'
+    textEncrypted: '암호화된 텍스트:'
+    encryptedText: '암호화된 텍스트:'
+    textDecrypted: '복호화된 텍스트:'
+    cypherPlaceholder: '암호화할 문자열'
+    outputPlaceholder: '문자열 해시'

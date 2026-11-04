@@ -1,0 +1,18 @@
+tools:
+  wifi-qrcode-generator:
+    encryptionMethod: 'Phương thức mã hóa'
+    noPassword: 'Không có mật khẩu'
+    ssid: 'SSID:'
+    ssidPlaceholder: 'SSID WiFi của bạn...'
+    hiddenSsid: 'SSID ẩn'
+    password: 'Mật khẩu:'
+    passwordPlaceholder: 'Mật khẩu WiFi của bạn...'
+    eapMethod: 'Phương thức EAP'
+    identity: 'Danh tính:'
+    identityPlaceholder: 'Danh tính EAP của bạn...'
+    anonymous: 'Ẩn danh?'
+    eapPhase2Method: 'Phương thức EAP giai đoạn 2'
+    foregroundColor: 'Màu nền trước:'
+    backgroundColor: 'Màu nền:'
+    qrAlt: 'Mã QR WiFi'
+    download: 'Tải xuống mã QR'

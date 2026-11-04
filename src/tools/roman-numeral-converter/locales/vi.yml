@@ -1,0 +1,9 @@
+tools:
+  roman-numeral-converter:
+    outOfRange: 'Chỉ có thể chuyển đổi các số từ {min} đến {max}'
+    invalidRoman: 'Dữ liệu nhập không phải là số La Mã hợp lệ'
+    romanCopied: 'Đã sao chép số La Mã vào bộ nhớ tạm'
+    arabicCopied: 'Đã sao chép số Ả Rập vào bộ nhớ tạm'
+    arabicToRoman: 'Số Ả Rập sang số La Mã'
+    romanToArabic: 'Số La Mã sang số Ả Rập'
+    copy: 'Sao chép'

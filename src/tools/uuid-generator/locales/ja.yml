@@ -1,0 +1,12 @@
+tools:
+  uuid-generator:
+    invalidUuid: '無効な UUID'
+    copied: 'UUID をクリップボードにコピーしました'
+    version: 'UUID バージョン'
+    quantity: '数量'
+    quantityPlaceholder: 'UUID の数量'
+    namespace: '名前空間'
+    name: '名前'
+    uuidsPlaceholder: '生成された UUID'
+    copy: 'コピー'
+    refresh: '更新'

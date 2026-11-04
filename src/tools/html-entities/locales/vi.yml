@@ -1,0 +1,13 @@
+tools:
+  html-entities:
+    escapeTitle: 'Escape thực thể HTML'
+    unescapeTitle: 'Unescape thực thể HTML'
+    yourString: 'Chuỗi của bạn:'
+    yourStringEscaped: 'Chuỗi đã escape:'
+    yourEscapedString: 'Chuỗi đã escape của bạn:'
+    yourStringUnescaped: 'Chuỗi đã unescape:'
+    stringToEscape: 'Chuỗi cần escape'
+    escapedPlaceholder: 'Chuỗi đã escape'
+    stringToUnescape: 'Chuỗi cần unescape'
+    unescapedPlaceholder: 'Chuỗi đã unescape'
+    copy: 'Sao chép'

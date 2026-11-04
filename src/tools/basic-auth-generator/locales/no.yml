@@ -1,0 +1,9 @@
+tools:
+  basic-auth-generator:
+    copied: 'Header kopiert til utklippstavlen'
+    username: 'Brukernavn'
+    usernamePlaceholder: 'Ditt brukernavn...'
+    password: 'Passord'
+    passwordPlaceholder: 'Ditt passord...'
+    authorizationHeader: 'Authorization-header:'
+    copyHeader: 'Kopier header'

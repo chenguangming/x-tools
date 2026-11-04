@@ -1,0 +1,14 @@
+tools:
+  text-to-unicode:
+    textToUnicodeTitle: 'テキストから Unicode'
+    textPlaceholder: '例: ''Hello Avengers'''
+    textInputLabel: 'Unicode に変換するテキストを入力'
+    unicodeOutputLabel: 'テキストの Unicode'
+    unicodeOutputPlaceholder: 'テキストの Unicode 表現がここに表示されます'
+    copyUnicode: 'Unicode をクリップボードにコピー'
+    unicodeToTextTitle: 'Unicode からテキスト'
+    unicodePlaceholder: 'Unicode を入力'
+    unicodeInputLabel: 'テキストに変換する Unicode を入力'
+    textOutputLabel: 'Unicode のテキスト'
+    textOutputPlaceholder: 'Unicode のテキスト表現がここに表示されます'
+    copyText: 'テキストをクリップボードにコピー'

@@ -1,0 +1,13 @@
+tools:
+  mac-address-generator:
+    copied: 'MAC-адреси скопійовано в буфер обміну'
+    uppercase: 'Великі літери'
+    lowercase: 'Малі літери'
+    none: 'Немає'
+    quantity: 'Кількість:'
+    prefixLabel: 'Префікс MAC-адреси:'
+    prefixPlaceholder: 'Вкажіть префікс, напр. 64:16:7F'
+    caseLabel: 'Регістр:'
+    separatorLabel: 'Роздільник:'
+    refresh: 'Оновити'
+    copy: 'Копіювати'

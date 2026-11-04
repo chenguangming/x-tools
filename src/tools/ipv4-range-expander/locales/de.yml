@@ -1,0 +1,13 @@
+tools:
+  ipv4-range-expander:
+    invalidIpv4: 'Ungültige IPv4-Adresse'
+    startAddress: 'Startadresse'
+    endAddress: 'Endadresse'
+    addressesInRange: 'Adressen im Bereich'
+    startPlaceholder: 'Start-IPv4-Adresse...'
+    endPlaceholder: 'End-IPv4-Adresse...'
+    oldValue: 'alter Wert'
+    newValue: 'neuer Wert'
+    invalidCombinationTitle: 'Ungültige Kombination aus Start- und End-IPv4-Adresse'
+    invalidCombination: 'Die End-IPv4-Adresse ist kleiner als die Start-IPv4-Adresse. Das ist ungültig und es konnte kein Ergebnis berechnet werden. In den meisten Fällen lässt sich das Problem lösen, indem Start- und Endadresse getauscht werden.'
+    switch: 'Start- und End-IPv4-Adresse tauschen'

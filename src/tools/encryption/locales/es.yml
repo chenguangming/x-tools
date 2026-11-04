@@ -1,0 +1,14 @@
+tools:
+  encryption:
+    encrypt: 'Cifrar'
+    decrypt: 'Descifrar'
+    decryptError: 'Error al descifrar'
+    unableToDecrypt: 'No se pudo descifrar tu texto'
+    yourText: 'Tu texto:'
+    secretKey: 'Tu clave secreta:'
+    algorithm: 'Algoritmo de cifrado:'
+    textEncrypted: 'Tu texto cifrado:'
+    encryptedText: 'Tu texto cifrado:'
+    textDecrypted: 'Tu texto descifrado:'
+    cypherPlaceholder: 'La cadena a cifrar'
+    outputPlaceholder: 'El hash de tu cadena'

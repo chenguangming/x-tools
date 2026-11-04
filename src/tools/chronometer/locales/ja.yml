@@ -1,0 +1,5 @@
+tools:
+  chronometer:
+    start: 'スタート'
+    stop: 'ストップ'
+    reset: 'リセット'

@@ -1,0 +1,10 @@
+tools:
+  date-converter:
+    jsLocaleDateString: 'JS ロケール日付文字列'
+    unixTimestamp: 'Unix タイムスタンプ'
+    timestamp: 'タイムスタンプ'
+    utcFormat: 'UTC 形式'
+    excelDateTime: 'Excel 日付/時刻'
+    invalidDate: 'この日付はこの形式では無効です'
+    inputPlaceholder: '日付文字列をここに入力...'
+    invalidDatePlaceholder: '無効な日付...'

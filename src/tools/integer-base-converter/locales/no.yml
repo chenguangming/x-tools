@@ -1,0 +1,17 @@
+tools:
+  base-converter:
+    inputNumber: 'Inndatatall'
+    inputPlaceholder: 'Skriv inn tallet her (f.eks. 42)'
+    inputBase: 'Inndatabase'
+    inputBasePlaceholder: 'Skriv inn inndatabasen her (f.eks. 10)'
+    binary: 'Binær (2)'
+    octal: 'Oktal (8)'
+    decimal: 'Desimal (10)'
+    hexadecimal: 'Heksadesimal (16)'
+    binaryPlaceholder: 'Binærversjonen vises her...'
+    octalPlaceholder: 'Oktalversjonen vises her...'
+    decimalPlaceholder: 'Desimalversjonen vises her...'
+    hexadecimalPlaceholder: 'Heksadesimalversjonen vises her...'
+    base64Placeholder: 'Base64-versjonen vises her...'
+    custom: 'Egendefinert:'
+    customPlaceholder: 'Base {base} vises her...'

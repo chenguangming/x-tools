@@ -1,0 +1,6 @@
+tools:
+  toml-to-yaml:
+    invalidToml: '入力された TOML は無効です。'
+    inputLabel: 'TOML を入力'
+    inputPlaceholder: 'ここに TOML を貼り付け...'
+    outputLabel: 'TOML から変換した YAML'

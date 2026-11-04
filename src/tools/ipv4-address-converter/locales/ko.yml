@@ -1,0 +1,9 @@
+tools:
+  ipv4-address-converter:
+    decimal: '10진수: '
+    hexadecimal: '16진수: '
+    binary: '2진수: '
+    invalid: '유효하지 않은 IPv4 주소'
+    label: 'IPv4 주소:'
+    placeholder: 'IPv4 주소...'
+    setCorrect: '올바른 IPv4 주소를 입력하세요'

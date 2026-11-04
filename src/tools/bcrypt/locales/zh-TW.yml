@@ -1,0 +1,16 @@
+tools:
+  bcrypt:
+    copied: '雜湊字串已複製到剪貼簿'
+    hash: '雜湊'
+    stringPlaceholder: '要進行 bcrypt 的字串...'
+    yourString: '您的字串: '
+    saltCount: '鹽值輪數: '
+    saltRounds: '鹽值輪數...'
+    copyHash: '複製雜湊'
+    compareTitle: '比較字串與雜湊'
+    compareStringPlaceholder: '要比較的字串...'
+    yourHash: '您的雜湊: '
+    compareHashPlaceholder: '要比較的雜湊...'
+    doTheyMatch: '是否相符? '
+    'yes': '是'
+    'no': '否'

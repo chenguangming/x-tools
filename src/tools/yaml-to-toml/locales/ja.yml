@@ -1,0 +1,6 @@
+tools:
+  yaml-to-toml:
+    invalidJson: '指定された JSON は無効です。'
+    inputLabel: 'YAML'
+    inputPlaceholder: 'ここに YAML を貼り付け...'
+    outputLabel: 'YAML から生成された TOML'

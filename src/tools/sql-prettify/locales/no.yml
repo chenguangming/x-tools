@@ -1,0 +1,14 @@
+tools:
+  sql-prettify:
+    dialect: 'Dialekt'
+    keywordCase: 'Store/små bokstaver i nøkkelord'
+    indentStyle: 'Innrykksstil'
+    upper: 'STORE BOKSTAVER'
+    lower: 'små bokstaver'
+    preserve: 'Behold'
+    standard: 'Standard'
+    tabularLeft: 'Tabulær venstre'
+    tabularRight: 'Tabulær høyre'
+    inputLabel: 'SQL-spørringen din'
+    inputPlaceholder: 'Skriv inn SQL-spørringen her…'
+    outputLabel: 'Formatert versjon av spørringen'

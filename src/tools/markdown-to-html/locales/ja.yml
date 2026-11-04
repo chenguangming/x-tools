@@ -1,0 +1,6 @@
+tools:
+  markdown-to-html:
+    placeholder: 'Markdown の内容を入力...'
+    inputLabel: '変換する Markdown：'
+    outputLabel: '出力 HTML：'
+    printAsPdf: 'PDF として印刷'

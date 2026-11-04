@@ -1,0 +1,8 @@
+tools:
+  emoji-picker:
+    emojiCopied: '絵文字 {emoji} をクリップボードにコピーしました'
+    codePointsCopied: 'コードポイント「{codePoints}」をクリップボードにコピーしました'
+    unicodeCopied: 'Unicode「{unicode}」をクリップボードにコピーしました'
+    searchPlaceholder: '絵文字を検索（例: ''smile''）...'
+    noResults: '結果がありません'
+    searchResult: '検索結果'

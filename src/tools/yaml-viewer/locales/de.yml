@@ -1,0 +1,8 @@
+tools:
+  yaml-prettify:
+    invalidYaml: 'Das angegebene YAML ist ungültig.'
+    sortKeys: 'Schlüssel sortieren:'
+    indentSize: 'Einzugsgröße:'
+    inputLabel: 'Ihr Roh-YAML'
+    inputPlaceholder: 'Roh-YAML hier einfügen...'
+    outputLabel: 'Formatierte Version Ihres YAML'

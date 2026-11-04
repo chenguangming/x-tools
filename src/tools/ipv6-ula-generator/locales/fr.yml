@@ -1,0 +1,9 @@
+tools:
+  ipv6-ula-generator:
+    ula: 'ULA IPv6 :'
+    firstBlock: 'Premier bloc routable :'
+    lastBlock: 'Dernier bloc routable :'
+    infoTitle: 'Info'
+    info: 'Cet outil utilise la première méthode suggérée par l''IETF : l''horodatage actuel plus l''adresse MAC, haché en SHA-1, et les 40 bits de poids faible pour générer votre ULA aléatoire.'
+    placeholder: 'Saisissez une adresse MAC'
+    macLabel: 'Adresse MAC :'

@@ -1,0 +1,16 @@
+tools:
+  hmac-generator:
+    binary: 'Nhị phân (cơ số 2)'
+    hexadecimal: 'Thập lục phân (cơ số 16)'
+    base64url: 'Base64-url (cơ số 64 với ký tự an toàn cho URL)'
+    plainTextPlaceholder: 'Văn bản thuần để tính hash...'
+    plainTextLabel: 'Văn bản thuần để tính hash'
+    secretPlaceholder: 'Nhập khóa bí mật...'
+    secretLabel: 'Khóa bí mật'
+    hashingFunction: 'Hàm băm'
+    hashingFunctionPlaceholder: 'Chọn một hàm băm...'
+    outputEncoding: 'Mã hóa đầu ra'
+    encodingPlaceholder: 'Chọn mã hóa kết quả...'
+    resultPlaceholder: 'Kết quả của HMAC...'
+    resultLabel: 'HMAC của văn bản'
+    copy: 'Sao chép HMAC'

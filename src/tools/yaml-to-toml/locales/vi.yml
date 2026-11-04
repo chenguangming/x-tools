@@ -1,0 +1,6 @@
+tools:
+  yaml-to-toml:
+    invalidJson: 'JSON được cung cấp không hợp lệ.'
+    inputLabel: 'YAML của bạn'
+    inputPlaceholder: 'Dán YAML của bạn vào đây...'
+    outputLabel: 'TOML từ YAML của bạn'

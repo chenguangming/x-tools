@@ -1,0 +1,16 @@
+tools:
+  device-information:
+    screen: 'Екран'
+    device: 'Пристрій'
+    screenSize: 'Розмір екрана'
+    orientation: 'Орієнтація'
+    orientationAngle: 'Кут орієнтації'
+    colorDepth: 'Глибина кольору'
+    bits: 'біт'
+    pixelRatio: 'Співвідношення пікселів'
+    windowSize: 'Розмір вікна'
+    browserVendor: 'Виробник браузера'
+    languages: 'Мови'
+    platform: 'Платформа'
+    userAgent: 'User agent'
+    unknown: 'невідомо'

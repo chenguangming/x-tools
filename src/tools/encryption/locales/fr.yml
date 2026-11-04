@@ -1,0 +1,14 @@
+tools:
+  encryption:
+    encrypt: 'Chiffrer'
+    decrypt: 'Déchiffrer'
+    decryptError: 'Erreur lors du déchiffrement'
+    unableToDecrypt: 'Impossible de déchiffrer votre texte'
+    yourText: 'Votre texte :'
+    secretKey: 'Votre clé secrète :'
+    algorithm: 'Algorithme de chiffrement :'
+    textEncrypted: 'Votre texte chiffré :'
+    encryptedText: 'Votre texte chiffré :'
+    textDecrypted: 'Votre texte déchiffré :'
+    cypherPlaceholder: 'La chaîne à chiffrer'
+    outputPlaceholder: 'Le hash de votre chaîne'

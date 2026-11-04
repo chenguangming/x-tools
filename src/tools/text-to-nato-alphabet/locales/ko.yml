@@ -1,0 +1,7 @@
+tools:
+  text-to-nato-alphabet:
+    copied: 'NATO 음성 문자 문자열을 복사했습니다.'
+    inputLabel: 'NATO 음성 문자로 변환할 텍스트'
+    inputPlaceholder: '여기에 텍스트를 입력하세요...'
+    outputLabel: 'NATO 음성 문자로 변환된 텍스트'
+    copy: 'NATO 문자열 복사'

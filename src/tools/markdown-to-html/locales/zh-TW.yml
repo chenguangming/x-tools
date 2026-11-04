@@ -1,0 +1,6 @@
+tools:
+  markdown-to-html:
+    placeholder: '您的 Markdown 內容...'
+    inputLabel: '要轉換的 Markdown：'
+    outputLabel: '輸出 HTML：'
+    printAsPdf: '列印為 PDF'

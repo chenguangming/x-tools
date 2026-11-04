@@ -1,0 +1,7 @@
+tools:
+  jwt-parser:
+    header: 'Header'
+    payload: 'Payload'
+    invalidJwt: 'Ugyldig JWT'
+    jwtLabel: 'JWT som skal dekodes'
+    jwtPlaceholder: 'Lim inn tokenet ditt her...'

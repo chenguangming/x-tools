@@ -1,0 +1,4 @@
+tools:
+  numeronym-generator:
+    wordPlaceholder: 'Skriv inn et ord, f.eks. ''internationalization'''
+    numeronymPlaceholder: 'Numeronymet ditt vises her, f.eks. ''i18n'''

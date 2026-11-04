@@ -1,0 +1,15 @@
+tools:
+  base64-file-converter:
+    invalidBase64: 'Ugyldig Base64-streng'
+    copied: 'Base64-streng kopiert til utklippstavlen'
+    base64ToFile: 'Base64 til fil'
+    fileName: 'Filnavn'
+    fileNamePlaceholder: 'Filnavn for nedlasting'
+    extension: 'Filtype'
+    base64Placeholder: 'Lim inn Base64-strengen for filen din her...'
+    previewImage: 'Forhåndsvis bilde'
+    downloadFile: 'Last ned fil'
+    fileToBase64: 'Fil til Base64'
+    uploadTitle: 'Dra og slipp en fil her, eller klikk for å velge en fil'
+    fileBase64Placeholder: 'Filen i Base64 vises her'
+    copy: 'Kopier'

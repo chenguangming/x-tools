@@ -1,0 +1,10 @@
+tools:
+  password-strength-analyser:
+    passwordLength: '密碼長度：'
+    entropy: '熵：'
+    charsetSize: '字元集大小：'
+    score: '分數：'
+    passwordPlaceholder: '輸入密碼...'
+    crackDuration: '暴力破解此密碼所需的時間'
+    noteLabel: '注意：'
+    noteText: '計算出的強度是依據以暴力破解方式破解密碼所需的時間，並未考慮字典攻擊的可能性。'

@@ -1,0 +1,9 @@
+tools:
+  ipv6-ula-generator:
+    ula: 'IPv6 ULA：'
+    firstBlock: '第一个可路由块：'
+    lastBlock: '最后一个可路由块：'
+    infoTitle: '信息'
+    info: '此工具使用 IETF 建议的第一种方法：将当前时间戳与 MAC 地址拼接后进行 SHA-1 哈希，并取低 40 位来生成随机 ULA。'
+    placeholder: '输入 MAC 地址'
+    macLabel: 'MAC 地址：'

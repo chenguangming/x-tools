@@ -1,0 +1,7 @@
+tools:
+  string-obfuscator:
+    placeholder: 'Saisissez la chaîne à obscurcir'
+    label: 'Chaîne à obscurcir :'
+    keepFirst: 'Garder les premiers :'
+    keepLast: 'Garder les derniers :'
+    keepSpaces: 'Garder les espaces :'

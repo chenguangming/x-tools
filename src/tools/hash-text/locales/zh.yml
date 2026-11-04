@@ -1,0 +1,8 @@
+tools:
+  hash-text:
+    placeholder: '要哈希的字符串...'
+    textLabel: '要哈希的文本：'
+    digestEncoding: '摘要编码'
+    binary: '二进制（2 进制）'
+    hexadecimal: '十六进制（16 进制）'
+    base64url: 'Base64url（使用 URL 安全字符的 64 进制）'

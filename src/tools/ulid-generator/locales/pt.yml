@@ -1,0 +1,8 @@
+tools:
+  ulid-generator:
+    raw: 'Bruto'
+    copied: 'ULIDs copiados para a área de transferência'
+    quantity: 'Quantidade:'
+    format: 'Formato: '
+    refresh: 'Atualizar'
+    copy: 'Copiar'

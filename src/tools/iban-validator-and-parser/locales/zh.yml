@@ -1,0 +1,9 @@
+tools:
+  iban-validator-and-parser:
+    isValid: 'IBAN 是否有效？'
+    errors: 'IBAN 错误'
+    isQrIban: 'IBAN 是否为 QR-IBAN？'
+    countryCode: '国家代码'
+    friendlyFormat: 'IBAN 易读格式'
+    placeholder: '输入要验证的 IBAN...'
+    examplesTitle: '有效的 IBAN 示例'

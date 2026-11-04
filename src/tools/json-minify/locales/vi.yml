@@ -1,0 +1,6 @@
+tools:
+  json-minify:
+    invalidJson: 'JSON được cung cấp không hợp lệ.'
+    inputLabel: 'JSON thô của bạn'
+    inputPlaceholder: 'Dán JSON thô của bạn vào đây...'
+    outputLabel: 'Phiên bản rút gọn của JSON'

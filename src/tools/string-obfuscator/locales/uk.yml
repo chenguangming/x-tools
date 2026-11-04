@@ -1,0 +1,7 @@
+tools:
+  string-obfuscator:
+    placeholder: 'Введіть рядок для обфускації'
+    label: 'Рядок для обфускації:'
+    keepFirst: 'Залишити перші:'
+    keepLast: 'Залишити останні:'
+    keepSpaces: 'Зберігати пробіли:'

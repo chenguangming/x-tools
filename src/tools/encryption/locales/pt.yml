@@ -1,0 +1,14 @@
+tools:
+  encryption:
+    encrypt: 'Criptografar'
+    decrypt: 'Descriptografar'
+    decryptError: 'Erro ao descriptografar'
+    unableToDecrypt: 'Não foi possível descriptografar seu texto'
+    yourText: 'Seu texto:'
+    secretKey: 'Sua chave secreta:'
+    algorithm: 'Algoritmo de criptografia:'
+    textEncrypted: 'Seu texto criptografado:'
+    encryptedText: 'Seu texto criptografado:'
+    textDecrypted: 'Seu texto descriptografado:'
+    cypherPlaceholder: 'A string a ser criptografada'
+    outputPlaceholder: 'O hash da sua string'

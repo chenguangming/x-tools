@@ -1,0 +1,16 @@
+tools:
+  hmac-generator:
+    binary: '二进制（2 进制）'
+    hexadecimal: '十六进制（16 进制）'
+    base64url: 'Base64-url（使用 URL 安全字符的 64 进制）'
+    plainTextPlaceholder: '用于计算哈希的明文...'
+    plainTextLabel: '用于计算哈希的明文'
+    secretPlaceholder: '输入密钥...'
+    secretLabel: '密钥'
+    hashingFunction: '哈希函数'
+    hashingFunctionPlaceholder: '选择哈希函数...'
+    outputEncoding: '输出编码'
+    encodingPlaceholder: '选择结果编码...'
+    resultPlaceholder: 'HMAC 的计算结果...'
+    resultLabel: '文本的 HMAC'
+    copy: '复制 HMAC'

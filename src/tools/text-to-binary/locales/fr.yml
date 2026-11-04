@@ -1,0 +1,15 @@
+tools:
+  text-to-binary:
+    invalidBinary: 'Le binaire doit être une chaîne binaire ASCII valide avec un multiple de 8 bits'
+    textToBinaryTitle: 'Texte vers binaire ASCII'
+    textPlaceholder: 'p. ex. ''Hello world'''
+    textInputLabel: 'Saisissez le texte à convertir en binaire'
+    binaryOutputLabel: 'Binaire de votre texte'
+    binaryOutputPlaceholder: 'La représentation binaire de votre texte apparaîtra ici'
+    copyBinary: 'Copier le binaire dans le presse-papiers'
+    binaryToTextTitle: 'Binaire ASCII vers texte'
+    binaryPlaceholder: 'p. ex. ''01001000 01100101 01101100 01101100 01101111'''
+    binaryInputLabel: 'Saisissez le binaire à convertir en texte'
+    textOutputLabel: 'Texte de votre binaire'
+    textOutputPlaceholder: 'La représentation textuelle de votre binaire apparaîtra ici'
+    copyText: 'Copier le texte dans le presse-papiers'

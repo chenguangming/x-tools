@@ -1,0 +1,6 @@
+tools:
+  yaml-to-json-converter:
+    invalidYaml: 'O YAML fornecido não é válido.'
+    inputLabel: 'Seu YAML'
+    inputPlaceholder: 'Cole seu YAML aqui...'
+    outputLabel: 'JSON a partir do seu YAML'

@@ -1,0 +1,15 @@
+tools:
+  text-to-binary:
+    invalidBinary: 'Binær må være en gyldig ASCII-binærstreng med et multiplum av 8 bit'
+    textToBinaryTitle: 'Tekst til ASCII-binær'
+    textPlaceholder: 'f.eks. ''Hello world'''
+    textInputLabel: 'Skriv inn tekst som skal konverteres til binær'
+    binaryOutputLabel: 'Binær fra teksten din'
+    binaryOutputPlaceholder: 'Den binære representasjonen av teksten din vises her'
+    copyBinary: 'Kopier binær til utklippstavlen'
+    binaryToTextTitle: 'ASCII-binær til tekst'
+    binaryPlaceholder: 'f.eks. ''01001000 01100101 01101100 01101100 01101111'''
+    binaryInputLabel: 'Skriv inn binær som skal konverteres til tekst'
+    textOutputLabel: 'Tekst fra binæren din'
+    textOutputPlaceholder: 'Tekstrepresentasjonen av binæren din vises her'
+    copyText: 'Kopier tekst til utklippstavlen'

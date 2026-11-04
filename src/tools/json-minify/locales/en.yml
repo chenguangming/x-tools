@@ -1,0 +1,6 @@
+tools:
+  json-minify:
+    invalidJson: 'Provided JSON is not valid.'
+    inputLabel: 'Your raw JSON'
+    inputPlaceholder: 'Paste your raw JSON here...'
+    outputLabel: 'Minified version of your JSON'

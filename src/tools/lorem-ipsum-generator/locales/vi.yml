@@ -1,0 +1,11 @@
+tools:
+  lorem-ipsum-generator:
+    copied: 'Đã sao chép Lorem ipsum vào bộ nhớ tạm'
+    paragraphs: 'Số đoạn văn'
+    sentencesPerParagraph: 'Số câu mỗi đoạn'
+    wordsPerSentence: 'Số từ mỗi câu'
+    startWithLoremIpsum: 'Bắt đầu bằng "Lorem ipsum"?'
+    asHtml: 'Dạng HTML?'
+    placeholder: 'Lorem ipsum của bạn...'
+    copy: 'Sao chép'
+    refresh: 'Làm mới'

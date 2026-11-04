@@ -1,0 +1,9 @@
+tools:
+  ipv4-address-converter:
+    decimal: 'Desimal: '
+    hexadecimal: 'Heksadesimal: '
+    binary: 'Binær: '
+    invalid: 'Ugyldig IPv4-adresse'
+    label: 'IPv4-adressen:'
+    placeholder: 'IPv4-adressen...'
+    setCorrect: 'Angi en gyldig IPv4-adresse'

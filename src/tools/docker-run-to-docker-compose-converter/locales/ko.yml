@@ -1,0 +1,8 @@
+tools:
+  docker-run-to-docker-compose-converter:
+    yourCommand: 'docker run 명령어:'
+    commandPlaceholder: '변환할 docker run 명령어...'
+    download: 'docker-compose.yml 다운로드'
+    notTranslatable: '다음 옵션은 docker-compose로 변환할 수 없습니다'
+    notImplemented: '다음 옵션은 아직 구현되지 않아 docker-compose로 변환되지 않았습니다'
+    errors: '다음 오류가 발생했습니다'

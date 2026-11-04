@@ -1,0 +1,12 @@
+tools:
+  keycode-info:
+    keyLabel: 'Touche :'
+    keyPlaceholder: 'Nom de la touche...'
+    keycodeLabel: 'Keycode :'
+    keycodePlaceholder: 'Keycode...'
+    codeLabel: 'Code :'
+    codePlaceholder: 'Code...'
+    locationLabel: 'Location :'
+    modifiersLabel: 'Modificateurs :'
+    modifiersPlaceholder: 'Aucun'
+    pressKeyHint: 'Appuyez sur la touche de votre clavier dont vous souhaitez obtenir les informations'

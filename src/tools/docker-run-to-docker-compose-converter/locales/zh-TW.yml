@@ -1,0 +1,8 @@
+tools:
+  docker-run-to-docker-compose-converter:
+    yourCommand: '你的 docker run 指令：'
+    commandPlaceholder: '要轉換的 docker run 指令...'
+    download: '下載 docker-compose.yml'
+    notTranslatable: '以下選項無法轉換為 docker-compose'
+    notImplemented: '以下選項尚未實作，因此未轉換為 docker-compose'
+    errors: '發生以下錯誤'
