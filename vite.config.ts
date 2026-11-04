@@ -117,6 +117,10 @@ export default defineConfig({
     Unocss(),
   ],
   base: baseUrl,
+  server: {
+    // Polling ~1000 locale files on slow filesystems (WSL /mnt/*) starves the dev server
+    watch: { ignored: ['**/src/tools/*/locales/**'], interval: 3000, binaryInterval: 3000 },
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
