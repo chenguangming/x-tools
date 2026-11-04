@@ -3,6 +3,7 @@ import { storeToRefs } from 'pinia';
 import _ from 'lodash';
 import { useCommandPaletteStore } from './command-palette.store';
 import type { PaletteOption } from './command-palette.types';
+import { trackEvent } from '@/modules/stats/stats';
 
 const isModalOpen = ref(false);
 const inputRef = ref();
@@ -26,6 +27,16 @@ const keys = useMagicKeys({
 });
 
 whenever(isModalOpen, () => inputRef.value?.focus());
+
+const trackSearch = useDebounceFn((query: string) => {
+  trackEvent('search', { query: query.slice(0, 50) });
+}, 1200);
+
+watch(searchPrompt, (query) => {
+  if (query.trim().length >= 2) {
+    trackSearch(query.trim().toLowerCase());
+  }
+});
 
 whenever(keys.ctrl_k, open);
 whenever(keys.meta_k, open);
@@ -78,6 +89,10 @@ function getOptionIndex(option: PaletteOption) {
 
 function activateOption(option: PaletteOption) {
   const { closeOnSelect } = option;
+
+  if (searchPrompt.value.trim()) {
+    trackEvent('search_select', { query: searchPrompt.value.trim().toLowerCase().slice(0, 50), result: option.name });
+  }
 
   if (option.action) {
     option.action();

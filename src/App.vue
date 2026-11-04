@@ -5,6 +5,7 @@ import { darkThemeOverrides, lightThemeOverrides } from './themes';
 import { layouts } from './layouts';
 import { useStyleStore } from './stores/style.store';
 import { LOCALE_STORAGE_KEY } from './plugins/i18n.plugin';
+import { trackEvent } from './modules/stats/stats';
 
 const route = useRoute();
 const layout = computed(() => route?.meta?.layout ?? layouts.base);
@@ -16,7 +17,12 @@ const themeOverrides = computed(() => (styleStore.isDarkTheme ? darkThemeOverrid
 const { locale } = useI18n();
 
 // Persist only explicit changes, so the browser language stays the default until the user picks one
-watch(locale, value => localStorage.setItem(LOCALE_STORAGE_KEY, value));
+watch(locale, (value) => {
+  localStorage.setItem(LOCALE_STORAGE_KEY, value);
+  trackEvent('language_change', { language: value });
+});
+
+watch(() => styleStore.isDarkTheme, isDark => trackEvent('theme_change', { theme: isDark ? 'dark' : 'light' }));
 </script>
 
 <template>

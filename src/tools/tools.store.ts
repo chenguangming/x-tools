@@ -4,6 +4,7 @@ import type { Ref } from 'vue';
 import _ from 'lodash';
 import type { Tool, ToolCategory, ToolWithCategory } from './tools.types';
 import { toolsWithCategory } from './index';
+import { trackEvent } from '@/modules/stats/stats';
 
 const defaultFavoriteTools = [
   '/base64-string-converter',
@@ -70,10 +71,12 @@ export const useToolStore = defineStore('tools', () => {
       const toolPath = get(tool).path;
       if (toolPath) {
         favoriteToolsName.value.push(toolPath);
+        trackEvent('favorite_add', { tool: toolPath.slice(1) });
       }
     },
 
     removeToolFromFavorites({ tool }: { tool: MaybeRef<Tool> }) {
+      trackEvent('favorite_remove', { tool: (get(tool).path ?? get(tool).name).replace(/^\//, '') });
       favoriteToolsName.value = favoriteToolsName.value.filter(name => get(tool).name !== name && get(tool).path !== name);
     },
 
