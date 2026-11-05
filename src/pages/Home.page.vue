@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { IconDragDrop, IconHeart } from '@tabler/icons-vue';
+import { IconArrowRight, IconDragDrop, IconHeart } from '@tabler/icons-vue';
 import { useHead } from '@vueuse/head';
 import { computed } from 'vue';
 import { useRouteQuery } from '@vueuse/router';
@@ -66,7 +66,7 @@ function onUpdateFavoriteTools() {
         </button>
       </section>
 
-      <n-tabs v-model:value="activeTab" type="line" animated class="mt-25px">
+      <n-tabs v-model:value="activeTab" type="line" animated class="home-tabs mt-25px">
         <n-tab-pane name="home" :tab="$t('home.home')">
           <div class="flex flex-col">
             <div v-if="favoriteTools.length > 0" :style="{ order: toolStore.hasDefaultFavorites ? 2 : 1 }">
@@ -99,17 +99,25 @@ function onUpdateFavoriteTools() {
                 <span class="text-12px text-neutral-400">{{ $t('landing.tasksHint') }}</span>
               </div>
               <div class="grid grid-cols-1 gap-12px md:grid-cols-3 sm:grid-cols-2">
-                <router-link v-for="task in featuredTasks" :key="task.key" :to="task.path" class="task-card">
-                  <n-icon v-if="task.icon" size="26" class="task-icon">
-                    <component :is="task.icon" />
-                  </n-icon>
-                  <h4 class="task-title">
-                    {{ $t(`landing.tasks.${task.key}.title`) }}
-                  </h4>
-                  <p class="task-desc">
-                    {{ $t(`landing.tasks.${task.key}.description`) }}
-                  </p>
-                  <span class="task-action">{{ $t('landing.open') }} →</span>
+                <router-link v-for="task in featuredTasks" :key="task.key" :to="task.path" class="decoration-none">
+                  <c-card class="h-full transition transition-duration-0.5s !border-2px !hover:border-primary">
+                    <div flex items-center justify-between gap-8px>
+                      <div min-w-0 flex items-center gap-8px>
+                        <n-icon v-if="task.icon" class="shrink-0 text-neutral-400 dark:text-neutral-600" size="28">
+                          <component :is="task.icon" />
+                        </n-icon>
+                        <div class="truncate text-lg text-black dark:text-white">
+                          {{ $t(`landing.tasks.${task.key}.title`) }}
+                        </div>
+                      </div>
+                      <n-icon class="task-action shrink-0" size="20" :title="$t('landing.open')">
+                        <IconArrowRight />
+                      </n-icon>
+                    </div>
+                    <div class="line-clamp-2 mt-5px text-neutral-500 dark:text-neutral-400">
+                      {{ $t(`landing.tasks.${task.key}.description`) }}
+                    </div>
+                  </c-card>
                 </router-link>
               </div>
             </div>
@@ -181,63 +189,11 @@ function onUpdateFavoriteTools() {
   }
 }
 
-.task-card {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 18px;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid rgba(128, 128, 128, 0.25);
-  border-radius: 12px;
-  transition: border-color 0.2s, transform 0.2s;
-
-  &:hover {
-    border-color: #18a058;
-    transform: translateY(-2px);
-  }
-
-  .task-icon {
-    color: #18a058;
-  }
-
-  .task-title {
-    margin: 0;
-    font-size: 16px;
-  }
-
-  .task-desc {
-    flex: 1;
-    margin: 0;
-    font-size: 13px;
-    line-height: 1.6;
-    opacity: 0.65;
-  }
-
-  .task-action {
-    font-size: 13px;
-    font-weight: 600;
-    color: #18a058;
-  }
+.task-action {
+  color: #18a058;
 }
 
-.ghost-favorites-draggable {
-  opacity: 0.4;
-  background-color: #ccc;
-  border: 2px dashed #666;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transform: scale(1.1);
-  animation: ghost-favorites-draggable-animation 0.2s ease-out;
-}
-
-@keyframes ghost-favorites-draggable-animation {
-  0% {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  100% {
-    opacity: 0.4;
-    transform: scale(1.0);
-  }
+.home-tabs :deep(.n-tabs-tab) {
+  font-weight: 600 !important;
 }
 </style>
