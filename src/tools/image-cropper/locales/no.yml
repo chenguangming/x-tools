@@ -25,3 +25,8 @@ tools:
     reset: Tilbakestill
     chooseAnother: Velg et annet bilde
     hint: Dra bildet for å flytte det, bruk rullehjulet for å zoome, og dra beskjæringsrammen eller hjørnene for å justere området. Områder utenfor bildet fylles med bakgrunnen.
+    removeBackground: Fjern bakgrunn
+    removeBackgroundHint: 'Frilegger personen automatisk, fungerer best på portretter. Resultatet bruker bakgrunnsinnstillingen under. Modellen (ca. 26 MB) lastes ned første gang og kjører helt i nettleseren.'
+    loadingModel: Laster frilegging-modellen…
+    downloadingModel: 'Laster ned frilegging-modellen… {percent} %'
+    matteFailed: Fjerning av bakgrunn mislyktes. Slå av «Fjern bakgrunn» eller prøv et annet bilde.

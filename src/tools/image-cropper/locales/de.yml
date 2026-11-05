@@ -25,3 +25,8 @@ tools:
     reset: Zurücksetzen
     chooseAnother: Anderes Bild wählen
     hint: Bild ziehen zum Verschieben, scrollen zum Zoomen, Zuschneiderahmen oder dessen Ecken ziehen, um den Bereich anzupassen. Bereiche außerhalb des Bildes werden mit dem Hintergrund gefüllt.
+    removeBackground: Hintergrund entfernen
+    removeBackgroundHint: 'Stellt die Person automatisch frei, am besten bei Porträts. Das Ergebnis nutzt die Hintergrundeinstellung unten. Das Modell (ca. 26 MB) wird bei der ersten Nutzung geladen und läuft komplett im Browser.'
+    loadingModel: Freistellungsmodell wird geladen…
+    downloadingModel: 'Freistellungsmodell wird heruntergeladen… {percent}%'
+    matteFailed: Hintergrundentfernung fehlgeschlagen. Deaktiviere „Hintergrund entfernen“ oder versuche ein anderes Bild.

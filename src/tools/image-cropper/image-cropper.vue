@@ -2,6 +2,7 @@
 import { VueCropper } from 'vue-cropper';
 import 'vue-cropper/dist/index.css';
 import { useMessage } from 'naive-ui';
+import { removeBackground } from '@/modules/background-removal/background-removal';
 
 type OutputFormat = 'png' | 'jpeg' | 'webp';
 
@@ -30,6 +31,9 @@ const format = ref<OutputFormat>('webp');
 const quality = ref(85);
 const transparent = ref(true);
 const background = ref('#ffffff');
+const removeBg = ref(false);
+const progressText = ref('');
+let cutoutCache: { key: string; canvas: HTMLCanvasElement } | null = null;
 
 const result = ref({ url: '', size: 0, width: 0, height: 0 });
 const isBusy = ref(false);
@@ -70,6 +74,7 @@ function revokeImage() {
 }
 
 function onUpload(file: File) {
+  cutoutCache = null;
   if (!file.type.startsWith('image/')) {
     message.error(t('tools.image-cropper.notAnImage'));
     return;
@@ -82,6 +87,7 @@ function onUpload(file: File) {
 }
 
 function chooseAnother() {
+  cutoutCache = null;
   revokeResult();
   revokeImage();
 }
@@ -127,7 +133,21 @@ async function generate() {
 
   isBusy.value = true;
   try {
-    const cropped = await loadImage(await getCroppedDataUrl());
+    const croppedUrl = await getCroppedDataUrl();
+    const cropped = await loadImage(croppedUrl);
+
+    let subject: CanvasImageSource = cropped;
+    if (removeBg.value) {
+      if (cutoutCache?.key !== croppedUrl) {
+        progressText.value = t('tools.image-cropper.loadingModel');
+        const canvas = await removeBackground(cropped, (ratio) => {
+          progressText.value = t('tools.image-cropper.downloadingModel', { percent: Math.round(ratio * 100) });
+        });
+        cutoutCache = { key: croppedUrl, canvas };
+      }
+      subject = cutoutCache.canvas;
+    }
+
     const width = outputWidth.value || cropped.naturalWidth;
     const height = outputHeight.value || cropped.naturalHeight;
 
@@ -140,7 +160,7 @@ async function generate() {
       ctx.fillStyle = fillColor.value;
       ctx.fillRect(0, 0, width, height);
     }
-    ctx.drawImage(cropped, 0, 0, width, height);
+    ctx.drawImage(subject, 0, 0, width, height);
 
     const mimeType = `image/${format.value}`;
     const blob = await new Promise<Blob | null>(resolve =>
@@ -156,11 +176,13 @@ async function generate() {
     result.value = { url: URL.createObjectURL(blob), size: blob.size, width, height };
     return result.value;
   }
-  catch {
-    message.error(t('tools.image-cropper.cropFailed'));
+  catch (error) {
+    message.error(removeBg.value ? t('tools.image-cropper.matteFailed') : t('tools.image-cropper.cropFailed'));
+    console.error(error);
     return null;
   }
   finally {
+    progressText.value = '';
     isBusy.value = false;
   }
 }
@@ -253,6 +275,13 @@ onBeforeUnmount(() => {
             </div>
           </n-form-item>
 
+          <n-form-item :label="$t('tools.image-cropper.removeBackground')" mb-3>
+            <div flex flex-col gap-1>
+              <n-switch v-model:value="removeBg" />
+              <span text-12px op-60>{{ $t('tools.image-cropper.removeBackgroundHint') }}</span>
+            </div>
+          </n-form-item>
+
           <n-form-item :label="$t('tools.image-cropper.background')" mb-3>
             <div w-full flex flex-col gap-2>
               <n-switch v-model:value="transparent">
@@ -288,6 +317,10 @@ onBeforeUnmount(() => {
           <c-button :disabled="isBusy" @click="saveResult">
             {{ $t('tools.image-cropper.saveAs', { format: formatLabel }) }}
           </c-button>
+        </div>
+
+        <div v-if="progressText" mt-2 text-12px op-70>
+          {{ progressText }}
         </div>
 
         <div v-if="result.url" mt-4 flex flex-col items-center gap-2>

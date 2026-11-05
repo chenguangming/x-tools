@@ -6,9 +6,9 @@ tools:
     notAnImage: Please select an image file.
     formatUnsupported: Your browser cannot encode this format. Please choose another one.
     cropFailed: Failed to crop the image.
-    ratio: 'Aspect ratio'
+    ratio: Aspect ratio
     ratioFree: Free
-    outputSize: 'Output size (px)'
+    outputSize: Output size (px)
     auto: Auto
     background: Background
     transparent: Transparent
@@ -25,3 +25,8 @@ tools:
     reset: Reset
     chooseAnother: Choose another image
     hint: Drag the image to move it, scroll to zoom, and drag the crop box or its handles to adjust the area. Areas outside the image are filled with the background.
+    removeBackground: Remove background
+    removeBackgroundHint: Cuts out the person; works best on portraits. The result uses the background setting below. The model (about 26 MB) is downloaded on first use and runs entirely in your browser.
+    loadingModel: Loading the cut-out model…
+    downloadingModel: 'Downloading the cut-out model… {percent}%'
+    matteFailed: 'Background removal failed. Turn off "Remove background" or try another image.'

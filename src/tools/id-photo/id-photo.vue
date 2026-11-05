@@ -2,7 +2,7 @@
 import { VueCropper } from 'vue-cropper';
 import 'vue-cropper/dist/index.css';
 import { useMessage } from 'naive-ui';
-import { removeBackground } from './id-photo.matting';
+import { removeBackground } from '@/modules/background-removal/background-removal';
 
 type OutputFormat = 'jpeg' | 'png';
 

@@ -25,3 +25,8 @@ tools:
     reset: 重置
     chooseAnother: 更换图片
     hint: 拖动图片可移动，滚轮缩放，拖动裁剪框或其边角可调整区域。超出图片的区域会使用背景色填充。
+    removeBackground: 去除背景
+    removeBackgroundHint: 自动抠出人像，对人像效果最好，结果使用下方的背景设置。首次使用会下载约 26 MB 的模型，全程在浏览器本地运行。
+    loadingModel: 正在加载抠像模型…
+    downloadingModel: '正在下载抠像模型… {percent}%'
+    matteFailed: 去除背景失败。请关闭“去除背景”或更换图片。

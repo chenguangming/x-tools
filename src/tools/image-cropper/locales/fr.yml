@@ -25,3 +25,8 @@ tools:
     reset: Réinitialiser
     chooseAnother: Choisir une autre image
     hint: Faites glisser l'image pour la déplacer, utilisez la molette pour zoomer et faites glisser le cadre ou ses coins pour ajuster la zone. Les zones hors de l'image sont remplies avec l'arrière-plan.
+    removeBackground: Supprimer le fond
+    removeBackgroundHint: 'Détoure automatiquement la personne, idéal pour les portraits. Le résultat utilise le réglage de fond ci-dessous. Le modèle (environ 26 Mo) est téléchargé à la première utilisation et s''exécute entièrement dans votre navigateur.'
+    loadingModel: Chargement du modèle de détourage…
+    downloadingModel: 'Téléchargement du modèle de détourage… {percent} %'
+    matteFailed: Échec de la suppression du fond. Désactivez « Supprimer le fond » ou essayez une autre image.

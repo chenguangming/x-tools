@@ -25,3 +25,8 @@ tools:
     reset: Đặt lại
     chooseAnother: Chọn ảnh khác
     hint: Kéo ảnh để di chuyển, cuộn để thu phóng, kéo khung cắt hoặc các góc của nó để điều chỉnh vùng cắt. Vùng ngoài ảnh sẽ được lấp bằng màu nền.
+    removeBackground: Xóa nền
+    removeBackgroundHint: 'Tự động tách người ra, hiệu quả nhất với ảnh chân dung. Kết quả dùng thiết lập nền bên dưới. Mô hình (khoảng 26 MB) được tải khi dùng lần đầu và chạy hoàn toàn trong trình duyệt.'
+    loadingModel: Đang tải mô hình tách nền…
+    downloadingModel: 'Đang tải mô hình tách nền… {percent}%'
+    matteFailed: 'Xóa nền thất bại. Hãy tắt "Xóa nền" hoặc thử ảnh khác.'

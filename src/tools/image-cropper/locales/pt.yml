@@ -25,3 +25,8 @@ tools:
     reset: Redefinir
     chooseAnother: Escolher outra imagem
     hint: Arraste a imagem para movê-la, role para dar zoom e arraste a caixa de corte ou seus cantos para ajustar a área. As áreas fora da imagem são preenchidas com o fundo.
+    removeBackground: Remover fundo
+    removeBackgroundHint: 'Recorta a pessoa automaticamente, funciona melhor em retratos. O resultado usa a definição de fundo abaixo. O modelo (cerca de 26 MB) é descarregado na primeira utilização e corre totalmente no navegador.'
+    loadingModel: A carregar o modelo de recorte…
+    downloadingModel: 'A transferir o modelo de recorte… {percent}%'
+    matteFailed: Falha ao remover o fundo. Desative «Remover fundo» ou experimente outra imagem.
