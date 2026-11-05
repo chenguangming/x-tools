@@ -14,7 +14,6 @@ tools:
     reset: Zurücksetzen
     chooseAnother: Datei wechseln
     save: Ausschnitt speichern
-    hint: 'Ziehe auf der Wellenform, um einen Bereich zu wählen, oder passe ihn mit den grünen Griffen an.'
     format: Format
     bitrate: Bitrate
     wavHint: WAV ist verlustfrei und größer.
@@ -22,7 +21,13 @@ tools:
     download: Herunterladen
     encoding: Wird kodiert…
     encodeFailed: Audio konnte nicht exportiert werden.
-    modeKeep: Auswahl behalten
-    modeRemove: Auswahl löschen
-    result: 'Ergebnis: {length}'
-    playResult: Ergebnis abspielen
+    undo: Rückgängig
+    redo: Wiederholen
+    zoomIn: Vergrößern
+    zoomOut: Verkleinern
+    zoomSelection: Auswahl vergrößern
+    zoomFit: Alles anzeigen
+    trimToSelection: Nur Auswahl behalten
+    deleteSelection: Auswahl löschen
+    total: 'Gesamt: {length}'
+    hint: 'Ziehe auf der Wellenform, um einen Bereich zu wählen. Strg + Scrollen zoomt, im Zoom verschiebt Scrollen die Ansicht. Änderungen wirken direkt auf das Audio, Speichern exportiert das Ergebnis.'

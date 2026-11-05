@@ -14,7 +14,6 @@ tools:
     reset: 重設
     chooseAnother: 更換檔案
     save: 儲存片段
-    hint: 在波形上拖曳選擇範圍，或拖曳綠色把手微調。
     format: 格式
     bitrate: 位元率
     wavHint: WAV 為無損格式，檔案較大。
@@ -22,7 +21,13 @@ tools:
     download: 下載
     encoding: 正在編碼…
     encodeFailed: 匯出音訊失敗。
-    modeKeep: 保留選區
-    modeRemove: 刪除選區
-    result: '結果：{length}'
-    playResult: 試聽結果
+    undo: 復原
+    redo: 重做
+    zoomIn: 放大
+    zoomOut: 縮小
+    zoomSelection: 放大選區
+    zoomFit: 顯示全部
+    trimToSelection: 僅保留選區
+    deleteSelection: 刪除選區
+    total: '總長：{length}'
+    hint: '在波形上拖曳選擇範圍。Ctrl + 滾輪縮放，放大後滾輪可平移。編輯會直接作用於音訊，儲存匯出的是編輯後的結果。'

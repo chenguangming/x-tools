@@ -14,7 +14,6 @@ tools:
     reset: リセット
     chooseAnother: ファイルを変更
     save: クリップを保存
-    hint: 波形をドラッグして範囲を選択、緑のハンドルで微調整できます。
     format: 形式
     bitrate: ビットレート
     wavHint: WAV は無劣化ですがサイズが大きくなります。
@@ -22,7 +21,13 @@ tools:
     download: ダウンロード
     encoding: エンコード中…
     encodeFailed: 音声の書き出しに失敗しました。
-    modeKeep: 選択範囲を残す
-    modeRemove: 選択範囲を削除
-    result: '結果：{length}'
-    playResult: 結果を再生
+    undo: 元に戻す
+    redo: やり直し
+    zoomIn: 拡大
+    zoomOut: 縮小
+    zoomSelection: 選択範囲を拡大
+    zoomFit: 全体を表示
+    trimToSelection: 選択範囲だけ残す
+    deleteSelection: 選択範囲を削除
+    total: '全体：{length}'
+    hint: '波形をドラッグして範囲を選択します。Ctrl + スクロールでズーム、拡大中はスクロールで移動できます。編集は音声に反映され、保存すると結果が書き出されます。'

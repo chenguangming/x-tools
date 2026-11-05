@@ -14,7 +14,6 @@ tools:
     reset: Tilbakestill
     chooseAnother: Bytt fil
     save: Lagre utdrag
-    hint: 'Dra på bølgeformen for å velge et område, eller juster med de grønne håndtakene.'
     format: Format
     bitrate: Bitrate
     wavHint: WAV er tapsfritt og større.
@@ -22,7 +21,13 @@ tools:
     download: Last ned
     encoding: Koder…
     encodeFailed: Kunne ikke eksportere lyden.
-    modeKeep: Behold utvalg
-    modeRemove: Slett utvalg
-    result: 'Resultat: {length}'
-    playResult: Spill av resultat
+    undo: Angre
+    redo: Gjør om
+    zoomIn: Zoom inn
+    zoomOut: Zoom ut
+    zoomSelection: Zoom til utvalg
+    zoomFit: Vis alt
+    trimToSelection: Behold bare utvalget
+    deleteSelection: Slett utvalg
+    total: 'Totalt: {length}'
+    hint: 'Dra på bølgeformen for å velge et område. Ctrl + rulling zoomer, og ved zoom flytter rulling visningen. Endringer brukes direkte på lyden, og Lagre eksporterer resultatet.'

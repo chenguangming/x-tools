@@ -14,7 +14,6 @@ tools:
     reset: Đặt lại
     chooseAnother: Đổi tệp
     save: Lưu đoạn cắt
-    hint: 'Kéo trên dạng sóng để chọn khoảng, hoặc kéo các tay nắm màu xanh để chỉnh.'
     format: Định dạng
     bitrate: Tốc độ bit
     wavHint: WAV không mất dữ liệu và dung lượng lớn hơn.
@@ -22,7 +21,13 @@ tools:
     download: Tải xuống
     encoding: Đang mã hóa…
     encodeFailed: Xuất âm thanh thất bại.
-    modeKeep: Giữ đoạn chọn
-    modeRemove: Xóa đoạn chọn
-    result: 'Kết quả: {length}'
-    playResult: Nghe kết quả
+    undo: Hoàn tác
+    redo: Làm lại
+    zoomIn: Phóng to
+    zoomOut: Thu nhỏ
+    zoomSelection: Phóng to vùng chọn
+    zoomFit: Hiện tất cả
+    trimToSelection: Chỉ giữ vùng chọn
+    deleteSelection: Xóa vùng chọn
+    total: 'Tổng: {length}'
+    hint: 'Kéo trên dạng sóng để chọn khoảng. Ctrl + cuộn để thu phóng, khi đã phóng to thì cuộn để di chuyển. Chỉnh sửa áp dụng trực tiếp lên âm thanh và Lưu sẽ xuất kết quả.'

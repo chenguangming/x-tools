@@ -14,7 +14,6 @@ tools:
     reset: Restablecer
     chooseAnother: Cambiar archivo
     save: Guardar fragmento
-    hint: 'Arrastra sobre la forma de onda para elegir un rango, o ajústalo con los controles verdes.'
     format: Formato
     bitrate: Tasa de bits
     wavHint: WAV no tiene pérdida y ocupa más.
@@ -22,7 +21,13 @@ tools:
     download: Descargar
     encoding: Codificando…
     encodeFailed: No se pudo exportar el audio.
-    modeKeep: Conservar selección
-    modeRemove: Eliminar selección
-    result: 'Resultado: {length}'
-    playResult: Reproducir resultado
+    undo: Deshacer
+    redo: Rehacer
+    zoomIn: Acercar
+    zoomOut: Alejar
+    zoomSelection: Ampliar selección
+    zoomFit: Mostrar todo
+    trimToSelection: Conservar solo la selección
+    deleteSelection: Eliminar selección
+    total: 'Total: {length}'
+    hint: 'Arrastra sobre la forma de onda para elegir un rango. Ctrl + rueda hace zoom y, con zoom, la rueda desplaza. Las ediciones se aplican al audio y Guardar exporta el resultado.'

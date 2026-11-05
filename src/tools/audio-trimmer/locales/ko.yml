@@ -14,7 +14,6 @@ tools:
     reset: 초기화
     chooseAnother: 파일 변경
     save: 클립 저장
-    hint: 파형을 드래그해 범위를 선택하거나 초록색 핸들로 조정하세요.
     format: 형식
     bitrate: 비트레이트
     wavHint: WAV는 무손실이며 파일이 더 큽니다.
@@ -22,7 +21,13 @@ tools:
     download: 다운로드
     encoding: 인코딩 중…
     encodeFailed: 오디오 내보내기에 실패했습니다.
-    modeKeep: 선택 구간 유지
-    modeRemove: 선택 구간 삭제
-    result: '결과: {length}'
-    playResult: 결과 재생
+    undo: 실행 취소
+    redo: 다시 실행
+    zoomIn: 확대
+    zoomOut: 축소
+    zoomSelection: 선택 구간 확대
+    zoomFit: 전체 보기
+    trimToSelection: 선택 구간만 남기기
+    deleteSelection: 선택 구간 삭제
+    total: '전체: {length}'
+    hint: '파형을 드래그해 범위를 선택하세요. Ctrl + 스크롤로 확대/축소하고, 확대 상태에서는 스크롤로 이동합니다. 편집 내용은 오디오에 적용되며 저장하면 결과가 내보내집니다.'

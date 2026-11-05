@@ -14,7 +14,6 @@ tools:
     reset: Réinitialiser
     chooseAnother: Changer de fichier
     save: Enregistrer l’extrait
-    hint: 'Faites glisser sur la forme d’onde pour choisir une plage, ou ajustez-la avec les poignées vertes.'
     format: Format
     bitrate: Débit
     wavHint: Le WAV est sans perte et plus volumineux.
@@ -22,7 +21,13 @@ tools:
     download: Télécharger
     encoding: Encodage…
     encodeFailed: Échec de l’export audio.
-    modeKeep: Garder la sélection
-    modeRemove: Supprimer la sélection
-    result: 'Résultat : {length}'
-    playResult: Écouter le résultat
+    undo: Annuler
+    redo: Rétablir
+    zoomIn: Zoom avant
+    zoomOut: Zoom arrière
+    zoomSelection: Zoomer sur la sélection
+    zoomFit: Tout afficher
+    trimToSelection: Garder uniquement la sélection
+    deleteSelection: Supprimer la sélection
+    total: 'Total : {length}'
+    hint: 'Faites glisser sur la forme d’onde pour choisir une plage. Ctrl + molette zoome ; une fois zoomé, la molette fait défiler. Les modifications s’appliquent à l’audio et Enregistrer exporte le résultat.'

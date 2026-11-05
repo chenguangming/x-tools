@@ -14,7 +14,6 @@ tools:
     reset: Reset
     chooseAnother: Change file
     save: Save clip
-    hint: 'Drag on the waveform to select a range, or drag the green handles to adjust it.'
     format: Format
     bitrate: Bitrate
     wavHint: WAV is lossless and larger in size.
@@ -22,7 +21,13 @@ tools:
     download: Download
     encoding: Encoding…
     encodeFailed: Failed to export the audio.
-    modeKeep: Keep selection
-    modeRemove: Delete selection
-    result: 'Result: {length}'
-    playResult: Play result
+    undo: Undo
+    redo: Redo
+    zoomIn: Zoom in
+    zoomOut: Zoom out
+    zoomSelection: Zoom to selection
+    zoomFit: Show all
+    trimToSelection: Keep only selection
+    deleteSelection: Delete selection
+    total: 'Total: {length}'
+    hint: 'Drag on the waveform to select a range. Ctrl + scroll zooms, scroll pans when zoomed. Edits apply to the audio, and Save exports the result.'

@@ -1,29 +1,29 @@
 <script setup lang="ts">
 import { useMessage } from 'naive-ui';
 import type { Segment } from './audio-trimmer.service';
-import { computePeaks, encodeMp3, encodeWav, formatTime, sliceBuffer } from './audio-trimmer.service';
+import { computePeaks, encodeMp3, encodeWav, formatTime, sliceBuffer, spliceBuffer } from './audio-trimmer.service';
 
 type OutputFormat = 'wav' | 'mp3';
-type Mode = 'keep' | 'remove';
 
 const { t } = useI18n();
 const message = useMessage();
 
-const PEAK_COUNT = 1600;
 const MIN_LENGTH = 0.05;
+const MIN_VIEW = 0.2;
 const MAX_FILE_MB = 200;
+const MAX_HISTORY = 20;
 
 const fileName = ref('audio');
-const buffer = shallowRef<AudioBuffer | null>(null);
-const peaks = shallowRef<Float32Array | null>(null);
-const duration = ref(0);
+const history = shallowRef<AudioBuffer[]>([]);
+const cursor = ref(-1);
 const start = ref(0);
 const end = ref(0);
+const viewStart = ref(0);
+const viewEnd = ref(0);
 const isLoading = ref(false);
 const isPlaying = ref(false);
 const playhead = ref(0);
 
-const mode = ref<Mode>('keep');
 const isSaveOpen = ref(false);
 const format = ref<OutputFormat>('mp3');
 const bitrate = ref(192);
@@ -31,28 +31,43 @@ const isEncoding = ref(false);
 
 const canvas = ref<HTMLCanvasElement>();
 const track = ref<HTMLDivElement>();
+const scroller = ref<HTMLDivElement>();
 
 let audioContext: AudioContext | null = null;
 let source: AudioBufferSourceNode | null = null;
 let frame = 0;
+// the loudest peak of the current audio, so quiet files still fill the waveform
+let scaleFor: AudioBuffer | null = null;
+let scale = 1;
 
+const buffer = computed(() => history.value[cursor.value] ?? null);
+const duration = computed(() => buffer.value?.duration ?? 0);
+const canUndo = computed(() => cursor.value > 0);
+const canRedo = computed(() => cursor.value < history.value.length - 1);
 const selectedLength = computed(() => Math.max(0, end.value - start.value));
-const segments = computed<Segment[]>(() => {
-  if (mode.value === 'keep') {
-    return [[start.value, end.value]];
-  }
-  return ([[0, start.value], [end.value, duration.value]] as Segment[]).filter(([a, b]) => b - a > 0.001);
-});
-const resultLength = computed(() => segments.value.reduce((sum, [a, b]) => sum + (b - a), 0));
-const hasResult = computed(() => resultLength.value >= MIN_LENGTH);
-const startPercent = computed(() => (duration.value ? (start.value / duration.value) * 100 : 0));
-const endPercent = computed(() => (duration.value ? (end.value / duration.value) * 100 : 100));
-const playheadPercent = computed(() => (duration.value ? (playhead.value / duration.value) * 100 : 0));
+const remainingLength = computed(() => duration.value - selectedLength.value);
+const viewLength = computed(() => viewEnd.value - viewStart.value);
+const isZoomed = computed(() => viewLength.value < duration.value - 0.001);
 const bitrateOptions = [96, 128, 192, 256, 320].map(value => ({ value, label: `${value} kbps` }));
+
+function percent(time: number) {
+  return viewLength.value ? ((time - viewStart.value) / viewLength.value) * 100 : 0;
+}
+const startPercent = computed(() => percent(start.value));
+const endPercent = computed(() => percent(end.value));
+const playheadPercent = computed(() => percent(playhead.value));
+const thumbStyle = computed(() => ({
+  left: `${(viewStart.value / duration.value) * 100}%`,
+  width: `${(viewLength.value / duration.value) * 100}%`,
+}));
 
 function getContext() {
   audioContext ??= new AudioContext();
   return audioContext;
+}
+
+function clamp(value: number, min: number, max: number) {
+  return Math.min(max, Math.max(min, value));
 }
 
 function stop() {
@@ -70,17 +85,15 @@ function stop() {
 }
 
 function play() {
-  if (!buffer.value || !hasResult.value) {
+  if (!buffer.value) {
     return;
   }
   stop();
   const ctx = getContext();
   ctx.resume().catch(() => {});
-  const { channels, sampleRate } = sliceBuffer(buffer.value, segments.value);
-  const result = ctx.createBuffer(channels.length, Math.max(1, channels[0].length), sampleRate);
-  channels.forEach((data, index) => result.copyToChannel(data, index));
+  const from = start.value;
   const node = ctx.createBufferSource();
-  node.buffer = result;
+  node.buffer = buffer.value;
   node.connect(ctx.destination);
   node.onended = () => {
     if (source === node) {
@@ -89,21 +102,14 @@ function play() {
   };
   source = node;
   const startedAt = ctx.currentTime;
-  node.start();
+  node.start(0, from, selectedLength.value);
   isPlaying.value = true;
 
-  // maps a position in the result back onto the original timeline
-  const toSource = (t: number) => {
-    if (mode.value === 'keep') {
-      return start.value + t;
-    }
-    return t < start.value ? t : t + selectedLength.value;
-  };
   const tick = () => {
     if (!isPlaying.value) {
       return;
     }
-    playhead.value = Math.min(duration.value, toSource(ctx.currentTime - startedAt));
+    playhead.value = Math.min(end.value, from + (ctx.currentTime - startedAt));
     frame = requestAnimationFrame(tick);
   };
   tick();
@@ -120,8 +126,8 @@ function togglePlay() {
 
 function drawWaveform() {
   const el = canvas.value;
-  const data = peaks.value;
-  if (!el || !data) {
+  const audio = buffer.value;
+  if (!el || !audio || !viewLength.value) {
     return;
   }
   const dpr = window.devicePixelRatio || 1;
@@ -134,19 +140,106 @@ function drawWaveform() {
   ctx.clearRect(0, 0, width, height);
   ctx.fillStyle = '#18a058';
 
+  if (scaleFor !== audio) {
+    scaleFor = audio;
+    scale = Math.max(0.01, ...computePeaks(audio, 2000, 0, audio.duration));
+  }
+  const data = computePeaks(audio, width, viewStart.value, viewEnd.value);
   const mid = height / 2;
-  const max = Math.max(...data, 0.01);
   for (let x = 0; x < width; x++) {
-    const index = Math.min(data.length - 1, Math.floor((x / width) * data.length));
-    const h = Math.max(1, (data[index] / max) * (height - 8));
+    const h = Math.max(1, Math.min(1, data[x] / scale) * (height - 8));
     ctx.fillRect(x, mid - h / 2, 1, h);
   }
+}
+
+function resetView() {
+  viewStart.value = 0;
+  viewEnd.value = duration.value;
 }
 
 function resetSelection() {
   start.value = 0;
   end.value = duration.value;
   playhead.value = 0;
+}
+
+function setHistory(list: AudioBuffer[], index: number) {
+  stop();
+  history.value = list;
+  cursor.value = index;
+  resetSelection();
+  resetView();
+}
+
+function commit(next: AudioBuffer) {
+  const list = [...history.value.slice(0, cursor.value + 1), next].slice(-MAX_HISTORY);
+  setHistory(list, list.length - 1);
+}
+
+function undo() {
+  if (canUndo.value) {
+    setHistory(history.value, cursor.value - 1);
+  }
+}
+
+function redo() {
+  if (canRedo.value) {
+    setHistory(history.value, cursor.value + 1);
+  }
+}
+
+function trimToSelection() {
+  if (buffer.value && selectedLength.value >= MIN_LENGTH) {
+    commit(spliceBuffer(buffer.value, [[start.value, end.value]]));
+  }
+}
+
+function deleteSelection() {
+  if (!buffer.value || remainingLength.value < MIN_LENGTH) {
+    return;
+  }
+  const segments = ([[0, start.value], [end.value, duration.value]] as Segment[]).filter(([a, b]) => b - a > 0.0005);
+  commit(spliceBuffer(buffer.value, segments));
+}
+
+function zoomAround(factor: number, center: number) {
+  const length = clamp(viewLength.value * factor, Math.min(MIN_VIEW, duration.value), duration.value);
+  const ratio = (center - viewStart.value) / viewLength.value;
+  const first = clamp(center - ratio * length, 0, duration.value - length);
+  viewStart.value = first;
+  viewEnd.value = first + length;
+}
+
+function zoomToSelection() {
+  const pad = Math.max(selectedLength.value * 0.1, 0.02);
+  let first = start.value - pad;
+  let last = end.value + pad;
+  const length = Math.min(Math.max(last - first, MIN_VIEW), duration.value);
+  const mid = (first + last) / 2;
+  first = clamp(mid - length / 2, 0, duration.value - length);
+  last = first + length;
+  viewStart.value = first;
+  viewEnd.value = last;
+}
+
+function pan(delta: number) {
+  const first = clamp(viewStart.value + delta, 0, duration.value - viewLength.value);
+  viewEnd.value = first + viewLength.value;
+  viewStart.value = first;
+}
+
+function onWheel(event: WheelEvent) {
+  if (!buffer.value) {
+    return;
+  }
+  const rect = track.value!.getBoundingClientRect();
+  const time = viewStart.value + ((event.clientX - rect.left) / rect.width) * viewLength.value;
+  if (event.ctrlKey || event.metaKey) {
+    zoomAround(event.deltaY > 0 ? 1.25 : 0.8, time);
+  }
+  else if (isZoomed.value) {
+    pan(((event.deltaX || event.deltaY) / rect.width) * viewLength.value);
+  }
 }
 
 async function onUpload(file: File) {
@@ -158,13 +251,8 @@ async function onUpload(file: File) {
   isLoading.value = true;
   try {
     const decoded = await getContext().decodeAudioData(await file.arrayBuffer());
-    buffer.value = decoded;
-    peaks.value = computePeaks(decoded, PEAK_COUNT);
-    duration.value = decoded.duration;
     fileName.value = file.name.replace(/\.[^.]+$/, '') || 'audio';
-    resetSelection();
-    await nextTick();
-    drawWaveform();
+    setHistory([decoded], 0);
   }
   catch {
     message.error(t('tools.audio-trimmer.decodeFailed'));
@@ -176,13 +264,8 @@ async function onUpload(file: File) {
 
 function chooseAnother() {
   stop();
-  buffer.value = null;
-  peaks.value = null;
-  duration.value = 0;
-}
-
-function clamp(value: number, min: number, max: number) {
-  return Math.min(max, Math.max(min, value));
+  history.value = [];
+  cursor.value = -1;
 }
 
 function setStart(value: number | null) {
@@ -195,7 +278,7 @@ function setEnd(value: number | null) {
 
 function timeAt(event: PointerEvent) {
   const rect = track.value!.getBoundingClientRect();
-  return clamp(((event.clientX - rect.left) / rect.width) * duration.value, 0, duration.value);
+  return clamp(viewStart.value + ((event.clientX - rect.left) / rect.width) * viewLength.value, 0, duration.value);
 }
 
 let dragging: 'start' | 'end' | 'new' | null = null;
@@ -207,8 +290,8 @@ function onPointerDown(event: PointerEvent) {
   }
   const rect = track.value!.getBoundingClientRect();
   const x = event.clientX - rect.left;
-  const startX = (start.value / duration.value) * rect.width;
-  const endX = (end.value / duration.value) * rect.width;
+  const startX = (percent(start.value) / 100) * rect.width;
+  const endX = (percent(end.value) / 100) * rect.width;
   const grab = 12;
 
   if (Math.abs(x - startX) <= grab && Math.abs(x - startX) <= Math.abs(x - endX)) {
@@ -253,13 +336,34 @@ function onPointerUp() {
   dragging = null;
 }
 
+// the scrollbar thumb pans the zoomed view
+let thumbDrag: { x: number; first: number } | null = null;
+
+function onThumbDown(event: PointerEvent) {
+  thumbDrag = { x: event.clientX, first: viewStart.value };
+  (event.target as HTMLElement).setPointerCapture(event.pointerId);
+}
+
+function onThumbMove(event: PointerEvent) {
+  if (!thumbDrag) {
+    return;
+  }
+  const width = scroller.value!.clientWidth;
+  const first = thumbDrag.first + ((event.clientX - thumbDrag.x) / width) * duration.value;
+  pan(first - viewStart.value);
+}
+
+function onThumbUp() {
+  thumbDrag = null;
+}
+
 async function confirmSave() {
-  if (!buffer.value || !hasResult.value) {
+  if (!buffer.value) {
     return;
   }
   isEncoding.value = true;
   try {
-    const { channels, sampleRate } = sliceBuffer(buffer.value, segments.value);
+    const { channels, sampleRate } = sliceBuffer(buffer.value, [[0, duration.value]]);
     const blob = format.value === 'wav'
       ? encodeWav(channels, sampleRate)
       : await encodeMp3(channels, sampleRate, bitrate.value);
@@ -279,7 +383,26 @@ async function confirmSave() {
   }
 }
 
+watch([cursor, viewStart, viewEnd], async () => {
+  await nextTick();
+  drawWaveform();
+});
+
 useEventListener(window, 'resize', drawWaveform);
+useEventListener(window, 'keydown', (event: KeyboardEvent) => {
+  if (!buffer.value || !(event.ctrlKey || event.metaKey) || (event.target as HTMLElement)?.tagName === 'INPUT') {
+    return;
+  }
+  const key = event.key.toLowerCase();
+  if (key === 'z' && !event.shiftKey) {
+    event.preventDefault();
+    undo();
+  }
+  else if (key === 'y' || (key === 'z' && event.shiftKey)) {
+    event.preventDefault();
+    redo();
+  }
+});
 onBeforeUnmount(() => {
   stop();
   audioContext?.close().catch(() => {});
@@ -299,6 +422,27 @@ onBeforeUnmount(() => {
     </div>
 
     <div v-if="buffer" flex flex-col gap-4>
+      <div flex flex-wrap items-center justify-center gap-2>
+        <c-button :disabled="!canUndo" @click="undo">
+          {{ $t('tools.audio-trimmer.undo') }}
+        </c-button>
+        <c-button :disabled="!canRedo" @click="redo">
+          {{ $t('tools.audio-trimmer.redo') }}
+        </c-button>
+        <c-button @click="zoomAround(0.5, (viewStart + viewEnd) / 2)">
+          {{ $t('tools.audio-trimmer.zoomIn') }}
+        </c-button>
+        <c-button :disabled="!isZoomed" @click="zoomAround(2, (viewStart + viewEnd) / 2)">
+          {{ $t('tools.audio-trimmer.zoomOut') }}
+        </c-button>
+        <c-button @click="zoomToSelection">
+          {{ $t('tools.audio-trimmer.zoomSelection') }}
+        </c-button>
+        <c-button :disabled="!isZoomed" @click="resetView">
+          {{ $t('tools.audio-trimmer.zoomFit') }}
+        </c-button>
+      </div>
+
       <div class="wave-wrap">
         <div
           ref="track"
@@ -307,28 +451,31 @@ onBeforeUnmount(() => {
           @pointermove="onPointerMove"
           @pointerup="onPointerUp"
           @pointercancel="onPointerUp"
+          @wheel.prevent="onWheel"
         >
           <canvas ref="canvas" class="wave-canvas" />
-          <template v-if="mode === 'keep'">
-            <div class="dim" :style="{ left: 0, width: `${startPercent}%` }" />
-            <div class="dim" :style="{ left: `${endPercent}%`, right: 0 }" />
-          </template>
-          <div class="selection" :class="{ remove: mode === 'remove' }" :style="{ left: `${startPercent}%`, width: `${endPercent - startPercent}%` }" />
+          <div class="selection" :style="{ left: `${startPercent}%`, width: `${endPercent - startPercent}%` }" />
           <div class="handle" :style="{ left: `${startPercent}%` }" />
           <div class="handle" :style="{ left: `${endPercent}%` }" />
           <div v-if="isPlaying" class="playhead" :style="{ left: `${playheadPercent}%` }" />
         </div>
+        <div v-show="isZoomed" ref="scroller" class="scroller">
+          <div
+            class="thumb"
+            :style="thumbStyle"
+            @pointerdown="onThumbDown"
+            @pointermove="onThumbMove"
+            @pointerup="onThumbUp"
+            @pointercancel="onThumbUp"
+          />
+        </div>
         <div mt-1 flex justify-between text-12px op-60>
-          <span>00:00.00</span>
-          <span>{{ formatTime(duration) }}</span>
+          <span>{{ formatTime(viewStart) }}</span>
+          <span>{{ formatTime(viewEnd) }}</span>
         </div>
       </div>
 
       <div flex flex-wrap items-center gap-4>
-        <n-radio-group v-model:value="mode" size="small" @update:value="stop">
-          <n-radio-button value="keep" :label="$t('tools.audio-trimmer.modeKeep')" />
-          <n-radio-button value="remove" :label="$t('tools.audio-trimmer.modeRemove')" />
-        </n-radio-group>
         <div flex items-center gap-2>
           <span op-70>{{ $t('tools.audio-trimmer.start') }}</span>
           <n-input-number
@@ -363,21 +510,24 @@ onBeforeUnmount(() => {
         </div>
         <div op-70>
           {{ $t('tools.audio-trimmer.selected', { length: formatTime(selectedLength) }) }}
-          · {{ $t('tools.audio-trimmer.result', { length: formatTime(resultLength) }) }}
+          · {{ $t('tools.audio-trimmer.total', { length: formatTime(duration) }) }}
         </div>
       </div>
 
       <div flex flex-wrap items-center justify-center gap-2>
-        <c-button :disabled="!hasResult" @click="togglePlay">
-          {{ isPlaying ? $t('tools.audio-trimmer.stop') : (mode === 'keep' ? $t('tools.audio-trimmer.play') : $t('tools.audio-trimmer.playResult')) }}
+        <c-button @click="togglePlay">
+          {{ isPlaying ? $t('tools.audio-trimmer.stop') : $t('tools.audio-trimmer.play') }}
         </c-button>
-        <c-button @click="resetSelection">
-          {{ $t('tools.audio-trimmer.reset') }}
+        <c-button :disabled="selectedLength >= duration - 0.001" @click="trimToSelection">
+          {{ $t('tools.audio-trimmer.trimToSelection') }}
+        </c-button>
+        <c-button :disabled="remainingLength < MIN_LENGTH" @click="deleteSelection">
+          {{ $t('tools.audio-trimmer.deleteSelection') }}
         </c-button>
         <c-button @click="chooseAnother">
           {{ $t('tools.audio-trimmer.chooseAnother') }}
         </c-button>
-        <c-button type="primary" class="solid-primary" :disabled="!hasResult" @click="isSaveOpen = true">
+        <c-button type="primary" class="solid-primary" @click="isSaveOpen = true">
           {{ $t('tools.audio-trimmer.save') }}
         </c-button>
       </div>
@@ -436,14 +586,6 @@ onBeforeUnmount(() => {
   height: 100%;
 }
 
-.dim {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.45);
-  pointer-events: none;
-}
-
 .selection {
   position: absolute;
   top: 0;
@@ -451,9 +593,6 @@ onBeforeUnmount(() => {
   background: rgba(24, 160, 88, 0.12);
   pointer-events: none;
 
-  &.remove {
-    background: rgba(208, 48, 80, 0.3);
-  }
 }
 
 .handle {
@@ -476,6 +615,25 @@ onBeforeUnmount(() => {
   background: #18a058;
   border-radius: 4px;
   transform: translate(-50%, -50%);
+}
+
+.scroller {
+  position: relative;
+  height: 10px;
+  margin-top: 6px;
+  background: rgba(128, 128, 128, 0.15);
+  border-radius: 5px;
+}
+
+.thumb {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  min-width: 12px;
+  cursor: grab;
+  background: rgba(24, 160, 88, 0.7);
+  border-radius: 5px;
+  touch-action: none;
 }
 
 .playhead {
