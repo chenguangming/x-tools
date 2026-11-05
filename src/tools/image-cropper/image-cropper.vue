@@ -199,10 +199,6 @@ async function saveResult() {
   a.click();
 }
 
-function formatSize(bytes: number) {
-  return bytes < 1024 * 1024 ? `${(bytes / 1024).toFixed(1)} KB` : `${(bytes / 1024 / 1024).toFixed(2)} MB`;
-}
-
 onBeforeUnmount(() => {
   revokeResult();
   revokeImage();
@@ -255,6 +251,12 @@ onBeforeUnmount(() => {
           <c-button @click="chooseAnother">
             {{ $t('tools.image-cropper.chooseAnother') }}
           </c-button>
+          <c-button type="primary" class="solid-primary" :disabled="isBusy" @click="saveResult">
+            {{ $t('tools.image-cropper.saveAs', { format: formatLabel }) }}
+          </c-button>
+        </div>
+        <div v-if="progressText" mt-2 text-12px op-70>
+          {{ progressText }}
         </div>
         <div mt-2 text-12px op-60>
           {{ $t('tools.image-cropper.hint') }}
@@ -309,28 +311,6 @@ onBeforeUnmount(() => {
             <n-slider v-model:value="quality" :min="1" :max="100" />
           </n-form-item>
         </n-form>
-
-        <div flex gap-2>
-          <c-button :disabled="isBusy" @click="generate">
-            {{ $t('tools.image-cropper.preview') }}
-          </c-button>
-          <c-button :disabled="isBusy" @click="saveResult">
-            {{ $t('tools.image-cropper.saveAs', { format: formatLabel }) }}
-          </c-button>
-        </div>
-
-        <div v-if="progressText" mt-2 text-12px op-70>
-          {{ progressText }}
-        </div>
-
-        <div v-if="result.url" mt-4 flex flex-col items-center gap-2>
-          <div class="result-box">
-            <img :src="result.url" max-h-240px max-w-full>
-          </div>
-          <div text-12px op-70>
-            {{ result.width }} × {{ result.height }} · {{ formatSize(result.size) }}
-          </div>
-        </div>
       </n-gi>
     </n-grid>
   </div>
@@ -342,10 +322,16 @@ onBeforeUnmount(() => {
   height: 460px;
 }
 
-.result-box {
-  background-image: linear-gradient(45deg, #8884 25%, transparent 25%), linear-gradient(-45deg, #8884 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, #8884 75%), linear-gradient(-45deg, transparent 75%, #8884 75%);
-  background-size: 16px 16px;
-  background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+.solid-primary {
+  color: #fff !important;
+  background-color: #18a058 !important;
+
+  &:hover:not([disabled]) {
+    background-color: #36ad6a !important;
+  }
+
+  &[disabled] {
+    opacity: 0.5;
+  }
 }
 </style>
