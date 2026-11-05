@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.0.1
+
+### Features
+- **ui**: task-oriented home page with a one-line pitch, a prominent search box and six featured tasks; returning users still see their favorites first
+- **ui**: slimmer top bar (brand, history buttons, search, language, sponsor, and a menu for theme/GitHub/about) that no longer wraps on narrow screens
+- **image-cropper**: optional AI background removal (portraits), save button next to the editor buttons
+- **id-photo**: brightness, contrast and saturation sliders, live preview over the editor, format and size limit chosen in the download dialog
+- **seo**: per-page canonical URLs, a real `sitemap.xml`, and pre-rendered tool pages
+
+### Bug fixes
+- **i18n**: the file picker ("or / Browse files") is now translated
+- **nginx**: serve `.mjs`/`.wasm` with the right MIME types and serve pre-rendered pages without a trailing-slash redirect
+
 ## Version 1.0.0
 
 First release of X-Tools, a fork of [IT-Tools](https://github.com/CorentinTh/it-tools) that expands the toolbox beyond IT.
