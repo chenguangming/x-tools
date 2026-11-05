@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterView, useRoute } from 'vue-router';
+import { useHead } from '@vueuse/head';
 import { NGlobalStyle, NMessageProvider, NNotificationProvider, darkTheme } from 'naive-ui';
 import { darkThemeOverrides, lightThemeOverrides } from './themes';
 import { layouts } from './layouts';
@@ -13,6 +14,18 @@ const styleStore = useStyleStore();
 
 const theme = computed(() => (styleStore.isDarkTheme ? darkTheme : null));
 const themeOverrides = computed(() => (styleStore.isDarkTheme ? darkThemeOverrides : lightThemeOverrides));
+
+// Every page is its own canonical URL; query strings such as ?tab= are not part of it
+const canonicalUrl = computed(() => {
+  const path = route.path.length > 1 ? route.path.replace(/\/+$/, '') : route.path;
+  return `${window.location.origin}${path}`;
+});
+useHead(computed(() => (route.name === 'NotFound'
+  ? {}
+  : {
+      link: [{ rel: 'canonical', href: canonicalUrl.value }],
+      meta: [{ property: 'og:url', content: canonicalUrl.value }],
+    })));
 
 const { locale } = useI18n();
 
