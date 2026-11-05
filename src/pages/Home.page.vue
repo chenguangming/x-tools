@@ -92,12 +92,9 @@ function onUpdateFavoriteTools() {
             </div>
 
             <div :style="{ order: toolStore.hasDefaultFavorites ? 1 : 2 }" class="my-25px">
-              <div class="mb-5px flex items-baseline justify-between">
-                <h3 class="text-neutral-400 font-500">
-                  {{ $t('landing.tasksTitle') }}
-                </h3>
-                <span class="text-12px text-neutral-400">{{ $t('landing.tasksHint') }}</span>
-              </div>
+              <h3 class="mb-5px text-neutral-400 font-500">
+                {{ $t('landing.tasksTitle') }}
+              </h3>
               <div class="grid grid-cols-1 gap-12px md:grid-cols-3 sm:grid-cols-2">
                 <router-link v-for="task in featuredTasks" :key="task.key" :to="task.path" class="decoration-none">
                   <c-card class="h-full transition transition-duration-0.5s !border-2px !hover:border-primary">

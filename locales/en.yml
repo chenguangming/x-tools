@@ -404,7 +404,6 @@ landing:
   subtitle: 'Free online tools, ready to use. Nothing to install, your files stay in your browser.'
   searchPlaceholder: 'Search tools or tasks, e.g. ID photo, XML diff'
   tasksTitle: What do you want to do?
-  tasksHint: 'Pick by task, no need to dig through categories'
   browseAll: Browse all tools
   open: Open
   more: More

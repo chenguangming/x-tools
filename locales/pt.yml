@@ -404,7 +404,6 @@ landing:
   subtitle: 'Ferramentas online gratuitas, prontas a usar. Sem instalar nada: os seus ficheiros ficam no navegador.'
   searchPlaceholder: 'Procure ferramentas ou tarefas, ex.: foto de documento, comparar XML'
   tasksTitle: O que quer fazer?
-  tasksHint: 'Escolha por tarefa, sem procurar nas categorias'
   browseAll: Ver todas as ferramentas
   open: Abrir
   more: Mais

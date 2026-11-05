@@ -406,7 +406,6 @@ landing:
   subtitle: 'Outils en ligne gratuits, prêts à l''emploi. Rien à installer, vos fichiers restent dans votre navigateur.'
   searchPlaceholder: 'Rechercher un outil ou une tâche, ex. photo d''identité, comparer XML'
   tasksTitle: Que voulez-vous faire ?
-  tasksHint: 'Choisissez par tâche, sans fouiller dans les catégories'
   browseAll: Parcourir tous les outils
   open: Ouvrir
   more: Plus

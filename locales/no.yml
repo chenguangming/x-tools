@@ -404,7 +404,6 @@ landing:
   subtitle: 'Gratis nettverktøy, klare til bruk. Ingen installasjon, filene dine blir i nettleseren.'
   searchPlaceholder: 'Søk etter verktøy eller oppgaver, f.eks. passfoto, XML-diff'
   tasksTitle: Hva vil du gjøre?
-  tasksHint: 'Velg etter oppgave, uten å lete i kategorier'
   browseAll: Se alle verktøy
   open: Åpne
   more: Mer

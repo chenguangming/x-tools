@@ -393,7 +393,6 @@ landing:
   subtitle: 'Công cụ trực tuyến miễn phí, dùng ngay. Không cần cài đặt, tệp của bạn ở lại trong trình duyệt.'
   searchPlaceholder: 'Tìm công cụ hoặc tác vụ, ví dụ: ảnh thẻ, so sánh XML'
   tasksTitle: Bạn muốn làm gì?
-  tasksHint: 'Chọn theo tác vụ, không cần lục tìm trong danh mục'
   browseAll: Xem tất cả công cụ
   open: Mở
   more: Thêm
