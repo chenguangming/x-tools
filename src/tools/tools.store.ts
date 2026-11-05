@@ -64,6 +64,9 @@ export const useToolStore = defineStore('tools', () => {
   return {
     tools,
     favoriteTools,
+    // True until the user adds, removes or reorders a favorite
+    hasDefaultFavorites: computed(() => favoriteToolsName.value.length === defaultFavoriteTools.length
+      && favoriteToolsName.value.every((name, index) => name === defaultFavoriteTools[index])),
     toolsByCategory,
     newTools: computed(() => tools.value.filter(({ isNew }) => isNew)),
 

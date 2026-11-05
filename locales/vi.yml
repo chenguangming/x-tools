@@ -1,35 +1,35 @@
 home:
   categories:
     newestTools: Công cụ mới nhất
-    favoriteTools: 'Công cụ yêu thích của bạn'
-    allTools: 'Tất cả công cụ'
-    favoritesDndToolTip: 'Kéo thả để sắp xếp lại yêu thích'
-    emptyFavorites: 'Chưa có mục yêu thích nào. Hãy mở một công cụ và nhấn vào biểu tượng trái tim để ghim nó vào đây.'
-  subtitle: 'Công cụ tiện ích cho nhà phát triển'
-  toggleMenu: 'Chuyển đổi menu'
-  back: 'Quay lại'
-  forward: 'Tiến tới'
+    favoriteTools: Công cụ yêu thích của bạn
+    allTools: Tất cả công cụ
+    favoritesDndToolTip: Kéo thả để sắp xếp lại yêu thích
+    emptyFavorites: Chưa có mục yêu thích nào. Hãy mở một công cụ và nhấn vào biểu tượng trái tim để ghim nó vào đây.
+  subtitle: Công cụ tiện ích cho nhà phát triển
+  toggleMenu: Chuyển đổi menu
+  back: Quay lại
+  forward: Tiến tới
   home: Trang chủ
-  uiLib: 'Thư viện UI'
-  support: 'Hỗ trợ phát triển X-Tools'
-  buyMeACoffee: 'Tài trợ'
+  uiLib: Thư viện UI
+  support: Hỗ trợ phát triển X-Tools
+  buyMeACoffee: Tài trợ
   follow:
-    title: 'Bạn thích X-Tools?'
-    p1: 'Hãy cho chúng tôi một ngôi sao trên'
-    githubRepository: 'Kho GitHub X-Tools'
-    p2: 'hoặc theo dõi chúng tôi trên'
-    twitterXAccount: 'Tài khoản X X-Tools'
-    thankYou: 'Cảm ơn bạn!'
+    title: Bạn thích X-Tools?
+    p1: Hãy cho chúng tôi một ngôi sao trên
+    githubRepository: Kho GitHub X-Tools
+    p2: hoặc theo dõi chúng tôi trên
+    twitterXAccount: Tài khoản X X-Tools
+    thankYou: Cảm ơn bạn!
   nav:
-    github: 'Kho GitHub'
-    githubRepository: 'Kho GitHub X-Tools'
-    twitterX: 'Tài khoản X'
-    twitterXAccount: 'Tài khoản X X-Tools'
-    about: 'Về X-Tools'
-    aboutLabel: 'Giới thiệu'
-    darkMode: 'Chế độ tối'
-    lightMode: 'Chế độ sáng'
-    mode: 'Chuyển đổi chế độ tối/sáng'
+    github: Kho GitHub
+    githubRepository: Kho GitHub X-Tools
+    twitterX: Tài khoản X
+    twitterXAccount: Tài khoản X X-Tools
+    about: Về X-Tools
+    aboutLabel: Giới thiệu
+    darkMode: Chế độ tối
+    lightMode: Chế độ sáng
+    mode: Chuyển đổi chế độ tối/sáng
 about:
   content: >
     # Về X-Tools
@@ -53,20 +53,20 @@ about:
     X-Tools sử dụng thống kê sử dụng ẩn danh do chúng tôi tự lưu trữ (lượt xem trang, công cụ đã mở, mục yêu thích, thay đổi ngôn ngữ và giao diện, và từ khóa tìm kiếm). Không dùng cookie, không lưu địa chỉ IP của bạn và không theo dõi bạn giữa các trang web. Mục yêu thích và cài đặt chỉ được lưu trong trình duyệt của bạn. Bạn có thể từ chối bằng cách bật “Do Not Track” trong trình duyệt.
 
 404:
-  notFound: '404 Không Tìm Thấy'
+  notFound: 404 Không Tìm Thấy
   sorry: 'Xin lỗi, trang này dường như không tồn tại'
   maybe: 'Có thể do bộ nhớ đệm gây lỗi, hãy thử tải lại cưỡng bức (Ctrl + F5)?'
-  backHome: 'Quay về trang chủ'
+  backHome: Quay về trang chủ
 favoriteButton:
-  remove: 'Xóa khỏi mục yêu thích'
-  add: 'Thêm vào mục yêu thích'
+  remove: Xóa khỏi mục yêu thích
+  add: Thêm vào mục yêu thích
 toolCard:
   new: Mới
 search:
   label: Tìm kiếm
 tools:
   categories:
-    favorite-tools: 'Công cụ yêu thích của bạn'
+    favorite-tools: Công cụ yêu thích của bạn
     crypto: Mã hóa
     converter: Chuyển đổi
     web: Web
@@ -95,7 +95,7 @@ tools:
     numbers: Số (123...)
     symbols: Ký tự đặc biệt (!-;...)
     length: Độ dài
-    tokenPlaceholder: 'Mã thông báo...'
+    tokenPlaceholder: Mã thông báo...
     copied: Mã thông báo đã được sao chép vào clipboard
     button:
       copy: Sao chép
@@ -388,3 +388,35 @@ tools:
   text-to-binary:
     title: Chuyển đổi văn bản thành nhị phân ASCII
     description: Chuyển đổi văn bản thành biểu diễn nhị phân ASCII của nó và ngược lại.
+landing:
+  title: 'Xử lý ảnh, so sánh tệp và công cụ lập trình — tất cả trong một nơi'
+  subtitle: 'Công cụ trực tuyến miễn phí, dùng ngay. Không cần cài đặt, tệp của bạn ở lại trong trình duyệt.'
+  searchPlaceholder: 'Tìm công cụ hoặc tác vụ, ví dụ: ảnh thẻ, so sánh XML'
+  tasksTitle: Bạn muốn làm gì?
+  tasksHint: 'Chọn theo tác vụ, không cần lục tìm trong danh mục'
+  browseAll: Xem tất cả công cụ
+  open: Mở
+  more: Thêm
+  tasks:
+    idPhoto:
+      title: Làm ảnh thẻ 1 / 2 inch
+      description: 'Chọn kích thước ảnh, cắt chân dung và xuất ra.'
+    crop:
+      title: Cắt ảnh theo kích thước chỉ định
+      description: 'Chọn tỉ lệ hoặc kích thước, xuất JPG, PNG hoặc WebP.'
+    xml:
+      title: Tìm điểm khác nhau giữa hai tệp XML
+      description: 'Xem thay đổi song song, không bị nhiễu bởi thụt lề.'
+    json:
+      title: Làm JSON dễ đọc hơn
+      description: Biến một khối JSON dài thành cấu trúc thụt lề gọn gàng.
+    time:
+      title: Chuyển dấu thời gian thành ngày
+      description: Chuyển đổi giữa dấu thời gian và ngày để gỡ lỗi.
+    b64:
+      title: Mã hóa / giải mã văn bản Base64
+      description: 'Xử lý chuỗi Base64 nhanh chóng, không cần viết script.'
+fileUpload:
+  or: hoặc
+  browse: Chọn tệp
+  title: 'Kéo và thả tệp vào đây, hoặc nhấp để chọn tệp'

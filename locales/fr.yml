@@ -1,35 +1,35 @@
 home:
   categories:
-    newestTools: 'Les nouveaux outils'
-    favoriteTools: 'Vos outils favoris'
-    allTools: 'Tous les outils'
-    favoritesDndToolTip: 'Faites glisser et déposez pour réordonner vos favoris'
-    emptyFavorites: "Aucun favori pour l'instant. Ouvrez un outil et cliquez sur le cœur pour l'épingler ici."
-  subtitle: 'Outils pratiques pour les développeurs'
-  toggleMenu: 'Menu'
-  back: 'Retour'
-  forward: 'Avancer'
+    newestTools: Les nouveaux outils
+    favoriteTools: Vos outils favoris
+    allTools: Tous les outils
+    favoritesDndToolTip: Faites glisser et déposez pour réordonner vos favoris
+    emptyFavorites: 'Aucun favori pour l''instant. Ouvrez un outil et cliquez sur le cœur pour l''épingler ici.'
+  subtitle: Outils pratiques pour les développeurs
+  toggleMenu: Menu
+  back: Retour
+  forward: Avancer
   home: Accueil
-  uiLib: 'UI Lib'
-  support: "Soutenir le développement d'X-Tools"
-  buyMeACoffee: 'Sponsor'
+  uiLib: UI Lib
+  support: 'Soutenir le développement d''X-Tools'
+  buyMeACoffee: Sponsor
   follow:
-    title: 'Vous aimez X-Tools ?'
-    p1: 'Soutenez-nous avec une étoile sur'
-    githubRepository: "le dépôt GitHub d'X-Tools"
-    p2: 'ou suivez-nous sur'
-    twitterXAccount: "le compte X d'X-Tools"
-    thankYou: 'Merci !'
+    title: Vous aimez X-Tools ?
+    p1: Soutenez-nous avec une étoile sur
+    githubRepository: 'le dépôt GitHub d''X-Tools'
+    p2: ou suivez-nous sur
+    twitterXAccount: 'le compte X d''X-Tools'
+    thankYou: Merci !
   nav:
-    github: 'Dépôt GitHub'
-    githubRepository: "Dépôt GitHub d'X-Tools"
-    twitterX: 'Compte X'
-    twitterXAccount: "Compte X d'X-Tools"
-    about: "À propos d'X-Tools"
-    aboutLabel: 'À propos'
-    darkMode: 'Mode sombre'
-    lightMode: 'Mode clair'
-    mode: 'Basculer le mode sombre/clair'
+    github: Dépôt GitHub
+    githubRepository: 'Dépôt GitHub d''X-Tools'
+    twitterX: Compte X
+    twitterXAccount: 'Compte X d''X-Tools'
+    about: 'À propos d''X-Tools'
+    aboutLabel: À propos
+    darkMode: Mode sombre
+    lightMode: Mode clair
+    mode: Basculer le mode sombre/clair
 about:
   content: >
     # À propos de X-Tools
@@ -53,20 +53,20 @@ about:
     X-Tools utilise des statistiques d'utilisation anonymes auto-hébergées (pages vues, outils ouverts, favoris, changements de langue et de thème, mots-clés de recherche). Aucun cookie n'est utilisé, votre adresse IP n'est pas conservée et vous n'êtes pas suivi d'un site à l'autre. Vos favoris et réglages sont stockés uniquement dans votre navigateur. Vous pouvez vous y opposer en activant « Ne pas suivre » dans votre navigateur.
 
 404:
-  notFound: '404 Introuvable'
-  sorry: "Désolé, cette page n'existe pas"
+  notFound: 404 Introuvable
+  sorry: 'Désolé, cette page n''existe pas'
   maybe: 'Peut-être que le cache fait des siennes, essayez de forcer le rafraîchissement ?'
-  backHome: "Retour à l'accueil"
+  backHome: 'Retour à l''accueil'
 favoriteButton:
-  remove: 'Retirer des favoris'
-  add: 'Ajouter aux favoris'
+  remove: Retirer des favoris
+  add: Ajouter aux favoris
 toolCard:
   new: Nouveau
 search:
   label: Rechercher
 tools:
   categories:
-    favorite-tools: 'Vos outils favoris'
+    favorite-tools: Vos outils favoris
     crypto: Cryptographie
     converter: Convertisseur
     web: Web
@@ -401,3 +401,35 @@ tools:
   text-to-binary:
     title: Texte vers binaire ASCII
     description: Convertissez du texte en sa représentation binaire ASCII et inversement.
+landing:
+  title: 'Images, comparaison de fichiers et outils de développement au même endroit'
+  subtitle: 'Outils en ligne gratuits, prêts à l''emploi. Rien à installer, vos fichiers restent dans votre navigateur.'
+  searchPlaceholder: 'Rechercher un outil ou une tâche, ex. photo d''identité, comparer XML'
+  tasksTitle: Que voulez-vous faire ?
+  tasksHint: 'Choisissez par tâche, sans fouiller dans les catégories'
+  browseAll: Parcourir tous les outils
+  open: Ouvrir
+  more: Plus
+  tasks:
+    idPhoto:
+      title: 'Créer des photos d''identité 1 / 2 pouces'
+      description: 'Choisissez la taille, recadrez le portrait et exportez-le.'
+    crop:
+      title: Recadrer une image à une taille précise
+      description: 'Choisissez un ratio ou une taille, exportez en JPG, PNG ou WebP.'
+    xml:
+      title: Trouver les différences entre deux XML
+      description: 'Affichez les changements côte à côte, sans bruit d''indentation.'
+    json:
+      title: Rendre un JSON plus lisible
+      description: Transformez un gros bloc de JSON en arborescence propre et indentée.
+    time:
+      title: Convertir un timestamp en date
+      description: Convertissez entre timestamps et dates pour le débogage.
+    b64:
+      title: Encoder / décoder du texte Base64
+      description: 'Traitez des chaînes Base64 rapidement, sans script.'
+fileUpload:
+  or: ou
+  browse: Parcourir les fichiers
+  title: 'Glissez-déposez des fichiers ici, ou cliquez pour les sélectionner'

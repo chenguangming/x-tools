@@ -1,35 +1,35 @@
 home:
   categories:
     newestTools: Nyeste verktøy
-    favoriteTools: 'Dine favorittverktøy'
-    allTools: 'Alle verktøyene'
-    favoritesDndToolTip: 'Dra og slipp for å omorganisere favoritter'
-    emptyFavorites: 'Ingen favoritter ennå. Åpne et verktøy og klikk på hjertet for å feste det her.'
-  subtitle: 'Nyttige verktøy for utviklere'
-  toggleMenu: 'Vis/skjul meny'
-  back: 'Tilbake'
-  forward: 'Frem'
+    favoriteTools: Dine favorittverktøy
+    allTools: Alle verktøyene
+    favoritesDndToolTip: Dra og slipp for å omorganisere favoritter
+    emptyFavorites: Ingen favoritter ennå. Åpne et verktøy og klikk på hjertet for å feste det her.
+  subtitle: Nyttige verktøy for utviklere
+  toggleMenu: Vis/skjul meny
+  back: Tilbake
+  forward: Frem
   home: Hjem
-  uiLib: 'UI-bibliotek'
-  support: 'Støtt utviklingen av X-Tools'
-  buyMeACoffee: 'Sponsor meg'
+  uiLib: UI-bibliotek
+  support: Støtt utviklingen av X-Tools
+  buyMeACoffee: Sponsor meg
   follow:
-    title: 'Liker du X-Tools?'
-    p1: 'Gi oss en stjerne på'
-    githubRepository: 'X-Tools GitHub-depotet'
-    p2: 'eller følg oss på'
-    twitterXAccount: 'X-Tools sin X konto'
-    thankYou: 'Tusen takk!'
+    title: Liker du X-Tools?
+    p1: Gi oss en stjerne på
+    githubRepository: X-Tools GitHub-depotet
+    p2: eller følg oss på
+    twitterXAccount: X-Tools sin X konto
+    thankYou: Tusen takk!
   nav:
-    github: 'GitHub-depot'
-    githubRepository: 'X-Tools GitHub-depot'
-    twitterX: 'X konto'
-    twitterXAccount: 'X-Tools X konto'
-    about: 'Om  X-Tools'
-    aboutLabel: 'Om'
-    darkMode: 'Mørk modus'
-    lightMode: 'Lys modus'
-    mode: 'Veksle mørk/lys modus'
+    github: GitHub-depot
+    githubRepository: X-Tools GitHub-depot
+    twitterX: X konto
+    twitterXAccount: X-Tools X konto
+    about: Om  X-Tools
+    aboutLabel: Om
+    darkMode: Mørk modus
+    lightMode: Lys modus
+    mode: Veksle mørk/lys modus
 about:
   content: >
     # Om X-Tools
@@ -53,20 +53,20 @@ about:
     X-Tools bruker selvdrevet, anonym bruksstatistikk (sidevisninger, åpnede verktøy, favoritter, språk- og temaendringer og søkeord). Det brukes ingen informasjonskapsler, IP-adressen din lagres ikke, og du spores ikke på tvers av nettsteder. Favoritter og innstillinger lagres bare i nettleseren din. Du kan velge bort statistikken ved å slå på «Do Not Track» i nettleseren.
 
 404:
-  notFound: '404 ikke funnet'
+  notFound: 404 ikke funnet
   sorry: 'Beklager, denne siden ser ikke ut til å eksistere'
-  maybe: 'Kanskje hurtigbufferen gjør rare ting. Prøv å tvinge en oppdatering av siden.'
-  backHome: 'Tilbake til start'
+  maybe: Kanskje hurtigbufferen gjør rare ting. Prøv å tvinge en oppdatering av siden.
+  backHome: Tilbake til start
 favoriteButton:
-  remove: 'Fjern fra favoritter'
-  add: 'Legg til favoritter'
+  remove: Fjern fra favoritter
+  add: Legg til favoritter
 toolCard:
   new: Ny
 search:
   label: Søk
 tools:
   categories:
-    favorite-tools: 'Dine favorittverktøy'
+    favorite-tools: Dine favorittverktøy
     crypto: Krypto
     converter: Konvertering
     web: Web
@@ -95,7 +95,7 @@ tools:
     numbers: Siffer (123...)
     symbols: Symboler (!-;...)
     length: Lengde
-    tokenPlaceholder: 'Tokenet...'
+    tokenPlaceholder: Tokenet...
     copied: Tokenet er kopiert til utklippstavlen
     button:
       copy: Kopier
@@ -399,3 +399,35 @@ tools:
   text-to-binary:
     title: Tekst til ASCII-binær
     description: Konverter tekst til ASCII-binær representasjon og omvendt.
+landing:
+  title: 'Bildebehandling, filsammenligning og utviklerverktøy på ett sted'
+  subtitle: 'Gratis nettverktøy, klare til bruk. Ingen installasjon, filene dine blir i nettleseren.'
+  searchPlaceholder: 'Søk etter verktøy eller oppgaver, f.eks. passfoto, XML-diff'
+  tasksTitle: Hva vil du gjøre?
+  tasksHint: 'Velg etter oppgave, uten å lete i kategorier'
+  browseAll: Se alle verktøy
+  open: Åpne
+  more: Mer
+  tasks:
+    idPhoto:
+      title: Lag passfoto i 1 / 2 tommer
+      description: 'Velg bildestørrelse, beskjær portrettet og eksporter.'
+    crop:
+      title: Beskjær et bilde til en bestemt størrelse
+      description: 'Velg forhold eller størrelse, eksporter som JPG, PNG eller WebP.'
+    xml:
+      title: Finn forskjellene mellom to XML-filer
+      description: 'Se endringer side ved side, uten innrykksstøy.'
+    json:
+      title: Gjør JSON lettere å lese
+      description: 'Gjør en stor JSON-blokk om til en ryddig, innrykket struktur.'
+    time:
+      title: Konverter tidsstempel til dato
+      description: Konverter mellom tidsstempler og datoer ved feilsøking.
+    b64:
+      title: Kod / dekod Base64-tekst
+      description: 'Behandle Base64-strenger raskt, uten skript.'
+fileUpload:
+  or: eller
+  browse: Bla gjennom filer
+  title: 'Dra og slipp filer her, eller klikk for å velge filer'

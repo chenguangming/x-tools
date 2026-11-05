@@ -5,13 +5,12 @@ import { useCommandPaletteStore } from './command-palette.store';
 import type { PaletteOption } from './command-palette.types';
 import { trackEvent } from '@/modules/stats/stats';
 
-const isModalOpen = ref(false);
 const inputRef = ref();
 const router = useRouter();
 const isMac = computed(() => window.navigator.userAgent.toLowerCase().includes('mac'));
 
 const commandPaletteStore = useCommandPaletteStore();
-const { searchPrompt, filteredSearchResult } = storeToRefs(commandPaletteStore);
+const { searchPrompt, filteredSearchResult, isOpen: isModalOpen } = storeToRefs(commandPaletteStore);
 
 const keys = useMagicKeys({
   passive: false,
@@ -131,7 +130,7 @@ function activateOption(option: PaletteOption) {
       <span flex items-center gap-3 op-40>
 
         <icon-mdi-search />
-        {{ $t('search.label') }}
+        <span hidden sm:inline>{{ $t('search.label') }}</span>
 
         <span hidden flex-1 border border-current border-op-40 rounded border-solid px-5px py-3px sm:inline>
           {{ isMac ? 'Cmd' : 'Ctrl' }}&nbsp;+&nbsp;K

@@ -1,35 +1,35 @@
 home:
   categories:
-    newestTools: '新着ツール'
-    favoriteTools: 'お気に入りのツール'
-    allTools: 'すべてのツール'
+    newestTools: 新着ツール
+    favoriteTools: お気に入りのツール
+    allTools: すべてのツール
     favoritesDndToolTip: 'ドラッグ&ドロップでお気に入りを並べ替え'
-    emptyFavorites: 'お気に入りはまだありません。ツールを開いてハートをクリックすると、ここに固定されます。'
-  subtitle: '開発者のための便利ツール'
-  toggleMenu: 'メニューの切り替え'
-  back: '戻る'
-  forward: '進む'
+    emptyFavorites: お気に入りはまだありません。ツールを開いてハートをクリックすると、ここに固定されます。
+  subtitle: 開発者のための便利ツール
+  toggleMenu: メニューの切り替え
+  back: 戻る
+  forward: 進む
   home: ホーム
-  uiLib: 'UIライブラリ'
-  support: 'X-Toolsの開発を支援'
-  buyMeACoffee: 'スポンサー'
+  uiLib: UIライブラリ
+  support: X-Toolsの開発を支援
+  buyMeACoffee: スポンサー
   follow:
-    title: 'X-Toolsを気に入っていただけましたか？'
+    title: X-Toolsを気に入っていただけましたか？
     p1: 'スターを付ける:'
-    githubRepository: 'X-Tools GitHubリポジトリ'
+    githubRepository: X-Tools GitHubリポジトリ
     p2: 'またはフォローする:'
-    twitterXAccount: 'X-Tools Xアカウント'
-    thankYou: 'ありがとうございます！'
+    twitterXAccount: X-Tools Xアカウント
+    thankYou: ありがとうございます！
   nav:
-    github: 'GitHubリポジトリ'
-    githubRepository: 'X-Tools GitHubリポジトリ'
-    twitterX: 'Xアカウント'
-    twitterXAccount: 'X-Tools Xアカウント'
-    about: 'X-Toolsについて'
-    aboutLabel: '概要'
-    darkMode: 'ダークモード'
-    lightMode: 'ライトモード'
-    mode: 'ダーク/ライトモードの切り替え'
+    github: GitHubリポジトリ
+    githubRepository: X-Tools GitHubリポジトリ
+    twitterX: Xアカウント
+    twitterXAccount: X-Tools Xアカウント
+    about: X-Toolsについて
+    aboutLabel: 概要
+    darkMode: ダークモード
+    lightMode: ライトモード
+    mode: ダーク/ライトモードの切り替え
 about:
   content: >
     # X-Toolsについて
@@ -53,24 +53,24 @@ about:
     X-Tools は、自社ホストの匿名の利用統計（ページ閲覧、開いたツール、お気に入り、言語とテーマの変更、検索キーワード）を使用しています。Cookie は使用せず、IP アドレスも保存せず、サイトをまたいだ追跡も行いません。お気に入りと設定はブラウザ内にのみ保存されます。統計を無効にするには、ブラウザで「トラッキング拒否（Do Not Track）」を有効にしてください。
 
 404:
-  notFound: '404 ページが見つかりません'
-  sorry: '申し訳ありません。このページは存在しないようです'
-  maybe: 'キャッシュの影響かもしれません。強制リロードをお試しください。'
-  backHome: 'ホームに戻る'
+  notFound: 404 ページが見つかりません
+  sorry: 申し訳ありません。このページは存在しないようです
+  maybe: キャッシュの影響かもしれません。強制リロードをお試しください。
+  backHome: ホームに戻る
 favoriteButton:
-  remove: 'お気に入りから削除'
-  add: 'お気に入りに追加'
+  remove: お気に入りから削除
+  add: お気に入りに追加
 toolCard:
   new: 新着
 search:
   label: 検索
 tools:
   categories:
-    favorite-tools: 'お気に入りのツール'
+    favorite-tools: お気に入りのツール
     crypto: 暗号
     converter: 変換
     web: Web
-    images and videos: '画像・動画'
+    images and videos: 画像・動画
     development: 開発
     network: ネットワーク
     math: 数学
@@ -95,7 +95,7 @@ tools:
     numbers: 数字 (123...)
     symbols: 記号 (!-;...)
     length: 長さ
-    tokenPlaceholder: 'トークン...'
+    tokenPlaceholder: トークン...
     copied: トークンをクリップボードにコピーしました
     button:
       copy: コピー
@@ -322,7 +322,7 @@ tools:
 
   hash-text:
     title: テキストのハッシュ化
-    description: 'MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3、RIPEMD160から必要な関数を選んで、テキスト文字列をハッシュ化します。'
+    description: MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3、RIPEMD160から必要な関数を選んで、テキスト文字列をハッシュ化します。
 
   json-to-toml:
     title: JSONからTOMLへ変換
@@ -399,3 +399,35 @@ tools:
   text-to-binary:
     title: テキストからASCIIバイナリへ変換
     description: テキストをASCIIバイナリ表現に、またはその逆に変換します。
+landing:
+  title: 画像処理・ファイル比較・開発ツールをひとつに
+  subtitle: 無料のオンラインツール。インストール不要、ファイルはブラウザ内で処理されます。
+  searchPlaceholder: ツールやタスクを検索（例：証明写真、XML 比較）
+  tasksTitle: 何をしたいですか？
+  tasksHint: カテゴリを探さず、やりたいことから選べます
+  browseAll: すべてのツールを見る
+  open: 開く
+  more: その他
+  tasks:
+    idPhoto:
+      title: 1 インチ / 2 インチの証明写真を作る
+      description: 写真サイズを選び、人物をトリミングして書き出します。
+    crop:
+      title: 画像を指定サイズに切り抜く
+      description: 比率やサイズを選び、JPG・PNG・WebP で書き出します。
+    xml:
+      title: 2 つの XML の違いを見つける
+      description: インデントの違いに惑わされず、差分を並べて確認します。
+    json:
+      title: JSON を読みやすくする
+      description: 長い JSON を見やすいインデント付きに整形します。
+    time:
+      title: タイムスタンプを日付に変換
+      description: タイムスタンプと日付を相互変換します。
+    b64:
+      title: Base64 テキストのエンコード / デコード
+      description: スクリプト不要で Base64 文字列をすばやく処理します。
+fileUpload:
+  or: または
+  browse: ファイルを選択
+  title: ここにファイルをドラッグ＆ドロップ、またはクリックして選択

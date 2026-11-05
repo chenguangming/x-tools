@@ -1,35 +1,35 @@
 home:
   categories:
     newestTools: Найновіші інструменти
-    favoriteTools: 'Ваші улюблені інструменти'
-    allTools: 'Усі інструменти'
+    favoriteTools: Ваші улюблені інструменти
+    allTools: Усі інструменти
     favoritesDndToolTip: 'Перетягніть і відпустіть, щоб змінити порядок улюблених'
     emptyFavorites: 'Улюблених поки немає. Відкрийте інструмент і натисніть на серце, щоб закріпити його тут.'
-  subtitle: 'Зручні інструменти для розробників'
-  toggleMenu: 'Перемикання меню'
-  back: 'Назад'
-  forward: 'Вперед'
+  subtitle: Зручні інструменти для розробників
+  toggleMenu: Перемикання меню
+  back: Назад
+  forward: Вперед
   home: Головна
-  uiLib: 'UI Бібліотека'
-  support: 'Підтримка розробки X-Tools'
-  buyMeACoffee: 'Спонсорувати'
+  uiLib: UI Бібліотека
+  support: Підтримка розробки X-Tools
+  buyMeACoffee: Спонсорувати
   follow:
-    title: 'Вам подобається X-Tools?'
-    p1: 'Поставте нам зірку на'
-    githubRepository: 'GitHub-репозиторій X-Tools'
-    p2: 'або слідкуйте за нами на'
-    twitterXAccount: 'X-акаунт X-Tools'
-    thankYou: 'Дякуємо!'
+    title: Вам подобається X-Tools?
+    p1: Поставте нам зірку на
+    githubRepository: GitHub-репозиторій X-Tools
+    p2: або слідкуйте за нами на
+    twitterXAccount: X-акаунт X-Tools
+    thankYou: Дякуємо!
   nav:
-    github: 'GitHub-репозиторій'
-    githubRepository: 'GitHub-репозиторій X-Tools'
-    twitterX: 'X'
-    twitterXAccount: 'X-акаунт X-Tools'
-    about: 'Про X-Tools'
-    aboutLabel: 'Про проєкт'
-    darkMode: 'Темний режим'
-    lightMode: 'Світлий режим'
-    mode: 'Перемикання темного/світлого режиму'
+    github: GitHub-репозиторій
+    githubRepository: GitHub-репозиторій X-Tools
+    twitterX: X
+    twitterXAccount: X-акаунт X-Tools
+    about: Про X-Tools
+    aboutLabel: Про проєкт
+    darkMode: Темний режим
+    lightMode: Світлий режим
+    mode: Перемикання темного/світлого режиму
 about:
   content: >
     # Про X-Tools
@@ -53,24 +53,24 @@ about:
     X-Tools використовує власну анонімну статистику використання (перегляди сторінок, відкриті інструменти, обране, зміни мови й теми та пошукові запити). Файли cookie не використовуються, ваша IP-адреса не зберігається, а міжсайтове відстеження не виконується. Обране та налаштування зберігаються лише у вашому браузері. Щоб відмовитися, увімкніть «Do Not Track» у браузері.
 
 404:
-  notFound: '404 Сторінку не знайдено'
+  notFound: 404 Сторінку не знайдено
   sorry: 'Вибачте, ця сторінка, схоже, не існує'
   maybe: 'Можливо, кеш чудить, спробуйте примусово оновити сторінку?'
-  backHome: 'Повернутися на головну'
+  backHome: Повернутися на головну
 favoriteButton:
-  remove: 'Вилучити з улюблених'
-  add: 'Додати до улюблених'
+  remove: Вилучити з улюблених
+  add: Додати до улюблених
 toolCard:
   new: Новий
 search:
   label: Пошук
 tools:
   categories:
-    favorite-tools: 'Ваші улюблені інструменти'
+    favorite-tools: Ваші улюблені інструменти
     crypto: Криптографія
     converter: Конвертер
     web: Веб
-    images and videos: 'Зображення та відео'
+    images and videos: Зображення та відео
     development: Розробка
     network: Мережа
     math: Математика
@@ -95,7 +95,7 @@ tools:
     numbers: Цифри (123...)
     symbols: Символи (!-;...)
     length: Довжина
-    tokenPlaceholder: 'Токен...'
+    tokenPlaceholder: Токен...
     copied: Токен скопійовано в буфер обміну
     button:
       copy: Копіювати
@@ -399,3 +399,35 @@ tools:
   text-to-binary:
     title: Текст у двійковий ASCII
     description: Перетворіть текст на його двійкове представлення ASCII і навпаки.
+landing:
+  title: 'Обробка зображень, порівняння файлів і інструменти розробника в одному місці'
+  subtitle: 'Безкоштовні онлайн-інструменти, готові до роботи. Нічого встановлювати, файли залишаються у вашому браузері.'
+  searchPlaceholder: 'Шукайте інструменти чи завдання, напр. фото на документи, порівняння XML'
+  tasksTitle: Що ви хочете зробити?
+  tasksHint: 'Обирайте за завданням, не перебираючи категорії'
+  browseAll: Усі інструменти
+  open: Відкрити
+  more: Більше
+  tasks:
+    idPhoto:
+      title: Створити фото на документи 1 / 2 дюйми
+      description: 'Оберіть розмір фото, обріжте портрет і експортуйте.'
+    crop:
+      title: Обрізати зображення до потрібного розміру
+      description: 'Оберіть пропорції чи розмір, експортуйте в JPG, PNG або WebP.'
+    xml:
+      title: Знайти відмінності між двома XML
+      description: 'Дивіться зміни поруч, без шуму від відступів.'
+    json:
+      title: Зробити JSON читабельнішим
+      description: Перетворіть величезний JSON на чітку структуру з відступами.
+    time:
+      title: Перетворити мітку часу на дату
+      description: Конвертуйте між мітками часу та датами для налагодження.
+    b64:
+      title: Кодувати / декодувати текст Base64
+      description: Швидко обробляйте рядки Base64 без скриптів.
+fileUpload:
+  or: або
+  browse: Огляд файлів
+  title: 'Перетягніть файли сюди або натисніть, щоб вибрати'

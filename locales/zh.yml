@@ -1,35 +1,35 @@
 home:
   categories:
-    newestTools: '最新工具'
-    favoriteTools: '我的收藏'
-    allTools: '全部工具'
-    favoritesDndToolTip: '拖放重新排列收藏夹'
-    emptyFavorites: '还没有收藏的工具，打开工具后点击爱心即可固定到这里。'
-  subtitle: '助力开发人员和 IT 工作者'
-  toggleMenu: '切换菜单'
-  back: '返回'
-  forward: '前进'
-  home: '主页'
-  uiLib: 'UI 库'
-  support: '支持 X-Tools 开发'
-  buyMeACoffee: '爱发电'
+    newestTools: 最新工具
+    favoriteTools: 我的收藏
+    allTools: 全部工具
+    favoritesDndToolTip: 拖放重新排列收藏夹
+    emptyFavorites: 还没有收藏的工具，打开工具后点击爱心即可固定到这里。
+  subtitle: 助力开发人员和 IT 工作者
+  toggleMenu: 切换菜单
+  back: 返回
+  forward: 前进
+  home: 主页
+  uiLib: UI 库
+  support: 支持 X-Tools 开发
+  buyMeACoffee: 爱发电
   follow:
-    title: '关注我们'
-    p1: '给我们 Star'
-    githubRepository: 'GitHub 仓库'
-    p2: '关注我们的'
-    twitterXAccount: 'X-Tools X 账号'
-    thankYou: '感谢您的支持！'
+    title: 关注我们
+    p1: 给我们 Star
+    githubRepository: GitHub 仓库
+    p2: 关注我们的
+    twitterXAccount: X-Tools X 账号
+    thankYou: 感谢您的支持！
   nav:
-    github: 'GitHub 仓库'
-    githubRepository: 'GitHub 仓库'
-    twitterX: 'Twitter 账号'
-    twitterXAccount: 'X-Tools X 账号'
-    about: '关于 X-Tools'
-    aboutLabel: '关于'
-    darkMode: '深色模式'
-    lightMode: '浅色模式'
-    mode: '颜色模式'
+    github: GitHub 仓库
+    githubRepository: GitHub 仓库
+    twitterX: Twitter 账号
+    twitterXAccount: X-Tools X 账号
+    about: 关于 X-Tools
+    aboutLabel: 关于
+    darkMode: 深色模式
+    lightMode: 浅色模式
+    mode: 颜色模式
 about:
   content: >
     # 关于 X-Tools
@@ -53,30 +53,30 @@ about:
     X-Tools 使用自托管的匿名使用统计（页面访问、打开的工具、收藏、语言和主题切换以及搜索关键词）。不使用 Cookie，不保存您的 IP 地址，也不会跨站追踪您。您的收藏和设置仅保存在浏览器本地。如需退出统计，请在浏览器中开启“请勿跟踪”。
 
 404:
-  notFound: '404 页面不存在'
-  sorry: '抱歉，该页面似乎不存在'
-  maybe: '也许缓存出现了一些问题，试试强制刷新页面？'
-  backHome: '返回主页'
+  notFound: 404 页面不存在
+  sorry: 抱歉，该页面似乎不存在
+  maybe: 也许缓存出现了一些问题，试试强制刷新页面？
+  backHome: 返回主页
 favoriteButton:
-  remove: '取消收藏'
-  add: '加入收藏'
+  remove: 取消收藏
+  add: 加入收藏
 toolCard:
-  new: '新'
+  new: 新
 search:
-  label: '搜索'
+  label: 搜索
 tools:
   categories:
-    favorite-tools: '我的收藏'
-    crypto: '加密'
-    converter: '转换器'
+    favorite-tools: 我的收藏
+    crypto: 加密
+    converter: 转换器
     web: Web
-    images and videos: '图片和视频'
-    development: '开发'
-    network: '网络'
-    math: '数学'
-    measurement: '测量'
-    text: '文本'
-    data: '数据'
+    images and videos: 图片和视频
+    development: 开发
+    network: 网络
+    math: 数学
+    measurement: 测量
+    text: 文本
+    data: 数据
 
   password-strength-analyser:
     title: 密码强度分析仪
@@ -89,12 +89,12 @@ tools:
     title: Token 生成器
     description: 使用您想要的字符、大写或小写字母、数字和/或符号生成随机字符串。
 
-    uppercase: '大写 (ABC...)'
-    lowercase: '小写 (abc...)'
-    numbers: '数字 (123...)'
-    symbols: '符号 (!-;...)'
-    length: '长度'
-    tokenPlaceholder: '令牌...'
+    uppercase: 大写 (ABC...)
+    lowercase: 小写 (abc...)
+    numbers: 数字 (123...)
+    symbols: 符号 (!-;...)
+    length: 长度
+    tokenPlaceholder: 令牌...
     copied: 复制到剪贴板
     button:
       copy: 复制
@@ -318,7 +318,7 @@ tools:
 
   hash-text:
     title: Hash 文本
-    description: '使用所需的函数哈希文本字符串：MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3或RIPEMD160'
+    description: 使用所需的函数哈希文本字符串：MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3或RIPEMD160
 
   json-to-toml:
     title: JSON 转 TOML
@@ -330,7 +330,7 @@ tools:
 
   pdf-signature-checker:
     title: PDF签名检查器
-    description: '验证PDF文件的签名。签名的PDF文件包含一个或多个签名，可用于确定文件的内容在签名后是否已被更改。'
+    description: 验证PDF文件的签名。签名的PDF文件包含一个或多个签名，可用于确定文件的内容在签名后是否已被更改。
 
   json-minify:
     title: JSON 压缩
@@ -395,3 +395,35 @@ tools:
   text-to-binary:
     title: 文本到 ASCII 二进制
     description: 将文本转换为其 ASCII 二进制表示形式，反之亦然。
+landing:
+  title: 图片处理、文件对比、开发转换，一站搞定
+  subtitle: 免费在线工具，打开即用。无需安装，文件只在你的浏览器里处理。
+  searchPlaceholder: 搜工具或任务，例如：证件照、XML 对比
+  tasksTitle: 你想完成什么？
+  tasksHint: 按任务选，不必从分类里翻找
+  browseAll: 浏览全部工具
+  open: 打开
+  more: 更多
+  tasks:
+    idPhoto:
+      title: 制作一寸 / 二寸证件照
+      description: 选择照片规格，裁剪人像并导出图片。
+    crop:
+      title: 把图片裁成指定尺寸
+      description: 选择比例或尺寸，导出 JPG、PNG 或 WebP。
+    xml:
+      title: 找出两份 XML 的变化
+      description: 并排查看差异，减少缩进带来的干扰。
+    json:
+      title: 让 JSON 更容易阅读
+      description: 把一大段 JSON 整理为清晰的缩进结构。
+    time:
+      title: 时间戳转成日期
+      description: 在时间戳和日期之间转换，方便开发调试。
+    b64:
+      title: 编码 / 解码 Base64 文本
+      description: 快速处理 Base64 字符串，不必另写脚本。
+fileUpload:
+  or: 或
+  browse: 选择文件
+  title: 将文件拖放到此处，或点击选择文件

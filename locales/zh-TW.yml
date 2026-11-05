@@ -1,35 +1,35 @@
 home:
   categories:
-    newestTools: '最新工具'
-    favoriteTools: '我的最愛'
-    allTools: '全部工具'
-    favoritesDndToolTip: '拖曳以重新排列最愛'
-    emptyFavorites: '還沒有加入最愛的工具，開啟工具後點擊愛心即可釘選到這裡。'
-  subtitle: '助力開發人員與 IT 工作者'
-  toggleMenu: '切換選單'
-  back: '返回'
-  forward: '前進'
-  home: '首頁'
-  uiLib: 'UI 元件庫'
-  support: '支持 X-Tools 開發'
-  buyMeACoffee: '贊助'
+    newestTools: 最新工具
+    favoriteTools: 我的最愛
+    allTools: 全部工具
+    favoritesDndToolTip: 拖曳以重新排列最愛
+    emptyFavorites: 還沒有加入最愛的工具，開啟工具後點擊愛心即可釘選到這裡。
+  subtitle: 助力開發人員與 IT 工作者
+  toggleMenu: 切換選單
+  back: 返回
+  forward: 前進
+  home: 首頁
+  uiLib: UI 元件庫
+  support: 支持 X-Tools 開發
+  buyMeACoffee: 贊助
   follow:
-    title: '關注我們'
-    p1: '給我們 Star'
-    githubRepository: 'GitHub 儲存庫'
-    p2: '關注我們的'
-    twitterXAccount: 'X-Tools X 帳號'
-    thankYou: '感謝您的支持！'
+    title: 關注我們
+    p1: 給我們 Star
+    githubRepository: GitHub 儲存庫
+    p2: 關注我們的
+    twitterXAccount: X-Tools X 帳號
+    thankYou: 感謝您的支持！
   nav:
-    github: 'GitHub 儲存庫'
-    githubRepository: 'GitHub 儲存庫'
-    twitterX: 'Twitter 帳號'
-    twitterXAccount: 'X-Tools X 帳號'
-    about: '關於 X-Tools'
-    aboutLabel: '關於'
-    darkMode: '深色模式'
-    lightMode: '淺色模式'
-    mode: '色彩模式'
+    github: GitHub 儲存庫
+    githubRepository: GitHub 儲存庫
+    twitterX: Twitter 帳號
+    twitterXAccount: X-Tools X 帳號
+    about: 關於 X-Tools
+    aboutLabel: 關於
+    darkMode: 深色模式
+    lightMode: 淺色模式
+    mode: 色彩模式
 about:
   content: >
     # 關於 X-Tools
@@ -53,30 +53,30 @@ about:
     X-Tools 使用自行託管的匿名使用統計（頁面瀏覽、開啟的工具、收藏、語言與主題切換以及搜尋關鍵字）。不使用 Cookie，不儲存您的 IP 位址，也不會跨站追蹤您。您的收藏與設定僅儲存在瀏覽器本機。如需退出統計，請在瀏覽器中開啟「不要追蹤」。
 
 404:
-  notFound: '404 找不到頁面'
-  sorry: '抱歉，該頁面似乎不存在'
-  maybe: '也許快取出現了一些問題，試試強制重新整理頁面？'
-  backHome: '返回首頁'
+  notFound: 404 找不到頁面
+  sorry: 抱歉，該頁面似乎不存在
+  maybe: 也許快取出現了一些問題，試試強制重新整理頁面？
+  backHome: 返回首頁
 favoriteButton:
-  remove: '取消最愛'
-  add: '加入最愛'
+  remove: 取消最愛
+  add: 加入最愛
 toolCard:
-  new: '新'
+  new: 新
 search:
-  label: '搜尋'
+  label: 搜尋
 tools:
   categories:
-    favorite-tools: '我的最愛'
-    crypto: '加密'
-    converter: '轉換器'
+    favorite-tools: 我的最愛
+    crypto: 加密
+    converter: 轉換器
     web: Web
-    images and videos: '圖片和影片'
-    development: '開發'
-    network: '網路'
-    math: '數學'
-    measurement: '測量'
-    text: '文字'
-    data: '資料'
+    images and videos: 圖片和影片
+    development: 開發
+    network: 網路
+    math: 數學
+    measurement: 測量
+    text: 文字
+    data: 資料
 
   password-strength-analyser:
     title: 密碼強度分析器
@@ -89,12 +89,12 @@ tools:
     title: Token 產生器
     description: 使用您想要的字元、大寫或小寫字母、數字和/或符號，產生隨機字串。
 
-    uppercase: '大寫 (ABC...)'
-    lowercase: '小寫 (abc...)'
-    numbers: '數字 (123...)'
-    symbols: '符號 (!-;...)'
-    length: '長度'
-    tokenPlaceholder: 'Token...'
+    uppercase: 大寫 (ABC...)
+    lowercase: 小寫 (abc...)
+    numbers: 數字 (123...)
+    symbols: 符號 (!-;...)
+    length: 長度
+    tokenPlaceholder: Token...
     copied: 已複製到剪貼簿
     button:
       copy: 複製
@@ -227,7 +227,7 @@ tools:
 
   html-entities:
     title: 跳脫 HTML 實體
-    description: "跳脫或還原 HTML 實體（將 <、>、&、\" 和 ' 取代為其 HTML 版本）。"
+    description: '跳脫或還原 HTML 實體（將 <、>、&、" 和 '' 取代為其 HTML 版本）。'
 
   json-prettify:
     title: JSON 美化與格式化
@@ -318,7 +318,7 @@ tools:
 
   hash-text:
     title: 文字雜湊
-    description: '使用所需的函式對文字字串進行雜湊：MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3 或 RIPEMD160'
+    description: 使用所需的函式對文字字串進行雜湊：MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3 或 RIPEMD160
 
   json-to-toml:
     title: JSON 轉 TOML
@@ -330,7 +330,7 @@ tools:
 
   pdf-signature-checker:
     title: PDF 簽章檢查器
-    description: '驗證 PDF 檔案的簽章。已簽署的 PDF 檔案包含一個或多個簽章，可用於判斷檔案內容在簽署後是否已被更改。'
+    description: 驗證 PDF 檔案的簽章。已簽署的 PDF 檔案包含一個或多個簽章，可用於判斷檔案內容在簽署後是否已被更改。
 
   json-minify:
     title: JSON 壓縮
@@ -395,3 +395,35 @@ tools:
   text-to-binary:
     title: 文字轉 ASCII 二進位
     description: 將文字轉換為其 ASCII 二進位表示形式，反之亦然。
+landing:
+  title: 圖片處理、檔案比對、開發轉換，一站搞定
+  subtitle: 免費線上工具，開啟即用。無需安裝，檔案只在你的瀏覽器中處理。
+  searchPlaceholder: 搜尋工具或任務，例如：證件照、XML 比對
+  tasksTitle: 你想完成什麼？
+  tasksHint: 依任務挑選，不必在分類中翻找
+  browseAll: 瀏覽全部工具
+  open: 開啟
+  more: 更多
+  tasks:
+    idPhoto:
+      title: 製作一吋 / 二吋證件照
+      description: 選擇照片規格，裁切人像並匯出圖片。
+    crop:
+      title: 把圖片裁成指定尺寸
+      description: 選擇比例或尺寸，匯出 JPG、PNG 或 WebP。
+    xml:
+      title: 找出兩份 XML 的差異
+      description: 並排檢視差異，減少縮排造成的干擾。
+    json:
+      title: 讓 JSON 更容易閱讀
+      description: 把一大段 JSON 整理為清晰的縮排結構。
+    time:
+      title: 時間戳轉成日期
+      description: 在時間戳與日期之間轉換，方便開發除錯。
+    b64:
+      title: 編碼 / 解碼 Base64 文字
+      description: 快速處理 Base64 字串，不必另寫腳本。
+fileUpload:
+  or: 或
+  browse: 選擇檔案
+  title: 將檔案拖放到此處，或點擊選擇檔案

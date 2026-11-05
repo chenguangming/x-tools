@@ -1,95 +1,32 @@
 <script lang="ts" setup>
-import { NIcon, useThemeVars } from 'naive-ui';
+import { useThemeVars } from 'naive-ui';
 
-import { RouterLink, useRoute, useRouter } from 'vue-router';
-import { ArrowLeft, ArrowRight, Heart, Home2 } from '@vicons/tabler';
+import { RouterLink } from 'vue-router';
 
 import NavbarButtons from '../components/NavbarButtons.vue';
-import { useStyleStore } from '@/stores/style.store';
 import { config } from '@/config';
 
 const themeVars = useThemeVars();
-const styleStore = useStyleStore();
 const buildDate = config.app.buildDate;
 const commitSha = config.app.lastCommitSha.slice(0, 7);
-
-const router = useRouter();
-const route = useRoute();
-
-// Depends on route.fullPath so it is re-evaluated after each navigation
-const canGoForward = computed(() => route.fullPath && !!window.history.state?.forward);
-
-function goBack() {
-  if (window.history.state?.back) {
-    router.back();
-  }
-  else {
-    router.push('/');
-  }
-}
 </script>
 
 <template>
   <n-layout class="base-layout" :native-scrollbar="false">
     <div class="page-card">
       <header class="top-bar">
-        <div class="top-bar-inner" :class="{ isSmallScreen: styleStore.isSmallScreen }">
+        <div class="top-bar-inner">
           <RouterLink to="/" class="brand">
             X - TOOLS
           </RouterLink>
 
-          <c-tooltip :tooltip="$t('home.back')" position="bottom">
-            <c-button circle variant="text" :aria-label="$t('home.back')" @click="goBack">
-              <NIcon size="25"><ArrowLeft /></NIcon>
-            </c-button>
-          </c-tooltip>
-
-          <c-tooltip :tooltip="$t('home.home')" position="bottom">
-            <c-button to="/" circle variant="text" :aria-label="$t('home.home')">
-              <NIcon size="25"><Home2 /></NIcon>
-            </c-button>
-          </c-tooltip>
-
-          <c-tooltip :tooltip="$t('home.forward')" position="bottom">
-            <c-button circle variant="text" :disabled="!canGoForward" :aria-label="$t('home.forward')" @click="router.forward()">
-              <NIcon size="25"><ArrowRight /></NIcon>
-            </c-button>
-          </c-tooltip>
-
-          <c-tooltip :tooltip="$t('home.uiLib')" position="bottom">
-            <c-button v-if="config.app.env === 'development'" to="/c-lib" circle variant="text" :aria-label="$t('home.uiLib')">
-              <icon-mdi:brush-variant text-20px />
-            </c-button>
-          </c-tooltip>
-
           <command-palette />
 
-          <locale-selector v-if="!styleStore.isSmallScreen" />
+          <locale-selector class="locale-select" />
 
-          <div>
-            <NavbarButtons v-if="!styleStore.isSmallScreen" />
-          </div>
-
-          <c-tooltip position="bottom" :tooltip="$t('home.support')">
-            <c-button
-              round
-              href="https://afdian.com/a/waying"
-              rel="noopener"
-              target="_blank"
-              class="support-button"
-              :bordered="false"
-            >
-              {{ $t('home.buyMeACoffee') }}
-              <NIcon v-if="!styleStore.isSmallScreen" ml-2><Heart /></NIcon>
-            </c-button>
-          </c-tooltip>
+          <NavbarButtons />
         </div>
       </header>
-
-      <div v-if="styleStore.isSmallScreen" flex flex-col items-center>
-        <locale-selector w="90%" />
-        <NavbarButtons />
-      </div>
 
       <main class="page-content">
         <slot />
@@ -155,6 +92,10 @@ function goBack() {
   border-bottom: 1px solid v-bind('themeVars.borderColor');
   padding: 12px 26px;
 
+  @media (max-width: 700px) {
+    padding: 10px 12px;
+  }
+
   .top-bar-inner {
     display: flex;
     align-items: center;
@@ -169,25 +110,31 @@ function goBack() {
     margin-right: 12px;
     color: inherit;
     text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .locale-select {
+    flex: none;
+    width: 150px;
+  }
+
+  @media (max-width: 700px) {
+    gap: 4px;
+
+    .brand {
+      margin-right: 4px;
+      font-size: 18px;
+    }
+
+    .locale-select {
+      width: 110px;
+    }
   }
 }
 
 .page-content {
   flex: 1;
   padding: 0 26px;
-}
-
-.support-button {
-  background: rgb(37, 99, 108);
-  background: linear-gradient(48deg, rgba(37, 99, 108, 1) 0%, rgba(59, 149, 111, 1) 60%, rgba(20, 160, 88, 1) 100%);
-  color: #fff !important;
-  transition: padding ease 0.2s !important;
-
-  &:hover {
-    color: #fff;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
 }
 
 .footer {

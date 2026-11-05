@@ -457,3 +457,35 @@ tools:
   text-to-binary:
     title: Text zu ASCII-Binär
     description: Konvertiere Text in seine ASCII-Binärrepräsentation und umgekehrt.
+landing:
+  title: 'Bildbearbeitung, Dateivergleich und Entwickler-Tools an einem Ort'
+  subtitle: 'Kostenlose Online-Tools, sofort nutzbar. Keine Installation, Ihre Dateien bleiben im Browser.'
+  searchPlaceholder: 'Tools oder Aufgaben suchen, z. B. Passfoto, XML-Vergleich'
+  tasksTitle: Was möchten Sie tun?
+  tasksHint: 'Nach Aufgabe wählen, ohne Kategorien durchzusehen'
+  browseAll: Alle Tools durchsuchen
+  open: Öffnen
+  more: Mehr
+  tasks:
+    idPhoto:
+      title: Passfotos im Format 1 / 2 Zoll erstellen
+      description: 'Fotogröße wählen, Porträt zuschneiden und exportieren.'
+    crop:
+      title: Bild auf eine bestimmte Größe zuschneiden
+      description: 'Verhältnis oder Größe wählen, als JPG, PNG oder WebP exportieren.'
+    xml:
+      title: Unterschiede zwischen zwei XML-Dateien finden
+      description: 'Änderungen nebeneinander ansehen, ohne Einrückungsrauschen.'
+    json:
+      title: JSON besser lesbar machen
+      description: 'Einen langen JSON-Text in eine saubere, eingerückte Struktur bringen.'
+    time:
+      title: Zeitstempel in Datum umwandeln
+      description: 'Zwischen Zeitstempel und Datum umrechnen, z. B. zum Debuggen.'
+    b64:
+      title: Base64-Text kodieren / dekodieren
+      description: 'Base64-Zeichenketten schnell verarbeiten, ganz ohne Skript.'
+fileUpload:
+  or: oder
+  browse: Dateien durchsuchen
+  title: 'Dateien hierher ziehen oder klicken, um sie auszuwählen'

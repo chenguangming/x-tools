@@ -1,35 +1,35 @@
 home:
   categories:
     newestTools: Newest tools
-    favoriteTools: 'Your favorite tools'
-    allTools: 'All the tools'
-    favoritesDndToolTip: 'Drag and drop to reorder favorites'
-    emptyFavorites: 'No favorites yet. Open a tool and click the heart to pin it here.'
-  subtitle: 'Handy tools for developers'
-  toggleMenu: 'Toggle menu'
-  back: 'Back'
-  forward: 'Forward'
+    favoriteTools: Your favorite tools
+    allTools: All the tools
+    favoritesDndToolTip: Drag and drop to reorder favorites
+    emptyFavorites: No favorites yet. Open a tool and click the heart to pin it here.
+  subtitle: Handy tools for developers
+  toggleMenu: Toggle menu
+  back: Back
+  forward: Forward
   home: Home
-  uiLib: 'UI Lib'
-  support: 'Support X-Tools development'
-  buyMeACoffee: 'Sponsor me'
+  uiLib: UI Lib
+  support: Support X-Tools development
+  buyMeACoffee: Sponsor me
   follow:
-    title: 'You like X-Tools?'
-    p1: 'Give us a star on'
-    githubRepository: 'X-Tools GitHub repository'
-    p2: 'or follow us on'
-    twitterXAccount: 'X-Tools X account'
-    thankYou: 'Thank you!'
+    title: You like X-Tools?
+    p1: Give us a star on
+    githubRepository: X-Tools GitHub repository
+    p2: or follow us on
+    twitterXAccount: X-Tools X account
+    thankYou: Thank you!
   nav:
-    github: 'GitHub repository'
-    githubRepository: 'X-Tools GitHub repository'
-    twitterX: 'X account'
-    twitterXAccount: 'X-Tools X account'
-    about: 'About  X-Tools'
-    aboutLabel: 'About'
-    darkMode: 'Dark mode'
-    lightMode: 'Light mode'
-    mode: 'Toggle dark/light mode'
+    github: GitHub repository
+    githubRepository: X-Tools GitHub repository
+    twitterX: X account
+    twitterXAccount: X-Tools X account
+    about: About  X-Tools
+    aboutLabel: About
+    darkMode: Dark mode
+    lightMode: Light mode
+    mode: Toggle dark/light mode
 about:
   content: >
     # About X-Tools
@@ -53,20 +53,20 @@ about:
     X-Tools uses self-hosted, anonymous usage statistics (page views, tools opened, favorites, language and theme changes, and search keywords). It does not use cookies, does not store your IP address, and does not track you across sites. Your favorites and settings are stored only in your browser. You can opt out by enabling Do Not Track in your browser.
 
 404:
-  notFound: '404 Not Found'
+  notFound: 404 Not Found
   sorry: 'Sorry, this page does not seem to exist'
   maybe: 'Maybe the cache is doing tricky things, try force-refreshing?'
-  backHome: 'Back home'
+  backHome: Back home
 favoriteButton:
-  remove: 'Remove from favorites'
-  add: 'Add to favorites'
+  remove: Remove from favorites
+  add: Add to favorites
 toolCard:
   new: New
 search:
   label: Search
 tools:
   categories:
-    favorite-tools: 'Your favorite tools'
+    favorite-tools: Your favorite tools
     crypto: Crypto
     converter: Converter
     web: Web
@@ -95,7 +95,7 @@ tools:
     numbers: Numbers (123...)
     symbols: Symbols (!-;...)
     length: Length
-    tokenPlaceholder: 'The token...'
+    tokenPlaceholder: The token...
     copied: Token copied to the clipboard
     button:
       copy: Copy
@@ -399,3 +399,35 @@ tools:
   text-to-binary:
     title: Text to ASCII binary
     description: Convert text to its ASCII binary representation and vice-versa.
+landing:
+  title: 'Image processing, file comparison and dev tools — all in one place'
+  subtitle: 'Free online tools, ready to use. Nothing to install, your files stay in your browser.'
+  searchPlaceholder: 'Search tools or tasks, e.g. ID photo, XML diff'
+  tasksTitle: What do you want to do?
+  tasksHint: 'Pick by task, no need to dig through categories'
+  browseAll: Browse all tools
+  open: Open
+  more: More
+  tasks:
+    idPhoto:
+      title: Make 1-inch / 2-inch ID photos
+      description: 'Choose a photo size, crop the portrait and export it.'
+    crop:
+      title: Crop an image to a given size
+      description: 'Pick a ratio or size, export JPG, PNG or WebP.'
+    xml:
+      title: Find the differences between two XML files
+      description: 'View changes side by side, without indentation noise.'
+    json:
+      title: Make JSON easier to read
+      description: 'Turn a big blob of JSON into a clean, indented tree.'
+    time:
+      title: Convert a timestamp to a date
+      description: Convert between timestamps and dates for debugging.
+    b64:
+      title: Encode / decode Base64 text
+      description: 'Handle Base64 strings quickly, no scripts needed.'
+fileUpload:
+  or: or
+  browse: Browse files
+  title: 'Drag and drop files here, or click to select files'
