@@ -22,6 +22,12 @@ tools:
     hint: 拖曳照片讓人臉位於框內，滾輪縮放。超出照片的區域會填滿背景色。
     replaceBackground: 替換背景
     replaceBackgroundHint: 自動去背人像並放到所選背景色上。首次使用會下載約 26 MB 的模型，全程在瀏覽器本機執行。
+    sizeHint: 「選幾吋」在編輯介面只影響裁切框的比例，在匯出結果上才影響實際像素尺寸。
+    adjust: 色彩調整
+    brightness: 亮度
+    contrast: 對比度
+    saturation: 飽和度
+    resetAdjust: 重設
     loadingModel: 正在載入去背模型…
     downloadingModel: '正在下載去背模型… {percent}%'
     matteFailed: 去背失敗。請關閉「替換背景」或更換照片。

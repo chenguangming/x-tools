@@ -22,6 +22,12 @@ tools:
     hint: 拖动照片让人脸位于框内，滚轮缩放。超出照片的区域会填充背景色。
     replaceBackground: 替换背景
     replaceBackgroundHint: 自动抠出人像并放到所选背景色上。首次使用会下载约 26 MB 的模型，全程在浏览器本地运行。
+    sizeHint: “选几寸”在编辑界面只影响裁剪框的比例，在导出结果上才影响实际像素尺寸。
+    adjust: 色彩调节
+    brightness: 亮度
+    contrast: 对比度
+    saturation: 饱和度
+    resetAdjust: 重置
     loadingModel: 正在加载抠像模型…
     downloadingModel: '正在下载抠像模型… {percent}%'
     matteFailed: 抠像失败。请关闭“替换背景”或更换照片。

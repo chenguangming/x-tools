@@ -37,6 +37,10 @@ const background = ref('#438edb');
 const format = ref<OutputFormat>('jpeg');
 const maxSizeKb = ref<number | null>(null);
 const replaceBackground = ref(true);
+const brightness = ref(0);
+const contrast = ref(0);
+const saturation = ref(0);
+const hasAdjustments = computed(() => brightness.value !== 0 || contrast.value !== 0 || saturation.value !== 0);
 const progressText = ref('');
 let cutoutCache: { key: string; canvas: HTMLCanvasElement } | null = null;
 
@@ -61,6 +65,44 @@ const outputSize = computed(() => {
 
 const ratio = computed<[number, number]>(() => [outputSize.value.width, outputSize.value.height]);
 const extension = computed(() => (format.value === 'jpeg' ? 'jpg' : 'png'));
+
+const adjustSliders = [
+  { key: 'brightness', model: brightness },
+  { key: 'contrast', model: contrast },
+  { key: 'saturation', model: saturation },
+];
+
+function resetAdjustments() {
+  brightness.value = 0;
+  contrast.value = 0;
+  saturation.value = 0;
+}
+
+// Same formulas as the CSS brightness/contrast/saturate filters; alpha is left untouched
+function adjustColors(ctx: CanvasRenderingContext2D, width: number, height: number) {
+  const image = ctx.getImageData(0, 0, width, height);
+  const { data } = image;
+  const b = 1 + brightness.value / 100;
+  const c = 1 + contrast.value / 100;
+  const s = 1 + saturation.value / 100;
+
+  for (let i = 0; i < data.length; i += 4) {
+    let r = data[i] * b;
+    let g = data[i + 1] * b;
+    let bl = data[i + 2] * b;
+
+    r = (r - 127.5) * c + 127.5;
+    g = (g - 127.5) * c + 127.5;
+    bl = (bl - 127.5) * c + 127.5;
+
+    const gray = 0.2126 * r + 0.7152 * g + 0.0722 * bl;
+    data[i] = gray + (r - gray) * s;
+    data[i + 1] = gray + (g - gray) * s;
+    data[i + 2] = gray + (bl - gray) * s;
+  }
+
+  ctx.putImageData(image, 0, 0);
+}
 
 function revokeResult() {
   if (result.value.url) {
@@ -147,7 +189,21 @@ async function generate() {
     ctx.imageSmoothingQuality = 'high';
     ctx.fillStyle = background.value;
     ctx.fillRect(0, 0, width, height);
-    ctx.drawImage(subject, 0, 0, width, height);
+
+    if (hasAdjustments.value) {
+      // adjust the person only, so the background keeps exactly the chosen color
+      const layer = document.createElement('canvas');
+      layer.width = width;
+      layer.height = height;
+      const layerCtx = layer.getContext('2d', { willReadFrequently: true })!;
+      layerCtx.imageSmoothingQuality = 'high';
+      layerCtx.drawImage(subject, 0, 0, width, height);
+      adjustColors(layerCtx, width, height);
+      ctx.drawImage(layer, 0, 0);
+    }
+    else {
+      ctx.drawImage(subject, 0, 0, width, height);
+    }
 
     let quality = 0.92;
     let blob = await toBlob(canvas, `image/${format.value}`, format.value === 'jpeg' ? quality : undefined);
@@ -199,6 +255,14 @@ async function saveResult() {
 function formatSize(bytes: number) {
   return bytes < 1024 * 1024 ? `${(bytes / 1024).toFixed(1)} KB` : `${(bytes / 1024 / 1024).toFixed(2)} MB`;
 }
+
+// Re-render the preview while sliders move, if one is already shown
+const regenerateOnAdjust = useDebounceFn(() => {
+  if (result.value.url && !isBusy.value) {
+    generate();
+  }
+}, 300);
+watch([brightness, contrast, saturation], regenerateOnAdjust);
 
 onBeforeUnmount(() => {
   revokeResult();
@@ -269,6 +333,7 @@ onBeforeUnmount(() => {
                 <n-input-number v-model:value="customHeight" :min="10" :max="10000" />
                 <span text-12px op-60>px</span>
               </div>
+              <span text-12px op-60>{{ $t('tools.id-photo.sizeHint') }}</span>
             </div>
           </n-form-item>
 
@@ -297,6 +362,21 @@ onBeforeUnmount(() => {
             <div flex flex-col gap-1>
               <n-switch v-model:value="replaceBackground" />
               <span text-12px op-60>{{ $t('tools.id-photo.replaceBackgroundHint') }}</span>
+            </div>
+          </n-form-item>
+
+          <n-form-item :label="$t('tools.id-photo.adjust')" mb-3>
+            <div w-full flex flex-col gap-1>
+              <div v-for="item in adjustSliders" :key="item.key" flex items-center gap-2>
+                <span w-60px shrink-0 text-12px>{{ $t(`tools.id-photo.${item.key}`) }}</span>
+                <n-slider v-model:value="item.model.value" :min="-100" :max="100" :step="1" flex-1 />
+                <span w-32px shrink-0 text-right text-12px op-70>{{ item.model.value }}</span>
+              </div>
+              <div>
+                <c-button size="small" :disabled="!hasAdjustments" @click="resetAdjustments">
+                  {{ $t('tools.id-photo.resetAdjust') }}
+                </c-button>
+              </div>
             </div>
           </n-form-item>
 

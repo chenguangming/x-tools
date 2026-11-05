@@ -22,6 +22,12 @@ tools:
     hint: 'Dra bildet for å plassere ansiktet i rammen, og bruk rullehjulet for å zoome. Områder utenfor bildet fylles med bakgrunnsfargen.'
     replaceBackground: Erstatt bakgrunn
     replaceBackgroundHint: Frilegger personen automatisk og plasserer den på valgt farge. Modellen (ca. 26 MB) lastes ned første gang og kjører helt i nettleseren.
+    sizeHint: Å velge størrelse endrer bare sideforholdet på beskjæringsrammen i editoren; den faktiske pikselstørrelsen gjelder ved eksport.
+    adjust: Fargejustering
+    brightness: Lysstyrke
+    contrast: Kontrast
+    saturation: Metning
+    resetAdjust: Tilbakestill
     loadingModel: Laster frilegging-modellen…
     downloadingModel: 'Laster ned frilegging-modellen… {percent} %'
     matteFailed: Fjerning av bakgrunn mislyktes. Slå av «Erstatt bakgrunn» eller prøv et annet bilde.

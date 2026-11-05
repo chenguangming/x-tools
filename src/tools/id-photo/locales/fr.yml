@@ -22,6 +22,12 @@ tools:
     hint: Faites glisser la photo pour placer le visage dans le cadre et utilisez la molette pour zoomer. Les zones hors de la photo sont remplies avec la couleur de fond.
     replaceBackground: Remplacer le fond
     replaceBackgroundHint: 'Détoure automatiquement la personne et la place sur la couleur choisie. Le modèle (environ 26 Mo) est téléchargé à la première utilisation et s''exécute entièrement dans votre navigateur.'
+    sizeHint: 'Choisir une taille ne modifie que le ratio du cadre dans l''éditeur ; la taille réelle en pixels s''applique à l''export.'
+    adjust: Réglage des couleurs
+    brightness: Luminosité
+    contrast: Contraste
+    saturation: Saturation
+    resetAdjust: Réinitialiser
     loadingModel: Chargement du modèle de détourage…
     downloadingModel: 'Téléchargement du modèle de détourage… {percent} %'
     matteFailed: Échec de la suppression du fond. Désactivez « Remplacer le fond » ou essayez une autre photo.

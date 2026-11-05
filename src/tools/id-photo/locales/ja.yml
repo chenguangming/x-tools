@@ -22,6 +22,12 @@ tools:
     hint: 写真をドラッグして顔を枠内に合わせ、スクロールでズームします。写真の外側は背景色で塗りつぶされます。
     replaceBackground: 背景を置き換える
     replaceBackgroundHint: 人物を自動で切り抜き、選んだ背景色に合成します。初回のみ約 26 MB のモデルをダウンロードし、処理はすべてブラウザ内で行われます。
+    sizeHint: サイズを選んでも、編集画面ではトリミング枠の縦横比が変わるだけです。実際のピクセルサイズは書き出し時に反映されます。
+    adjust: 色の調整
+    brightness: 明るさ
+    contrast: コントラスト
+    saturation: 彩度
+    resetAdjust: リセット
     loadingModel: 切り抜きモデルを読み込み中…
     downloadingModel: '切り抜きモデルをダウンロード中… {percent}%'
     matteFailed: 背景の除去に失敗しました。「背景を置き換える」をオフにするか、別の写真をお試しください。

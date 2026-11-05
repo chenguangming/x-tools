@@ -22,6 +22,12 @@ tools:
     hint: Arrastra la foto para situar el rostro dentro del marco y usa la rueda para hacer zoom. Las zonas fuera de la foto se rellenan con el color de fondo.
     replaceBackground: Reemplazar fondo
     replaceBackgroundHint: Recorta a la persona automáticamente y la coloca sobre el color elegido. El modelo (unos 26 MB) se descarga la primera vez y se ejecuta por completo en tu navegador.
+    sizeHint: Elegir un tamaño solo cambia la proporción del recuadro en el editor; el tamaño real en píxeles se aplica al exportar.
+    adjust: Ajuste de color
+    brightness: Brillo
+    contrast: Contraste
+    saturation: Saturación
+    resetAdjust: Restablecer
     loadingModel: Cargando el modelo de recorte…
     downloadingModel: 'Descargando el modelo de recorte… {percent}%'
     matteFailed: No se pudo quitar el fondo. Desactiva «Reemplazar fondo» o prueba con otra foto.

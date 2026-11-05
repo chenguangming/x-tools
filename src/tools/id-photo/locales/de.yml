@@ -22,6 +22,12 @@ tools:
     hint: 'Foto ziehen, um das Gesicht im Rahmen zu platzieren, und scrollen zum Zoomen. Bereiche außerhalb des Fotos werden mit der Hintergrundfarbe gefüllt.'
     replaceBackground: Hintergrund ersetzen
     replaceBackgroundHint: Die Person wird automatisch freigestellt und auf die gewählte Farbe gesetzt. Das Modell (ca. 26 MB) wird bei der ersten Nutzung geladen und läuft komplett im Browser.
+    sizeHint: Die Wahl der Größe ändert im Editor nur das Seitenverhältnis des Zuschneiderahmens; die tatsächliche Pixelgröße gilt erst beim Export.
+    adjust: Farbanpassung
+    brightness: Helligkeit
+    contrast: Kontrast
+    saturation: Sättigung
+    resetAdjust: Zurücksetzen
     loadingModel: Freistellungsmodell wird geladen…
     downloadingModel: 'Freistellungsmodell wird heruntergeladen… {percent}%'
     matteFailed: Hintergrundentfernung fehlgeschlagen. Deaktiviere „Hintergrund ersetzen“ oder versuche ein anderes Foto.

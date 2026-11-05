@@ -22,6 +22,12 @@ tools:
     hint: Arraste a foto para posicionar o rosto dentro da moldura e role para dar zoom. As áreas fora da foto são preenchidas com a cor de fundo.
     replaceBackground: Substituir fundo
     replaceBackgroundHint: Recorta a pessoa automaticamente e a coloca sobre a cor escolhida. O modelo (cerca de 26 MB) é descarregado na primeira utilização e corre totalmente no navegador.
+    sizeHint: Escolher um tamanho só altera a proporção da caixa de recorte no editor; o tamanho real em píxeis aplica-se na exportação.
+    adjust: Ajuste de cor
+    brightness: Brilho
+    contrast: Contraste
+    saturation: Saturação
+    resetAdjust: Repor
     loadingModel: A carregar o modelo de recorte…
     downloadingModel: 'A transferir o modelo de recorte… {percent}%'
     matteFailed: Falha ao remover o fundo. Desative «Substituir fundo» ou experimente outra foto.
