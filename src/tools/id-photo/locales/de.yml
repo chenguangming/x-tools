@@ -28,6 +28,8 @@ tools:
     contrast: Kontrast
     saturation: Sättigung
     resetAdjust: Zurücksetzen
+    cancel: Abbrechen
+    download: Herunterladen
     loadingModel: Freistellungsmodell wird geladen…
     downloadingModel: 'Freistellungsmodell wird heruntergeladen… {percent}%'
     matteFailed: Hintergrundentfernung fehlgeschlagen. Deaktiviere „Hintergrund ersetzen“ oder versuche ein anderes Foto.

@@ -28,6 +28,8 @@ tools:
     contrast: Kontrast
     saturation: Metning
     resetAdjust: Tilbakestill
+    cancel: Avbryt
+    download: Last ned
     loadingModel: Laster frilegging-modellen…
     downloadingModel: 'Laster ned frilegging-modellen… {percent} %'
     matteFailed: Fjerning av bakgrunn mislyktes. Slå av «Erstatt bakgrunn» eller prøv et annet bilde.

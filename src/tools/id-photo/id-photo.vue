@@ -37,6 +37,7 @@ const background = ref('#438edb');
 const format = ref<OutputFormat>('jpeg');
 const maxSizeKb = ref<number | null>(null);
 const replaceBackground = ref(true);
+const isSaveOpen = ref(false);
 const brightness = ref(0);
 const contrast = ref(0);
 const saturation = ref(0);
@@ -240,7 +241,8 @@ async function generate() {
   }
 }
 
-async function saveResult() {
+async function confirmSave() {
+  isSaveOpen.value = false;
   const generated = await generate();
   if (!generated) {
     return;
@@ -322,6 +324,15 @@ onBeforeUnmount(() => {
           <c-button @click="chooseAnother">
             {{ $t('tools.id-photo.chooseAnother') }}
           </c-button>
+          <c-button type="primary" class="solid-primary" :disabled="isBusy" @click="generate">
+            {{ $t('tools.id-photo.preview') }}
+          </c-button>
+          <c-button type="primary" class="solid-primary" :disabled="isBusy" @click="isSaveOpen = true">
+            {{ $t('tools.id-photo.save') }}
+          </c-button>
+        </div>
+        <div v-if="progressText" mt-2 text-12px op-70>
+          {{ progressText }}
         </div>
         <div mt-2 text-12px op-60>
           {{ $t('tools.id-photo.hint') }}
@@ -385,37 +396,41 @@ onBeforeUnmount(() => {
               </div>
             </div>
           </n-form-item>
-
-          <n-form-item :label="$t('tools.id-photo.format')" mb-3>
-            <n-radio-group v-model:value="format" size="small">
-              <n-radio-button value="jpeg" label="JPG" />
-              <n-radio-button value="png" label="PNG" />
-            </n-radio-group>
-          </n-form-item>
-
-          <n-form-item v-if="format === 'jpeg'" :label="$t('tools.id-photo.maxSize')" mb-3>
-            <n-input-number v-model:value="maxSizeKb" :min="5" :max="10000" clearable :placeholder="$t('tools.id-photo.noLimit')" w-full>
-              <template #suffix>
-                KB
-              </template>
-            </n-input-number>
-          </n-form-item>
         </n-form>
-
-        <div flex gap-2>
-          <c-button :disabled="isBusy" @click="generate">
-            {{ $t('tools.id-photo.preview') }}
-          </c-button>
-          <c-button :disabled="isBusy" @click="saveResult">
-            {{ $t('tools.id-photo.save') }}
-          </c-button>
-        </div>
-
-        <div v-if="progressText" mt-2 text-12px op-70>
-          {{ progressText }}
-        </div>
       </n-gi>
     </n-grid>
+
+    <c-modal v-model:open="isSaveOpen">
+      <div class="save-dialog" flex flex-col gap-3>
+        <div>
+          <div mb-1 font-bold>
+            {{ $t('tools.id-photo.format') }}
+          </div>
+          <n-radio-group v-model:value="format" size="small">
+            <n-radio-button value="jpeg" label="JPG" />
+            <n-radio-button value="png" label="PNG" />
+          </n-radio-group>
+        </div>
+        <div v-if="format === 'jpeg'">
+          <div mb-1 font-bold>
+            {{ $t('tools.id-photo.maxSize') }}
+          </div>
+          <n-input-number v-model:value="maxSizeKb" :min="5" :max="10000" clearable :placeholder="$t('tools.id-photo.noLimit')" w-full>
+            <template #suffix>
+              KB
+            </template>
+          </n-input-number>
+        </div>
+        <div flex justify-end gap-2>
+          <c-button @click="isSaveOpen = false">
+            {{ $t('tools.id-photo.cancel') }}
+          </c-button>
+          <c-button type="primary" class="solid-primary" @click="confirmSave">
+            {{ $t('tools.id-photo.download') }}
+          </c-button>
+        </div>
+      </div>
+    </c-modal>
   </div>
 </template>
 
@@ -442,6 +457,23 @@ onBeforeUnmount(() => {
   background: rgba(0, 0, 0, 0.55);
   border-radius: 6px;
   pointer-events: none;
+}
+
+.solid-primary {
+  color: #fff !important;
+  background-color: #18a058 !important;
+
+  &:hover:not([disabled]) {
+    background-color: #36ad6a !important;
+  }
+
+  &[disabled] {
+    opacity: 0.5;
+  }
+}
+
+.save-dialog {
+  min-width: 260px;
 }
 
 .swatch {

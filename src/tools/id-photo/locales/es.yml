@@ -28,6 +28,8 @@ tools:
     contrast: Contraste
     saturation: Saturación
     resetAdjust: Restablecer
+    cancel: Cancelar
+    download: Descargar
     loadingModel: Cargando el modelo de recorte…
     downloadingModel: 'Descargando el modelo de recorte… {percent}%'
     matteFailed: No se pudo quitar el fondo. Desactiva «Reemplazar fondo» o prueba con otra foto.

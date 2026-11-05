@@ -28,6 +28,8 @@ tools:
     contrast: Contrast
     saturation: Saturation
     resetAdjust: Reset
+    cancel: Cancel
+    download: Download
     loadingModel: Loading the cut-out model…
     downloadingModel: 'Downloading the cut-out model… {percent}%'
     matteFailed: 'Background removal failed. Turn off "Replace background" or try another photo.'

@@ -28,6 +28,8 @@ tools:
     contrast: Contraste
     saturation: Saturation
     resetAdjust: Réinitialiser
+    cancel: Annuler
+    download: Télécharger
     loadingModel: Chargement du modèle de détourage…
     downloadingModel: 'Téléchargement du modèle de détourage… {percent} %'
     matteFailed: Échec de la suppression du fond. Désactivez « Remplacer le fond » ou essayez une autre photo.

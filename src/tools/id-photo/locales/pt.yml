@@ -28,6 +28,8 @@ tools:
     contrast: Contraste
     saturation: Saturação
     resetAdjust: Repor
+    cancel: Cancelar
+    download: Transferir
     loadingModel: A carregar o modelo de recorte…
     downloadingModel: 'A transferir o modelo de recorte… {percent}%'
     matteFailed: Falha ao remover o fundo. Desative «Substituir fundo» ou experimente outra foto.

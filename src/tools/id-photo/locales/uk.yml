@@ -28,6 +28,8 @@ tools:
     contrast: Контраст
     saturation: Насиченість
     resetAdjust: Скинути
+    cancel: Скасувати
+    download: Завантажити
     loadingModel: Завантаження моделі вирізання…
     downloadingModel: 'Завантаження моделі вирізання… {percent}%'
     matteFailed: Не вдалося видалити тло. Вимкніть «Замінити тло» або спробуйте інше фото.

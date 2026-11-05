@@ -28,6 +28,8 @@ tools:
     contrast: 對比度
     saturation: 飽和度
     resetAdjust: 重設
+    cancel: 取消
+    download: 下載
     loadingModel: 正在載入去背模型…
     downloadingModel: '正在下載去背模型… {percent}%'
     matteFailed: 去背失敗。請關閉「替換背景」或更換照片。

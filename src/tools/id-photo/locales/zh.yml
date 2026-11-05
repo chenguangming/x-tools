@@ -28,6 +28,8 @@ tools:
     contrast: 对比度
     saturation: 饱和度
     resetAdjust: 重置
+    cancel: 取消
+    download: 下载
     loadingModel: 正在加载抠像模型…
     downloadingModel: '正在下载抠像模型… {percent}%'
     matteFailed: 抠像失败。请关闭“替换背景”或更换照片。

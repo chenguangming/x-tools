@@ -28,6 +28,8 @@ tools:
     contrast: Độ tương phản
     saturation: Độ bão hòa
     resetAdjust: Đặt lại
+    cancel: Hủy
+    download: Tải xuống
     loadingModel: Đang tải mô hình tách nền…
     downloadingModel: 'Đang tải mô hình tách nền… {percent}%'
     matteFailed: 'Tách nền thất bại. Hãy tắt "Thay nền" hoặc thử ảnh khác.'

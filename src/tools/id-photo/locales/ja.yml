@@ -28,6 +28,8 @@ tools:
     contrast: コントラスト
     saturation: 彩度
     resetAdjust: リセット
+    cancel: キャンセル
+    download: ダウンロード
     loadingModel: 切り抜きモデルを読み込み中…
     downloadingModel: '切り抜きモデルをダウンロード中… {percent}%'
     matteFailed: 背景の除去に失敗しました。「背景を置き換える」をオフにするか、別の写真をお試しください。

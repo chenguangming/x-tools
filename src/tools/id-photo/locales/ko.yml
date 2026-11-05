@@ -28,6 +28,8 @@ tools:
     contrast: 대비
     saturation: 채도
     resetAdjust: 초기화
+    cancel: 취소
+    download: 다운로드
     loadingModel: 누끼 모델을 불러오는 중…
     downloadingModel: '누끼 모델 다운로드 중… {percent}%'
     matteFailed: '배경 제거에 실패했습니다. "배경 바꾸기"를 끄거나 다른 사진을 사용해 보세요.'
