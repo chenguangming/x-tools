@@ -1,0 +1,24 @@
+tools:
+  audio-trimmer:
+    title: Audio-Trimmer
+    description: 'Schneide einen Audioausschnitt per Ziehen auf der Wellenform, höre ihn an und speichere ihn als MP3 oder WAV. Alles läuft lokal im Browser.'
+    upload: Audiodatei hier ablegen oder zum Auswählen klicken
+    tooLarge: 'Die Datei ist zu groß (Limit {size} MB).'
+    decodeFailed: 'Diese Audiodatei konnte nicht dekodiert werden. Versuche MP3, WAV, OGG, M4A oder FLAC.'
+    decoding: Audio wird dekodiert…
+    start: Start
+    end: Ende
+    selected: 'Auswahl: {length}'
+    play: Auswahl abspielen
+    stop: Stopp
+    reset: Zurücksetzen
+    chooseAnother: Datei wechseln
+    save: Ausschnitt speichern
+    hint: 'Ziehe auf der Wellenform, um einen Bereich zu wählen, oder passe ihn mit den grünen Griffen an.'
+    format: Format
+    bitrate: Bitrate
+    wavHint: WAV ist verlustfrei und größer.
+    cancel: Abbrechen
+    download: Herunterladen
+    encoding: Wird kodiert…
+    encodeFailed: Audio konnte nicht exportiert werden.

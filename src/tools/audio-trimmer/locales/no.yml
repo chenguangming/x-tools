@@ -1,0 +1,24 @@
+tools:
+  audio-trimmer:
+    title: Lydklipper
+    description: 'Klipp ut et lydutdrag ved å dra på bølgeformen, lytt til det og lagre som MP3 eller WAV. Alt skjer lokalt i nettleseren.'
+    upload: 'Slipp en lydfil her, eller klikk for å velge'
+    tooLarge: 'Filen er for stor (grense {size} MB).'
+    decodeFailed: 'Kunne ikke dekode denne lydfilen. Prøv MP3, WAV, OGG, M4A eller FLAC.'
+    decoding: Dekoder lyd…
+    start: Start
+    end: Slutt
+    selected: 'Valgt: {length}'
+    play: Spill av utvalg
+    stop: Stopp
+    reset: Tilbakestill
+    chooseAnother: Bytt fil
+    save: Lagre utdrag
+    hint: 'Dra på bølgeformen for å velge et område, eller juster med de grønne håndtakene.'
+    format: Format
+    bitrate: Bitrate
+    wavHint: WAV er tapsfritt og større.
+    cancel: Avbryt
+    download: Last ned
+    encoding: Koder…
+    encodeFailed: Kunne ikke eksportere lyden.

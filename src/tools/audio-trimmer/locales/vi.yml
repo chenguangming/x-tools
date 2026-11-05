@@ -1,0 +1,24 @@
+tools:
+  audio-trimmer:
+    title: Cắt âm thanh
+    description: 'Cắt đoạn âm thanh bằng cách kéo trên dạng sóng, nghe thử rồi lưu thành MP3 hoặc WAV. Mọi xử lý đều diễn ra trong trình duyệt.'
+    upload: Thả tệp âm thanh vào đây hoặc nhấp để chọn
+    tooLarge: 'Tệp quá lớn (giới hạn {size} MB).'
+    decodeFailed: 'Không thể giải mã tệp âm thanh này. Hãy thử MP3, WAV, OGG, M4A hoặc FLAC.'
+    decoding: Đang giải mã âm thanh…
+    start: Bắt đầu
+    end: Kết thúc
+    selected: 'Đã chọn: {length}'
+    play: Nghe đoạn đã chọn
+    stop: Dừng
+    reset: Đặt lại
+    chooseAnother: Đổi tệp
+    save: Lưu đoạn cắt
+    hint: 'Kéo trên dạng sóng để chọn khoảng, hoặc kéo các tay nắm màu xanh để chỉnh.'
+    format: Định dạng
+    bitrate: Tốc độ bit
+    wavHint: WAV không mất dữ liệu và dung lượng lớn hơn.
+    cancel: Hủy
+    download: Tải xuống
+    encoding: Đang mã hóa…
+    encodeFailed: Xuất âm thanh thất bại.

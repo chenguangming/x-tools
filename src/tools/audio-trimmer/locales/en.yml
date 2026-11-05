@@ -1,0 +1,24 @@
+tools:
+  audio-trimmer:
+    title: Audio Trimmer
+    description: 'Cut an audio clip by dragging on its waveform, preview it, and save it as MP3 or WAV. Everything runs locally in your browser.'
+    upload: 'Drop an audio file here, or click to select one'
+    tooLarge: 'The file is too large (limit {size} MB).'
+    decodeFailed: 'This audio file could not be decoded. Try MP3, WAV, OGG, M4A or FLAC.'
+    decoding: Decoding audio…
+    start: Start
+    end: End
+    selected: 'Selected: {length}'
+    play: Play selection
+    stop: Stop
+    reset: Reset
+    chooseAnother: Change file
+    save: Save clip
+    hint: 'Drag on the waveform to select a range, or drag the green handles to adjust it.'
+    format: Format
+    bitrate: Bitrate
+    wavHint: WAV is lossless and larger in size.
+    cancel: Cancel
+    download: Download
+    encoding: Encoding…
+    encodeFailed: Failed to export the audio.

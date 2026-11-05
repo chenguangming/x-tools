@@ -1,0 +1,24 @@
+tools:
+  audio-trimmer:
+    title: Recortador de audio
+    description: 'Recorta un fragmento de audio arrastrando sobre su forma de onda, escúchalo y guárdalo como MP3 o WAV. Todo se procesa en tu navegador.'
+    upload: Suelta un archivo de audio aquí o haz clic para elegirlo
+    tooLarge: 'El archivo es demasiado grande (límite {size} MB).'
+    decodeFailed: 'No se pudo decodificar este audio. Prueba con MP3, WAV, OGG, M4A o FLAC.'
+    decoding: Decodificando audio…
+    start: Inicio
+    end: Fin
+    selected: 'Selección: {length}'
+    play: Reproducir selección
+    stop: Detener
+    reset: Restablecer
+    chooseAnother: Cambiar archivo
+    save: Guardar fragmento
+    hint: 'Arrastra sobre la forma de onda para elegir un rango, o ajústalo con los controles verdes.'
+    format: Formato
+    bitrate: Tasa de bits
+    wavHint: WAV no tiene pérdida y ocupa más.
+    cancel: Cancelar
+    download: Descargar
+    encoding: Codificando…
+    encodeFailed: No se pudo exportar el audio.

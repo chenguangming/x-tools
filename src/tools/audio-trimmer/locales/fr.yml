@@ -1,0 +1,24 @@
+tools:
+  audio-trimmer:
+    title: Découpeur audio
+    description: 'Découpez un extrait audio en faisant glisser sur sa forme d’onde, écoutez-le et enregistrez-le en MP3 ou WAV. Tout se passe dans votre navigateur.'
+    upload: Déposez un fichier audio ici ou cliquez pour en choisir un
+    tooLarge: 'Le fichier est trop volumineux (limite {size} Mo).'
+    decodeFailed: 'Impossible de décoder ce fichier audio. Essayez MP3, WAV, OGG, M4A ou FLAC.'
+    decoding: Décodage de l’audio…
+    start: Début
+    end: Fin
+    selected: 'Sélection : {length}'
+    play: Écouter la sélection
+    stop: Arrêter
+    reset: Réinitialiser
+    chooseAnother: Changer de fichier
+    save: Enregistrer l’extrait
+    hint: 'Faites glisser sur la forme d’onde pour choisir une plage, ou ajustez-la avec les poignées vertes.'
+    format: Format
+    bitrate: Débit
+    wavHint: Le WAV est sans perte et plus volumineux.
+    cancel: Annuler
+    download: Télécharger
+    encoding: Encodage…
+    encodeFailed: Échec de l’export audio.

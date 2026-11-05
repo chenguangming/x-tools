@@ -1,0 +1,24 @@
+tools:
+  audio-trimmer:
+    title: 오디오 자르기
+    description: 파형을 드래그해 구간을 선택하고 미리 들은 뒤 MP3 또는 WAV로 저장합니다. 모든 처리는 브라우저에서 이루어집니다.
+    upload: 오디오 파일을 여기에 놓거나 클릭하여 선택
+    tooLarge: '파일이 너무 큽니다(최대 {size} MB).'
+    decodeFailed: '이 오디오 파일을 디코딩할 수 없습니다. MP3, WAV, OGG, M4A 또는 FLAC을 사용해 보세요.'
+    decoding: 오디오 디코딩 중…
+    start: 시작
+    end: 끝
+    selected: '선택됨: {length}'
+    play: 선택 구간 재생
+    stop: 정지
+    reset: 초기화
+    chooseAnother: 파일 변경
+    save: 클립 저장
+    hint: 파형을 드래그해 범위를 선택하거나 초록색 핸들로 조정하세요.
+    format: 형식
+    bitrate: 비트레이트
+    wavHint: WAV는 무손실이며 파일이 더 큽니다.
+    cancel: 취소
+    download: 다운로드
+    encoding: 인코딩 중…
+    encodeFailed: 오디오 내보내기에 실패했습니다.

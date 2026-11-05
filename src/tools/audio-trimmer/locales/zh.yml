@@ -1,0 +1,24 @@
+tools:
+  audio-trimmer:
+    title: 音频裁剪
+    description: 在波形上拖动选择片段，试听后保存为 MP3 或 WAV。全程在浏览器本地处理。
+    upload: 拖放音频文件到此处，或点击选择文件
+    tooLarge: '文件过大（上限 {size} MB）。'
+    decodeFailed: 无法解码该音频文件，请尝试 MP3、WAV、OGG、M4A 或 FLAC。
+    decoding: 正在解码音频…
+    start: 开始
+    end: 结束
+    selected: '已选：{length}'
+    play: 试听选区
+    stop: 停止
+    reset: 重置
+    chooseAnother: 更换文件
+    save: 保存片段
+    hint: 在波形上拖动选择范围，或拖动绿色手柄微调。
+    format: 格式
+    bitrate: 码率
+    wavHint: WAV 为无损格式，文件更大。
+    cancel: 取消
+    download: 下载
+    encoding: 正在编码…
+    encodeFailed: 导出音频失败。

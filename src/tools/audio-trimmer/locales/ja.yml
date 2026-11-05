@@ -1,0 +1,24 @@
+tools:
+  audio-trimmer:
+    title: 音声トリミング
+    description: 波形をドラッグして区間を選び、試聴してから MP3 または WAV で保存します。処理はすべてブラウザ内で行われます。
+    upload: 音声ファイルをここにドロップ、またはクリックして選択
+    tooLarge: 'ファイルが大きすぎます（上限 {size} MB）。'
+    decodeFailed: この音声ファイルをデコードできません。MP3、WAV、OGG、M4A、FLAC をお試しください。
+    decoding: 音声をデコードしています…
+    start: 開始
+    end: 終了
+    selected: '選択範囲：{length}'
+    play: 選択範囲を再生
+    stop: 停止
+    reset: リセット
+    chooseAnother: ファイルを変更
+    save: クリップを保存
+    hint: 波形をドラッグして範囲を選択、緑のハンドルで微調整できます。
+    format: 形式
+    bitrate: ビットレート
+    wavHint: WAV は無劣化ですがサイズが大きくなります。
+    cancel: キャンセル
+    download: ダウンロード
+    encoding: エンコード中…
+    encodeFailed: 音声の書き出しに失敗しました。

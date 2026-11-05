@@ -1,0 +1,24 @@
+tools:
+  audio-trimmer:
+    title: 音訊裁剪
+    description: 在波形上拖曳選擇片段，試聽後儲存為 MP3 或 WAV。全程在瀏覽器本機處理。
+    upload: 拖放音訊檔案到此處，或點擊選擇檔案
+    tooLarge: '檔案過大（上限 {size} MB）。'
+    decodeFailed: 無法解碼該音訊檔案，請嘗試 MP3、WAV、OGG、M4A 或 FLAC。
+    decoding: 正在解碼音訊…
+    start: 開始
+    end: 結束
+    selected: '已選：{length}'
+    play: 試聽選區
+    stop: 停止
+    reset: 重設
+    chooseAnother: 更換檔案
+    save: 儲存片段
+    hint: 在波形上拖曳選擇範圍，或拖曳綠色把手微調。
+    format: 格式
+    bitrate: 位元率
+    wavHint: WAV 為無損格式，檔案較大。
+    cancel: 取消
+    download: 下載
+    encoding: 正在編碼…
+    encodeFailed: 匯出音訊失敗。
