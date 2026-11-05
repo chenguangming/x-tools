@@ -22,3 +22,7 @@ tools:
     download: Tải xuống
     encoding: Đang mã hóa…
     encodeFailed: Xuất âm thanh thất bại.
+    modeKeep: Giữ đoạn chọn
+    modeRemove: Xóa đoạn chọn
+    result: 'Kết quả: {length}'
+    playResult: Nghe kết quả

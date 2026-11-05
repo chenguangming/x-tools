@@ -1,9 +1,21 @@
-export function sliceBuffer(buffer: AudioBuffer, start: number, end: number) {
-  const from = Math.max(0, Math.floor(start * buffer.sampleRate));
-  const to = Math.min(buffer.length, Math.ceil(end * buffer.sampleRate));
+export type Segment = [number, number];
+
+export function sliceBuffer(buffer: AudioBuffer, segments: Segment[]) {
   const channels: Float32Array[] = [];
   for (let c = 0; c < Math.min(buffer.numberOfChannels, 2); c++) {
-    channels.push(buffer.getChannelData(c).subarray(from, to));
+    const data = buffer.getChannelData(c);
+    const parts = segments.map(([start, end]) => {
+      const from = Math.max(0, Math.floor(start * buffer.sampleRate));
+      const to = Math.min(buffer.length, Math.ceil(end * buffer.sampleRate));
+      return data.subarray(from, to);
+    });
+    const out = new Float32Array(parts.reduce((sum, part) => sum + part.length, 0));
+    let offset = 0;
+    for (const part of parts) {
+      out.set(part, offset);
+      offset += part.length;
+    }
+    channels.push(out);
   }
   return { channels, sampleRate: buffer.sampleRate };
 }

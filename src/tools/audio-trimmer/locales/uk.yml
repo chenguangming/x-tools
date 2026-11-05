@@ -22,3 +22,7 @@ tools:
     download: Завантажити
     encoding: Кодування…
     encodeFailed: Не вдалося експортувати аудіо.
+    modeKeep: Залишити вибране
+    modeRemove: Видалити вибране
+    result: 'Результат: {length}'
+    playResult: Прослухати результат

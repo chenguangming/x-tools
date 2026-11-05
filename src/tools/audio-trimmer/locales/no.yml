@@ -22,3 +22,7 @@ tools:
     download: Last ned
     encoding: Koder…
     encodeFailed: Kunne ikke eksportere lyden.
+    modeKeep: Behold utvalg
+    modeRemove: Slett utvalg
+    result: 'Resultat: {length}'
+    playResult: Spill av resultat

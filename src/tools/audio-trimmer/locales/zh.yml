@@ -22,3 +22,7 @@ tools:
     download: 下载
     encoding: 正在编码…
     encodeFailed: 导出音频失败。
+    modeKeep: 保留选区
+    modeRemove: 删除选区
+    result: '结果：{length}'
+    playResult: 试听结果

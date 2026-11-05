@@ -22,3 +22,7 @@ tools:
     download: Télécharger
     encoding: Encodage…
     encodeFailed: Échec de l’export audio.
+    modeKeep: Garder la sélection
+    modeRemove: Supprimer la sélection
+    result: 'Résultat : {length}'
+    playResult: Écouter le résultat

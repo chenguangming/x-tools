@@ -22,3 +22,7 @@ tools:
     download: 다운로드
     encoding: 인코딩 중…
     encodeFailed: 오디오 내보내기에 실패했습니다.
+    modeKeep: 선택 구간 유지
+    modeRemove: 선택 구간 삭제
+    result: '결과: {length}'
+    playResult: 결과 재생

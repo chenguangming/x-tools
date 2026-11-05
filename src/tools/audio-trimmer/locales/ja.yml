@@ -22,3 +22,7 @@ tools:
     download: ダウンロード
     encoding: エンコード中…
     encodeFailed: 音声の書き出しに失敗しました。
+    modeKeep: 選択範囲を残す
+    modeRemove: 選択範囲を削除
+    result: '結果：{length}'
+    playResult: 結果を再生

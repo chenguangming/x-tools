@@ -22,3 +22,7 @@ tools:
     download: Herunterladen
     encoding: Wird kodiert…
     encodeFailed: Audio konnte nicht exportiert werden.
+    modeKeep: Auswahl behalten
+    modeRemove: Auswahl löschen
+    result: 'Ergebnis: {length}'
+    playResult: Ergebnis abspielen

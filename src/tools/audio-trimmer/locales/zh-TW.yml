@@ -22,3 +22,7 @@ tools:
     download: 下載
     encoding: 正在編碼…
     encodeFailed: 匯出音訊失敗。
+    modeKeep: 保留選區
+    modeRemove: 刪除選區
+    result: '結果：{length}'
+    playResult: 試聽結果

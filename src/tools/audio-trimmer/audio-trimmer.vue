@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { useMessage } from 'naive-ui';
+import type { Segment } from './audio-trimmer.service';
 import { computePeaks, encodeMp3, encodeWav, formatTime, sliceBuffer } from './audio-trimmer.service';
 
 type OutputFormat = 'wav' | 'mp3';
+type Mode = 'keep' | 'remove';
 
 const { t } = useI18n();
 const message = useMessage();
@@ -21,6 +23,7 @@ const isLoading = ref(false);
 const isPlaying = ref(false);
 const playhead = ref(0);
 
+const mode = ref<Mode>('keep');
 const isSaveOpen = ref(false);
 const format = ref<OutputFormat>('mp3');
 const bitrate = ref(192);
@@ -34,6 +37,14 @@ let source: AudioBufferSourceNode | null = null;
 let frame = 0;
 
 const selectedLength = computed(() => Math.max(0, end.value - start.value));
+const segments = computed<Segment[]>(() => {
+  if (mode.value === 'keep') {
+    return [[start.value, end.value]];
+  }
+  return ([[0, start.value], [end.value, duration.value]] as Segment[]).filter(([a, b]) => b - a > 0.001);
+});
+const resultLength = computed(() => segments.value.reduce((sum, [a, b]) => sum + (b - a), 0));
+const hasResult = computed(() => resultLength.value >= MIN_LENGTH);
 const startPercent = computed(() => (duration.value ? (start.value / duration.value) * 100 : 0));
 const endPercent = computed(() => (duration.value ? (end.value / duration.value) * 100 : 100));
 const playheadPercent = computed(() => (duration.value ? (playhead.value / duration.value) * 100 : 0));
@@ -59,16 +70,17 @@ function stop() {
 }
 
 function play() {
-  if (!buffer.value) {
+  if (!buffer.value || !hasResult.value) {
     return;
   }
   stop();
   const ctx = getContext();
   ctx.resume().catch(() => {});
-  const from = start.value;
-  const length = selectedLength.value;
+  const { channels, sampleRate } = sliceBuffer(buffer.value, segments.value);
+  const result = ctx.createBuffer(channels.length, Math.max(1, channels[0].length), sampleRate);
+  channels.forEach((data, index) => result.copyToChannel(data, index));
   const node = ctx.createBufferSource();
-  node.buffer = buffer.value;
+  node.buffer = result;
   node.connect(ctx.destination);
   node.onended = () => {
     if (source === node) {
@@ -77,14 +89,21 @@ function play() {
   };
   source = node;
   const startedAt = ctx.currentTime;
-  node.start(0, from, length);
+  node.start();
   isPlaying.value = true;
 
+  // maps a position in the result back onto the original timeline
+  const toSource = (t: number) => {
+    if (mode.value === 'keep') {
+      return start.value + t;
+    }
+    return t < start.value ? t : t + selectedLength.value;
+  };
   const tick = () => {
     if (!isPlaying.value) {
       return;
     }
-    playhead.value = Math.min(end.value, from + (ctx.currentTime - startedAt));
+    playhead.value = Math.min(duration.value, toSource(ctx.currentTime - startedAt));
     frame = requestAnimationFrame(tick);
   };
   tick();
@@ -235,12 +254,12 @@ function onPointerUp() {
 }
 
 async function confirmSave() {
-  if (!buffer.value) {
+  if (!buffer.value || !hasResult.value) {
     return;
   }
   isEncoding.value = true;
   try {
-    const { channels, sampleRate } = sliceBuffer(buffer.value, start.value, end.value);
+    const { channels, sampleRate } = sliceBuffer(buffer.value, segments.value);
     const blob = format.value === 'wav'
       ? encodeWav(channels, sampleRate)
       : await encodeMp3(channels, sampleRate, bitrate.value);
@@ -290,9 +309,11 @@ onBeforeUnmount(() => {
           @pointercancel="onPointerUp"
         >
           <canvas ref="canvas" class="wave-canvas" />
-          <div class="dim" :style="{ left: 0, width: `${startPercent}%` }" />
-          <div class="dim" :style="{ left: `${endPercent}%`, right: 0 }" />
-          <div class="selection" :style="{ left: `${startPercent}%`, width: `${endPercent - startPercent}%` }" />
+          <template v-if="mode === 'keep'">
+            <div class="dim" :style="{ left: 0, width: `${startPercent}%` }" />
+            <div class="dim" :style="{ left: `${endPercent}%`, right: 0 }" />
+          </template>
+          <div class="selection" :class="{ remove: mode === 'remove' }" :style="{ left: `${startPercent}%`, width: `${endPercent - startPercent}%` }" />
           <div class="handle" :style="{ left: `${startPercent}%` }" />
           <div class="handle" :style="{ left: `${endPercent}%` }" />
           <div v-if="isPlaying" class="playhead" :style="{ left: `${playheadPercent}%` }" />
@@ -304,6 +325,10 @@ onBeforeUnmount(() => {
       </div>
 
       <div flex flex-wrap items-center gap-4>
+        <n-radio-group v-model:value="mode" size="small" @update:value="stop">
+          <n-radio-button value="keep" :label="$t('tools.audio-trimmer.modeKeep')" />
+          <n-radio-button value="remove" :label="$t('tools.audio-trimmer.modeRemove')" />
+        </n-radio-group>
         <div flex items-center gap-2>
           <span op-70>{{ $t('tools.audio-trimmer.start') }}</span>
           <n-input-number
@@ -338,12 +363,13 @@ onBeforeUnmount(() => {
         </div>
         <div op-70>
           {{ $t('tools.audio-trimmer.selected', { length: formatTime(selectedLength) }) }}
+          · {{ $t('tools.audio-trimmer.result', { length: formatTime(resultLength) }) }}
         </div>
       </div>
 
       <div flex flex-wrap items-center justify-center gap-2>
-        <c-button @click="togglePlay">
-          {{ isPlaying ? $t('tools.audio-trimmer.stop') : $t('tools.audio-trimmer.play') }}
+        <c-button :disabled="!hasResult" @click="togglePlay">
+          {{ isPlaying ? $t('tools.audio-trimmer.stop') : (mode === 'keep' ? $t('tools.audio-trimmer.play') : $t('tools.audio-trimmer.playResult')) }}
         </c-button>
         <c-button @click="resetSelection">
           {{ $t('tools.audio-trimmer.reset') }}
@@ -351,7 +377,7 @@ onBeforeUnmount(() => {
         <c-button @click="chooseAnother">
           {{ $t('tools.audio-trimmer.chooseAnother') }}
         </c-button>
-        <c-button type="primary" class="solid-primary" @click="isSaveOpen = true">
+        <c-button type="primary" class="solid-primary" :disabled="!hasResult" @click="isSaveOpen = true">
           {{ $t('tools.audio-trimmer.save') }}
         </c-button>
       </div>
@@ -424,6 +450,10 @@ onBeforeUnmount(() => {
   bottom: 0;
   background: rgba(24, 160, 88, 0.12);
   pointer-events: none;
+
+  &.remove {
+    background: rgba(208, 48, 80, 0.3);
+  }
 }
 
 .handle {
