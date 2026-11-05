@@ -130,9 +130,9 @@ function activateOption(option: PaletteOption) {
       <span flex items-center gap-3 op-40>
 
         <icon-mdi-search />
-        <span hidden sm:inline>{{ $t('search.label') }}</span>
+        <span hidden lg:inline>{{ $t('search.label') }}</span>
 
-        <span hidden flex-1 border border-current border-op-40 rounded border-solid px-5px py-3px sm:inline>
+        <span hidden flex-1 border border-current border-op-40 rounded border-solid px-5px py-3px lg:inline>
           {{ isMac ? 'Cmd' : 'Ctrl' }}&nbsp;+&nbsp;K
         </span>
       </span>

@@ -1,14 +1,32 @@
 <script lang="ts" setup>
-import { useThemeVars } from 'naive-ui';
+import { NIcon, useThemeVars } from 'naive-ui';
 
-import { RouterLink } from 'vue-router';
+import { RouterLink, useRoute, useRouter } from 'vue-router';
+import { ArrowLeft, ArrowRight, Heart, Home2 } from '@vicons/tabler';
 
 import NavbarButtons from '../components/NavbarButtons.vue';
+import { useStyleStore } from '@/stores/style.store';
 import { config } from '@/config';
 
 const themeVars = useThemeVars();
+const styleStore = useStyleStore();
 const buildDate = config.app.buildDate;
 const commitSha = config.app.lastCommitSha.slice(0, 7);
+
+const router = useRouter();
+const route = useRoute();
+
+// Depends on route.fullPath so it is re-evaluated after each navigation
+const canGoForward = computed(() => route.fullPath && !!window.history.state?.forward);
+
+function goBack() {
+  if (window.history.state?.back) {
+    router.back();
+  }
+  else {
+    router.push('/');
+  }
+}
 </script>
 
 <template>
@@ -16,13 +34,56 @@ const commitSha = config.app.lastCommitSha.slice(0, 7);
     <div class="page-card">
       <header class="top-bar">
         <div class="top-bar-inner">
-          <RouterLink to="/" class="brand">
+          <RouterLink v-if="!styleStore.isSmallScreen" to="/" class="brand">
             X - TOOLS
           </RouterLink>
+
+          <c-tooltip :tooltip="$t('home.back')" position="bottom">
+            <c-button circle variant="text" :aria-label="$t('home.back')" @click="goBack">
+              <NIcon size="25">
+                <ArrowLeft />
+              </NIcon>
+            </c-button>
+          </c-tooltip>
+
+          <c-tooltip :tooltip="$t('home.home')" position="bottom">
+            <c-button to="/" circle variant="text" :aria-label="$t('home.home')">
+              <NIcon size="25">
+                <Home2 />
+              </NIcon>
+            </c-button>
+          </c-tooltip>
+
+          <c-tooltip v-if="!styleStore.isSmallScreen" :tooltip="$t('home.forward')" position="bottom">
+            <c-button circle variant="text" :disabled="!canGoForward" :aria-label="$t('home.forward')" @click="router.forward()">
+              <NIcon size="25">
+                <ArrowRight />
+              </NIcon>
+            </c-button>
+          </c-tooltip>
 
           <command-palette />
 
           <locale-selector class="locale-select" />
+
+          <c-tooltip position="bottom" :tooltip="$t('home.support')">
+            <c-button
+              round
+              href="https://afdian.com/a/waying"
+              rel="noopener"
+              target="_blank"
+              class="support-button"
+              :bordered="false"
+              :aria-label="$t('home.support')"
+            >
+              <template v-if="!styleStore.isSmallScreen">
+                {{ $t('home.buyMeACoffee') }}
+              </template>
+              <NIcon :ml-2="!styleStore.isSmallScreen">
+                <Heart />
+              </NIcon>
+            </c-button>
+          </c-tooltip>
 
           <NavbarButtons />
         </div>
@@ -135,6 +196,13 @@ const commitSha = config.app.lastCommitSha.slice(0, 7);
 .page-content {
   flex: 1;
   padding: 0 26px;
+}
+
+.support-button {
+  flex: none;
+  white-space: nowrap;
+  background: linear-gradient(48deg, rgba(37, 99, 108, 1) 0%, rgba(59, 149, 111, 1) 60%, rgba(20, 160, 88, 1) 100%);
+  color: #fff !important;
 }
 
 .footer {
