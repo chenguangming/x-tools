@@ -11,7 +11,6 @@ tools:
     selected: '選択範囲：{length}'
     play: 選択範囲を再生
     stop: 停止
-    reset: リセット
     chooseAnother: ファイルを変更
     save: クリップを保存
     format: 形式
@@ -30,4 +29,7 @@ tools:
     trimToSelection: 選択範囲だけ残す
     deleteSelection: 選択範囲を削除
     total: '全体：{length}'
-    hint: '波形をドラッグして範囲を選択します。Ctrl + スクロールでズーム、拡大中はスクロールで移動できます。編集は音声に反映され、保存すると結果が書き出されます。'
+    hint: 波形をドラッグして範囲を選択し、クリックで再生位置を移動します。編集は音声に反映され、保存すると結果が書き出されます。
+    playAll: 再生
+    pause: 一時停止
+    resetSelection: 選択を解除

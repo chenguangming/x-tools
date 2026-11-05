@@ -11,7 +11,6 @@ tools:
     selected: 'Valgt: {length}'
     play: Spill av utvalg
     stop: Stopp
-    reset: Tilbakestill
     chooseAnother: Bytt fil
     save: Lagre utdrag
     format: Format
@@ -30,4 +29,7 @@ tools:
     trimToSelection: Behold bare utvalget
     deleteSelection: Slett utvalg
     total: 'Totalt: {length}'
-    hint: 'Dra på bølgeformen for å velge et område. Ctrl + rulling zoomer, og ved zoom flytter rulling visningen. Endringer brukes direkte på lyden, og Lagre eksporterer resultatet.'
+    hint: 'Dra på bølgeformen for å velge et område; klikk flytter avspillingsposisjonen. Endringer brukes direkte på lyden, og Lagre eksporterer resultatet.'
+    playAll: Spill av
+    pause: Pause
+    resetSelection: Nullstill utvalg

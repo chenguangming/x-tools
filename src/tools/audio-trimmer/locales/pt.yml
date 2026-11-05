@@ -11,7 +11,6 @@ tools:
     selected: 'Selecionado: {length}'
     play: Ouvir seleção
     stop: Parar
-    reset: Redefinir
     chooseAnother: Trocar arquivo
     save: Salvar trecho
     format: Formato
@@ -30,4 +29,7 @@ tools:
     trimToSelection: Manter só a seleção
     deleteSelection: Excluir seleção
     total: 'Total: {length}'
-    hint: 'Arraste sobre a forma de onda para escolher um intervalo. Ctrl + rolagem dá zoom e, com zoom, a rolagem desloca a visão. As edições são aplicadas ao áudio e Salvar exporta o resultado.'
+    hint: Arraste sobre a forma de onda para escolher um intervalo; clique para mover a posição. As edições são aplicadas ao áudio e Salvar exporta o resultado.
+    playAll: Reproduzir
+    pause: Pausar
+    resetSelection: Redefinir seleção

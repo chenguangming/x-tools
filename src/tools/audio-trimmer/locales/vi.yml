@@ -11,7 +11,6 @@ tools:
     selected: 'Đã chọn: {length}'
     play: Nghe đoạn đã chọn
     stop: Dừng
-    reset: Đặt lại
     chooseAnother: Đổi tệp
     save: Lưu đoạn cắt
     format: Định dạng
@@ -30,4 +29,7 @@ tools:
     trimToSelection: Chỉ giữ vùng chọn
     deleteSelection: Xóa vùng chọn
     total: 'Tổng: {length}'
-    hint: 'Kéo trên dạng sóng để chọn khoảng. Ctrl + cuộn để thu phóng, khi đã phóng to thì cuộn để di chuyển. Chỉnh sửa áp dụng trực tiếp lên âm thanh và Lưu sẽ xuất kết quả.'
+    hint: 'Kéo trên dạng sóng để chọn khoảng, nhấp để di chuyển vị trí phát. Chỉnh sửa áp dụng trực tiếp lên âm thanh và Lưu sẽ xuất kết quả.'
+    playAll: Phát
+    pause: Tạm dừng
+    resetSelection: Đặt lại vùng chọn

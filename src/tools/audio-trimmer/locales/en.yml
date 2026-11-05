@@ -11,7 +11,6 @@ tools:
     selected: 'Selected: {length}'
     play: Play selection
     stop: Stop
-    reset: Reset
     chooseAnother: Change file
     save: Save clip
     format: Format
@@ -30,4 +29,7 @@ tools:
     trimToSelection: Keep only selection
     deleteSelection: Delete selection
     total: 'Total: {length}'
-    hint: 'Drag on the waveform to select a range. Ctrl + scroll zooms, scroll pans when zoomed. Edits apply to the audio, and Save exports the result.'
+    hint: 'Drag on the waveform to select a range, click to move the playhead. Edits apply to the audio, and Save exports the result.'
+    playAll: Play
+    pause: Pause
+    resetSelection: Reset selection

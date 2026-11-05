@@ -100,28 +100,6 @@ export async function encodeMp3(channels: Float32Array[], sampleRate: number, kb
   return new Blob(chunks as BlobPart[], { type: 'audio/mpeg' });
 }
 
-export function computePeaks(buffer: AudioBuffer, count: number, from: number, to: number) {
-  const data = buffer.getChannelData(0);
-  const other = buffer.numberOfChannels > 1 ? buffer.getChannelData(1) : null;
-  const first = from * buffer.sampleRate;
-  const size = Math.max(1, ((to - from) * buffer.sampleRate) / count);
-  const peaks = new Float32Array(count);
-  const step = Math.max(1, Math.floor(size / 64));
-  for (let i = 0; i < count; i++) {
-    let max = 0;
-    const base = Math.floor(first + i * size);
-    for (let j = 0; j < size; j += step) {
-      const index = base + j;
-      const v = Math.max(Math.abs(data[index] ?? 0), other ? Math.abs(other[index] ?? 0) : 0);
-      if (v > max) {
-        max = v;
-      }
-    }
-    peaks[i] = max;
-  }
-  return peaks;
-}
-
 export function spliceBuffer(buffer: AudioBuffer, segments: Segment[]) {
   const { channels, sampleRate } = sliceBuffer(buffer, segments);
   const result = new AudioBuffer({ numberOfChannels: channels.length, length: Math.max(1, channels[0].length), sampleRate });

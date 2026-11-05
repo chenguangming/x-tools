@@ -11,7 +11,6 @@ tools:
     selected: 'Selección: {length}'
     play: Reproducir selección
     stop: Detener
-    reset: Restablecer
     chooseAnother: Cambiar archivo
     save: Guardar fragmento
     format: Formato
@@ -30,4 +29,7 @@ tools:
     trimToSelection: Conservar solo la selección
     deleteSelection: Eliminar selección
     total: 'Total: {length}'
-    hint: 'Arrastra sobre la forma de onda para elegir un rango. Ctrl + rueda hace zoom y, con zoom, la rueda desplaza. Las ediciones se aplican al audio y Guardar exporta el resultado.'
+    hint: Arrastra sobre la forma de onda para elegir un rango; haz clic para mover la posición. Las ediciones se aplican al audio y Guardar exporta el resultado.
+    playAll: Reproducir
+    pause: Pausa
+    resetSelection: Restablecer selección

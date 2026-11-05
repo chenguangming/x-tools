@@ -11,7 +11,6 @@ tools:
     selected: 'Sélection : {length}'
     play: Écouter la sélection
     stop: Arrêter
-    reset: Réinitialiser
     chooseAnother: Changer de fichier
     save: Enregistrer l’extrait
     format: Format
@@ -30,4 +29,7 @@ tools:
     trimToSelection: Garder uniquement la sélection
     deleteSelection: Supprimer la sélection
     total: 'Total : {length}'
-    hint: 'Faites glisser sur la forme d’onde pour choisir une plage. Ctrl + molette zoome ; une fois zoomé, la molette fait défiler. Les modifications s’appliquent à l’audio et Enregistrer exporte le résultat.'
+    hint: Faites glisser sur la forme d’onde pour choisir une plage ; un clic déplace la position de lecture. Les modifications s’appliquent à l’audio et Enregistrer exporte le résultat.
+    playAll: Lecture
+    pause: Pause
+    resetSelection: Réinitialiser la sélection

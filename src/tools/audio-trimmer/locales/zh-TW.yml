@@ -11,7 +11,6 @@ tools:
     selected: '已選：{length}'
     play: 試聽選區
     stop: 停止
-    reset: 重設
     chooseAnother: 更換檔案
     save: 儲存片段
     format: 格式
@@ -30,4 +29,7 @@ tools:
     trimToSelection: 僅保留選區
     deleteSelection: 刪除選區
     total: '總長：{length}'
-    hint: '在波形上拖曳選擇範圍。Ctrl + 滾輪縮放，放大後滾輪可平移。編輯會直接作用於音訊，儲存匯出的是編輯後的結果。'
+    hint: 在波形上拖曳選擇範圍，點擊可定位播放位置。編輯會直接作用於音訊，儲存匯出的是編輯後的結果。
+    playAll: 播放
+    pause: 暫停
+    resetSelection: 重設選區

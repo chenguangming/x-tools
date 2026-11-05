@@ -11,7 +11,6 @@ tools:
     selected: 'Auswahl: {length}'
     play: Auswahl abspielen
     stop: Stopp
-    reset: Zurücksetzen
     chooseAnother: Datei wechseln
     save: Ausschnitt speichern
     format: Format
@@ -30,4 +29,7 @@ tools:
     trimToSelection: Nur Auswahl behalten
     deleteSelection: Auswahl löschen
     total: 'Gesamt: {length}'
-    hint: 'Ziehe auf der Wellenform, um einen Bereich zu wählen. Strg + Scrollen zoomt, im Zoom verschiebt Scrollen die Ansicht. Änderungen wirken direkt auf das Audio, Speichern exportiert das Ergebnis.'
+    hint: 'Ziehe auf der Wellenform, um einen Bereich zu wählen; ein Klick setzt die Abspielposition. Änderungen wirken direkt auf das Audio, Speichern exportiert das Ergebnis.'
+    playAll: Abspielen
+    pause: Pause
+    resetSelection: Auswahl zurücksetzen
