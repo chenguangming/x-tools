@@ -296,6 +296,12 @@ onBeforeUnmount(() => {
             :limit-min-size="[20, 20]"
             mode="contain"
           />
+          <div v-if="result.url" class="result-overlay">
+            <img :src="result.url" class="result-img">
+            <div text-12px>
+              {{ result.width }} × {{ result.height }} px · {{ formatSize(result.size) }}
+            </div>
+          </div>
         </div>
         <div mt-3 flex flex-wrap items-center gap-2>
           <c-button @click="cropper?.rotateLeft()">
@@ -408,13 +414,6 @@ onBeforeUnmount(() => {
         <div v-if="progressText" mt-2 text-12px op-70>
           {{ progressText }}
         </div>
-
-        <div v-if="result.url" mt-4 flex flex-col items-center gap-2>
-          <img :src="result.url" max-h-260px max-w-full class="result-img">
-          <div text-12px op-70>
-            {{ result.width }} × {{ result.height }} px · {{ formatSize(result.size) }}
-          </div>
-        </div>
       </n-gi>
     </n-grid>
   </div>
@@ -422,8 +421,27 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .cropper-box {
+  position: relative;
   width: 100%;
   height: 480px;
+}
+
+/* sits in the empty side area of the editor and never blocks dragging the photo */
+.result-overlay {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  max-width: 28%;
+  padding: 6px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 6px;
+  pointer-events: none;
 }
 
 .swatch {
@@ -441,6 +459,8 @@ onBeforeUnmount(() => {
 }
 
 .result-img {
+  max-width: 100%;
+  max-height: 200px;
   box-shadow: 0 1px 6px #0003;
 }
 </style>
