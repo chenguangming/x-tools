@@ -88,7 +88,8 @@ tools:
     crypto: Krypto
     converter: Konverter
     web: Web
-    images and videos: Bilder & Videos
+    images: Bilder
+    audio and video: 'Audio & Video'
     development: Entwicklung
     network: Netzwerk
     math: Mathematik
@@ -481,9 +482,9 @@ landing:
     time:
       title: Zeitstempel in Datum umwandeln
       description: 'Zwischen Zeitstempel und Datum umrechnen, z. B. zum Debuggen.'
-    b64:
-      title: Base64-Text kodieren / dekodieren
-      description: 'Base64-Zeichenketten schnell verarbeiten, ganz ohne Skript.'
+    audio:
+      title: Audio zuschneiden oder schneiden
+      description: 'Bereich wählen, anhören und als MP3 oder WAV speichern.'
 fileUpload:
   or: oder
   browse: Dateien durchsuchen

@@ -70,7 +70,8 @@ tools:
     crypto: Mã hóa
     converter: Chuyển đổi
     web: Web
-    images and videos: 'Hình ảnh & Video'
+    images: Hình ảnh
+    audio and video: 'Âm thanh & Video'
     development: Phát triển
     network: Mạng
     math: Toán học
@@ -412,9 +413,9 @@ landing:
     time:
       title: Chuyển dấu thời gian thành ngày
       description: Chuyển đổi giữa dấu thời gian và ngày để gỡ lỗi.
-    b64:
-      title: Mã hóa / giải mã văn bản Base64
-      description: 'Xử lý chuỗi Base64 nhanh chóng, không cần viết script.'
+    audio:
+      title: Cắt hoặc xóa đoạn âm thanh
+      description: 'Chọn đoạn, nghe thử rồi lưu dạng MP3 hoặc WAV.'
 fileUpload:
   or: hoặc
   browse: Chọn tệp

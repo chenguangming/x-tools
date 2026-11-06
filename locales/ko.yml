@@ -70,7 +70,8 @@ tools:
     crypto: 암호화
     converter: 변환기
     web: 웹
-    images and videos: 이미지 및 동영상
+    images: 이미지
+    audio and video: 오디오 및 동영상
     development: 개발
     network: 네트워크
     math: 수학
@@ -423,9 +424,9 @@ landing:
     time:
       title: 타임스탬프를 날짜로 변환
       description: 타임스탬프와 날짜를 서로 변환합니다.
-    b64:
-      title: Base64 텍스트 인코딩 / 디코딩
-      description: 스크립트 없이 Base64 문자열을 빠르게 처리합니다.
+    audio:
+      title: 오디오 구간 자르기
+      description: 구간을 선택하고 미리 들은 뒤 MP3 또는 WAV로 저장하세요.
 fileUpload:
   or: 또는
   browse: 파일 선택

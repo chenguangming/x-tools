@@ -70,7 +70,8 @@ tools:
     crypto: Криптографія
     converter: Конвертер
     web: Веб
-    images and videos: Зображення та відео
+    images: Зображення
+    audio and video: Аудіо та відео
     development: Розробка
     network: Мережа
     math: Математика
@@ -423,9 +424,9 @@ landing:
     time:
       title: Перетворити мітку часу на дату
       description: Конвертуйте між мітками часу та датами для налагодження.
-    b64:
-      title: Кодувати / декодувати текст Base64
-      description: Швидко обробляйте рядки Base64 без скриптів.
+    audio:
+      title: Обрізати або вирізати аудіо
+      description: 'Виберіть фрагмент, прослухайте й збережіть як MP3 або WAV.'
 fileUpload:
   or: або
   browse: Огляд файлів

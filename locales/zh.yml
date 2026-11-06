@@ -70,7 +70,8 @@ tools:
     crypto: 加密
     converter: 转换器
     web: Web
-    images and videos: 图片和视频
+    images: 图片
+    audio and video: 音频和视频
     development: 开发
     network: 网络
     math: 数学
@@ -419,9 +420,9 @@ landing:
     time:
       title: 时间戳转成日期
       description: 在时间戳和日期之间转换，方便开发调试。
-    b64:
-      title: 编码 / 解码 Base64 文本
-      description: 快速处理 Base64 字符串，不必另写脚本。
+    audio:
+      title: 裁剪或删除音频片段
+      description: 选择片段、试听，再保存为 MP3 或 WAV。
 fileUpload:
   or: 或
   browse: 选择文件

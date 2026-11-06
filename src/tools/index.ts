@@ -145,8 +145,12 @@ export const toolsByCategory: ToolCategory[] = [
     ],
   },
   {
-    name: 'Images and videos',
-    components: [audioTrimmer, imageCropper, idPhoto, qrCodeGenerator, wifiQrCodeGenerator, svgPlaceholderGenerator, cameraRecorder],
+    name: 'Images',
+    components: [imageCropper, idPhoto, qrCodeGenerator, wifiQrCodeGenerator, svgPlaceholderGenerator],
+  },
+  {
+    name: 'Audio and video',
+    components: [audioTrimmer, cameraRecorder],
   },
   {
     name: 'Development',

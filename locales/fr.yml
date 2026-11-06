@@ -70,7 +70,8 @@ tools:
     crypto: Cryptographie
     converter: Convertisseur
     web: Web
-    images and videos: 'Images & Vidéos'
+    images: Images
+    audio and video: 'Audio & Vidéo'
     development: Développement
     network: Réseau
     math: Math
@@ -425,9 +426,9 @@ landing:
     time:
       title: Convertir un timestamp en date
       description: Convertissez entre timestamps et dates pour le débogage.
-    b64:
-      title: Encoder / décoder du texte Base64
-      description: 'Traitez des chaînes Base64 rapidement, sans script.'
+    audio:
+      title: Couper ou rogner un audio
+      description: 'Sélectionnez un passage, écoutez-le et enregistrez en MP3 ou WAV.'
 fileUpload:
   or: ou
   browse: Parcourir les fichiers

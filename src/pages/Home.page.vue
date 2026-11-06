@@ -19,7 +19,7 @@ const featuredTasks = [
   { key: 'xml', path: '/xml-diff' },
   { key: 'json', path: '/json-prettify' },
   { key: 'time', path: '/date-converter' },
-  { key: 'b64', path: '/base64-string-converter' },
+  { key: 'audio', path: '/audio-trimmer' },
 ].map(task => ({ ...task, icon: toolStore.tools.find(tool => tool.path === task.path)?.icon }));
 
 useHead({ title: 'X-Tools - Handy online tools for everyone' });

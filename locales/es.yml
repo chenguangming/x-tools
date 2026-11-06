@@ -70,7 +70,8 @@ tools:
     crypto: Cripto
     converter: Conversores
     web: Web
-    images and videos: Imágenes y vídeos
+    images: Imágenes
+    audio and video: Audio y vídeo
     development: Desarrollo
     network: Red
     math: Matemáticas
@@ -423,9 +424,9 @@ landing:
     time:
       title: Convertir una marca de tiempo en fecha
       description: Convierte entre marcas de tiempo y fechas para depurar.
-    b64:
-      title: Codificar / decodificar texto Base64
-      description: 'Procesa cadenas Base64 rápidamente, sin scripts.'
+    audio:
+      title: Recortar o cortar audio
+      description: 'Selecciona un tramo, escúchalo y guárdalo como MP3 o WAV.'
 fileUpload:
   or: o
   browse: Examinar archivos

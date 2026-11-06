@@ -70,7 +70,8 @@ tools:
     crypto: 暗号
     converter: 変換
     web: Web
-    images and videos: 画像・動画
+    images: 画像
+    audio and video: 音声・動画
     development: 開発
     network: ネットワーク
     math: 数学
@@ -423,9 +424,9 @@ landing:
     time:
       title: タイムスタンプを日付に変換
       description: タイムスタンプと日付を相互変換します。
-    b64:
-      title: Base64 テキストのエンコード / デコード
-      description: スクリプト不要で Base64 文字列をすばやく処理します。
+    audio:
+      title: 音声をトリミング・カット
+      description: 範囲を選んで試聴し、MP3 または WAV で保存します。
 fileUpload:
   or: または
   browse: ファイルを選択

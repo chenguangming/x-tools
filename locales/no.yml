@@ -70,7 +70,8 @@ tools:
     crypto: Krypto
     converter: Konvertering
     web: Web
-    images and videos: 'Bilder & Videoer'
+    images: Bilder
+    audio and video: 'Lyd & Video'
     development: Utvikling
     network: Nettverk
     math: Matte
@@ -423,9 +424,9 @@ landing:
     time:
       title: Konverter tidsstempel til dato
       description: Konverter mellom tidsstempler og datoer ved feilsøking.
-    b64:
-      title: Kod / dekod Base64-tekst
-      description: 'Behandle Base64-strenger raskt, uten skript.'
+    audio:
+      title: Klipp eller trim lyd
+      description: 'Velg et utsnitt, lytt og lagre som MP3 eller WAV.'
 fileUpload:
   or: eller
   browse: Bla gjennom filer
