@@ -83,7 +83,7 @@ import { tool as svgPlaceholderGenerator } from './svg-placeholder-generator';
 import { tool as temperatureConverter } from './temperature-converter';
 import { tool as textStatistics } from './text-statistics';
 import { tool as tokenGenerator } from './token-generator';
-import type { ToolCategory } from './tools.types';
+import type { Tool } from './tools.types';
 import { tool as urlEncoder } from './url-encoder';
 import { tool as urlParser } from './url-parser';
 import { tool as uuidGenerator } from './uuid-generator';
@@ -92,7 +92,7 @@ import { tool as xmlFormatter } from './xml-formatter';
 import { tool as xmlDiff } from './xml-diff';
 import { tool as yamlViewer } from './yaml-viewer';
 
-export const toolsByCategory: ToolCategory[] = [
+export const toolsByCategory: { name: string; components: Tool[] }[] = [
   {
     name: 'Crypto',
     components: [tokenGenerator, hashText, bcrypt, uuidGenerator, ulidGenerator, cypher, bip39, hmacGenerator, rsaKeyPairGenerator, passwordStrengthAnalyser, pdfSignatureChecker],

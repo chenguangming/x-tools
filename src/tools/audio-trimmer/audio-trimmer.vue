@@ -37,7 +37,7 @@ const isEncoding = ref(false);
 const waveform = ref<HTMLDivElement>();
 
 let ws: WaveSurfer | null = null;
-let regions: RegionsPlugin | null = null;
+let regions: ReturnType<typeof RegionsPlugin.create> | null = null;
 const region = shallowRef<Region | null>(null);
 
 const buffer = computed(() => history.value[cursor.value] ?? null);

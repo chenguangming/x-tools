@@ -12,10 +12,10 @@ export interface Tool {
   createdAt?: Date
 }
 
+export type ToolWithCategory = Tool & { category: string; categoryKey: string };
+
 export interface ToolCategory {
   key: string
   name: string
-  components: Tool[]
+  components: ToolWithCategory[]
 }
-
-export type ToolWithCategory = Tool & { category: string; categoryKey: string };

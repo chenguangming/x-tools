@@ -6,7 +6,7 @@ import { createI18n } from 'vue-i18n';
 export const LOCALE_STORAGE_KEY = 'x-tools-locale';
 
 function detectLocale(): string {
-  const available = Object.keys(messages);
+  const available = Object.keys(messages ?? {});
   const find = (code: string) => available.find(l => l.toLowerCase() === code.toLowerCase());
 
   try {
