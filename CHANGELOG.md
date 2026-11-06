@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.0.2
+
+### Features
+- **audio-trimmer**: new tool to trim or cut audio in the browser with a wavesurfer.js waveform, playback with seek, zoom, undo/redo, and MP3/WAV export
+
+### Bug fixes
+- **seo**: Google Search Console verification tag
+
 ## Version 1.0.1
 
 ### Features
