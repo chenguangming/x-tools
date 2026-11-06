@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.0.3
+
+### Features
+- **ui**: split "Images and videos" into "Images" and "Audio & Video"; the audio trimmer replaces Base64 in the featured tasks on the home page
+
+### Bug fixes
+- **audio-trimmer**: fix the waveform width oscillating after zooming in
+
 ## Version 1.0.2
 
 ### Features
