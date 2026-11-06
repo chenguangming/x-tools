@@ -436,9 +436,9 @@ onBeforeUnmount(() => ws?.destroy());
 
 <style scoped>
 .waveform {
-  width: 100%;
-  min-width: 0;
-  max-width: 100%;
+  width: 0;
+  min-width: 100%;
+  height: 204px;
   padding: 4px 0;
   overflow: hidden;
   background: rgba(128, 128, 128, 0.12);
