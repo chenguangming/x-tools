@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.0.4
+
+### Features
+- **ui**: sticky-note promo for the author's other product in the home page hero corner (wide screens)
+
+### Bug fixes
+- **types**: fix the TypeScript errors reported by CI
+
 ## Version 1.0.3
 
 ### Features
