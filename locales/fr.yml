@@ -406,6 +406,10 @@ landing:
   title: 'Images, comparaison de fichiers et outils de développement au même endroit'
   subtitle: 'Outils en ligne gratuits, prêts à l''emploi. Rien à installer, vos fichiers restent dans votre navigateur.'
   searchPlaceholder: 'Rechercher un outil ou une tâche, ex. photo d''identité, comparer XML'
+  promo:
+    label: Du même auteur
+    name: Aura Calendar
+    description: 'Calendrier, tâches et notes dans la barre des tâches. Windows / Linux.'
   tasksTitle: Que voulez-vous faire ?
   browseAll: Parcourir tous les outils
   open: Ouvrir

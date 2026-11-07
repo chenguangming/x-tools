@@ -404,6 +404,10 @@ landing:
   title: '이미지 처리, 파일 비교, 개발 도구를 한곳에서'
   subtitle: '무료 온라인 도구, 바로 사용하세요. 설치 없이, 파일은 브라우저 안에서만 처리됩니다.'
   searchPlaceholder: '도구나 작업 검색, 예: 증명사진, XML 비교'
+  promo:
+    label: 같은 개발자의 앱
+    name: Aura Calendar
+    description: '작업 표시줄 속 캘린더, 할 일, 메모. Windows / Linux 지원.'
   tasksTitle: 무엇을 하고 싶으세요?
   browseAll: 모든 도구 보기
   open: 열기

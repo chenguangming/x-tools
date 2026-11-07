@@ -54,6 +54,11 @@ function onUpdateFavoriteTools() {
       </div>
 
       <section v-if="activeTab === 'home'" class="hero">
+        <a class="promo" href="https://aura.codestudio.uk" target="_blank" rel="noopener">
+          <span class="promo-label">{{ $t('landing.promo.label') }}</span>
+          <span class="promo-name">{{ $t('landing.promo.name') }}</span>
+          <span class="promo-desc">{{ $t('landing.promo.description') }}</span>
+        </a>
         <h1 class="hero-title">
           {{ $t('landing.title') }}
         </h1>
@@ -142,8 +147,50 @@ function onUpdateFavoriteTools() {
 
 <style scoped lang="less">
 .hero {
+  position: relative;
   padding: 24px 0 8px;
   text-align: center;
+}
+
+.promo {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  width: 210px;
+  padding: 10px 14px;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid rgba(24, 160, 88, 0.35);
+  border-radius: 10px;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background: rgba(24, 160, 88, 0.08);
+  }
+
+  @media (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+.promo-label {
+  font-size: 11px;
+  color: #18a058;
+}
+
+.promo-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.promo-desc {
+  opacity: 0.65;
 }
 
 .hero-title {

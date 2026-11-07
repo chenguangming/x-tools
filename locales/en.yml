@@ -404,6 +404,10 @@ landing:
   title: 'Image processing, file comparison and dev tools — all in one place'
   subtitle: 'Free online tools, ready to use. Nothing to install, your files stay in your browser.'
   searchPlaceholder: 'Search tools or tasks, e.g. ID photo, XML diff'
+  promo:
+    label: From the same author
+    name: Aura Calendar
+    description: 'Calendar, to-dos and notes in your taskbar. Windows / Linux.'
   tasksTitle: What do you want to do?
   browseAll: Browse all tools
   open: Open

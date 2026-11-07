@@ -462,6 +462,10 @@ landing:
   title: 'Bildbearbeitung, Dateivergleich und Entwickler-Tools an einem Ort'
   subtitle: 'Kostenlose Online-Tools, sofort nutzbar. Keine Installation, Ihre Dateien bleiben im Browser.'
   searchPlaceholder: 'Tools oder Aufgaben suchen, z. B. Passfoto, XML-Vergleich'
+  promo:
+    label: Vom selben Autor
+    name: Aura Calendar
+    description: 'Kalender, Aufgaben und Notizen in der Taskleiste. Windows / Linux.'
   tasksTitle: Was möchten Sie tun?
   browseAll: Alle Tools durchsuchen
   open: Öffnen

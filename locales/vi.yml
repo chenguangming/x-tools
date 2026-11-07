@@ -393,6 +393,10 @@ landing:
   title: 'Xử lý ảnh, so sánh tệp và công cụ lập trình — tất cả trong một nơi'
   subtitle: 'Công cụ trực tuyến miễn phí, dùng ngay. Không cần cài đặt, tệp của bạn ở lại trong trình duyệt.'
   searchPlaceholder: 'Tìm công cụ hoặc tác vụ, ví dụ: ảnh thẻ, so sánh XML'
+  promo:
+    label: Cùng tác giả
+    name: Aura Calendar
+    description: 'Lịch, việc cần làm và ghi chú trên thanh tác vụ. Windows / Linux.'
   tasksTitle: Bạn muốn làm gì?
   browseAll: Xem tất cả công cụ
   open: Mở

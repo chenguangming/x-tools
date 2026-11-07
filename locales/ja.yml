@@ -404,6 +404,10 @@ landing:
   title: 画像処理・ファイル比較・開発ツールをひとつに
   subtitle: 無料のオンラインツール。インストール不要、ファイルはブラウザ内で処理されます。
   searchPlaceholder: ツールやタスクを検索（例：証明写真、XML 比較）
+  promo:
+    label: 同じ作者のアプリ
+    name: Aura Calendar
+    description: タスクバーのカレンダー、ToDo、メモ。Windows / Linux 対応。
   tasksTitle: 何をしたいですか？
   browseAll: すべてのツールを見る
   open: 開く

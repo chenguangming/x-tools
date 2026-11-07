@@ -404,6 +404,10 @@ landing:
   title: 'Imagens, comparação de ficheiros e ferramentas de desenvolvimento num só lugar'
   subtitle: 'Ferramentas online gratuitas, prontas a usar. Sem instalar nada: os seus ficheiros ficam no navegador.'
   searchPlaceholder: 'Procure ferramentas ou tarefas, ex.: foto de documento, comparar XML'
+  promo:
+    label: Do mesmo autor
+    name: Aura Calendar
+    description: 'Calendário, tarefas e notas na barra de tarefas. Windows / Linux.'
   tasksTitle: O que quer fazer?
   browseAll: Ver todas as ferramentas
   open: Abrir

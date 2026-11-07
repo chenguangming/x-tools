@@ -400,6 +400,10 @@ landing:
   title: 圖片處理、檔案比對、開發轉換，一站搞定
   subtitle: 免費線上工具，開啟即用。無需安裝，檔案只在你的瀏覽器中處理。
   searchPlaceholder: 搜尋工具或任務，例如：證件照、XML 比對
+  promo:
+    label: 作者的另一個作品
+    name: 時光隨記
+    description: 工作列裡的日曆、待辦與隨記，支援 Windows / Linux。
   tasksTitle: 你想完成什麼？
   browseAll: 瀏覽全部工具
   open: 開啟

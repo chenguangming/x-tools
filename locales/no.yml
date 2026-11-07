@@ -404,6 +404,10 @@ landing:
   title: 'Bildebehandling, filsammenligning og utviklerverktøy på ett sted'
   subtitle: 'Gratis nettverktøy, klare til bruk. Ingen installasjon, filene dine blir i nettleseren.'
   searchPlaceholder: 'Søk etter verktøy eller oppgaver, f.eks. passfoto, XML-diff'
+  promo:
+    label: Fra samme utvikler
+    name: Aura Calendar
+    description: 'Kalender, gjøremål og notater i oppgavelinjen. Windows / Linux.'
   tasksTitle: Hva vil du gjøre?
   browseAll: Se alle verktøy
   open: Åpne

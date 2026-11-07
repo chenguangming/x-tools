@@ -400,6 +400,10 @@ landing:
   title: 图片处理、文件对比、开发转换，一站搞定
   subtitle: 免费在线工具，打开即用。无需安装，文件只在你的浏览器里处理。
   searchPlaceholder: 搜工具或任务，例如：证件照、XML 对比
+  promo:
+    label: 作者的另一个作品
+    name: 时光随记
+    description: 任务栏里的日历、待办与随记，支持 Windows / Linux。
   tasksTitle: 你想完成什么？
   browseAll: 浏览全部工具
   open: 打开
