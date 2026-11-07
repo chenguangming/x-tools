@@ -154,24 +154,38 @@ function onUpdateFavoriteTools() {
 
 .promo {
   position: absolute;
-  top: 8px;
-  right: 0;
+  top: 4px;
+  right: 8px;
   display: none;
   flex-direction: column;
   gap: 4px;
-  width: 210px;
-  padding: 10px 14px;
+  width: 220px;
+  padding: 14px 16px 12px;
   font-size: 12px;
   line-height: 1.5;
   text-align: left;
-  color: inherit;
+  color: #4a3b00;
   text-decoration: none;
-  border: 1px solid rgba(24, 160, 88, 0.35);
-  border-radius: 10px;
-  transition: background-color 0.2s;
+  background: linear-gradient(160deg, #fff3a8, #ffe36e);
+  border-radius: 3px 3px 14px 3px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+  transform: rotate(2.5deg);
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  &::before {
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    width: 56px;
+    height: 16px;
+    content: '';
+    background: rgba(255, 255, 255, 0.55);
+    transform: translateX(-50%) rotate(-3deg);
+  }
 
   &:hover {
-    background: rgba(24, 160, 88, 0.08);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
+    transform: rotate(0deg) translateY(-2px);
   }
 
   @media (min-width: 1200px) {
@@ -181,16 +195,16 @@ function onUpdateFavoriteTools() {
 
 .promo-label {
   font-size: 11px;
-  color: #18a058;
+  opacity: 0.7;
 }
 
 .promo-name {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .promo-desc {
-  opacity: 0.65;
+  opacity: 0.8;
 }
 
 .hero-title {
