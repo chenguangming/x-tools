@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.0.5
+
+### Features
+- **ui**: sponsorship link points to Ko-fi for every language except Simplified Chinese (Afdian), in the top bar, the About page and the READMEs
+
+### Bug fixes
+- **ui**: dragging favorites on touch devices now needs a long press
+- **ui**: the hero and search box stay visible on every home tab
+
 ## Version 1.0.4
 
 ### Features
