@@ -423,12 +423,12 @@ landing:
     xml:
       title: 두 XML의 차이 찾기
       description: 들여쓰기 차이에 방해받지 않고 변경 사항을 나란히 봅니다.
-    json:
-      title: JSON을 읽기 쉽게
-      description: 긴 JSON을 깔끔한 들여쓰기 구조로 정리합니다.
-    time:
-      title: 타임스탬프를 날짜로 변환
-      description: 타임스탬프와 날짜를 서로 변환합니다.
+    pdfWord:
+      title: "PDF를 Word로 변환"
+      description: "편집 가능한 .docx로 변환, 스캔본은 OCR 지원."
+    imagePdf:
+      title: "이미지를 PDF로 만들기"
+      description: "여러 이미지를 순서대로 하나의 PDF로."
     audio:
       title: 오디오 구간 자르기
       description: 구간을 선택하고 미리 들은 뒤 MP3 또는 WAV로 저장하세요.

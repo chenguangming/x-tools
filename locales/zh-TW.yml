@@ -419,12 +419,12 @@ landing:
     xml:
       title: 找出兩份 XML 的差異
       description: 並排檢視差異，減少縮排造成的干擾。
-    json:
-      title: 讓 JSON 更容易閱讀
-      description: 把一大段 JSON 整理為清晰的縮排結構。
-    time:
-      title: 時間戳轉成日期
-      description: 在時間戳與日期之間轉換，方便開發除錯。
+    pdfWord:
+      title: "PDF 轉 Word"
+      description: "轉成可編輯的 .docx，掃描檔也能 OCR 辨識。"
+    imagePdf:
+      title: "圖片轉 PDF"
+      description: "把多張圖片依序合成一個 PDF。"
     audio:
       title: 裁剪或刪除音訊片段
       description: 選擇片段、試聽，再儲存為 MP3 或 WAV。

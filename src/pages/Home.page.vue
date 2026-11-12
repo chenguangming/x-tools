@@ -17,8 +17,8 @@ const featuredTasks = [
   { key: 'idPhoto', path: '/id-photo' },
   { key: 'crop', path: '/image-cropper' },
   { key: 'xml', path: '/xml-diff' },
-  { key: 'json', path: '/json-prettify' },
-  { key: 'time', path: '/date-converter' },
+  { key: 'pdfWord', path: '/pdf-to-word' },
+  { key: 'imagePdf', path: '/image-to-pdf' },
   { key: 'audio', path: '/audio-trimmer' },
 ].map(task => ({ ...task, icon: toolStore.tools.find(tool => tool.path === task.path)?.icon }));
 

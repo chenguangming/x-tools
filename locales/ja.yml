@@ -423,12 +423,12 @@ landing:
     xml:
       title: 2 つの XML の違いを見つける
       description: インデントの違いに惑わされず、差分を並べて確認します。
-    json:
-      title: JSON を読みやすくする
-      description: 長い JSON を見やすいインデント付きに整形します。
-    time:
-      title: タイムスタンプを日付に変換
-      description: タイムスタンプと日付を相互変換します。
+    pdfWord:
+      title: "PDF を Word に変換"
+      description: "編集できる .docx に変換。スキャン PDF は OCR 対応。"
+    imagePdf:
+      title: "画像を PDF にまとめる"
+      description: "複数の画像を順番どおり 1 つの PDF に。"
     audio:
       title: 音声をトリミング・カット
       description: 範囲を選んで試聴し、MP3 または WAV で保存します。

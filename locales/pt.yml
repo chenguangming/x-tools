@@ -423,12 +423,12 @@ landing:
     xml:
       title: Encontrar diferenças entre dois XML
       description: 'Veja as alterações lado a lado, sem ruído de indentação.'
-    json:
-      title: Tornar o JSON mais legível
-      description: Transforme um bloco enorme de JSON numa árvore limpa e indentada.
-    time:
-      title: Converter timestamp em data
-      description: Converta entre timestamps e datas para depuração.
+    pdfWord:
+      title: "Converter PDF em Word"
+      description: "Obtenha um .docx editável, com OCR para digitalizações."
+    imagePdf:
+      title: "Transformar imagens em PDF"
+      description: "Junte várias imagens em um PDF, em ordem."
     audio:
       title: Cortar ou aparar áudio
       description: 'Selecione um trecho, ouça e salve como MP3 ou WAV.'

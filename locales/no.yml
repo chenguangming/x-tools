@@ -423,12 +423,12 @@ landing:
     xml:
       title: Finn forskjellene mellom to XML-filer
       description: 'Se endringer side ved side, uten innrykksstøy.'
-    json:
-      title: Gjør JSON lettere å lese
-      description: 'Gjør en stor JSON-blokk om til en ryddig, innrykket struktur.'
-    time:
-      title: Konverter tidsstempel til dato
-      description: Konverter mellom tidsstempler og datoer ved feilsøking.
+    pdfWord:
+      title: "Gjør PDF om til Word"
+      description: "Redigerbar .docx, med OCR for skannede sider."
+    imagePdf:
+      title: "Gjør bilder om til PDF"
+      description: "Slå sammen flere bilder til én PDF, i rekkefølge."
     audio:
       title: Klipp eller trim lyd
       description: 'Velg et utsnitt, lytt og lagre som MP3 eller WAV.'

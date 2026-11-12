@@ -412,12 +412,12 @@ landing:
     xml:
       title: Tìm điểm khác nhau giữa hai tệp XML
       description: 'Xem thay đổi song song, không bị nhiễu bởi thụt lề.'
-    json:
-      title: Làm JSON dễ đọc hơn
-      description: Biến một khối JSON dài thành cấu trúc thụt lề gọn gàng.
-    time:
-      title: Chuyển dấu thời gian thành ngày
-      description: Chuyển đổi giữa dấu thời gian và ngày để gỡ lỗi.
+    pdfWord:
+      title: "Chuyển PDF sang Word"
+      description: "Tạo .docx chỉnh sửa được, có OCR cho bản quét."
+    imagePdf:
+      title: "Biến ảnh thành PDF"
+      description: "Gộp nhiều ảnh thành một PDF theo thứ tự."
     audio:
       title: Cắt hoặc xóa đoạn âm thanh
       description: 'Chọn đoạn, nghe thử rồi lưu dạng MP3 hoặc WAV.'

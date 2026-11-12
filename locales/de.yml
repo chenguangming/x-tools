@@ -481,12 +481,12 @@ landing:
     xml:
       title: Unterschiede zwischen zwei XML-Dateien finden
       description: 'Änderungen nebeneinander ansehen, ohne Einrückungsrauschen.'
-    json:
-      title: JSON besser lesbar machen
-      description: 'Einen langen JSON-Text in eine saubere, eingerückte Struktur bringen.'
-    time:
-      title: Zeitstempel in Datum umwandeln
-      description: 'Zwischen Zeitstempel und Datum umrechnen, z. B. zum Debuggen.'
+    pdfWord:
+      title: "PDF in Word umwandeln"
+      description: "Bearbeitbare .docx, gescannte Seiten per OCR."
+    imagePdf:
+      title: "Bilder zu einem PDF machen"
+      description: "Mehrere Bilder der Reihe nach zu einem PDF."
     audio:
       title: Audio zuschneiden oder schneiden
       description: 'Bereich wählen, anhören und als MP3 oder WAV speichern.'
