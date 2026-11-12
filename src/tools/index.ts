@@ -75,6 +75,7 @@ import { tool as idPhoto } from './id-photo';
 import { tool as audioTrimmer } from './audio-trimmer';
 import { tool as imageCropper } from './image-cropper';
 import { tool as imageToText } from './image-to-text';
+import { tool as pdfToWord } from './pdf-to-word';
 import { tool as qrCodeGenerator } from './qr-code-generator';
 import { tool as wifiQrCodeGenerator } from './wifi-qr-code-generator';
 import { tool as randomPortGenerator } from './random-port-generator';
@@ -148,6 +149,10 @@ export const toolsByCategory: { name: string; components: Tool[] }[] = [
   {
     name: 'Images',
     components: [imageToText, imageCropper, idPhoto, qrCodeGenerator, wifiQrCodeGenerator, svgPlaceholderGenerator],
+  },
+  {
+    name: 'PDF',
+    components: [pdfToWord],
   },
   {
     name: 'Audio and video',

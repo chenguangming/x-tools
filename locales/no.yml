@@ -72,6 +72,7 @@ tools:
     web: Web
     images: Bilder
     audio and video: 'Lyd & Video'
+    pdf: PDF
     development: Utvikling
     network: Nettverk
     math: Matte

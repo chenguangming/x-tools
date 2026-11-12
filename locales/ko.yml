@@ -72,6 +72,7 @@ tools:
     web: 웹
     images: 이미지
     audio and video: 오디오 및 동영상
+    pdf: PDF
     development: 개발
     network: 네트워크
     math: 수학

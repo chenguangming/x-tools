@@ -72,6 +72,7 @@ tools:
     web: Web
     images: Images
     audio and video: 'Audio & Video'
+    pdf: PDF
     development: Development
     network: Network
     math: Math

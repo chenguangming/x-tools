@@ -90,6 +90,7 @@ tools:
     web: Web
     images: Bilder
     audio and video: 'Audio & Video'
+    pdf: PDF
     development: Entwicklung
     network: Netzwerk
     math: Mathematik

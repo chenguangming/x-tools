@@ -72,6 +72,7 @@ tools:
     web: Web
     images: Imágenes
     audio and video: Audio y vídeo
+    pdf: PDF
     development: Desarrollo
     network: Red
     math: Matemáticas

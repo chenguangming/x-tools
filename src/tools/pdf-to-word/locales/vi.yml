@@ -1,0 +1,24 @@
+tools:
+  pdf-to-word:
+    title: PDF sang Word
+    description: Chuyển PDF thành tệp Word (.docx) có thể chỉnh sửa ngay trong trình duyệt. PDF dạng quét có thể nhận dạng bằng OCR. Không có gì được tải lên.
+    upload: Thả PDF vào đây hoặc nhấp để chọn
+    notAPdf: Vui lòng chọn tệp PDF.
+    encrypted: PDF này được bảo vệ bằng mật khẩu nên không thể mở.
+    openFailed: Không thể mở PDF này.
+    pages: '{count} trang'
+    ocrScanned: Nhận dạng văn bản trên các trang quét (OCR)
+    convert: Chuyển sang Word
+    working: Đang chuyển đổi…
+    cancel: Hủy
+    chooseAnother: Chọn PDF khác
+    downloadAgain: Tải xuống lại
+    loadingEngine: Đang tải công cụ OCR (chỉ lần đầu)…
+    readPage: 'Đang đọc trang {page} / {total}…'
+    ocrPage: 'Đang nhận dạng trang {page} / {total}…'
+    building: Đang tạo tệp Word…
+    failed: Chuyển đổi thất bại. Hãy thử PDF khác.
+    done: Xong. Tệp Word đã được tải xuống.
+    ocrDone: 'Đã nhận dạng {count} trang quét bằng OCR.'
+    emptyPages: '{count} trang không có văn bản nhận dạng được.'
+    hint: 'Giữ lại văn bản, đoạn và tiêu đề; không giữ hình ảnh, bảng và bố cục phức tạp. Có thể cần chỉnh lại kết quả trong Word.'

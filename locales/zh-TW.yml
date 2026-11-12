@@ -72,6 +72,7 @@ tools:
     web: Web
     images: 圖片
     audio and video: 音訊和影片
+    pdf: PDF
     development: 開發
     network: 網路
     math: 數學

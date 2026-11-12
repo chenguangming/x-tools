@@ -1,0 +1,24 @@
+tools:
+  pdf-to-word:
+    title: PDF を Word に変換
+    description: ブラウザ内で PDF を編集可能な Word（.docx）に変換します。スキャン PDF は OCR で認識でき、ファイルはアップロードされません。
+    upload: PDF をここにドロップ、またはクリックして選択
+    notAPdf: PDF ファイルを選択してください。
+    encrypted: この PDF はパスワードで保護されているため開けません。
+    openFailed: この PDF を開けませんでした。
+    pages: '{count} ページ'
+    ocrScanned: スキャンしたページの文字を認識する（OCR）
+    convert: Word に変換
+    working: 変換中…
+    cancel: キャンセル
+    chooseAnother: 別の PDF を選ぶ
+    downloadAgain: もう一度ダウンロード
+    loadingEngine: OCR エンジンを読み込み中（初回のみ）…
+    readPage: '{page} / {total} ページを読み込み中…'
+    ocrPage: '{page} / {total} ページを認識中…'
+    building: Word ファイルを作成中…
+    failed: 変換に失敗しました。別の PDF でお試しください。
+    done: 完了しました。Word ファイルをダウンロードしました。
+    ocrDone: 'スキャンされた {count} ページを OCR で認識しました。'
+    emptyPages: '{count} ページで文字を認識できませんでした。'
+    hint: 文字・段落・見出しは保持されますが、画像・表・複雑なレイアウトは保持されません。変換後に Word で整える必要があります。

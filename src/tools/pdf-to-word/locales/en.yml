@@ -1,0 +1,24 @@
+tools:
+  pdf-to-word:
+    title: PDF to Word
+    description: Convert a PDF into an editable Word (.docx) file right in your browser. Scanned PDFs can be recognized with OCR. Nothing is uploaded.
+    upload: 'Drop a PDF here, or click to choose'
+    notAPdf: Please choose a PDF file.
+    encrypted: This PDF is password-protected and cannot be opened.
+    openFailed: Could not open this PDF.
+    pages: '{count} pages'
+    ocrScanned: Recognize text in scanned pages (OCR)
+    convert: Convert to Word
+    working: Converting…
+    cancel: Cancel
+    chooseAnother: Choose another PDF
+    downloadAgain: Download again
+    loadingEngine: Loading the OCR engine (first use only)…
+    readPage: 'Reading page {page} / {total}…'
+    ocrPage: 'Recognizing page {page} / {total}…'
+    building: Building the Word file…
+    failed: Conversion failed. Please try another PDF.
+    done: Done. The Word file has been downloaded.
+    ocrDone: '{count} scanned page(s) were recognized with OCR.'
+    emptyPages: '{count} page(s) had no recognizable text.'
+    hint: 'Text, paragraphs and headings are kept; images, tables and complex layouts are not. Expect to tidy the result in Word.'

@@ -1,0 +1,24 @@
+tools:
+  pdf-to-word:
+    title: PDF in Word
+    description: Wandelt ein PDF direkt im Browser in eine bearbeitbare Word-Datei (.docx) um. Gescannte PDFs können per OCR erkannt werden. Es wird nichts hochgeladen.
+    upload: PDF hierher ziehen oder klicken
+    notAPdf: Bitte eine PDF-Datei wählen.
+    encrypted: Dieses PDF ist passwortgeschützt und kann nicht geöffnet werden.
+    openFailed: Dieses PDF konnte nicht geöffnet werden.
+    pages: '{count} Seiten'
+    ocrScanned: Text auf gescannten Seiten erkennen (OCR)
+    convert: In Word umwandeln
+    working: Wird umgewandelt…
+    cancel: Abbrechen
+    chooseAnother: Anderes PDF wählen
+    downloadAgain: Erneut herunterladen
+    loadingEngine: OCR-Engine wird geladen (nur beim ersten Mal)…
+    readPage: 'Seite {page} / {total} wird gelesen…'
+    ocrPage: 'Seite {page} / {total} wird erkannt…'
+    building: Word-Datei wird erstellt…
+    failed: Umwandlung fehlgeschlagen. Bitte ein anderes PDF versuchen.
+    done: Fertig. Die Word-Datei wurde heruntergeladen.
+    ocrDone: '{count} gescannte Seite(n) wurden per OCR erkannt.'
+    emptyPages: '{count} Seite(n) enthielten keinen erkennbaren Text.'
+    hint: 'Text, Absätze und Überschriften bleiben erhalten; Bilder, Tabellen und komplexe Layouts nicht. Das Ergebnis muss ggf. in Word nachbearbeitet werden.'

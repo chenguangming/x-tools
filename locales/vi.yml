@@ -72,6 +72,7 @@ tools:
     web: Web
     images: Hình ảnh
     audio and video: 'Âm thanh & Video'
+    pdf: PDF
     development: Phát triển
     network: Mạng
     math: Toán học

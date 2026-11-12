@@ -1,0 +1,24 @@
+tools:
+  pdf-to-word:
+    title: PDF 转 Word
+    description: 在浏览器里把 PDF 转成可编辑的 Word（.docx）文件，扫描件可用 OCR 识别，文件不会上传。
+    upload: 把 PDF 拖到这里，或点击选择
+    notAPdf: 请选择 PDF 文件。
+    encrypted: 这个 PDF 有密码保护，无法打开。
+    openFailed: 无法打开这个 PDF。
+    pages: '共 {count} 页'
+    ocrScanned: 识别扫描页中的文字（OCR）
+    convert: 转换为 Word
+    working: 转换中…
+    cancel: 取消
+    chooseAnother: 更换 PDF
+    downloadAgain: 重新下载
+    loadingEngine: 正在加载识别引擎（仅首次使用）…
+    readPage: '正在读取第 {page} / {total} 页…'
+    ocrPage: '正在识别第 {page} / {total} 页…'
+    building: 正在生成 Word 文件…
+    failed: 转换失败，请换一个 PDF 再试。
+    done: 转换完成，Word 文件已下载。
+    ocrDone: '有 {count} 页扫描页已通过 OCR 识别。'
+    emptyPages: '有 {count} 页没有识别到文字。'
+    hint: 会保留文字、段落和标题；图片、表格和复杂排版不会保留，转换后可能需要在 Word 里稍作整理。

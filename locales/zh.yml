@@ -72,6 +72,7 @@ tools:
     web: Web
     images: 图片
     audio and video: 音频和视频
+    pdf: PDF
     development: 开发
     network: 网络
     math: 数学

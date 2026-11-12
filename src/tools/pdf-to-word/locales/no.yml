@@ -1,0 +1,24 @@
+tools:
+  pdf-to-word:
+    title: PDF til Word
+    description: Konverterer en PDF til en redigerbar Word-fil (.docx) direkte i nettleseren. Skannede PDF-er kan gjenkjennes med OCR. Ingenting lastes opp.
+    upload: 'Slipp en PDF her, eller klikk for å velge'
+    notAPdf: Velg en PDF-fil.
+    encrypted: Denne PDF-en er passordbeskyttet og kan ikke åpnes.
+    openFailed: Kunne ikke åpne denne PDF-en.
+    pages: '{count} sider'
+    ocrScanned: Gjenkjenn tekst på skannede sider (OCR)
+    convert: Konverter til Word
+    working: Konverterer…
+    cancel: Avbryt
+    chooseAnother: Velg en annen PDF
+    downloadAgain: Last ned på nytt
+    loadingEngine: Laster OCR-motoren (kun første gang)…
+    readPage: 'Leser side {page} / {total}…'
+    ocrPage: 'Gjenkjenner side {page} / {total}…'
+    building: Lager Word-filen…
+    failed: Konverteringen mislyktes. Prøv en annen PDF.
+    done: Ferdig. Word-filen er lastet ned.
+    ocrDone: '{count} skannet(e) side(r) ble gjenkjent med OCR.'
+    emptyPages: '{count} side(r) hadde ingen gjenkjennbar tekst.'
+    hint: 'Tekst, avsnitt og overskrifter beholdes; bilder, tabeller og komplekse oppsett beholdes ikke. Du må kanskje rydde i resultatet i Word.'

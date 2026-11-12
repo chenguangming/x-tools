@@ -1,0 +1,24 @@
+tools:
+  pdf-to-word:
+    title: PDF 轉 Word
+    description: 在瀏覽器裡把 PDF 轉成可編輯的 Word（.docx）檔案，掃描檔可用 OCR 辨識，檔案不會上傳。
+    upload: 把 PDF 拖到這裡，或點擊選擇
+    notAPdf: 請選擇 PDF 檔案。
+    encrypted: 這個 PDF 有密碼保護，無法開啟。
+    openFailed: 無法開啟這個 PDF。
+    pages: '共 {count} 頁'
+    ocrScanned: 辨識掃描頁中的文字（OCR）
+    convert: 轉換為 Word
+    working: 轉換中…
+    cancel: 取消
+    chooseAnother: 更換 PDF
+    downloadAgain: 重新下載
+    loadingEngine: 正在載入辨識引擎（僅首次使用）…
+    readPage: '正在讀取第 {page} / {total} 頁…'
+    ocrPage: '正在辨識第 {page} / {total} 頁…'
+    building: 正在產生 Word 檔案…
+    failed: 轉換失敗，請換一個 PDF 再試。
+    done: 轉換完成，Word 檔案已下載。
+    ocrDone: '有 {count} 頁掃描頁已透過 OCR 辨識。'
+    emptyPages: '有 {count} 頁沒有辨識到文字。'
+    hint: 會保留文字、段落和標題；圖片、表格和複雜排版不會保留，轉換後可能需要在 Word 裡稍作整理。
