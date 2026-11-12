@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>人人都用得上的線上工具箱，不只是 IT。</b><br>
-  <a href="https://xtools.codestudio.uk">線上體驗</a> · <a href="https://afdian.com/a/waying">贊助我</a>
+  <a href="https://xtools.codestudio.uk">線上體驗</a> · <a href="https://ko-fi.com/wayings">贊助我</a>
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@
 
 ## 贊助支持
 
-X-Tools 永久免費並開源（GPL-3.0），但伺服器託管與網域續約需要成本。如果它對你有幫助，歡迎透過 **[愛發電](https://afdian.com/a/waying)** 贊助我，也能鼓勵我新增更多工具。感謝支持！
+X-Tools 永久免費並開源（GPL-3.0），但伺服器託管與網域續約需要成本。如果它對你有幫助，歡迎透過 **[Ko-fi](https://ko-fi.com/wayings)** 贊助我，也能鼓勵我新增更多工具。感謝支持！
 
 ## 功能與路線圖
 

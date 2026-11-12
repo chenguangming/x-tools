@@ -8,6 +8,9 @@ import NavbarButtons from '../components/NavbarButtons.vue';
 import { useStyleStore } from '@/stores/style.store';
 import { config } from '@/config';
 
+const { locale } = useI18n();
+const supportUrl = computed(() => (locale.value === 'zh' ? 'https://afdian.com/a/waying' : 'https://ko-fi.com/wayings'));
+
 const themeVars = useThemeVars();
 const styleStore = useStyleStore();
 const buildDate = config.app.buildDate;
@@ -69,7 +72,7 @@ function goBack() {
           <c-tooltip position="bottom" :tooltip="$t('home.support')">
             <c-button
               round
-              href="https://afdian.com/a/waying"
+              :href="supportUrl"
               rel="noopener"
               target="_blank"
               class="support-button"

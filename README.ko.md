@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>IT 분야를 넘어, 누구나 쓸 수 있는 편리한 온라인 도구 모음.</b><br>
-  <a href="https://xtools.codestudio.uk">데모 체험</a> · <a href="https://afdian.com/a/waying">후원하기</a>
+  <a href="https://xtools.codestudio.uk">데모 체험</a> · <a href="https://ko-fi.com/wayings">후원하기</a>
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@
 
 ## 후원
 
-X-Tools는 영원히 무료이며 오픈 소스(GPL-3.0)이지만, 호스팅과 도메인 갱신에 비용이 듭니다. 도움이 되었다면 **[爱发电 (Afdian)](https://afdian.com/a/waying)**을 통한 후원을 고려해 주세요. 더 많은 도구를 추가하는 데 큰 힘이 됩니다. 감사합니다!
+X-Tools는 영원히 무료이며 오픈 소스(GPL-3.0)이지만, 호스팅과 도메인 갱신에 비용이 듭니다. 도움이 되었다면 **[Ko-fi](https://ko-fi.com/wayings)**을 통한 후원을 고려해 주세요. 더 많은 도구를 추가하는 데 큰 힘이 됩니다. 감사합니다!
 
 ## 기능과 로드맵
 

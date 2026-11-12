@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Handy online tools for everyone, beyond just IT.</b><br>
-  <a href="https://xtools.codestudio.uk">Live demo</a> · <a href="https://afdian.com/a/waying">Sponsor</a>
+  <a href="https://xtools.codestudio.uk">Live demo</a> · <a href="https://ko-fi.com/wayings">Sponsor</a>
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@
 
 ## Sponsor
 
-X-Tools is free forever and open source (GPL-3.0), but hosting and the domain cost money. If it helps you, please consider supporting the project on **[Afdian (爱发电)](https://afdian.com/a/waying)**. It also encourages more new tools. Thank you!
+X-Tools is free forever and open source (GPL-3.0), but hosting and the domain cost money. If it helps you, please consider supporting the project on **[Ko-fi](https://ko-fi.com/wayings)**. It also encourages more new tools. Thank you!
 
 ## Functionalities and roadmap
 
