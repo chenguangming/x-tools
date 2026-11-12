@@ -53,7 +53,7 @@ function onUpdateFavoriteTools() {
         </ColoredCard>
       </div>
 
-      <section v-if="activeTab === 'home'" class="hero">
+      <section class="hero">
         <a class="promo" href="https://aura.codestudio.uk" target="_blank" rel="noopener">
           <span class="promo-label">{{ $t('landing.promo.label') }}</span>
           <span class="promo-name">{{ $t('landing.promo.name') }}</span>
