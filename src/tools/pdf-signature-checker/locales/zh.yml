@@ -1,19 +1,19 @@
 tools:
   pdf-signature-checker:
-    uploadTitle: '将 PDF 文件拖放到此处，或点击选择文件'
-    noSignatures: '在所提供的文件中未找到签名。'
+    uploadTitle: 将 PDF 文件拖放到此处，或点击选择文件
+    noSignatures: 在所提供的文件中未找到签名。
     signatureCertificates: '签名 {index} 的证书：'
-    validityPeriod: '有效期'
-    issuedBy: '颁发者'
-    issuedTo: '颁发给'
-    pemCertificate: 'PEM 证书'
+    validityPeriod: 有效期
+    issuedBy: 颁发者
+    issuedTo: 颁发给
+    pemCertificate: PEM 证书
     certificate: '证书 {index}'
-    notBefore: '生效时间'
-    notAfter: '失效时间'
-    commonName: '通用名称'
-    organizationName: '组织名称'
-    countryName: '国家/地区名称'
-    localityName: '地区名称'
-    organizationalUnitName: '组织单位名称'
-    stateOrProvinceName: '省/州名称'
-    viewPem: '查看 PEM 证书'
+    notBefore: 生效时间
+    notAfter: 失效时间
+    commonName: 通用名称
+    organizationName: 组织名称
+    countryName: 国家/地区名称
+    localityName: 地区名称
+    organizationalUnitName: 组织单位名称
+    stateOrProvinceName: 省/州名称
+    viewPem: 查看 PEM 证书

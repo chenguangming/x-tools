@@ -1,0 +1,16 @@
+tools:
+  pdf-merge:
+    title: PDF 合并
+    description: 把多个 PDF 按你想要的顺序合并成一个文件。全部在浏览器里完成，文件不会上传。
+    upload: 把 PDF 文件拖到这里，或点击选择
+    notAPdf: 不是 PDF 文件。
+    openFailed: 无法打开这个文件（已损坏或有密码保护）。
+    pages: '{count} 页'
+    summary: '共 {files} 个文件、{pages} 页'
+    dragHint: 拖动 ⠿ 调整顺序
+    merge: 合并并下载
+    working: 合并中…
+    clear: 清空
+    needTwo: 请至少添加两个 PDF 文件。
+    done: 合并完成，文件已下载。
+    failed: 合并失败，请检查文件。

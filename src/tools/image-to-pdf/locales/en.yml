@@ -1,0 +1,16 @@
+tools:
+  image-to-pdf:
+    title: Image to PDF
+    description: 'Combine JPG, PNG and other images into one PDF, in the order you want. Nothing is uploaded.'
+    upload: 'Drop images here, or click to choose'
+    notAnImage: Not an image file.
+    sizeFit: Fit to image
+    marginNone: No margin
+    marginSmall: Small margin
+    marginNormal: Normal margin
+    dragHint: Drag ⠿ to change the order. One image per page.
+    convert: Create PDF
+    working: Creating…
+    clear: Clear all
+    done: PDF created. The file has been downloaded.
+    failed: Could not create the PDF. Please check your images.

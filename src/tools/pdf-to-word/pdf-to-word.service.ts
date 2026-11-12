@@ -1,7 +1,7 @@
 import { createOcrWorker } from '../image-to-text/image-to-text.service';
 
 interface PdfTextItem { str: string; transform: number[]; width: number; hasEOL?: boolean }
-interface PdfPage {
+export interface PdfPage {
   getViewport: (o: { scale: number }) => { width: number; height: number }
   getTextContent: () => Promise<{ items: (PdfTextItem | { type: string })[] }>
   render: (o: { canvasContext: CanvasRenderingContext2D; viewport: unknown }) => { promise: Promise<void> }
@@ -18,7 +18,7 @@ interface PdfjsModule {
 
 interface Block { text: string; size: number; align: 'left' | 'center'; pageStart: boolean }
 
-function vendorUrl(path: string) {
+export function vendorUrl(path: string) {
   return new URL(`${import.meta.env.BASE_URL}vendor/${path}`, window.location.origin).href;
 }
 

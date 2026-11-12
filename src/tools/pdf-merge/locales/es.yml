@@ -1,0 +1,16 @@
+tools:
+  pdf-merge:
+    title: Unir PDF
+    description: 'Combina varios PDF en uno, en el orden que quieras. Todo se hace en tu navegador; no se sube nada.'
+    upload: Suelta archivos PDF aquí o haz clic para elegir
+    notAPdf: No es un archivo PDF.
+    openFailed: No se pudo abrir el archivo (dañado o protegido con contraseña).
+    pages: '{count} páginas'
+    summary: '{files} archivos, {pages} páginas en total'
+    dragHint: Arrastra ⠿ para cambiar el orden
+    merge: Unir y descargar
+    working: Uniendo…
+    clear: Borrar todo
+    needTwo: Añade al menos dos archivos PDF.
+    done: Listo. El archivo se ha descargado.
+    failed: Error al unir. Revisa los archivos.

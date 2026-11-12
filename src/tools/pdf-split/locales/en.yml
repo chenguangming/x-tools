@@ -1,0 +1,21 @@
+tools:
+  pdf-split:
+    title: Split PDF
+    description: 'Extract pages or split a PDF into several files, right in your browser. Nothing is uploaded.'
+    upload: 'Drop a PDF here, or click to choose'
+    notAPdf: Please choose a PDF file.
+    openFailed: Could not open this file (damaged or password-protected).
+    pages: '{count} pages'
+    modeExtract: Extract pages into one PDF
+    modeEach: Every page as a separate PDF
+    modeChunk: Split every N pages
+    rangePlaceholder: 'e.g. 1-3, 5, 8- (1 to {total})'
+    rangeHint: Use commas for several pages and a dash for ranges. 8- means page 8 to the end.
+    invalidRange: 'Invalid page range. Pages must be between 1 and {total}.'
+    every: Every
+    pagesUnit: pages
+    zipHint: Separate PDFs are downloaded together as a .zip file.
+    split: Split and download
+    working: Working…
+    chooseAnother: Choose another PDF
+    failed: Split failed. Please try another PDF.

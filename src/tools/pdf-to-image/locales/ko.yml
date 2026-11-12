@@ -1,0 +1,22 @@
+tools:
+  pdf-to-image:
+    title: PDF를 이미지로
+    description: 브라우저에서 PDF의 각 페이지를 PNG 또는 JPG로 변환합니다. 업로드되지 않습니다.
+    upload: PDF를 여기에 끌어다 놓거나 클릭하여 선택
+    notAPdf: PDF 파일을 선택하세요.
+    encrypted: 이 PDF는 암호로 보호되어 열 수 없습니다.
+    openFailed: 이 PDF를 열 수 없습니다.
+    pages: '{count}페이지'
+    scaleStandard: 표준(1x)
+    scaleHigh: 고화질(2x)
+    scaleUltra: 초고화질(3x)
+    rangePlaceholder: '페이지 예: 1-3, 5(비우면 전체)'
+    invalidRange: '페이지 범위가 올바르지 않습니다. 1부터 {total} 사이여야 합니다.'
+    convert: 이미지로 변환
+    working: 변환 중…
+    cancel: 취소
+    chooseAnother: 다른 PDF 선택
+    downloadAll: '모두 다운로드({count}장, .zip)'
+    pageLabel: '{page}페이지'
+    save: 저장
+    failed: 변환에 실패했습니다. 다른 PDF로 시도해 주세요.

@@ -76,6 +76,10 @@ import { tool as audioTrimmer } from './audio-trimmer';
 import { tool as imageCropper } from './image-cropper';
 import { tool as imageToText } from './image-to-text';
 import { tool as pdfToWord } from './pdf-to-word';
+import { tool as pdfMerge } from './pdf-merge';
+import { tool as pdfSplit } from './pdf-split';
+import { tool as pdfToImage } from './pdf-to-image';
+import { tool as imageToPdf } from './image-to-pdf';
 import { tool as qrCodeGenerator } from './qr-code-generator';
 import { tool as wifiQrCodeGenerator } from './wifi-qr-code-generator';
 import { tool as randomPortGenerator } from './random-port-generator';
@@ -152,7 +156,7 @@ export const toolsByCategory: { name: string; components: Tool[] }[] = [
   },
   {
     name: 'PDF',
-    components: [pdfToWord],
+    components: [pdfToWord, pdfMerge, pdfSplit, pdfToImage, imageToPdf],
   },
   {
     name: 'Audio and video',

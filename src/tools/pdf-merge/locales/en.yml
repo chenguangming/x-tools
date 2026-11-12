@@ -1,0 +1,16 @@
+tools:
+  pdf-merge:
+    title: Merge PDF
+    description: 'Combine several PDF files into one, in the order you want. Everything runs in your browser; nothing is uploaded.'
+    upload: 'Drop PDF files here, or click to choose'
+    notAPdf: Not a PDF file.
+    openFailed: Could not open this file (damaged or password-protected).
+    pages: '{count} pages'
+    summary: '{files} files, {pages} pages in total'
+    dragHint: Drag ⠿ to change the order
+    merge: Merge and download
+    working: Merging…
+    clear: Clear all
+    needTwo: Add at least two PDF files.
+    done: Merged. The file has been downloaded.
+    failed: Merge failed. Please check your files.

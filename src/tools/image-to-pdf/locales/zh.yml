@@ -1,0 +1,16 @@
+tools:
+  image-to-pdf:
+    title: 图片转 PDF
+    description: 把 JPG、PNG 等多张图片按顺序合成一个 PDF，文件不会上传。
+    upload: 把图片拖到这里，或点击选择
+    notAnImage: 不是图片文件。
+    sizeFit: 与图片等大
+    marginNone: 无边距
+    marginSmall: 小边距
+    marginNormal: 标准边距
+    dragHint: 拖动 ⠿ 调整顺序，每张图片占一页。
+    convert: 生成 PDF
+    working: 生成中…
+    clear: 清空
+    done: PDF 已生成，文件已下载。
+    failed: 生成失败，请检查图片。

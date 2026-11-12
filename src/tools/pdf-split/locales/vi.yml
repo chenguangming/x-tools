@@ -1,0 +1,21 @@
+tools:
+  pdf-split:
+    title: Tách PDF
+    description: Trích xuất trang hoặc tách PDF thành nhiều tệp ngay trong trình duyệt. Không tải lên.
+    upload: Thả PDF vào đây hoặc nhấp để chọn
+    notAPdf: Vui lòng chọn tệp PDF.
+    openFailed: Không thể mở tệp (bị hỏng hoặc có mật khẩu).
+    pages: '{count} trang'
+    modeExtract: Trích xuất các trang thành một PDF
+    modeEach: Mỗi trang thành một PDF riêng
+    modeChunk: Tách mỗi N trang
+    rangePlaceholder: 'vd: 1-3, 5, 8- (từ 1 đến {total})'
+    rangeHint: Dùng dấu phẩy giữa các trang và dấu gạch ngang cho khoảng. 8- nghĩa là từ trang 8 đến hết.
+    invalidRange: 'Khoảng trang không hợp lệ. Trang phải từ 1 đến {total}.'
+    every: Mỗi
+    pagesUnit: trang
+    zipHint: Các PDF riêng được tải xuống cùng lúc trong một tệp .zip.
+    split: Tách và tải xuống
+    working: Đang xử lý…
+    chooseAnother: Chọn PDF khác
+    failed: Tách thất bại. Hãy thử PDF khác.

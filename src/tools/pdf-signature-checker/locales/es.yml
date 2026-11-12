@@ -1,19 +1,19 @@
 tools:
   pdf-signature-checker:
     uploadTitle: 'Arrastra y suelta un archivo PDF aquí, o haz clic para seleccionar uno'
-    noSignatures: 'No se encontraron firmas en el archivo proporcionado.'
+    noSignatures: No se encontraron firmas en el archivo proporcionado.
     signatureCertificates: 'Certificados de la firma {index}:'
-    validityPeriod: 'Período de validez'
-    issuedBy: 'Emitido por'
-    issuedTo: 'Emitido para'
-    pemCertificate: 'Certificado PEM'
+    validityPeriod: Período de validez
+    issuedBy: Emitido por
+    issuedTo: Emitido para
+    pemCertificate: Certificado PEM
     certificate: 'Certificado {index}'
-    notBefore: 'No antes de'
-    notAfter: 'No después de'
-    commonName: 'Nombre común'
-    organizationName: 'Nombre de la organización'
-    countryName: 'Nombre del país'
-    localityName: 'Nombre de la localidad'
-    organizationalUnitName: 'Nombre de la unidad organizativa'
-    stateOrProvinceName: 'Nombre del estado o provincia'
-    viewPem: 'Ver certificado PEM'
+    notBefore: No antes de
+    notAfter: No después de
+    commonName: Nombre común
+    organizationName: Nombre de la organización
+    countryName: Nombre del país
+    localityName: Nombre de la localidad
+    organizationalUnitName: Nombre de la unidad organizativa
+    stateOrProvinceName: Nombre del estado o provincia
+    viewPem: Ver certificado PEM

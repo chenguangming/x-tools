@@ -1,0 +1,22 @@
+tools:
+  pdf-to-image:
+    title: PDF を画像に変換
+    description: ブラウザ内で PDF の各ページを PNG または JPG に変換します。アップロードされません。
+    upload: PDF をここにドロップ、またはクリックして選択
+    notAPdf: PDF ファイルを選択してください。
+    encrypted: この PDF はパスワードで保護されているため開けません。
+    openFailed: この PDF を開けませんでした。
+    pages: '{count} ページ'
+    scaleStandard: 標準（1x）
+    scaleHigh: 高画質（2x）
+    scaleUltra: 超高画質（3x）
+    rangePlaceholder: 'ページ指定 例: 1-3, 5（空欄で全ページ）'
+    invalidRange: 'ページ範囲が正しくありません。1 から {total} の間で指定してください。'
+    convert: 画像に変換
+    working: 変換中…
+    cancel: キャンセル
+    chooseAnother: 別の PDF を選ぶ
+    downloadAll: 'すべてダウンロード（{count} 枚、.zip）'
+    pageLabel: '{page} ページ'
+    save: 保存
+    failed: 変換に失敗しました。別の PDF でお試しください。

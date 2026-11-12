@@ -1,0 +1,21 @@
+tools:
+  pdf-split:
+    title: Diviser un PDF
+    description: 'Extrayez des pages ou divisez un PDF en plusieurs fichiers, directement dans le navigateur. Rien n''est envoyé.'
+    upload: Déposez un PDF ici ou cliquez pour choisir
+    notAPdf: Veuillez choisir un fichier PDF.
+    openFailed: 'Impossible d''ouvrir ce fichier (endommagé ou protégé par mot de passe).'
+    pages: '{count} pages'
+    modeExtract: Extraire des pages dans un seul PDF
+    modeEach: Chaque page dans un PDF séparé
+    modeChunk: Diviser toutes les N pages
+    rangePlaceholder: 'ex. 1-3, 5, 8- (de 1 à {total})'
+    rangeHint: Séparez les pages par des virgules et utilisez un tiret pour les plages. 8- signifie de la page 8 à la fin.
+    invalidRange: 'Plage invalide. Les pages doivent être comprises entre 1 et {total}.'
+    every: Toutes les
+    pagesUnit: pages
+    zipHint: Les PDF séparés sont téléchargés ensemble dans un fichier .zip.
+    split: Diviser et télécharger
+    working: Traitement…
+    chooseAnother: Choisir un autre PDF
+    failed: Échec de la division. Essayez un autre PDF.

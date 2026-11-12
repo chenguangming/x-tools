@@ -1,0 +1,16 @@
+tools:
+  pdf-merge:
+    title: PDF 合併
+    description: 把多個 PDF 依你想要的順序合併成一個檔案。全部在瀏覽器裡完成，檔案不會上傳。
+    upload: 把 PDF 檔案拖到這裡，或點擊選擇
+    notAPdf: 不是 PDF 檔案。
+    openFailed: 無法開啟這個檔案（已損壞或有密碼保護）。
+    pages: '{count} 頁'
+    summary: '共 {files} 個檔案、{pages} 頁'
+    dragHint: 拖動 ⠿ 調整順序
+    merge: 合併並下載
+    working: 合併中…
+    clear: 清空
+    needTwo: 請至少新增兩個 PDF 檔案。
+    done: 合併完成，檔案已下載。
+    failed: 合併失敗，請檢查檔案。

@@ -1,0 +1,16 @@
+tools:
+  pdf-merge:
+    title: Gộp PDF
+    description: 'Gộp nhiều tệp PDF thành một theo thứ tự bạn muốn. Mọi thứ chạy trong trình duyệt, không tải lên.'
+    upload: Thả tệp PDF vào đây hoặc nhấp để chọn
+    notAPdf: Không phải tệp PDF.
+    openFailed: Không thể mở tệp (bị hỏng hoặc có mật khẩu).
+    pages: '{count} trang'
+    summary: '{files} tệp, tổng {pages} trang'
+    dragHint: Kéo ⠿ để đổi thứ tự
+    merge: Gộp và tải xuống
+    working: Đang gộp…
+    clear: Xóa tất cả
+    needTwo: Hãy thêm ít nhất hai tệp PDF.
+    done: Xong. Tệp đã được tải xuống.
+    failed: Gộp thất bại. Hãy kiểm tra các tệp.

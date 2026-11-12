@@ -1,0 +1,16 @@
+tools:
+  pdf-merge:
+    title: Juntar PDF
+    description: 'Combine vários PDFs em um só, na ordem que quiser. Tudo roda no navegador; nada é enviado.'
+    upload: Solte arquivos PDF aqui ou clique para escolher
+    notAPdf: Não é um arquivo PDF.
+    openFailed: Não foi possível abrir o arquivo (danificado ou protegido por senha).
+    pages: '{count} páginas'
+    summary: '{files} arquivos, {pages} páginas no total'
+    dragHint: Arraste ⠿ para mudar a ordem
+    merge: Juntar e baixar
+    working: Juntando…
+    clear: Limpar tudo
+    needTwo: Adicione pelo menos dois arquivos PDF.
+    done: Pronto. O arquivo foi baixado.
+    failed: Falha ao juntar. Verifique os arquivos.

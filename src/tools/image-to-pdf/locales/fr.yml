@@ -1,0 +1,16 @@
+tools:
+  image-to-pdf:
+    title: Image vers PDF
+    description: 'Combinez des images JPG, PNG et autres en un seul PDF, dans l''ordre souhaité. Rien n''est envoyé.'
+    upload: Déposez des images ici ou cliquez pour choisir
+    notAnImage: 'Ce n''est pas un fichier image.'
+    sizeFit: 'Adapter à l''image'
+    marginNone: Sans marge
+    marginSmall: Petite marge
+    marginNormal: Marge normale
+    dragHint: 'Faites glisser ⠿ pour changer l''ordre. Une image par page.'
+    convert: Créer le PDF
+    working: Création…
+    clear: Tout effacer
+    done: PDF créé. Le fichier a été téléchargé.
+    failed: Impossible de créer le PDF. Vérifiez vos images.

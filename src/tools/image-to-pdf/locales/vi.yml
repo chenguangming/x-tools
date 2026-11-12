@@ -1,0 +1,16 @@
+tools:
+  image-to-pdf:
+    title: Ảnh sang PDF
+    description: 'Gộp ảnh JPG, PNG và các ảnh khác thành một PDF theo thứ tự bạn muốn. Không tải lên.'
+    upload: Thả ảnh vào đây hoặc nhấp để chọn
+    notAnImage: Không phải tệp ảnh.
+    sizeFit: Vừa với ảnh
+    marginNone: Không lề
+    marginSmall: Lề nhỏ
+    marginNormal: Lề thường
+    dragHint: Kéo ⠿ để đổi thứ tự. Mỗi ảnh một trang.
+    convert: Tạo PDF
+    working: Đang tạo…
+    clear: Xóa tất cả
+    done: Đã tạo PDF. Tệp đã được tải xuống.
+    failed: Không thể tạo PDF. Hãy kiểm tra các ảnh.

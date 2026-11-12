@@ -1,0 +1,21 @@
+tools:
+  pdf-split:
+    title: PDF 拆分
+    description: 在浏览器里提取 PDF 的指定页面，或把 PDF 拆成多个文件。文件不会上传。
+    upload: 把 PDF 拖到这里，或点击选择
+    notAPdf: 请选择 PDF 文件。
+    openFailed: 无法打开这个文件（已损坏或有密码保护）。
+    pages: '共 {count} 页'
+    modeExtract: 提取指定页面为一个 PDF
+    modeEach: 每一页拆成单独的 PDF
+    modeChunk: 每 N 页拆成一个 PDF
+    rangePlaceholder: '例如 1-3, 5, 8-（共 {total} 页）'
+    rangeHint: 多个页码用逗号分隔，范围用短横线。8- 表示第 8 页到最后一页。
+    invalidRange: '页码范围无效，页码需在 1 到 {total} 之间。'
+    every: 每
+    pagesUnit: 页
+    zipHint: 拆分出的多个 PDF 会打包成 .zip 一起下载。
+    split: 拆分并下载
+    working: 处理中…
+    chooseAnother: 更换 PDF
+    failed: 拆分失败，请换一个 PDF 再试。

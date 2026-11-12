@@ -1,0 +1,21 @@
+tools:
+  pdf-split:
+    title: PDF 分割
+    description: ブラウザ内で PDF から指定ページを抽出、または複数ファイルに分割します。アップロードされません。
+    upload: PDF をここにドロップ、またはクリックして選択
+    notAPdf: PDF ファイルを選択してください。
+    openFailed: このファイルを開けません（破損またはパスワード保護）。
+    pages: '{count} ページ'
+    modeExtract: 指定ページを 1 つの PDF に抽出
+    modeEach: 各ページを個別の PDF に
+    modeChunk: N ページごとに分割
+    rangePlaceholder: '例: 1-3, 5, 8-（全 {total} ページ）'
+    rangeHint: 複数ページはカンマ、範囲はハイフンで指定します。8- は 8 ページから最後までです。
+    invalidRange: 'ページ範囲が正しくありません。1 から {total} の間で指定してください。'
+    every: ''
+    pagesUnit: ページごと
+    zipHint: 個別の PDF は .zip にまとめてダウンロードされます。
+    split: 分割してダウンロード
+    working: 処理中…
+    chooseAnother: 別の PDF を選ぶ
+    failed: 分割に失敗しました。別の PDF でお試しください。

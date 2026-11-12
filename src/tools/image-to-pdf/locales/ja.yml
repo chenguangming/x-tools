@@ -1,0 +1,16 @@
+tools:
+  image-to-pdf:
+    title: 画像を PDF に変換
+    description: JPG や PNG などの画像を好きな順番で 1 つの PDF にまとめます。アップロードされません。
+    upload: 画像をここにドロップ、またはクリックして選択
+    notAnImage: 画像ファイルではありません。
+    sizeFit: 画像サイズに合わせる
+    marginNone: 余白なし
+    marginSmall: 余白 小
+    marginNormal: 余白 標準
+    dragHint: ⠿ をドラッグして順番を変更。1 枚につき 1 ページです。
+    convert: PDF を作成
+    working: 作成中…
+    clear: すべてクリア
+    done: PDF を作成しました。ファイルをダウンロードしました。
+    failed: PDF を作成できませんでした。画像を確認してください。

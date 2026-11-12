@@ -1,0 +1,22 @@
+tools:
+  pdf-to-image:
+    title: PDF sang ảnh
+    description: Chuyển các trang PDF thành ảnh PNG hoặc JPG trong trình duyệt. Không tải lên.
+    upload: Thả PDF vào đây hoặc nhấp để chọn
+    notAPdf: Vui lòng chọn tệp PDF.
+    encrypted: PDF này được bảo vệ bằng mật khẩu nên không thể mở.
+    openFailed: Không thể mở PDF này.
+    pages: '{count} trang'
+    scaleStandard: Chuẩn (1x)
+    scaleHigh: Cao (2x)
+    scaleUltra: Siêu cao (3x)
+    rangePlaceholder: 'Trang, vd: 1-3, 5 (trống = tất cả)'
+    invalidRange: 'Khoảng trang không hợp lệ. Trang phải từ 1 đến {total}.'
+    convert: Chuyển thành ảnh
+    working: Đang chuyển đổi…
+    cancel: Hủy
+    chooseAnother: Chọn PDF khác
+    downloadAll: 'Tải tất cả ({count}, .zip)'
+    pageLabel: 'Trang {page}'
+    save: Lưu
+    failed: Chuyển đổi thất bại. Hãy thử PDF khác.

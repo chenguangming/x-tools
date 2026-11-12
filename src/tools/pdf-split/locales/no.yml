@@ -1,0 +1,21 @@
+tools:
+  pdf-split:
+    title: Del opp PDF
+    description: 'Trekk ut sider eller del en PDF i flere filer, rett i nettleseren. Ingenting lastes opp.'
+    upload: 'Slipp en PDF her, eller klikk for å velge'
+    notAPdf: Velg en PDF-fil.
+    openFailed: Kunne ikke åpne filen (skadet eller passordbeskyttet).
+    pages: '{count} sider'
+    modeExtract: Trekk ut sider til én PDF
+    modeEach: Hver side som egen PDF
+    modeChunk: Del opp for hver N. side
+    rangePlaceholder: 'f.eks. 1-3, 5, 8- (1 til {total})'
+    rangeHint: Bruk komma mellom sider og bindestrek for områder. 8- betyr side 8 til slutten.
+    invalidRange: 'Ugyldig sideområde. Sidene må være mellom 1 og {total}.'
+    every: For hver
+    pagesUnit: sider
+    zipHint: Separate PDF-er lastes ned samlet som en .zip-fil.
+    split: Del opp og last ned
+    working: Behandler…
+    chooseAnother: Velg en annen PDF
+    failed: Oppdelingen mislyktes. Prøv en annen PDF.

@@ -1,0 +1,22 @@
+tools:
+  pdf-to-image:
+    title: PDF 轉圖片
+    description: 在瀏覽器裡把 PDF 的每一頁轉成 PNG 或 JPG 圖片，檔案不會上傳。
+    upload: 把 PDF 拖到這裡，或點擊選擇
+    notAPdf: 請選擇 PDF 檔案。
+    encrypted: 這個 PDF 有密碼保護，無法開啟。
+    openFailed: 無法開啟這個 PDF。
+    pages: '共 {count} 頁'
+    scaleStandard: 標準（1x）
+    scaleHigh: 高清（2x）
+    scaleUltra: 超清（3x）
+    rangePlaceholder: '頁碼，例如 1-3, 5（留空為全部）'
+    invalidRange: '頁碼範圍無效，頁碼需在 1 到 {total} 之間。'
+    convert: 轉換為圖片
+    working: 轉換中…
+    cancel: 取消
+    chooseAnother: 更換 PDF
+    downloadAll: '全部下載（{count} 張，.zip）'
+    pageLabel: '第 {page} 頁'
+    save: 儲存
+    failed: 轉換失敗，請換一個 PDF 再試。

@@ -1,0 +1,22 @@
+tools:
+  pdf-to-image:
+    title: PDF til bilde
+    description: Gjør PDF-sider om til PNG- eller JPG-bilder i nettleseren. Ingenting lastes opp.
+    upload: 'Slipp en PDF her, eller klikk for å velge'
+    notAPdf: Velg en PDF-fil.
+    encrypted: Denne PDF-en er passordbeskyttet og kan ikke åpnes.
+    openFailed: Kunne ikke åpne denne PDF-en.
+    pages: '{count} sider'
+    scaleStandard: Standard (1x)
+    scaleHigh: Høy (2x)
+    scaleUltra: Ultra (3x)
+    rangePlaceholder: 'Sider, f.eks. 1-3, 5 (tom = alle)'
+    invalidRange: 'Ugyldig sideområde. Sidene må være mellom 1 og {total}.'
+    convert: Konverter til bilder
+    working: Konverterer…
+    cancel: Avbryt
+    chooseAnother: Velg en annen PDF
+    downloadAll: 'Last ned alle ({count}, .zip)'
+    pageLabel: 'Side {page}'
+    save: Lagre
+    failed: Konverteringen mislyktes. Prøv en annen PDF.

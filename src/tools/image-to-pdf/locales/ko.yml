@@ -1,0 +1,16 @@
+tools:
+  image-to-pdf:
+    title: 이미지를 PDF로
+    description: 'JPG, PNG 등 여러 이미지를 원하는 순서로 하나의 PDF로 합칩니다. 업로드되지 않습니다.'
+    upload: 이미지를 여기에 끌어다 놓거나 클릭하여 선택
+    notAnImage: 이미지 파일이 아닙니다.
+    sizeFit: 이미지 크기에 맞춤
+    marginNone: 여백 없음
+    marginSmall: 작은 여백
+    marginNormal: 보통 여백
+    dragHint: ⠿ 를 끌어 순서 변경. 이미지 한 장당 한 페이지입니다.
+    convert: PDF 만들기
+    working: 만드는 중…
+    clear: 모두 지우기
+    done: PDF가 만들어졌습니다. 파일이 다운로드되었습니다.
+    failed: PDF를 만들 수 없습니다. 이미지를 확인해 주세요.

@@ -1,0 +1,16 @@
+tools:
+  pdf-merge:
+    title: PDF 結合
+    description: 複数の PDF を好きな順番で 1 つにまとめます。すべてブラウザ内で処理され、アップロードされません。
+    upload: PDF をここにドロップ、またはクリックして選択
+    notAPdf: PDF ファイルではありません。
+    openFailed: このファイルを開けません（破損またはパスワード保護）。
+    pages: '{count} ページ'
+    summary: '{files} ファイル、合計 {pages} ページ'
+    dragHint: ⠿ をドラッグして順番を変更
+    merge: 結合してダウンロード
+    working: 結合中…
+    clear: すべてクリア
+    needTwo: PDF を 2 つ以上追加してください。
+    done: 結合しました。ファイルをダウンロードしました。
+    failed: 結合に失敗しました。ファイルを確認してください。

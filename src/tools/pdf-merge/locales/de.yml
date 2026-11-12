@@ -1,0 +1,16 @@
+tools:
+  pdf-merge:
+    title: PDF zusammenfügen
+    description: 'Mehrere PDF-Dateien in beliebiger Reihenfolge zu einer verbinden. Alles läuft im Browser, nichts wird hochgeladen.'
+    upload: PDF-Dateien hierher ziehen oder klicken
+    notAPdf: Keine PDF-Datei.
+    openFailed: Datei konnte nicht geöffnet werden (beschädigt oder passwortgeschützt).
+    pages: '{count} Seiten'
+    summary: '{files} Dateien, insgesamt {pages} Seiten'
+    dragHint: Mit ⠿ die Reihenfolge ändern
+    merge: Zusammenfügen und herunterladen
+    working: Wird zusammengefügt…
+    clear: Alle entfernen
+    needTwo: Bitte mindestens zwei PDF-Dateien hinzufügen.
+    done: Fertig. Die Datei wurde heruntergeladen.
+    failed: Zusammenfügen fehlgeschlagen. Bitte Dateien prüfen.

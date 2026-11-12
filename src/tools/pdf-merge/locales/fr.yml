@@ -1,0 +1,16 @@
+tools:
+  pdf-merge:
+    title: Fusionner des PDF
+    description: 'Combinez plusieurs PDF en un seul, dans l''ordre souhaité. Tout se passe dans votre navigateur ; rien n''est envoyé.'
+    upload: Déposez des PDF ici ou cliquez pour choisir
+    notAPdf: 'Ce n''est pas un fichier PDF.'
+    openFailed: 'Impossible d''ouvrir ce fichier (endommagé ou protégé par mot de passe).'
+    pages: '{count} pages'
+    summary: '{files} fichiers, {pages} pages au total'
+    dragHint: 'Faites glisser ⠿ pour changer l''ordre'
+    merge: Fusionner et télécharger
+    working: Fusion…
+    clear: Tout effacer
+    needTwo: Ajoutez au moins deux fichiers PDF.
+    done: Terminé. Le fichier a été téléchargé.
+    failed: Échec de la fusion. Vérifiez vos fichiers.

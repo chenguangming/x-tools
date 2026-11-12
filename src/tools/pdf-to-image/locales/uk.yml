@@ -1,0 +1,22 @@
+tools:
+  pdf-to-image:
+    title: PDF у зображення
+    description: Перетворіть сторінки PDF на зображення PNG або JPG у браузері. Нічого не завантажується.
+    upload: 'Перетягніть PDF сюди або натисніть, щоб вибрати'
+    notAPdf: Виберіть файл PDF.
+    encrypted: Цей PDF захищений паролем і не може бути відкритий.
+    openFailed: Не вдалося відкрити цей PDF.
+    pages: 'Сторінок: {count}'
+    scaleStandard: Стандартна (1x)
+    scaleHigh: Висока (2x)
+    scaleUltra: Ультра (3x)
+    rangePlaceholder: 'Сторінки, напр. 1-3, 5 (порожньо = усі)'
+    invalidRange: 'Недійсний діапазон. Сторінки мають бути від 1 до {total}.'
+    convert: Перетворити на зображення
+    working: Перетворення…
+    cancel: Скасувати
+    chooseAnother: Вибрати інший PDF
+    downloadAll: 'Завантажити все ({count}, .zip)'
+    pageLabel: 'Сторінка {page}'
+    save: Зберегти
+    failed: Не вдалося перетворити. Спробуйте інший PDF.

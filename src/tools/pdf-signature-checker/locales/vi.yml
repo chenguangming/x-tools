@@ -1,19 +1,19 @@
 tools:
   pdf-signature-checker:
     uploadTitle: 'Kéo và thả tệp PDF vào đây, hoặc nhấp để chọn tệp'
-    noSignatures: 'Không tìm thấy chữ ký nào trong tệp đã cung cấp.'
+    noSignatures: Không tìm thấy chữ ký nào trong tệp đã cung cấp.
     signatureCertificates: 'Chứng chỉ của chữ ký {index}:'
-    validityPeriod: 'Thời hạn hiệu lực'
-    issuedBy: 'Cấp bởi'
-    issuedTo: 'Cấp cho'
-    pemCertificate: 'Chứng chỉ PEM'
+    validityPeriod: Thời hạn hiệu lực
+    issuedBy: Cấp bởi
+    issuedTo: Cấp cho
+    pemCertificate: Chứng chỉ PEM
     certificate: 'Chứng chỉ {index}'
-    notBefore: 'Không trước'
-    notAfter: 'Không sau'
-    commonName: 'Tên chung'
-    organizationName: 'Tên tổ chức'
-    countryName: 'Tên quốc gia'
-    localityName: 'Tên địa phương'
-    organizationalUnitName: 'Tên đơn vị tổ chức'
-    stateOrProvinceName: 'Tên bang hoặc tỉnh'
-    viewPem: 'Xem chứng chỉ PEM'
+    notBefore: Không trước
+    notAfter: Không sau
+    commonName: Tên chung
+    organizationName: Tên tổ chức
+    countryName: Tên quốc gia
+    localityName: Tên địa phương
+    organizationalUnitName: Tên đơn vị tổ chức
+    stateOrProvinceName: Tên bang hoặc tỉnh
+    viewPem: Xem chứng chỉ PEM

@@ -1,0 +1,21 @@
+tools:
+  pdf-split:
+    title: Dividir PDF
+    description: 'Extrae páginas o divide un PDF en varios archivos, directamente en el navegador. No se sube nada.'
+    upload: Suelta un PDF aquí o haz clic para elegir
+    notAPdf: Elige un archivo PDF.
+    openFailed: No se pudo abrir el archivo (dañado o protegido con contraseña).
+    pages: '{count} páginas'
+    modeExtract: Extraer páginas en un solo PDF
+    modeEach: Cada página como PDF independiente
+    modeChunk: Dividir cada N páginas
+    rangePlaceholder: 'p. ej. 1-3, 5, 8- (de 1 a {total})'
+    rangeHint: Separa páginas con comas y usa guion para rangos. 8- significa de la página 8 al final.
+    invalidRange: 'Rango no válido. Las páginas deben estar entre 1 y {total}.'
+    every: Cada
+    pagesUnit: páginas
+    zipHint: Los PDF separados se descargan juntos en un archivo .zip.
+    split: Dividir y descargar
+    working: Procesando…
+    chooseAnother: Elegir otro PDF
+    failed: Error al dividir. Prueba con otro PDF.

@@ -1,0 +1,22 @@
+tools:
+  pdf-to-image:
+    title: PDF vers image
+    description: 'Transformez les pages d''un PDF en images PNG ou JPG dans votre navigateur. Rien n''est envoyé.'
+    upload: Déposez un PDF ici ou cliquez pour choisir
+    notAPdf: Veuillez choisir un fichier PDF.
+    encrypted: Ce PDF est protégé par mot de passe et ne peut pas être ouvert.
+    openFailed: 'Impossible d''ouvrir ce PDF.'
+    pages: '{count} pages'
+    scaleStandard: Standard (1x)
+    scaleHigh: Haute (2x)
+    scaleUltra: Ultra (3x)
+    rangePlaceholder: 'Pages, ex. 1-3, 5 (vide = toutes)'
+    invalidRange: 'Plage invalide. Les pages doivent être comprises entre 1 et {total}.'
+    convert: Convertir en images
+    working: Conversion…
+    cancel: Annuler
+    chooseAnother: Choisir un autre PDF
+    downloadAll: 'Tout télécharger ({count}, .zip)'
+    pageLabel: 'Page {page}'
+    save: Enregistrer
+    failed: Échec de la conversion. Essayez un autre PDF.

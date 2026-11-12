@@ -1,19 +1,19 @@
 tools:
   pdf-signature-checker:
     uploadTitle: 'Dra og slipp en PDF-fil her, eller klikk for å velge en fil'
-    noSignatures: 'Fant ingen signaturer i den oppgitte filen.'
+    noSignatures: Fant ingen signaturer i den oppgitte filen.
     signatureCertificates: 'Sertifikater for signatur {index}:'
-    validityPeriod: 'Gyldighetsperiode'
-    issuedBy: 'Utstedt av'
-    issuedTo: 'Utstedt til'
-    pemCertificate: 'PEM-sertifikat'
+    validityPeriod: Gyldighetsperiode
+    issuedBy: Utstedt av
+    issuedTo: Utstedt til
+    pemCertificate: PEM-sertifikat
     certificate: 'Sertifikat {index}'
-    notBefore: 'Ikke før'
-    notAfter: 'Ikke etter'
-    commonName: 'Felles navn'
-    organizationName: 'Organisasjonsnavn'
-    countryName: 'Landnavn'
-    localityName: 'Stedsnavn'
-    organizationalUnitName: 'Navn på organisasjonsenhet'
-    stateOrProvinceName: 'Navn på stat eller provins'
-    viewPem: 'Vis PEM-sertifikat'
+    notBefore: Ikke før
+    notAfter: Ikke etter
+    commonName: Felles navn
+    organizationName: Organisasjonsnavn
+    countryName: Landnavn
+    localityName: Stedsnavn
+    organizationalUnitName: Navn på organisasjonsenhet
+    stateOrProvinceName: Navn på stat eller provins
+    viewPem: Vis PEM-sertifikat

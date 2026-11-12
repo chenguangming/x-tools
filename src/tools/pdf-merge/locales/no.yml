@@ -1,0 +1,16 @@
+tools:
+  pdf-merge:
+    title: Slå sammen PDF
+    description: 'Slå sammen flere PDF-filer til én, i den rekkefølgen du vil. Alt skjer i nettleseren; ingenting lastes opp.'
+    upload: 'Slipp PDF-filer her, eller klikk for å velge'
+    notAPdf: Ikke en PDF-fil.
+    openFailed: Kunne ikke åpne filen (skadet eller passordbeskyttet).
+    pages: '{count} sider'
+    summary: '{files} filer, {pages} sider totalt'
+    dragHint: Dra ⠿ for å endre rekkefølge
+    merge: Slå sammen og last ned
+    working: Slår sammen…
+    clear: Fjern alle
+    needTwo: Legg til minst to PDF-filer.
+    done: Ferdig. Filen er lastet ned.
+    failed: Sammenslåingen mislyktes. Sjekk filene.

@@ -1,19 +1,19 @@
 tools:
   pdf-signature-checker:
     uploadTitle: 'Перетягніть PDF-файл сюди або натисніть, щоб вибрати файл'
-    noSignatures: 'У наданому файлі підписів не знайдено.'
+    noSignatures: У наданому файлі підписів не знайдено.
     signatureCertificates: 'Сертифікати підпису {index}:'
-    validityPeriod: 'Термін дії'
-    issuedBy: 'Ким видано'
-    issuedTo: 'Кому видано'
-    pemCertificate: 'PEM-сертифікат'
+    validityPeriod: Термін дії
+    issuedBy: Ким видано
+    issuedTo: Кому видано
+    pemCertificate: PEM-сертифікат
     certificate: 'Сертифікат {index}'
-    notBefore: 'Не раніше'
-    notAfter: 'Не пізніше'
+    notBefore: Не раніше
+    notAfter: Не пізніше
     commonName: 'Загальне ім''я'
-    organizationName: 'Назва організації'
-    countryName: 'Назва країни'
-    localityName: 'Назва населеного пункту'
-    organizationalUnitName: 'Назва підрозділу організації'
-    stateOrProvinceName: 'Назва штату або провінції'
-    viewPem: 'Переглянути PEM-сертифікат'
+    organizationName: Назва організації
+    countryName: Назва країни
+    localityName: Назва населеного пункту
+    organizationalUnitName: Назва підрозділу організації
+    stateOrProvinceName: Назва штату або провінції
+    viewPem: Переглянути PEM-сертифікат

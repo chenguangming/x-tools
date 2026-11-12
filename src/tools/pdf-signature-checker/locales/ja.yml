@@ -1,19 +1,19 @@
 tools:
   pdf-signature-checker:
-    uploadTitle: 'PDF ファイルをここにドラッグ＆ドロップするか、クリックしてファイルを選択'
-    noSignatures: '指定されたファイルに署名が見つかりませんでした。'
+    uploadTitle: PDF ファイルをここにドラッグ＆ドロップするか、クリックしてファイルを選択
+    noSignatures: 指定されたファイルに署名が見つかりませんでした。
     signatureCertificates: '署名 {index} の証明書:'
-    validityPeriod: '有効期間'
-    issuedBy: '発行者'
-    issuedTo: '発行先'
-    pemCertificate: 'PEM 証明書'
+    validityPeriod: 有効期間
+    issuedBy: 発行者
+    issuedTo: 発行先
+    pemCertificate: PEM 証明書
     certificate: '証明書 {index}'
-    notBefore: '有効期間の開始'
-    notAfter: '有効期間の終了'
-    commonName: '共通名'
-    organizationName: '組織名'
-    countryName: '国名'
-    localityName: '市区町村名'
-    organizationalUnitName: '組織単位名'
-    stateOrProvinceName: '都道府県名'
-    viewPem: 'PEM 証明書を表示'
+    notBefore: 有効期間の開始
+    notAfter: 有効期間の終了
+    commonName: 共通名
+    organizationName: 組織名
+    countryName: 国名
+    localityName: 市区町村名
+    organizationalUnitName: 組織単位名
+    stateOrProvinceName: 都道府県名
+    viewPem: PEM 証明書を表示

@@ -1,0 +1,16 @@
+tools:
+  image-to-pdf:
+    title: Bild in PDF
+    description: 'JPG, PNG und andere Bilder in beliebiger Reihenfolge zu einem PDF zusammenfügen. Nichts wird hochgeladen.'
+    upload: Bilder hierher ziehen oder klicken
+    notAnImage: Keine Bilddatei.
+    sizeFit: An Bild anpassen
+    marginNone: Kein Rand
+    marginSmall: Kleiner Rand
+    marginNormal: Normaler Rand
+    dragHint: Mit ⠿ die Reihenfolge ändern. Ein Bild pro Seite.
+    convert: PDF erstellen
+    working: Wird erstellt…
+    clear: Alle entfernen
+    done: PDF erstellt. Die Datei wurde heruntergeladen.
+    failed: PDF konnte nicht erstellt werden. Bitte Bilder prüfen.

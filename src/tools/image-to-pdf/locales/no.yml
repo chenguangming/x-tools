@@ -1,0 +1,16 @@
+tools:
+  image-to-pdf:
+    title: Bilde til PDF
+    description: 'Slå sammen JPG-, PNG- og andre bilder til én PDF, i den rekkefølgen du vil. Ingenting lastes opp.'
+    upload: 'Slipp bilder her, eller klikk for å velge'
+    notAnImage: Ikke en bildefil.
+    sizeFit: Tilpass bildet
+    marginNone: Ingen marg
+    marginSmall: Liten marg
+    marginNormal: Normal marg
+    dragHint: Dra ⠿ for å endre rekkefølge. Ett bilde per side.
+    convert: Lag PDF
+    working: Lager…
+    clear: Fjern alle
+    done: PDF-en er laget. Filen er lastet ned.
+    failed: Kunne ikke lage PDF. Sjekk bildene.
