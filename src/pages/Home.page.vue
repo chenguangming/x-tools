@@ -88,6 +88,9 @@ function onUpdateFavoriteTools() {
                 :class="gridClass"
                 ghost-class="ghost-favorites-draggable"
                 item-key="name"
+                :delay="400"
+                :delay-on-touch-only="true"
+                :touch-start-threshold="8"
                 @end="onUpdateFavoriteTools"
               >
                 <template #item="{ element: tool }">
