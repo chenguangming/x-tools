@@ -1,0 +1,19 @@
+tools:
+  image-to-text:
+    title: 圖片轉文字（OCR）
+    description: 在瀏覽器裡把截圖、照片中的文字辨識出來，支援中英日韓，圖片不會上傳。
+    upload: 把圖片拖到這裡，或點擊選擇
+    pasteHint: '也可以直接按 Ctrl+V 貼上截圖。'
+    notAnImage: 請選擇圖片檔案。
+    recognize: 辨識文字
+    working: 辨識中…
+    chooseAnother: 更換圖片
+    loadingEngine: 正在載入辨識引擎（僅首次使用）…
+    recognizing: '辨識中… {percent}%'
+    hint: 清晰、端正的印刷體效果最好；手寫體和模糊的照片可能不準確。
+    resultPlaceholder: 辨識出的文字會顯示在這裡，可以直接修改。
+    noText: 沒有在圖片中辨識到文字。
+    failed: 辨識失敗，請換一張圖片再試。
+    copy: 複製
+    copied: 已複製到剪貼簿
+    downloadTxt: 儲存為 .txt

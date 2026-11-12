@@ -1,0 +1,19 @@
+tools:
+  image-to-text:
+    title: 图片转文字（OCR）
+    description: 在浏览器里把截图、照片中的文字识别出来，支持中英日韩，图片不会上传。
+    upload: 把图片拖到这里，或点击选择
+    pasteHint: '也可以直接按 Ctrl+V 粘贴截图。'
+    notAnImage: 请选择图片文件。
+    recognize: 识别文字
+    working: 识别中…
+    chooseAnother: 更换图片
+    loadingEngine: 正在加载识别引擎（仅首次使用）…
+    recognizing: '识别中… {percent}%'
+    hint: 清晰、端正的印刷体效果最好；手写体和模糊的照片可能不准确。
+    resultPlaceholder: 识别出的文字会显示在这里，可以直接修改。
+    noText: 没有在图片中识别到文字。
+    failed: 识别失败，请换一张图片再试。
+    copy: 复制
+    copied: 已复制到剪贴板
+    downloadTxt: 保存为 .txt

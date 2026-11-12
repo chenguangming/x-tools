@@ -1,0 +1,19 @@
+tools:
+  image-to-text:
+    title: Ảnh sang văn bản (OCR)
+    description: 'Trích xuất văn bản từ ảnh chụp màn hình và ảnh ngay trong trình duyệt. Hỗ trợ tiếng Trung, Anh, Nhật, Hàn và không tải gì lên.'
+    upload: Thả ảnh vào đây hoặc nhấp để chọn
+    pasteHint: 'Bạn cũng có thể dán ảnh chụp màn hình bằng Ctrl+V.'
+    notAnImage: Vui lòng chọn một tệp ảnh.
+    recognize: Nhận dạng văn bản
+    working: Đang nhận dạng…
+    chooseAnother: Đổi ảnh
+    loadingEngine: Đang tải công cụ nhận dạng (chỉ lần đầu)…
+    recognizing: 'Đang nhận dạng… {percent}%'
+    hint: 'Hiệu quả nhất với chữ in rõ nét, thẳng. Chữ viết tay và ảnh mờ có thể không chính xác.'
+    resultPlaceholder: Văn bản nhận dạng sẽ hiện ở đây. Bạn có thể chỉnh sửa.
+    noText: Không tìm thấy văn bản trong ảnh này.
+    failed: Nhận dạng thất bại. Hãy thử ảnh khác.
+    copy: Sao chép
+    copied: Đã sao chép vào bộ nhớ tạm
+    downloadTxt: Lưu dạng .txt

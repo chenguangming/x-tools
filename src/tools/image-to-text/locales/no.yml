@@ -1,0 +1,19 @@
+tools:
+  image-to-text:
+    title: Bilde til tekst (OCR)
+    description: 'Hent ut tekst fra skjermbilder og bilder rett i nettleseren. Støtter kinesisk, engelsk, japansk og koreansk, og ingenting lastes opp.'
+    upload: 'Slipp et bilde her, eller klikk for å velge'
+    pasteHint: 'Du kan også lime inn et skjermbilde med Ctrl+V.'
+    notAnImage: Velg en bildefil.
+    recognize: Gjenkjenn tekst
+    working: Gjenkjenner…
+    chooseAnother: Bytt bilde
+    loadingEngine: Laster inn gjenkjenningsmotoren (bare første gang)…
+    recognizing: 'Gjenkjenner… {percent} %'
+    hint: 'Fungerer best på tydelig, rett trykt tekst. Håndskrift og uskarpe bilder kan bli unøyaktige.'
+    resultPlaceholder: Den gjenkjente teksten vises her. Du kan redigere den.
+    noText: Fant ingen tekst i dette bildet.
+    failed: Gjenkjenning mislyktes. Prøv et annet bilde.
+    copy: Kopier
+    copied: Kopiert til utklippstavlen
+    downloadTxt: Lagre som .txt

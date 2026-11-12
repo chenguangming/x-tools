@@ -1,0 +1,19 @@
+tools:
+  image-to-text:
+    title: Image to Text (OCR)
+    description: 'Extract text from screenshots and photos right in your browser. Supports Chinese, English, Japanese and Korean, and nothing is uploaded.'
+    upload: 'Drop an image here, or click to select one'
+    pasteHint: 'You can also paste a screenshot with Ctrl+V.'
+    notAnImage: Please choose an image file.
+    recognize: Recognize text
+    working: Recognizing…
+    chooseAnother: Change image
+    loadingEngine: Loading the recognition engine (first use only)…
+    recognizing: 'Recognizing… {percent}%'
+    hint: 'Works best on clear, upright printed text. Handwriting and blurry photos may be inaccurate.'
+    resultPlaceholder: The recognized text will appear here. You can edit it.
+    noText: No text was found in this image.
+    failed: Recognition failed. Please try another image.
+    copy: Copy
+    copied: Copied to the clipboard
+    downloadTxt: Save as .txt

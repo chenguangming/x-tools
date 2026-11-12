@@ -1,0 +1,19 @@
+tools:
+  image-to-text:
+    title: Image en texte (OCR)
+    description: 'Extrayez le texte de captures d''écran et de photos directement dans votre navigateur. Prend en charge le chinois, l''anglais, le japonais et le coréen, sans aucun envoi de fichier.'
+    upload: Déposez une image ici ou cliquez pour en choisir une
+    pasteHint: 'Vous pouvez aussi coller une capture avec Ctrl+V.'
+    notAnImage: Veuillez choisir un fichier image.
+    recognize: Reconnaître le texte
+    working: Reconnaissance…
+    chooseAnother: 'Changer d''image'
+    loadingEngine: Chargement du moteur de reconnaissance (première utilisation seulement)…
+    recognizing: 'Reconnaissance… {percent} %'
+    hint: 'Fonctionne mieux avec du texte imprimé net et droit. L''écriture manuscrite et les photos floues peuvent être imprécises.'
+    resultPlaceholder: Le texte reconnu apparaîtra ici. Vous pouvez le modifier.
+    noText: Aucun texte trouvé dans cette image.
+    failed: Échec de la reconnaissance. Essayez une autre image.
+    copy: Copier
+    copied: Copié dans le presse-papiers
+    downloadTxt: Enregistrer en .txt

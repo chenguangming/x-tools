@@ -74,6 +74,7 @@ import { tool as otpCodeGeneratorAndValidator } from './otp-code-generator-and-v
 import { tool as idPhoto } from './id-photo';
 import { tool as audioTrimmer } from './audio-trimmer';
 import { tool as imageCropper } from './image-cropper';
+import { tool as imageToText } from './image-to-text';
 import { tool as qrCodeGenerator } from './qr-code-generator';
 import { tool as wifiQrCodeGenerator } from './wifi-qr-code-generator';
 import { tool as randomPortGenerator } from './random-port-generator';
@@ -146,7 +147,7 @@ export const toolsByCategory: { name: string; components: Tool[] }[] = [
   },
   {
     name: 'Images',
-    components: [imageCropper, idPhoto, qrCodeGenerator, wifiQrCodeGenerator, svgPlaceholderGenerator],
+    components: [imageToText, imageCropper, idPhoto, qrCodeGenerator, wifiQrCodeGenerator, svgPlaceholderGenerator],
   },
   {
     name: 'Audio and video',

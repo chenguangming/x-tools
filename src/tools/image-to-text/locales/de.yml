@@ -1,0 +1,19 @@
+tools:
+  image-to-text:
+    title: Bild in Text (OCR)
+    description: 'Text aus Screenshots und Fotos direkt im Browser erkennen. Unterstützt Chinesisch, Englisch, Japanisch und Koreanisch, nichts wird hochgeladen.'
+    upload: Bild hierher ziehen oder zum Auswählen klicken
+    pasteHint: 'Du kannst auch einen Screenshot mit Strg+V einfügen.'
+    notAnImage: Bitte wähle eine Bilddatei aus.
+    recognize: Text erkennen
+    working: Wird erkannt…
+    chooseAnother: Bild wechseln
+    loadingEngine: Erkennungs-Engine wird geladen (nur beim ersten Mal)…
+    recognizing: 'Wird erkannt… {percent} %'
+    hint: 'Am besten für klaren, gerade ausgerichteten Druck. Handschrift und unscharfe Fotos können ungenau sein.'
+    resultPlaceholder: Der erkannte Text erscheint hier. Du kannst ihn bearbeiten.
+    noText: In diesem Bild wurde kein Text gefunden.
+    failed: Erkennung fehlgeschlagen. Bitte versuche ein anderes Bild.
+    copy: Kopieren
+    copied: In die Zwischenablage kopiert
+    downloadTxt: Als .txt speichern

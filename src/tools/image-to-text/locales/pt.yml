@@ -1,0 +1,19 @@
+tools:
+  image-to-text:
+    title: Imagem para texto (OCR)
+    description: 'Extraia texto de capturas de tela e fotos direto no navegador. Suporta chinês, inglês, japonês e coreano, e nada é enviado.'
+    upload: Solte uma imagem aqui ou clique para escolher
+    pasteHint: 'Você também pode colar uma captura com Ctrl+V.'
+    notAnImage: Escolha um arquivo de imagem.
+    recognize: Reconhecer texto
+    working: Reconhecendo…
+    chooseAnother: Trocar imagem
+    loadingEngine: Carregando o mecanismo de reconhecimento (só na primeira vez)…
+    recognizing: 'Reconhecendo… {percent}%'
+    hint: Funciona melhor com texto impresso nítido e reto. Manuscritos e fotos borradas podem ser imprecisos.
+    resultPlaceholder: O texto reconhecido aparecerá aqui. Você pode editá-lo.
+    noText: Nenhum texto foi encontrado nesta imagem.
+    failed: Falha no reconhecimento. Tente outra imagem.
+    copy: Copiar
+    copied: Copiado para a área de transferência
+    downloadTxt: Salvar como .txt

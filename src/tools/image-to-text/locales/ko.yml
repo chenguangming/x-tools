@@ -1,0 +1,19 @@
+tools:
+  image-to-text:
+    title: 이미지에서 텍스트 추출 (OCR)
+    description: 스크린샷과 사진 속 글자를 브라우저에서 바로 인식합니다. 중국어·영어·일본어·한국어를 지원하며 이미지는 업로드되지 않습니다.
+    upload: 이미지를 여기에 끌어다 놓거나 클릭해서 선택하세요
+    pasteHint: 'Ctrl+V로 스크린샷을 붙여넣을 수도 있습니다.'
+    notAnImage: 이미지 파일을 선택해 주세요.
+    recognize: 텍스트 인식
+    working: 인식 중…
+    chooseAnother: 이미지 변경
+    loadingEngine: 인식 엔진을 불러오는 중 (처음 한 번만)…
+    recognizing: '인식 중… {percent}%'
+    hint: 선명하고 똑바른 인쇄체에서 가장 잘 동작합니다. 손글씨나 흐릿한 사진은 정확도가 낮을 수 있습니다.
+    resultPlaceholder: 인식된 텍스트가 여기에 표시됩니다. 직접 수정할 수 있습니다.
+    noText: 이미지에서 텍스트를 찾지 못했습니다.
+    failed: 인식에 실패했습니다. 다른 이미지로 시도해 주세요.
+    copy: 복사
+    copied: 클립보드에 복사했습니다
+    downloadTxt: .txt로 저장
