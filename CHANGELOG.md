@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.0.6
+
+### Features
+- **tools**: new "PDF" tab with PDF to Word (OCR for scanned pages), PDF merge, PDF split, PDF to image and image to PDF
+- **tools**: image to text (OCR) in the Images tab, powered by self-hosted tesseract.js
+- **ui**: PDF to Word and image to PDF replace the JSON and timestamp cards in the home page featured tasks
+
 ## Version 1.0.5
 
 ### Features
